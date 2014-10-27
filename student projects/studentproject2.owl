@@ -19,7 +19,7 @@
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-    <owl:Ontology rdf:about="&obo;dideo/dev/dideo.owl">
+    <owl:Ontology rdf:about="&obo;dideo/dev/dideo_student_project2.owl">
         <rdfs:label xml:lang="en">DIDEO</rdfs:label>
         <rdfs:label xml:lang="en">Drug-drug Interaction and Drug-drug Interaction Evidence Ontology </rdfs:label>
         <dc:contributor xml:lang="en">Dan Malone</dc:contributor>
