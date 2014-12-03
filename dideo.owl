@@ -410,7 +410,7 @@
     <!-- http://purl.oboblibrary.org/obo/DIDEO_00000018 -->
 
     <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000018">
-        <rdfs:label xml:lang="en">metabolism induction potential drug drug interatcion</rdfs:label>
+        <rdfs:label xml:lang="en">metabolism induction potential drug drug interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000015"/>
     </owl:Class>
     
