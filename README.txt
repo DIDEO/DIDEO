@@ -35,9 +35,9 @@ TODO: add license
 Contributors
 ------------------------------------------------------------
 
-TODO: add list of contributors
-
-
-
-
-
+Richard D. Boyce
+Mathias Brochhausen
+Philip E. Empey
+William R. Hogan
+Daniel C. Malone
+Jodi Schneider
