@@ -6,6 +6,7 @@
     <!ENTITY obo "http://purl.obolibrary.org/obo/" >
     <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY dron "http://purl.obolibrary.org/obo/dron#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
@@ -17,6 +18,7 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dron="&obo;dron#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
@@ -117,6 +119,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:AnnotationProperty rdf:about="&obo;IAO_0000136"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
 
     <rdf:Description rdf:about="&obo;IAO_0000232">
@@ -149,6 +157,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/dron#DRON_00010000 -->
+
+    <rdf:Description rdf:about="&obo;dron#DRON_00010000">
+        <rdfs:label rdf:datatype="&xsd;string">has_RxCUI</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
 
     <owl:AnnotationProperty rdf:about="&oboInOwl;hasAlternativeId"/>
@@ -169,7 +185,9 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym"/>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasExactSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -182,6 +200,20 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
 
     <owl:AnnotationProperty rdf:about="&oboInOwl;hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <rdf:Description rdf:about="&oboInOwl;hasRelatedSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_related_synonym</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;id"/>
     
 
 
@@ -218,20 +250,6 @@
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000011"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000014"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000030"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
@@ -245,6 +263,20 @@
                                 </owl:unionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000014"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -416,6 +448,336 @@
     
 
 
+    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000020 -->
+
+    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000020">
+        <rdfs:label xml:lang="en">simvastatin amiodarone pddi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <obo:IAO_0000115 xml:lang="en">A potential drug drug interaction for simvastatin and amiodarone</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">simvastatin amiodarone potential drug drug interaction</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000024 -->
+
+    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000024">
+        <rdfs:label xml:lang="en">potential drug drug interaction CRI</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000578"/>
+        <obo:IAO_0000115 xml:lang="en">A centrally registered identifier denoting a potential drug drug interaction.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18946 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_18946">
+        <rdfs:label rdf:datatype="&xsd;string">delta-lactone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25000"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">1,5-lactone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">1,5-lactones</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:18946</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">delta-lactona</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">delta-lactonas</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">delta-lactone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">delta-lactones</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23367">
+        <rdfs:label rdf:datatype="&xsd;string">molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24431"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:23367</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">entidad molecular</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">entidades moleculares</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">entite moleculaire</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">molekulare Entitaet</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_24431">
+        <rdfs:label rdf:datatype="&xsd;string">chemical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:24431</oboInOwl:id>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25000 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_25000">
+        <rdfs:label rdf:datatype="&xsd;string">lactone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33308"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any cyclic carboxylic ester containing a 1-oxacycloalkan-2-one structure, or an analogue having unsaturation or heteroatoms replacing one or more carbon atoms of the ring.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:25000</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Lacton</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Lakton</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Laktone</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">lactona</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">lactonas</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">lactone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">lactones</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2663 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_2663">
+        <rdfs:label rdf:datatype="&xsd;string">Amiodarone</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">amiodarone</rdfs:label>
+        <rdfs:label xml:lang="en">amiodarone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_38830"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">(2-butyl-1-benzofuran-3-yl){4-[2-(diethylamino)ethoxy]-3,5-diiodophenyl}methanone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">2-Butyl-3-(3,5-diiodo-4-(2-diethylaminoethoxy)benzoyl)benzofuran</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">2-Butyl-3-benzofuranyl 4-(2-(diethylamino)ethoxy)-3,5-diiodophenyl ketone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">2-n-Butyl-3&apos;,5&apos;-diiodo-4&apos;-N-diethylaminoethoxy-3-benzoylbenzofuran</oboInOwl:hasRelatedSynonym>
+        <dron:DRON_00010000 rdf:datatype="&xsd;string">703</dron:DRON_00010000>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A 1-benzofuran that has formula C25H29I2NO3.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Amiodarone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Beilstein:1271711</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">C25H29I2NO3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">CCCCc1oc2ccccc2c1C(=O)c1cc(I)c(OCCN(CC)CC)c(I)c1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:2663</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ChemIDplus:1951-25-3</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChI=1S/C25H29I2NO3/c1-4-7-11-22-23(18-10-8-9-12-21(18)31-22)24(29)17-15-19(26)25(20(27)16-17)30-14-13-28(5-2)6-3/h8-10,12,15-16H,4-7,11,13-14H2,1-3H3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChIKey=IYIKLHRQXLHMJQ-UHFFFAOYSA-N</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG COMPOUND:1951-25-3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG COMPOUND:C06823</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Amiodarone</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33285 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33285">
+        <rdfs:label rdf:datatype="&xsd;string">heteroorganic entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_50860"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A heteroorganic entity is an organic molecular entity in which carbon atoms or organic groups are bonded directly to one or more heteroatoms.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33285</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">heteroorganic entities</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">organoelement compounds</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33308 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33308">
+        <rdfs:label rdf:datatype="&xsd;string">carboxylic ester</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36586"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An ester of a carboxylic acid.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:13204</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:23028</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33308</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:3408</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">CO2R2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Carboxylic ester</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG COMPOUND:C02391</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">carboxylic acid esters</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">carboxylic ester</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">carboxylic esters</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33579 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33579">
+        <rdfs:label rdf:datatype="&xsd;string">main group molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33579</oboInOwl:id>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">main group compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">main group molecular entities</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33582 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33582">
+        <rdfs:label rdf:datatype="&xsd;string">carbon group molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33675"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33582</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">carbon group molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">carbon group molecular entity</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33675 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33675">
+        <rdfs:label rdf:datatype="&xsd;string">p-block molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33579"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A p-block molecular entity is a molecular entity containing one or more atoms of a p-block element.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33675</oboInOwl:id>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">p-block compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">p-block molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">p-block molecular entitiy</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35259 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_35259">
+        <rdfs:label rdf:datatype="&xsd;string">benzofurans</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_38104"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:22721</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:35259</oboInOwl:id>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36586 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_36586">
+        <rdfs:label rdf:datatype="&xsd;string">carbonyl compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36963"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any compound containing the carbonyl group, C=O. The term is commonly used in the restricted sense of aldehydes and ketones, although it actually includes carboxylic acids and derivatives.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:36586</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">carbonyl compounds</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36962 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_36962">
+        <rdfs:label rdf:datatype="&xsd;string">organochalcogen compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33285"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An organochalcogen compound is a compound containing at least one carbon-chalcogen bond.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:36962</oboInOwl:id>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">organochalcogen compound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">organochalcogen compounds</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36963 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_36963">
+        <rdfs:label rdf:datatype="&xsd;string">organooxygen compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36962"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An organochalcogen compound containing at least one carbon-oxygen bond.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:36963</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:17586126</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">organooxygen compound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">organooxygen compounds</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38104 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_38104">
+        <rdfs:label rdf:datatype="&xsd;string">oxacycle</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36963"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any organic heterocyclic compound containing at least one ring oxygen atom.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:38104</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:17134300</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">heterocyclic organooxygen compounds</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">organooxygen heterocyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">oxacycles</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38830 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_38830">
+        <rdfs:label rdf:datatype="&xsd;string">1-benzofurans</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_35259"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:38830</oboInOwl:id>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50860 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_50860">
+        <rdfs:label rdf:datatype="&xsd;string">organic molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33582"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any molecular entity that contains carbon.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:25700</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:33244</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:50860</oboInOwl:id>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">organic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">organic entity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">organic molecular entities</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9150 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_9150">
+        <rdfs:label rdf:datatype="&xsd;string">Simvastatin</rdfs:label>
+        <rdfs:label rdf:datatype="&xsd;string">simvastatin</rdfs:label>
+        <rdfs:label xml:lang="en">simvastatin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_18946"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">(1S,3R,7S,8S,8aR)-8-{2-[(2R,4R)-4-hydroxy-6-oxotetrahydro-2H-pyran-2-yl]ethyl}-3,7-dimethyl-1,2,3,7,8,8a-hexahydronaphthalen-1-yl 2,2-dimethylbutanoate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">2,2-dimethylbutyric acid, 8-ester with (4R,6R)-6-(2-((1S,2S,6R,8S,8aR)-1,2,6,7,8,8a-hexahydro-8-hydroxy-2,6-dimethyl-1-naphthyl)ethyl)tetrahydro-4-hydroxy-2H-pyran-2-one</oboInOwl:hasRelatedSynonym>
+        <dron:DRON_00010000 rdf:datatype="&xsd;string">36567</dron:DRON_00010000>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A fatty acid ester comprising a dihydroxyheptanoic acid unit condensed into a lactone; a partially reduced naphthalene structure; and a 2,2-dimethylbutyric acyl substituent at C17. It is used as a cholesterol-lowering and anti-cardiovascular disease drug.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Beilstein:4768037</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">C25H38O5</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:45577</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:9150</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ChemIDplus:79902-63-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">DrugBank:DB00641</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChI=1S/C25H38O5/c1-6-25(4,5)24(28)30-21-12-15(2)11-17-8-7-16(3)20(23(17)21)10-9-19-13-18(26)14-22(27)29-19/h7-8,11,15-16,18-21,23,26H,6,9-10,12-14H2,1-5H3/t15-,16-,18+,19+,20-,21-,23-/m0/s1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChIKey=RYMZZMVNJRMUDD-HGQWONQESA-N</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG DRUG:79902-63-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG DRUG:D00434</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">MK-733</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Patent:EP33538</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Patent:US4444784</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Simvastatin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Simvastatina</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Simvastatine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Simvastatinum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Simvastatin</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Zocor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">[H][C@]12[C@H](C[C@@H](C)C=C1C=C[C@H](C)[C@@H]2CC[C@@H]1C[C@@H](O)CC(=O)O1)OC(=O)C(C)(C)CC</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">simvastatin</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="&obo;DRON_00000005">
@@ -547,18 +909,18 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -581,22 +943,724 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://127.0.0.1:3333/1 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/1">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00343</rdfs:comment>
+        <rdfs:comment>boycer</rdfs:comment>
+        <rdfs:comment>diltiazem increases the AUC of triazolam </rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>2.835</rdfs:comment>
+        <obo:IAO_0000136>DILTIAZEM</obo:IAO_0000136>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>07/02/2007 17:38:07</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu:2020/vocab/resource/increases_auc</rdfs:comment>
+        <rdfs:seeAlso>http://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/diltiazem_increases_auc_triazolam.html</rdfs:seeAlso>
+        <obo:IAO_0000136>TRIAZOLAM</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00897</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIObservations1</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/11490 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/11490">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <obo:IAO_0000136>Simvastatin</obo:IAO_0000136>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
+        <rdfs:comment>Drugbank</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01167</rdfs:comment>
+        <obo:IAO_0000136>Itraconazole</obo:IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/16268 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/16268">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <obo:IAO_0000136>Diltiazem</obo:IAO_0000136>
+        <rdfs:comment>Diltiazem may increase the serum concentration of simvastatin. Simvastatin may increase the serum concentration of diltiazem. Monitor for changes in the therapeutic and adverse effects of both agents if concomitant therapy is initiated, discontinued or if doses are changed.|</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00343</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <obo:IAO_0000136>Simvastatin</obo:IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>Drugbank</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/17416 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/17416">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01076</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01026</rdfs:comment>
+        <rdfs:comment>Drugbank</rdfs:comment>
+        <obo:IAO_0000136>Ketoconazole</obo:IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <obo:IAO_0000136>Atorvastatin</obo:IAO_0000136>
+        <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/190 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/190">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <obo:IAO_0000136>simvastatin</obo:IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01167</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/376</rdfs:comment>
+        <rdfs:comment>itraconazole is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
+        <obo:IAO_0000136>itraconazole</obo:IAO_0000136>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/19816 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/19816">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>None</rdfs:comment>
+        <obo:IAO_0000136>Fluvastatin</obo:IAO_0000136>
+        <rdfs:comment>Drugbank</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01095</rdfs:comment>
+        <rdfs:comment>Fluconazole may increase the serum concentration of fluvastatin by decreasing its metabolism. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of fluvastatin if fluconazole is initiated, discontinued or dose changed.|</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00196</rdfs:comment>
+        <obo:IAO_0000136>Fluconazole</obo:IAO_0000136>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/210 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/210">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00343</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <obo:IAO_0000136>diltiazem</obo:IAO_0000136>
+        <rdfs:comment>diltiazem is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/395</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <obo:IAO_0000136>simvastatin</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/219 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/219">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <obo:IAO_0000136>triazolam</obo:IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00343</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/707</rdfs:comment>
+        <rdfs:comment>diltiazem is predicted to reduce the clearance of triazolam by inhibition of CYP3A4</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00897</rdfs:comment>
+        <obo:IAO_0000136>diltiazem</obo:IAO_0000136>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/23279 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/23279">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01026</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00227</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <obo:IAO_0000136>Ketoconazole</obo:IAO_0000136>
+        <rdfs:comment>Drugbank</rdfs:comment>
+        <obo:IAO_0000136>Lovastatin</obo:IAO_0000136>
+        <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/23427 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/23427">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <obo:IAO_0000136>Diltiazem</obo:IAO_0000136>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <obo:IAO_0000136>Triazolam</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00897</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00343</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>The calcium channel blocker, diltiazem, may increase the effect and toxicity of the benzodiazepine, triazolam.|</rdfs:comment>
+        <rdfs:comment>Drugbank</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/26 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/26">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01095</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00196</rdfs:comment>
+        <obo:IAO_0000136>FLUCONAZOLE</obo:IAO_0000136>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:seeAlso>http://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/fluconazole_increases_auc_fluvastatin.html</rdfs:seeAlso>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu:2020/vocab/resource/increases_auc</rdfs:comment>
+        <obo:IAO_0000136>FLUVASTATIN</obo:IAO_0000136>
+        <rdfs:comment>1.837</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIObservations36</rdfs:comment>
+        <rdfs:comment>fluconazole increases the AUC of fluvastatin </rdfs:comment>
+        <rdfs:comment>10/29/2007 11:59:09</rdfs:comment>
+        <rdfs:comment>boycer</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/26569 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/26569">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00343</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>DILTIAZEM/SIMVASTATIN [VA Drug Interaction]</rdfs:comment>
+        <obo:IAO_0000136>Diltiazem</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <rdfs:comment>Significant</rdfs:comment>
+        <rdfs:comment>NDF-RT</rdfs:comment>
+        <obo:IAO_0000136>SIMVASTATIN</obo:IAO_0000136>
+        <rdfs:comment>http://purl.bioontology.org/ontology/NDFRT/N0000033997</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/27011 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/27011">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00897</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00343</rdfs:comment>
+        <obo:IAO_0000136>Diltiazem</obo:IAO_0000136>
+        <rdfs:comment>DILTIAZEM/TRIAZOLAM [VA Drug Interaction]</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <obo:IAO_0000136>TRIAZOLAM</obo:IAO_0000136>
+        <rdfs:comment>Significant</rdfs:comment>
+        <rdfs:comment>NDF-RT</rdfs:comment>
+        <rdfs:comment>http://purl.bioontology.org/ontology/NDFRT/N0000034907</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/362 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/362">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/369</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01026</rdfs:comment>
+        <rdfs:comment>ketoconazole is predicted to reduce the clearance of atorvastatin by inhibition of CYP3A4</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <obo:IAO_0000136>ketoconazole</obo:IAO_0000136>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01076</rdfs:comment>
+        <obo:IAO_0000136>atorvastatin</obo:IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/364 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/364">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/371</rdfs:comment>
+        <obo:IAO_0000136>lovastatin</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01026</rdfs:comment>
+        <rdfs:comment>ketoconazole is predicted to reduce the clearance of lovastatin by inhibition of CYP3A4</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00227</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <obo:IAO_0000136>ketoconazole</obo:IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/37 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/37">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>4.817</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu:2020/vocab/resource/increases_auc</rdfs:comment>
+        <rdfs:comment>05/29/2007 10:27:50</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00343</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIObservations47</rdfs:comment>
+        <obo:IAO_0000136>DILTIAZEM</obo:IAO_0000136>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:seeAlso>http://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/diltiazem_increases_auc_simvastatin.html</rdfs:seeAlso>
+        <rdfs:comment>boycer</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <obo:IAO_0000136>SIMVASTATIN</obo:IAO_0000136>
+        <rdfs:comment>diltiazem increases the AUC of simvastatin </rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/43751 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/43751">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>http://rest.kegg.jp/ddi/D00434</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <rdfs:comment>Kegg</rdfs:comment>
+        <obo:IAO_0000136>Simvastatin</obo:IAO_0000136>
+        <obo:IAO_0000136>Itraconazole</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01167</rdfs:comment>
+        <rdfs:comment>True</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/43774 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/43774">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>True</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <rdfs:comment>Kegg</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01118</rdfs:comment>
+        <rdfs:comment>http://rest.kegg.jp/ddi/D00434</rdfs:comment>
+        <obo:IAO_0000136>Simvastatin</obo:IAO_0000136>
+        <obo:IAO_0000136>Amiodarone</obo:IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/444 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/444">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <obo:IAO_0000136>fluconazole</obo:IAO_0000136>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/421</rdfs:comment>
+        <obo:IAO_0000136>rosuvastatin</obo:IAO_0000136>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006120</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>fluconazole is predicted to reduce the clearance of rosuvastatin by inhibition of CYP2C9</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01098</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00196</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/473 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/473">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/384</rdfs:comment>
+        <obo:IAO_0000136>fluconazole</obo:IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>fluconazole is predicted to reduce the clearance of fluvastatin by inhibition of CYP3A4</rdfs:comment>
+        <obo:IAO_0000136>fluvastatin</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01095</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00196</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/476 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/476">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006120</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/387</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00196</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01095</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <obo:IAO_0000136>fluconazole</obo:IAO_0000136>
+        <obo:IAO_0000136>fluvastatin</obo:IAO_0000136>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>fluconazole is predicted to reduce the clearance of fluvastatin by inhibition of CYP2C9</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/5983 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/5983">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01118</rdfs:comment>
+        <rdfs:comment>Drugbank</rdfs:comment>
+        <obo:IAO_0000136>Amiodarone</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <rdfs:comment>Increased risk of rhabdomyolysis|</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <obo:IAO_0000136>Simvastatin</obo:IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/623 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/623">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <obo:IAO_0000136>amiodarone</obo:IAO_0000136>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01118</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>amiodarone is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
+        <obo:IAO_0000136>simvastatin</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/414</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/64583 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/64583">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01098</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00196</rdfs:comment>
+        <obo:IAO_0000136>Fluconazole</obo:IAO_0000136>
+        <obo:IAO_0000136>Rosuvastatin</obo:IAO_0000136>
+        <rdfs:comment>True</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>Kegg</rdfs:comment>
+        <rdfs:comment>http://rest.kegg.jp/ddi/D01915</rdfs:comment>
+        <rdfs:comment>unclassified</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/76338 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/76338">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <obo:IAO_0000136>Fluvastatin</obo:IAO_0000136>
+        <rdfs:comment>http://rest.kegg.jp/ddi/D07983</rdfs:comment>
+        <obo:IAO_0000136>Fluconazole</obo:IAO_0000136>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00196</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>Kegg</rdfs:comment>
+        <rdfs:comment>True</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01095</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/78798 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/78798">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01118</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <rdfs:comment>CredibleMeds</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <obo:IAO_0000136>AMIODARONE</obo:IAO_0000136>
+        <obo:IAO_0000136>SIMVASTATIN</obo:IAO_0000136>
+        <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
+        <rdfs:comment>Inhibition of metabolism of simvastatin/ lovastatin by CYP3A4</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/78810 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/78810">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00227</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01026</rdfs:comment>
+        <rdfs:comment>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</rdfs:comment>
+        <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
+        <obo:IAO_0000136>LOVASTATIN</obo:IAO_0000136>
+        <rdfs:comment>CredibleMeds</rdfs:comment>
+        <obo:IAO_0000136>KETOCONAZOLE</obo:IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/78824 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/78824">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01167</rdfs:comment>
+        <rdfs:comment>CredibleMeds</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>None</rdfs:comment>
+        <obo:IAO_0000136>ITRACONAZOLE</obo:IAO_0000136>
+        <rdfs:comment>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</rdfs:comment>
+        <obo:IAO_0000136>SIMVASTATIN</obo:IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/79559 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/79559">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00897</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>DDI-Corpus-2011</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00343</rdfs:comment>
+        <obo:IAO_0000136>DILTIAZEM</obo:IAO_0000136>
+        <obo:IAO_0000136>TRIAZOLAM</obo:IAO_0000136>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/81264 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/81264">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <obo:IAO_0000136>DILTIAZEM</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00343</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>DDI-Corpus-2013</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00897</rdfs:comment>
+        <obo:IAO_0000136>TRIAZOLAM</obo:IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/81642 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/81642">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>NLM-Corpus</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <obo:IAO_0000136>SIMVASTATIN</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01118</rdfs:comment>
+        <obo:IAO_0000136>AMIODARONE</obo:IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/81643 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/81643">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00343</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <obo:IAO_0000136>Simvastatin</obo:IAO_0000136>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <obo:IAO_0000136>DILTIAZEM</obo:IAO_0000136>
+        <rdfs:comment>NLM-Corpus</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/81670 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/81670">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00343</rdfs:comment>
+        <obo:IAO_0000136>TRIAZOLAM</obo:IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00897</rdfs:comment>
+        <rdfs:comment>NLM-Corpus</rdfs:comment>
+        <obo:IAO_0000136>DILTIAZEM</obo:IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/82068 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/82068">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>ONC-HighPriority</rdfs:comment>
+        <obo:IAO_0000136>Diltiazem</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00343</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <obo:IAO_0000136>Simvastatin</obo:IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/82210 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/82210">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <obo:IAO_0000136>Amiodarone</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <rdfs:comment>ONC-HighPriority</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <obo:IAO_0000136>Simvastatin</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01118</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/82404 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/82404">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01026</rdfs:comment>
+        <obo:IAO_0000136>Lovastatin</obo:IAO_0000136>
+        <rdfs:comment>ONC-HighPriority</rdfs:comment>
+        <obo:IAO_0000136>Ketoconazole</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00227</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/82988 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/82988">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00641</rdfs:comment>
+        <obo:IAO_0000136>Itraconazole</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB01167</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment>ONC-HighPriority</rdfs:comment>
+        <obo:IAO_0000136>Simvastatin</obo:IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/89138 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/89138">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <obo:IAO_0000136>Diltiazem</obo:IAO_0000136>
+        <rdfs:seeAlso>None</rdfs:seeAlso>
+        <rdfs:comment> </rdfs:comment>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00343</rdfs:comment>
+        <obo:IAO_0000136>Triazolam</obo:IAO_0000136>
+        <rdfs:comment>http://bio2rdf.org/drugbank:DB00897</rdfs:comment>
+        <rdfs:comment>N</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>OSCAR</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000019 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000019">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000017"/>
+        <rdfs:label xml:lang="en">Carbamazepine-Macrolides PDDI</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000023 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000023">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000020"/>
+        <rdfs:label xml:lang="en">simvastatin amiodarone pddi 623</rdfs:label>
+        <obo:IAO_0000136 rdf:resource="&obo;CHEBI_2663"/>
+        <obo:IAO_0000136 rdf:resource="&obo;CHEBI_9150"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000025 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000025">
+        <rdf:type rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000024"/>
+        <rdfs:label xml:lang="en">623</rdfs:label>
+        <obo:IAO_0000219 rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000023"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2663 -->
+
+    <owl:NamedIndividual rdf:about="&obo;CHEBI_2663">
+        <rdf:type rdf:resource="&obo;CHEBI_2663"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9150 -->
+
+    <owl:NamedIndividual rdf:about="&obo;CHEBI_9150">
+        <rdf:type rdf:resource="&obo;CHEBI_9150"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
 
