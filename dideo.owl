@@ -210,9 +210,9 @@
     
 
 
-    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000000 -->
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000000 -->
 
-    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000000">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000000">
         <rdfs:label xml:lang="en">potential drug drug interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
         <rdfs:subClassOf>
@@ -224,10 +224,10 @@
                         <owl:someValuesFrom>
                             <owl:Class>
                                 <owl:unionOf rdf:parseType="Collection">
-                                    <rdf:Description rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000002"/>
-                                    <rdf:Description rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000003"/>
-                                    <rdf:Description rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000004"/>
-                                    <rdf:Description rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000005"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000002"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000003"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000004"/>
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000005"/>
                                 </owl:unionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
@@ -240,11 +240,11 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000011"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000011"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000014"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000014"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -255,45 +255,45 @@
     
 
 
-    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000002 -->
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000002 -->
 
-    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000002">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000002">
         <rdfs:label xml:lang="en">mechanistic assertion data item</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000003 -->
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000003 -->
 
-    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000003">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000003">
         <rdfs:label xml:lang="en">observational data item about drug drug interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000004 -->
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000004 -->
 
-    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000004">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000004">
         <rdfs:label xml:lang="en">physiological observation from clinical study data item</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000005 -->
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000005 -->
 
-    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000005">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000005">
         <rdfs:label xml:lang="en">data item from reasonable extrapolation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000011 -->
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000011 -->
 
-    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000011">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000011">
         <rdfs:label xml:lang="en">object drug information</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
         <rdfs:subClassOf>
@@ -301,7 +301,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000012"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
@@ -316,9 +316,9 @@
     
 
 
-    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000012 -->
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000012 -->
 
-    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000012">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000012">
         <rdfs:label xml:lang="en">object drug role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
@@ -326,9 +326,9 @@
     
 
 
-    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000013 -->
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000013 -->
 
-    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000013">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000013">
         <rdfs:label xml:lang="en">precipitant drug role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
@@ -336,9 +336,9 @@
     
 
 
-    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000014 -->
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000014 -->
 
-    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000014">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000014">
         <rdfs:label xml:lang="en">precipitant drug information</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
         <rdfs:subClassOf>
@@ -346,7 +346,7 @@
                 <owl:intersectionOf rdf:parseType="Collection">
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000013"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
                     </owl:Restriction>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
@@ -361,14 +361,14 @@
     
 
 
-    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000015 -->
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000015 -->
 
-    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000015">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000015">
         <rdfs:label xml:lang="en">metabolic potential drug drug interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
                         <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0017144"/>
@@ -376,16 +376,16 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
         <obo:IAO_0000115 xml:lang="en">A potential drug drug interaction that is about a drug metabolism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
 
 
-    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000016 -->
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000016 -->
 
-    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000016">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000016">
         <rdfs:label xml:lang="en">narrow therapeutic index</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
         <rdfs:subClassOf>
@@ -398,20 +398,20 @@
     
 
 
-    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000017 -->
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000017 -->
 
-    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000017">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000017">
         <rdfs:label xml:lang="en">metabolism inhibition potential drug drug interaction</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000015"/>
     </owl:Class>
     
 
 
-    <!-- http://purl.oboblibrary.org/obo/DIDEO_00000018 -->
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000018 -->
 
-    <owl:Class rdf:about="http://purl.oboblibrary.org/obo/DIDEO_00000018">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000018">
         <rdfs:label xml:lang="en">metabolism induction potential drug drug interaction</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.oboblibrary.org/obo/DIDEO_00000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000015"/>
     </owl:Class>
     
 
