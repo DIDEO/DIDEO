@@ -117,12 +117,7 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
-
-    <owl:AnnotationProperty rdf:about="&obo;IAO_0000136"/>
-    
-
-
+   
     <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
 
     <rdf:Description rdf:about="&obo;IAO_0000232">
@@ -1639,18 +1634,18 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -1667,9 +1662,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
@@ -1682,6 +1674,9 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
@@ -1697,33 +1692,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    
-
-
-    <!-- http://127.0.0.1:3333/1 -->
-
-    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/1">
-        <rdf:type rdf:resource="&obo;DIDEO_00000000"/>
-        <rdfs:comment>diltiazem_increases_auc_triazolam</rdfs:comment>
-        <rdfs:comment>boycer</rdfs:comment>
-        <rdfs:comment>diltiazem increases the AUC of triazolam </rdfs:comment>
-        <rdfs:comment>None</rdfs:comment>
-        <rdfs:comment>2.835</rdfs:comment>
-        <obo:IAO_0000136>DILTIAZEM</obo:IAO_0000136>
-        <rdfs:comment>http://www.ncbi.nlm.nih.gov/pubmed/8612379</rdfs:comment>
-        <rdfs:comment>DIKB</rdfs:comment>
-        <rdfs:comment>DDIObservation</rdfs:comment>
-        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/diltiazem_increases_auc_triazolam.html</rdfs:comment>
-        <rdfs:comment>07/02/2007 17:38:07</rdfs:comment>
-        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu:2020/vocab/resource/increases_auc</rdfs:comment>
-        <rdfs:comment>|Route of administration: oral|study duration: 1 day pretreatment with diltiazem given 3x/day @ 60mg PO. On day two .25mg triazolam was given PO|population: 10 subjects, male: 3 female: 7|ages: 18-31|AUC_i/AUC 0-time of measurement (17hrs): 36.0/12.7 = 2.835|AUC_i/AUC 0 -inf: 47/13.9 = 3.381|</rdfs:comment>
-        <obo:IAO_0000136>TRIAZOLAM</obo:IAO_0000136>
-        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/Evidence/39</rdfs:comment>
-        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/Assertions/30</rdfs:comment>
-        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIObservations1</rdfs:comment>
-        <obo:IAO_0000136 rdf:resource="&obo;CHEBI_101278"/>
-        <obo:IAO_0000136 rdf:resource="&obo;CHEBI_9674"/>
-    </owl:NamedIndividual>
     
 
 
@@ -1780,9 +1748,9 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <obo:IAO_0000136>simvastatin</obo:IAO_0000136>
         <rdfs:comment>None</rdfs:comment>
         <rdfs:comment>DIKB</rdfs:comment>
-        <obo:IAO_0000136>itraconazole</obo:IAO_0000136>
         <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/376</rdfs:comment>
         <rdfs:comment>itraconazole is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
+        <obo:IAO_0000136>itraconazole</obo:IAO_0000136>
         <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
         <obo:IAO_0000136 rdf:resource="&obo;CHEBI_6076"/>
         <obo:IAO_0000136 rdf:resource="&obo;CHEBI_9150"/>
@@ -2434,6 +2402,33 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:NamedIndividual rdf:about="&obo;CHEBI_9674">
         <rdf:type rdf:resource="&obo;CHEBI_9674"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/1 -->
+
+    <owl:NamedIndividual rdf:about="&obo;1">
+        <rdf:type rdf:resource="&obo;DIDEO_00000000"/>
+        <rdfs:comment>boycer</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>http://www.ncbi.nlm.nih.gov/pubmed/8612379</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/diltiazem_increases_auc_triazolam.html</rdfs:comment>
+        <rdfs:comment>diltiazem increases the AUC of triazolam </rdfs:comment>
+        <rdfs:comment>diltiazem_increases_auc_triazolam</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/Assertions/30</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIObservations1</rdfs:comment>
+        <rdfs:comment>DDIObservation</rdfs:comment>
+        <obo:IAO_0000136>DILTIAZEM</obo:IAO_0000136>
+        <rdfs:comment>07/02/2007 17:38:07</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu:2020/vocab/resource/increases_auc</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/Evidence/39</rdfs:comment>
+        <rdfs:comment>2.835</rdfs:comment>
+        <obo:IAO_0000136>TRIAZOLAM</obo:IAO_0000136>
+        <rdfs:comment xml:lang="en">60mg po. on day two .25mg triazolam was given po|population: 10 subjects, male: 3 female: 7|ages: 18-31|auc_i/auc 0-time of measurement (17hrs): 36.0/12.7 = 2.835|auc_i/auc 0 -inf: 47/13.9 = 3.381|">|Route of administration: oral|study duration: 1 day pretreatment with diltiazem given 3x/day </rdfs:comment>
+        <obo:IAO_0000136 rdf:resource="&obo;CHEBI_101278"/>
+        <obo:IAO_0000136 rdf:resource="&obo;CHEBI_9674"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
