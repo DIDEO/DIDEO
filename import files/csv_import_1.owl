@@ -1,0 +1,741 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/"
+     xml:base="http://purl.obolibrary.org/obo/"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/dideo/CsvImport1.owl">
+        <rdfs:comment xml:lang="en">This OWL file was created using OpenRefine. It is based on a number of CSV files containing drug-drug interaction information.</rdfs:comment>
+        <rdfs:comment xml:lang="en">created by M. Brochhausen</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://127.0.0.1:3333/16268 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/16268">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <IAO_0000136>Simvastatin</IAO_0000136>
+        <rdfs:comment>Drugbank</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <IAO_0000136>Diltiazem</IAO_0000136>
+        <rdfs:comment>Diltiazem may increase the serum concentration of simvastatin. Simvastatin may increase the serum concentration of diltiazem. Monitor for changes in the therapeutic and adverse effects of both agents if concomitant therapy is initiated, discontinued or if doses are changed.|</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/17416 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/17416">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>Drugbank</rdfs:comment>
+        <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
+        <IAO_0000136>Ketoconazole</IAO_0000136>
+        <IAO_0000136>Atorvastatin</IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/190 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/190">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>DDIPrediction</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/376</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>itraconazole is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
+        <IAO_0000136>itraconazole</IAO_0000136>
+        <IAO_0000136>simvastatin</IAO_0000136>
+        <rdfs:comment>DIKB</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/19816 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/19816">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <IAO_0000136>Fluvastatin</IAO_0000136>
+        <IAO_0000136>Fluconazole</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>Fluconazole may increase the serum concentration of fluvastatin by decreasing its metabolism. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of fluvastatin if fluconazole is initiated, discontinued or dose changed.|</rdfs:comment>
+        <rdfs:comment>Drugbank</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/210 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/210">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>DDIPrediction</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/395</rdfs:comment>
+        <IAO_0000136>diltiazem</IAO_0000136>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>diltiazem is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
+        <IAO_0000136>simvastatin</IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/219 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/219">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>DDIPrediction</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/707</rdfs:comment>
+        <IAO_0000136>diltiazem</IAO_0000136>
+        <rdfs:comment>diltiazem is predicted to reduce the clearance of triazolam by inhibition of CYP3A4</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <IAO_0000136>triazolam</IAO_0000136>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/23279 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/23279">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <IAO_0000136>Lovastatin</IAO_0000136>
+        <rdfs:comment>Drugbank</rdfs:comment>
+        <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
+        <IAO_0000136>Ketoconazole</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/23427 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/23427">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <IAO_0000136>Triazolam</IAO_0000136>
+        <rdfs:comment>Drugbank</rdfs:comment>
+        <IAO_0000136>Diltiazem</IAO_0000136>
+        <rdfs:comment>The calcium channel blocker, diltiazem, may increase the effect and toxicity of the benzodiazepine, triazolam.|</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/26 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/26">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>|Route of administration: oral|study duration: 4 days pretreatment with oral fluconazole 400mg day 1 and 200mg days 2-4; on day 4 a single oral dose of 40mg fluvastatin|population: 12|male: 5|female: 7|ages: 19-26|AUC_i/AUC 0 to infinity: 955 / 520 = 1.837</rdfs:comment>
+        <rdfs:comment>boycer</rdfs:comment>
+        <rdfs:comment>DDIObservation</rdfs:comment>
+        <IAO_0000136>FLUVASTATIN</IAO_0000136>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <IAO_0000136>FLUCONAZOLE</IAO_0000136>
+        <rdfs:comment>http://www.ncbi.nlm.nih.gov/pubmed/10952477</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIObservations36</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu:2020/vocab/resource/increases_auc</rdfs:comment>
+        <rdfs:comment>1.837</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/Evidence/663</rdfs:comment>
+        <rdfs:comment>fluconazole_increases_auc_fluvastatin</rdfs:comment>
+        <rdfs:comment>10/29/2007 11:59:09</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/Assertions/557</rdfs:comment>
+        <rdfs:comment>fluconazole increases the AUC of fluvastatin </rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/fluconazole_increases_auc_fluvastatin.html</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/26569 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/26569">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://purl.bioontology.org/ontology/NDFRT/N0000033997</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <IAO_0000136>Diltiazem</IAO_0000136>
+        <rdfs:comment>Significant</rdfs:comment>
+        <rdfs:comment>NDF-RT</rdfs:comment>
+        <rdfs:comment>DILTIAZEM/SIMVASTATIN [VA Drug Interaction]</rdfs:comment>
+        <IAO_0000136>SIMVASTATIN</IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/27011 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/27011">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>DILTIAZEM/TRIAZOLAM [VA Drug Interaction]</rdfs:comment>
+        <IAO_0000136>Diltiazem</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <IAO_0000136>TRIAZOLAM</IAO_0000136>
+        <rdfs:comment>NDF-RT</rdfs:comment>
+        <rdfs:comment>http://purl.bioontology.org/ontology/NDFRT/N0000034907</rdfs:comment>
+        <rdfs:comment>Significant</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/362 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/362">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>ketoconazole is predicted to reduce the clearance of atorvastatin by inhibition of CYP3A4</rdfs:comment>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <IAO_0000136>atorvastatin</IAO_0000136>
+        <rdfs:comment>DDIPrediction</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/369</rdfs:comment>
+        <IAO_0000136>ketoconazole</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/364 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/364">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/371</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>DDIPrediction</rdfs:comment>
+        <IAO_0000136>ketoconazole</IAO_0000136>
+        <rdfs:comment>ketoconazole is predicted to reduce the clearance of lovastatin by inhibition of CYP3A4</rdfs:comment>
+        <IAO_0000136>lovastatin</IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/37 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/37">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>boycer</rdfs:comment>
+        <rdfs:comment>|Route of administration: oral|polymorphic enzyme: NO|study duration: 14 days diltiazem pretreatment|population: 5 male, 5 women|ages:19-35|(mean AUC_i)/(mean AUC) = 55.4/11.5|description: |A fixed-order study was conducted in 10 healthy volunteers with a 2-week washout period between the phases. In one arm of the study, a single 20-mg dose of simvastatin was administered orally; the second arm entailed administration of a single 20-mg dose of simvastatin orally after 2 weeks of treatment with 120 mg diltiazem twice a day. RESULTS: Diltiazem significantly increased the mean peak serum concentration of simvastatin by 3.6-fold (P &lt; .05) and simvastatin acid by 3.7-fold (P &lt; .05). Diltiazem also significantly increased the area under the serum concentration-time curve of simvastatin 5-fold (P &lt; .05) and the elimination half-life 2.3-fold (P &lt; .05).</rdfs:comment>
+        <rdfs:comment>http://www.ncbi.nlm.nih.gov/pubmed/10741630</rdfs:comment>
+        <rdfs:comment>4.817</rdfs:comment>
+        <rdfs:comment>DDIObservation</rdfs:comment>
+        <IAO_0000136>DILTIAZEM</IAO_0000136>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIObservations47</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/diltiazem_increases_auc_simvastatin.html</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>diltiazem_increases_auc_simvastatin</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu:2020/vocab/resource/increases_auc</rdfs:comment>
+        <rdfs:comment>05/29/2007 10:27:50</rdfs:comment>
+        <rdfs:comment>diltiazem increases the AUC of simvastatin </rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/Evidence/830</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/Assertions/689</rdfs:comment>
+        <IAO_0000136>SIMVASTATIN</IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/43751 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/43751">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>Kegg</rdfs:comment>
+        <IAO_0000136>Itraconazole</IAO_0000136>
+        <IAO_0000136>Simvastatin</IAO_0000136>
+        <rdfs:comment>True</rdfs:comment>
+        <rdfs:comment>http://rest.kegg.jp/ddi/D00434</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/43774 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/43774">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://rest.kegg.jp/ddi/D00434</rdfs:comment>
+        <IAO_0000136>Amiodarone</IAO_0000136>
+        <rdfs:comment>True</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>Kegg</rdfs:comment>
+        <IAO_0000136>Simvastatin</IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/444 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/444">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/421</rdfs:comment>
+        <rdfs:comment>fluconazole is predicted to reduce the clearance of rosuvastatin by inhibition of CYP2C9</rdfs:comment>
+        <IAO_0000136>fluconazole</IAO_0000136>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <IAO_0000136>rosuvastatin</IAO_0000136>
+        <rdfs:comment>DDIPrediction</rdfs:comment>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006120</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/473 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/473">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <IAO_0000136>fluvastatin</IAO_0000136>
+        <rdfs:comment>DDIPrediction</rdfs:comment>
+        <IAO_0000136>fluconazole</IAO_0000136>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>fluconazole is predicted to reduce the clearance of fluvastatin by inhibition of CYP3A4</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/384</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/476 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/476">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>fluconazole is predicted to reduce the clearance of fluvastatin by inhibition of CYP2C9</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>DDIPrediction</rdfs:comment>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006120</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/387</rdfs:comment>
+        <IAO_0000136>fluvastatin</IAO_0000136>
+        <IAO_0000136>fluconazole</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/5983 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/5983">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>None</rdfs:comment>
+        <IAO_0000136>Amiodarone</IAO_0000136>
+        <rdfs:comment>Drugbank</rdfs:comment>
+        <IAO_0000136>Simvastatin</IAO_0000136>
+        <rdfs:comment>Increased risk of rhabdomyolysis|</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/623 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/623">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>http://purl.obolibrary.org/obo/PR_000006130</rdfs:comment>
+        <rdfs:comment>amiodarone is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
+        <IAO_0000136>simvastatin</IAO_0000136>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>DDIPrediction</rdfs:comment>
+        <IAO_0000136>amiodarone</IAO_0000136>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIPredictions/414</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/64583 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/64583">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>None</rdfs:comment>
+        <IAO_0000136>Fluconazole</IAO_0000136>
+        <rdfs:comment>Kegg</rdfs:comment>
+        <rdfs:comment>True</rdfs:comment>
+        <rdfs:comment>http://rest.kegg.jp/ddi/D01915</rdfs:comment>
+        <IAO_0000136>Rosuvastatin</IAO_0000136>
+        <rdfs:comment>unclassified</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/76338 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/76338">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <IAO_0000136>Fluconazole</IAO_0000136>
+        <rdfs:comment>True</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>http://rest.kegg.jp/ddi/D07983</rdfs:comment>
+        <rdfs:comment>Kegg</rdfs:comment>
+        <IAO_0000136>Fluvastatin</IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/78798 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/78798">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
+        <IAO_0000136>AMIODARONE</IAO_0000136>
+        <IAO_0000136>SIMVASTATIN</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>CredibleMeds</rdfs:comment>
+        <rdfs:comment>Inhibition of metabolism of simvastatin/ lovastatin by CYP3A4</rdfs:comment>
+        <rdfs:comment>Usually Avoid ¬∑Consider Alternatives: Preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. Predisposing risk factors for rhabdomyolysis include advanced age (&gt;65 years), uncontrolled hypothyroidism, and renal impairment. ¬∑Monitor: If alternative statins are not appropriate, monitor the patient for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine). The simvastatin dose should not exceed 20 mg/day in combination with amiodarone.</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/78810 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/78810">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>None</rdfs:comment>
+        <IAO_0000136>KETOCONAZOLE</IAO_0000136>
+        <rdfs:comment>Usually Avoid ¬∑Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ¬∑Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ¬∑Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ¬∑Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</rdfs:comment>
+        <rdfs:comment>CredibleMeds</rdfs:comment>
+        <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
+        <rdfs:comment>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</rdfs:comment>
+        <IAO_0000136>LOVASTATIN</IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/78824 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/78824">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</rdfs:comment>
+        <IAO_0000136>ITRACONAZOLE</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <IAO_0000136>SIMVASTATIN</IAO_0000136>
+        <rdfs:comment>CredibleMeds</rdfs:comment>
+        <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
+        <rdfs:comment>Usually Avoid ¬∑Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ¬∑Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ¬∑Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ¬∑Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/79559 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/79559">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <IAO_0000136>DILTIAZEM</IAO_0000136>
+        <rdfs:comment>DDI-Corpus-2011</rdfs:comment>
+        <rdfs:comment>The elimination half life of midazolam and triazolam also increased (1.5-2.5 fold) during coadministration with diltiazem.| </rdfs:comment>
+        <IAO_0000136>TRIAZOLAM</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/81264 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/81264">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <IAO_0000136>DILTIAZEM</IAO_0000136>
+        <rdfs:comment>The elimination half life of midazolam and triazolam also increased (1.5-2.5 fold) during coadministration with diltiazem.| </rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <IAO_0000136>TRIAZOLAM</IAO_0000136>
+        <rdfs:comment>mechanism</rdfs:comment>
+        <rdfs:comment>DDI-Corpus-2013</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/81642 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/81642">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <IAO_0000136>AMIODARONE</IAO_0000136>
+        <rdfs:comment>NLM-Corpus</rdfs:comment>
+        <rdfs:comment>Caution_Interaction</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>true</rdfs:comment>
+        <IAO_0000136>SIMVASTATIN</IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/81643 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/81643">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>true</rdfs:comment>
+        <rdfs:comment>NLM-Corpus</rdfs:comment>
+        <IAO_0000136>DILTIAZEM</IAO_0000136>
+        <rdfs:comment>Caution_Interaction</rdfs:comment>
+        <IAO_0000136>Simvastatin</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/81670 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/81670">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <IAO_0000136>TRIAZOLAM</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>true</rdfs:comment>
+        <rdfs:comment>Increase_Interaction</rdfs:comment>
+        <rdfs:comment>NLM-Corpus</rdfs:comment>
+        <IAO_0000136>DILTIAZEM</IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/82068 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/82068">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <IAO_0000136>Simvastatin</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <IAO_0000136>Diltiazem</IAO_0000136>
+        <rdfs:comment>ONC-HighPriority</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/82210 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/82210">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <IAO_0000136>Amiodarone</IAO_0000136>
+        <IAO_0000136>Simvastatin</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>ONC-HighPriority</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/82404 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/82404">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <IAO_0000136>Lovastatin</IAO_0000136>
+        <rdfs:comment>ONC-HighPriority</rdfs:comment>
+        <IAO_0000136>Ketoconazole</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/82988 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/82988">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <rdfs:comment>ONC-HighPriority</rdfs:comment>
+        <IAO_0000136>Simvastatin</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <IAO_0000136>Itraconazole</IAO_0000136>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://127.0.0.1:3333/89138 -->
+
+    <owl:NamedIndividual rdf:about="http://127.0.0.1:3333/89138">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+        <IAO_0000136>Diltiazem</IAO_0000136>
+        <rdfs:comment>None</rdfs:comment>
+        <IAO_0000136>Triazolam</IAO_0000136>
+        <rdfs:comment> </rdfs:comment>
+        <rdfs:comment>OSCAR</rdfs:comment>
+        <rdfs:comment>P</rdfs:comment>
+        <rdfs:comment>N</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_101278 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CHEBI_101278">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2663 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CHEBI_2663">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38545 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CHEBI_38545">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38561 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CHEBI_38561">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39548 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CHEBI_39548">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_40303 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CHEBI_40303">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46081 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CHEBI_46081">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48339 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CHEBI_48339">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6076 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CHEBI_6076">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9150 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CHEBI_9150">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_9674 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/CHEBI_9674">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://127.0.0.1:3333/11490">
+        <rdfs:comment>Drugbank</rdfs:comment>
+        <IAO_0000136>Simvastatin</IAO_0000136>
+        <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
+        <rdfs:comment>None</rdfs:comment>
+        <IAO_0000136>Itraconazole</IAO_0000136>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://127.0.0.1:3333/1">
+        <rdfs:comment>None</rdfs:comment>
+        <rdfs:comment>DIKB</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/diltiazem_increases_auc_triazolam.html</rdfs:comment>
+        <rdfs:comment>diltiazem_increases_auc_triazolam</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/DDIObservations1</rdfs:comment>
+        <rdfs:comment>2.835</rdfs:comment>
+        <rdfs:comment>07/02/2007 17:38:07</rdfs:comment>
+        <rdfs:comment>http://www.ncbi.nlm.nih.gov/pubmed/8612379</rdfs:comment>
+        <IAO_0000136>TRIAZOLAM</IAO_0000136>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/Assertions/30</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu/dikb/resource/Evidence/39</rdfs:comment>
+        <rdfs:comment>|Route of administration: oral|study duration: 1 day pretreatment with diltiazem given 3x/day @ 60mg PO. On day two .25mg triazolam was given PO|population: 10 subjects, male: 3 female: 7|ages: 18-31|AUC_i/AUC 0-time of measurement (17hrs): 36.0/12.7 = 2.835|AUC_i/AUC 0 -inf: 47/13.9 = 3.381|</rdfs:comment>
+        <IAO_0000136>DILTIAZEM</IAO_0000136>
+        <rdfs:comment>boycer</rdfs:comment>
+        <rdfs:comment>DDIObservation</rdfs:comment>
+        <rdfs:comment>http://dbmi-icode-01.dbmi.pitt.edu:2020/vocab/resource/increases_auc</rdfs:comment>
+        <rdfs:comment>diltiazem increases the AUC of triazolam </rdfs:comment>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+
