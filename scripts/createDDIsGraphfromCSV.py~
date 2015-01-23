@@ -1,0 +1,31 @@
+import sys
+sys.path = sys.path + ['.']
+
+import re, codecs, uuid, datetime
+import urllib2
+import urllib
+import traceback
+import csv
+import difflib
+
+## import RDF related
+from rdflib import Graph, BNode, Literal, Namespace, URIRef, RDF, RDFS, XSD
+
+
+base = Namespace('http://purl.obolibrary.org/obo/')
+rdf = Namespace('http://www.w3.org/1999/02/22-rdf-syntax-ns#')
+owl = Namespace('http://www.w3.org/2002/07/owl#')
+xsd = Namespace('http://www.w3.org/2001/XMLSchema#')
+rdfs = Namespace('http://www.w3.org/2000/01/rdf-schema#') 
+foaf= Namespace('http://xmlns.com/foaf/0.1/')
+# = Namespace('')
+
+
+graph = Graph()
+
+graph.namespace_manager.reset()
+graph.namespace_manager.bind("base", "http://purl.obolibrary.org/obo/")
+
+
+ddiItemCnt = 1
+

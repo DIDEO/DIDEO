@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:base="http://purl.obolibrary.org/obo/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/5983">
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01118"/>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+    <rdfs:comment>Increased risk of rhabdomyolysis|</rdfs:comment>
+    <base:managementOptions>None</base:managementOptions>
+    <base:effectConcept>None</base:effectConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/40112">
+    <base:ddiPkMechanism>unclassified</base:ddiPkMechanism>
+    <base:effectConcept>None</base:effectConcept>
+    <rdfs:comment>None</rdfs:comment>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01098"/>
+    <base:managementOptions>None</base:managementOptions>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/623">
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+    <rdfs:comment>amiodarone is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01118"/>
+    <base:effectConcept>None</base:effectConcept>
+    <base:managementOptions>None</base:managementOptions>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/23427">
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00343"/>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00897"/>
+    <base:managementOptions>None</base:managementOptions>
+    <rdfs:comment>The calcium channel blocker, diltiazem, may increase the effect and toxicity of the benzodiazepine, triazolam.|</rdfs:comment>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:effectConcept>None</base:effectConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/26">
+    <base:effectConcept>None</base:effectConcept>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00196"/>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01095"/>
+    <base:managementOptions>None</base:managementOptions>
+    <rdfs:comment>fluconazole increases the AUC of fluvastatin </rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/43774">
+    <base:managementOptions>None</base:managementOptions>
+    <base:effectConcept>None</base:effectConcept>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+    <rdfs:comment>None</rdfs:comment>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01118"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/26357">
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+    <rdfs:comment>KETOCONAZOLE/LOVASTATIN [VA Drug Interaction]</rdfs:comment>
+    <base:effectConcept>None</base:effectConcept>
+    <base:managementOptions>None</base:managementOptions>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00227"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/78798">
+    <base:managementOptions>Usually Avoid ��Consider Alternatives: Preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. Predisposing risk factors for rhabdomyolysis include advanced age (&gt;65 years), uncontrolled hypothyroidism, and renal impairment. ��Monitor: If alternative statins are not appropriate, monitor the patient for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine). The simvastatin dose should not exceed 20 mg/day in combination with amiodarone.</base:managementOptions>
+    <base:ddiPkMechanism>Inhibition of metabolism of simvastatin/ lovastatin by CYP3A4</base:ddiPkMechanism>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01118"/>
+    <rdfs:comment>None</rdfs:comment>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+    <base:effectConcept>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</base:effectConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/364">
+    <rdfs:comment>ketoconazole is predicted to reduce the clearance of lovastatin by inhibition of CYP3A4</rdfs:comment>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00227"/>
+    <base:effectConcept>None</base:effectConcept>
+    <base:managementOptions>None</base:managementOptions>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/89138">
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <rdfs:comment>None</rdfs:comment>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00343"/>
+    <base:effectConcept>N</base:effectConcept>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00897"/>
+    <base:managementOptions>None</base:managementOptions>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/362">
+    <base:effectConcept>None</base:effectConcept>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01076"/>
+    <base:managementOptions>None</base:managementOptions>
+    <rdfs:comment>ketoconazole is predicted to reduce the clearance of atorvastatin by inhibition of CYP3A4</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/78810">
+    <base:effectConcept>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</base:effectConcept>
+    <rdfs:comment>None</rdfs:comment>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00227"/>
+    <base:managementOptions>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</base:managementOptions>
+    <base:ddiPkMechanism>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</base:ddiPkMechanism>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/11490">
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+    <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
+    <base:managementOptions>None</base:managementOptions>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:effectConcept>None</base:effectConcept>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01167"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/1">
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00343"/>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:effectConcept>None</base:effectConcept>
+    <rdfs:comment>diltiazem increases the AUC of triazolam </rdfs:comment>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00897"/>
+    <base:managementOptions>None</base:managementOptions>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/476">
+    <rdfs:comment>fluconazole is predicted to reduce the clearance of fluvastatin by inhibition of CYP2C9</rdfs:comment>
+    <base:effectConcept>None</base:effectConcept>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00196"/>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01095"/>
+    <base:managementOptions>None</base:managementOptions>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/78820">
+    <base:managementOptions>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</base:managementOptions>
+    <base:ddiPkMechanism>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</base:ddiPkMechanism>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+    <rdfs:comment>None</rdfs:comment>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01098"/>
+    <base:effectConcept>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</base:effectConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/473">
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:effectConcept>None</base:effectConcept>
+    <rdfs:comment>fluconazole is predicted to reduce the clearance of fluvastatin by inhibition of CYP3A4</rdfs:comment>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01095"/>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00196"/>
+    <base:managementOptions>None</base:managementOptions>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/64583">
+    <base:managementOptions>None</base:managementOptions>
+    <base:effectConcept>None</base:effectConcept>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00196"/>
+    <base:ddiPkMechanism>unclassified</base:ddiPkMechanism>
+    <rdfs:comment>None</rdfs:comment>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01098"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/363">
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+    <base:effectConcept>None</base:effectConcept>
+    <rdfs:comment>ketoconazole is predicted to reduce the clearance of fluvastatin by inhibition of CYP3A4</rdfs:comment>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01095"/>
+    <base:managementOptions>None</base:managementOptions>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/78824">
+    <base:managementOptions>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</base:managementOptions>
+    <base:effectConcept>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</base:effectConcept>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01167"/>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+    <base:ddiPkMechanism>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</base:ddiPkMechanism>
+    <rdfs:comment>None</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/81264">
+    <rdfs:comment>None</rdfs:comment>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00897"/>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:managementOptions>None</base:managementOptions>
+    <base:effectConcept>None</base:effectConcept>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00343"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/19816">
+    <rdfs:comment>Fluconazole may increase the serum concentration of fluvastatin by decreasing its metabolism. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of fluvastatin if fluconazole is initiated, discontinued or dose changed.|</rdfs:comment>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00196"/>
+    <base:effectConcept>None</base:effectConcept>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01095"/>
+    <base:managementOptions>None</base:managementOptions>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/78815">
+    <base:ddiPkMechanism>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</base:ddiPkMechanism>
+    <rdfs:comment>None</rdfs:comment>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00175"/>
+    <base:managementOptions>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</base:managementOptions>
+    <base:effectConcept>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</base:effectConcept>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/27011">
+    <base:effectConcept>None</base:effectConcept>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <rdfs:comment>DILTIAZEM/TRIAZOLAM [VA Drug Interaction]</rdfs:comment>
+    <base:managementOptions>None</base:managementOptions>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00897"/>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00343"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/37">
+    <base:effectConcept>None</base:effectConcept>
+    <base:managementOptions>None</base:managementOptions>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00343"/>
+    <rdfs:comment>diltiazem increases the AUC of simvastatin </rdfs:comment>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/43751">
+    <rdfs:comment>None</rdfs:comment>
+    <base:effectConcept>None</base:effectConcept>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01167"/>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:managementOptions>None</base:managementOptions>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/82988">
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:effectConcept>None</base:effectConcept>
+    <base:managementOptions>None</base:managementOptions>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01167"/>
+    <rdfs:comment>None</rdfs:comment>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/190">
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <rdfs:comment>itraconazole is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
+    <base:managementOptions>None</base:managementOptions>
+    <base:effectConcept>None</base:effectConcept>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01167"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/24103">
+    <base:managementOptions>None</base:managementOptions>
+    <base:effectConcept>None</base:effectConcept>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01076"/>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+    <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/23279">
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+    <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
+    <base:managementOptions>None</base:managementOptions>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00227"/>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:effectConcept>None</base:effectConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/79559">
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00897"/>
+    <rdfs:comment>None</rdfs:comment>
+    <base:effectConcept>None</base:effectConcept>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00343"/>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:managementOptions>None</base:managementOptions>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/444">
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01098"/>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00196"/>
+    <base:managementOptions>None</base:managementOptions>
+    <base:effectConcept>None</base:effectConcept>
+    <rdfs:comment>fluconazole is predicted to reduce the clearance of rosuvastatin by inhibition of CYP2C9</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/16268">
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00343"/>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+    <base:effectConcept>None</base:effectConcept>
+    <rdfs:comment>Diltiazem may increase the serum concentration of simvastatin. Simvastatin may increase the serum concentration of diltiazem. Monitor for changes in the therapeutic and adverse effects of both agents if concomitant therapy is initiated, discontinued or if doses are changed.|</rdfs:comment>
+    <base:managementOptions>None</base:managementOptions>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/24774">
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:effectConcept>None</base:effectConcept>
+    <base:managementOptions>None</base:managementOptions>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00227"/>
+    <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/17416">
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01076"/>
+    <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:effectConcept>None</base:effectConcept>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+    <base:managementOptions>None</base:managementOptions>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/17345">
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00682"/>
+    <base:effectConcept>None</base:effectConcept>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+    <base:managementOptions>None</base:managementOptions>
+    <rdfs:comment>Ketoconazole, a strong CYP2C9 inhibitor, may decrease the metabolism of warfarin. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of warfarin if ketoconazole is initiated, discontinued or dose changed.|</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/82404">
+    <base:effectConcept>None</base:effectConcept>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <rdfs:comment>None</rdfs:comment>
+    <base:managementOptions>None</base:managementOptions>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00227"/>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/82068">
+    <base:effectConcept>None</base:effectConcept>
+    <base:managementOptions>None</base:managementOptions>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00343"/>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+    <rdfs:comment>None</rdfs:comment>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/64586">
+    <rdfs:comment>None</rdfs:comment>
+    <base:managementOptions>None</base:managementOptions>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01098"/>
+    <base:ddiPkMechanism>unclassified</base:ddiPkMechanism>
+    <base:effectConcept>None</base:effectConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/219">
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <rdfs:comment>diltiazem is predicted to reduce the clearance of triazolam by inhibition of CYP3A4</rdfs:comment>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00897"/>
+    <base:effectConcept>None</base:effectConcept>
+    <base:managementOptions>None</base:managementOptions>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00343"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/76338">
+    <base:managementOptions>None</base:managementOptions>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01095"/>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00196"/>
+    <rdfs:comment>None</rdfs:comment>
+    <base:effectConcept>None</base:effectConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/82210">
+    <rdfs:comment>None</rdfs:comment>
+    <base:managementOptions>None</base:managementOptions>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01118"/>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+    <base:effectConcept>None</base:effectConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/24340">
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00682"/>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:effectConcept>None</base:effectConcept>
+    <base:managementOptions>None</base:managementOptions>
+    <rdfs:comment>Ketoconazole, a strong CYP2C9 inhibitor, may decrease the metabolism of warfarin. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of warfarin if ketoconazole is initiated, discontinued or dose changed.|</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/81643">
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+    <base:managementOptions>None</base:managementOptions>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00343"/>
+    <rdfs:comment>None</rdfs:comment>
+    <base:effectConcept>None</base:effectConcept>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/81642">
+    <base:managementOptions>None</base:managementOptions>
+    <base:effectConcept>None</base:effectConcept>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01118"/>
+    <rdfs:comment>None</rdfs:comment>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/210">
+    <base:effectConcept>None</base:effectConcept>
+    <rdfs:comment>diltiazem is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:managementOptions>None</base:managementOptions>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00343"/>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/81670">
+    <rdfs:comment>None</rdfs:comment>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+    <base:effectConcept>None</base:effectConcept>
+    <base:managementOptions>None</base:managementOptions>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00897"/>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00343"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/78805">
+    <base:managementOptions>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</base:managementOptions>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB01095"/>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB01026"/>
+    <base:effectConcept>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</base:effectConcept>
+    <base:ddiPkMechanism>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</base:ddiPkMechanism>
+    <rdfs:comment>None</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://127.0.0.1:3333/26569">
+    <base:managementOptions>None</base:managementOptions>
+    <rdfs:comment>DILTIAZEM/SIMVASTATIN [VA Drug Interaction]</rdfs:comment>
+    <base:precipitant rdf:resource="http://bio2rdf.org/drugbank:DB00343"/>
+    <base:object rdf:resource="http://bio2rdf.org/drugbank:DB00641"/>
+    <base:effectConcept>None</base:effectConcept>
+    <base:ddiPkMechanism>None</base:ddiPkMechanism>
+  </rdf:Description>
+</rdf:RDF>
