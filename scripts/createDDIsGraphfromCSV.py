@@ -1,3 +1,9 @@
+## Script createDDIsGraphfromCSV.py reads drug-drug interactions in csv and creates a sample RDF graph wihich can be used for compose competency queries
+## output graph will be generate in data folder
+
+## Author: Yifan Ning, DBMI, University of Pittsburgh
+## Date: 01/23/2014
+
 import sys
 sys.path = sys.path + ['.']
 
