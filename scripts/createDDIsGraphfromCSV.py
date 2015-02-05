@@ -99,13 +99,13 @@ def createRDFGraph(dict_ddis):
         graph.add((obo[ddi_label], obo["object"], URIRef(chebi_uri1)))
         graph.add((obo[ddi_label], obo["precipitant"], URIRef(chebi_uri2)))
 
-        if v["ddiPkMechanism"]:
+        if v["ddiPkMechanism"] and v["ddiPkMechanism"].strip() != "None":
             graph.add((obo[ddi_label], rdfs["comment"], Literal(v["ddiPkMechanism"])))
-        if v["label"]:
+        if v["label"] and v["label"].strip() != "None": 
             graph.add((obo[ddi_label], rdfs["comment"], Literal(v["label"])))
-        if v["managementOptions"]:
+        if v["managementOptions"] and v["managementOptions"].strip() != "None":
             graph.add((obo[ddi_label], rdfs["comment"], Literal(v["managementOptions"])))
-        if v["effectConcept"]:
+        if v["effectConcept"] and v["effectConcept"].strip() != "None":
             graph.add((obo[ddi_label], rdfs["comment"], Literal(v["effectConcept"])))
 
 
