@@ -20,7 +20,12 @@ from os import path
 from rdflib import Graph, BNode, Literal, Namespace, URIRef, RDF, RDFS, XSD
 
 INPUTDIR = "../import_files/pddi_csv_files/"
-OUT_FILE = "../data/sampleDDIs.rdf"
+OUT_FILE = "../data/sampleDDIs.xml"
+DRUGBANK_CHEBI = "../data/ChEBI_DRUGBANK_BIO2RDF.txt"
+
+
+DRUGBANK_CHEBI_EXTRA = {"http://bio2rdf.org/drugbank:DB01118":"http://purl.obolibrary.org/obo/CHEBI_2663","http://bio2rdf.org/drugbank:DB00227":"http://purl.obolibrary.org/obo/CHEBI_40303","http://bio2rdf.org/drugbank:DB01026":"http://purl.obolibrary.org/obo/CHEBI_48339","http://bio2rdf.org/drugbank:DB00897":"http://purl.obolibrary.org/obo/CHEBI_9674","http://bio2rdf.org/drugbank:DB01167":"http://purl.obolibrary.org/obo/CHEBI_6076","http://bio2rdf.org/drugbank:DB01095":"http://purl.obolibrary.org/obo/CHEBI_38561","http://bio2rdf.org/drugbank:DB00196":"http://purl.obolibrary.org/obo/CHEBI_46081","http://bio2rdf.org/drugbank:DB01098":"http://purl.obolibrary.org/obo/CHEBI_38545","http://bio2rdf.org/drugbank:DB00682":"http://purl.obolibrary.org/obo/CHEBI_10033"}
+
 
 def readCSVfromDir(inputdir):
     data = {}
@@ -34,9 +39,27 @@ def readCSVfromDir(inputdir):
     return data
 
 
+# return the dict key: Drugbank URI, value: Chebi URI
+
+def readDrugbankChEBIMapping(path):
+
+    dict_drugbank_chebi = {}
+
+    with open (path, "rb") as f:
+        reader = csv.reader(f, delimiter=',', quotechar='"')
+        for row in reader:
+            dict_drugbank_chebi[row[4]] = row[1]
+
+    for k,v in DRUGBANK_CHEBI_EXTRA.items():
+        dict_drugbank_chebi[k] = v
+
+    return dict_drugbank_chebi
+    
+
+
 def createRDFGraph(dict_ddis):
 
-    base = Namespace('http://purl.obolibrary.org/obo/')
+    obo = Namespace('http://purl.obolibrary.org/obo/')
     rdf = Namespace('http://www.w3.org/1999/02/22-rdf-syntax-ns#')
     owl = Namespace('http://www.w3.org/2002/07/owl#')
     xsd = Namespace('http://www.w3.org/2001/XMLSchema#')
@@ -46,29 +69,44 @@ def createRDFGraph(dict_ddis):
 
     ##TODO: temporarily using the namespace the same as OWL's 
     ## it's may need change "to http://purl.obolibrary.org/obo/"
-    tmp = Namespace('http://127.0.0.1:3333/')
-
 
     graph = Graph()
 
     graph.namespace_manager.reset()
-    graph.namespace_manager.bind("base", "http://purl.obolibrary.org/obo/")
-    graph.namespace_manager.bind("tmp", "http://127.0.0.1:3333/")
+    graph.namespace_manager.bind("obo", "http://purl.obolibrary.org/obo/")
     graph.namespace_manager.bind("rdfs", "http://www.w3.org/2000/01/rdf-schema#")
     
+    dict_drugbank_chebi = readDrugbankChEBIMapping(DRUGBANK_CHEBI)
 
     for k,v in dict_ddis.items():
-        graph.add((tmp[k], base["object"], URIRef(v["drug1"])))
-        graph.add((tmp[k], base["precipitant"], URIRef(v["drug2"])))
+
+        ddi_label = v["object"] + "-" + v["precipitant"] + "-" + k
+
+        if dict_drugbank_chebi.has_key(v["drug1"]):
+            chebi_uri1 = dict_drugbank_chebi[v["drug1"]]
+        else:
+            print "Chebi URI for drug %s is missing, skip interaction %s" % (v["object"], ddi_label)
+            print "drugbank URI:" + v["drug1"]
+            continue
+
+        if dict_drugbank_chebi.has_key(v["drug2"]):
+            chebi_uri2 = dict_drugbank_chebi[v["drug2"]]
+        else:
+            print "Chebi URI for drug %s is missing, skip interaction %s" % (v["precipitant"], ddi_label)
+            print "drugbank URI:" + v["drug2"]
+            continue
+
+        graph.add((obo[ddi_label], obo["object"], URIRef(chebi_uri1)))
+        graph.add((obo[ddi_label], obo["precipitant"], URIRef(chebi_uri2)))
 
         if v["ddiPkMechanism"]:
-            graph.add((tmp[k], base["ddiPkMechanism"], Literal(v["ddiPkMechanism"])))
+            graph.add((obo[ddi_label], rdfs["comment"], Literal(v["ddiPkMechanism"])))
         if v["label"]:
-            graph.add((tmp[k], rdfs["comment"], Literal(v["label"])))
+            graph.add((obo[ddi_label], rdfs["comment"], Literal(v["label"])))
         if v["managementOptions"]:
-            graph.add((tmp[k], base["managementOptions"], Literal(v["managementOptions"])))
+            graph.add((obo[ddi_label], rdfs["comment"], Literal(v["managementOptions"])))
         if v["effectConcept"]:
-            graph.add((tmp[k], base["effectConcept"], Literal(v["effectConcept"])))
+            graph.add((obo[ddi_label], rdfs["comment"], Literal(v["effectConcept"])))
 
 
     # display the graph
