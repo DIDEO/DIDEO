@@ -96,8 +96,12 @@ def createRDFGraph(dict_ddis):
             print "drugbank URI:" + v["drug2"]
             continue
 
+        graph.add((obo[ddi_label], RDF.type, obo["DIDEO_00000000"]))
         graph.add((obo[ddi_label], obo["object"], URIRef(chebi_uri1)))
+        graph.add((URIRef(chebi_uri1), RDF.type, obo["CHEBI_24431"]))
+
         graph.add((obo[ddi_label], obo["precipitant"], URIRef(chebi_uri2)))
+        graph.add((URIRef(chebi_uri2), RDF.type, obo["CHEBI_24431"]))
 
         if v["ddiPkMechanism"] and v["ddiPkMechanism"].strip() != "None":
             graph.add((obo[ddi_label], rdfs["comment"], Literal(v["ddiPkMechanism"])))
