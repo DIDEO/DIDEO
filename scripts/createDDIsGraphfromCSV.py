@@ -26,13 +26,16 @@ DRUGBANK_CHEBI = "../data/ChEBI_DRUGBANK_BIO2RDF.txt"
 
 DRUGBANK_CHEBI_EXTRA = {"http://bio2rdf.org/drugbank:DB01118":"http://purl.obolibrary.org/obo/CHEBI_2663","http://bio2rdf.org/drugbank:DB00227":"http://purl.obolibrary.org/obo/CHEBI_40303","http://bio2rdf.org/drugbank:DB01026":"http://purl.obolibrary.org/obo/CHEBI_48339","http://bio2rdf.org/drugbank:DB00897":"http://purl.obolibrary.org/obo/CHEBI_9674","http://bio2rdf.org/drugbank:DB01167":"http://purl.obolibrary.org/obo/CHEBI_6076","http://bio2rdf.org/drugbank:DB01095":"http://purl.obolibrary.org/obo/CHEBI_38561","http://bio2rdf.org/drugbank:DB00196":"http://purl.obolibrary.org/obo/CHEBI_46081","http://bio2rdf.org/drugbank:DB01098":"http://purl.obolibrary.org/obo/CHEBI_38545","http://bio2rdf.org/drugbank:DB00682":"http://purl.obolibrary.org/obo/CHEBI_10033"}
 
+def utf_8_encoder(unicode_csv_data):
+    for line in unicode_csv_data:
+        yield line.encode('utf-8')
 
 def readCSVfromDir(inputdir):
     data = {}
 
     for file in os.listdir(inputdir):
         if file.endswith(".csv"):
-            reader = csv.DictReader(open(INPUTDIR + file), delimiter=',', quotechar='"')
+            reader = csv.DictReader(utf_8_encoder(codecs.open(INPUTDIR + file,encoding='utf8')), delimiter=',', quotechar='"')
             for row in reader:
                 data[row["id"]] = row 
                 ## TODO: refill dict to merge ddis if necessary
@@ -45,7 +48,7 @@ def readDrugbankChEBIMapping(path):
 
     dict_drugbank_chebi = {}
 
-    with open (path, "rb") as f:
+    with codecs.open(path,'r',encoding='utf8') as f:
         reader = csv.reader(f, delimiter=',', quotechar='"')
         for row in reader:
             dict_drugbank_chebi[row[4]] = row[1]
@@ -95,6 +98,8 @@ def createRDFGraph(dict_ddis):
             print "Chebi URI for drug %s is missing, skip interaction %s" % (v["precipitant"], ddi_label)
             print "drugbank URI:" + v["drug2"]
             continue
+
+        graph.add((obo[ddi_label], rdfs["comment"], Literal(v["source"])))
 
         graph.add((obo[ddi_label], RDF.type, obo["DIDEO_00000000"]))
         graph.add((obo[ddi_label], obo["object"], URIRef(chebi_uri1)))

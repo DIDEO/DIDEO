@@ -4,337 +4,386 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
 >
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Fluvastatin-Fluconazole-76338">
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>Kegg</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38561"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Amiodarone-82210">
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <rdfs:comment>ONC-HighPriority</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2663"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRAVASTATIN-KETOCONAZOLE-78815">
+    <rdfs:comment>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</rdfs:comment>
+    <rdfs:comment>CredibleMeds</rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <rdfs:comment>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63618"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simvastatin-itraconazole-190">
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <rdfs:comment>itraconazole is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
+    <rdfs:comment>DIKB</rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6076"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TRIAZOLAM-Diltiazem-27011">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>NDF-RT</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
+    <rdfs:comment>DILTIAZEM/TRIAZOLAM [VA Drug Interaction]</rdfs:comment>
+  </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simvastatin-amiodarone-623">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>DIKB</rdfs:comment>
     <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2663"/>
     <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
     <rdfs:comment>amiodarone is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ROSUVASTATIN-KETOCONAZOLE-78820">
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-    <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
-    <rdfs:comment>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</rdfs:comment>
-    <rdfs:comment>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</rdfs:comment>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38545"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Amiodarone-5983">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2663"/>
-    <rdfs:comment>Increased risk of rhabdomyolysis|</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Diltiazem-16268">
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
-    <rdfs:comment>Diltiazem may increase the serum concentration of simvastatin. Simvastatin may increase the serum concentration of diltiazem. Monitor for changes in the therapeutic and adverse effects of both agents if concomitant therapy is initiated, discontinued or if doses are changed.|</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Lovastatin-Ketoconazole-23279">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_40303"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TRIAZOLAM-DILTIAZEM-1">
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
-    <rdfs:comment>diltiazem increases the AUC of triazolam </rdfs:comment>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Ketoconazole-Lovastatin-24774">
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_40303"/>
-    <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simvastatin-diltiazem-210">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
-    <rdfs:comment>diltiazem is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TRIAZOLAM-Diltiazem-27011">
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
-    <rdfs:comment>DILTIAZEM/TRIAZOLAM [VA Drug Interaction]</rdfs:comment>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMVASTATIN-AMIODARONE-78798">
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <rdfs:comment>Inhibition of metabolism of simvastatin/ lovastatin by CYP3A4</rdfs:comment>
-    <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
-    <rdfs:comment>Usually Avoid ��Consider Alternatives: Preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. Predisposing risk factors for rhabdomyolysis include advanced age (&gt;65 years), uncontrolled hypothyroidism, and renal impairment. ��Monitor: If alternative statins are not appropriate, monitor the patient for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine). The simvastatin dose should not exceed 20 mg/day in combination with amiodarone.</rdfs:comment>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2663"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Amiodarone-82210">
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2663"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_39548">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simvastatin-itraconazole-190">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6076"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
-    <rdfs:comment>itraconazole is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/LOVASTATIN-KETOCONAZOLE-78810">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_40303"/>
-    <rdfs:comment>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</rdfs:comment>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-    <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
-    <rdfs:comment>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMVASTATIN-AMIODARONE-81642">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2663"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
-  </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_40303">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Fluvastatin-Fluconazole-76338">
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38561"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_10033">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Itraconazole-11490">
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6076"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Lovastatin-Ketoconazole-24774">
     <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Warfarin-Ketoconazole-24340">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <rdfs:comment>Ketoconazole, a strong CYP2C9 inhibitor, may decrease the metabolism of warfarin. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of warfarin if ketoconazole is initiated, discontinued or dose changed.|</rdfs:comment>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10033"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Lovastatin-Ketoconazole-82404">
     <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_40303"/>
+    <rdfs:comment>Drugbank</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
     <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Amiodarone-43774">
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLUVASTATIN-FLUCONAZOLE-26">
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38561"/>
+    <rdfs:comment>fluconazole increases the AUC of fluvastatin </rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>DIKB</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Amiodarone-5983">
+    <rdfs:comment>Increased risk of rhabdomyolysis|</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
     <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
     <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2663"/>
+    <rdfs:comment>Drugbank</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Triazolam-Diltiazem-89138">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
-    <rdfs:comment>N</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PRAVASTATIN-KETOCONAZOLE-78815">
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-    <rdfs:comment>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</rdfs:comment>
-    <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
-    <rdfs:comment>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</rdfs:comment>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63618"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Fluvastatin-Fluconazole-19816">
-    <rdfs:comment>Fluconazole may increase the serum concentration of fluvastatin by decreasing its metabolism. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of fluvastatin if fluconazole is initiated, discontinued or dose changed.|</rdfs:comment>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38561"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMVASTATIN-Diltiazem-26569">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Itraconazole-11490">
     <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
-    <rdfs:comment>DILTIAZEM/SIMVASTATIN [VA Drug Interaction]</rdfs:comment>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/triazolam-diltiazem-219">
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
-    <rdfs:comment>diltiazem is predicted to reduce the clearance of triazolam by inhibition of CYP3A4</rdfs:comment>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Rosuvastatin-Fluconazole-64583">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38545"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
-    <rdfs:comment>unclassified</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_101278">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Itraconazole-43751">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <rdfs:comment>Drugbank</rdfs:comment>
     <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6076"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Ketoconazole-LOVASTATIN-26357">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <rdfs:comment>KETOCONAZOLE/LOVASTATIN [VA Drug Interaction]</rdfs:comment>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_40303"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TRIAZOLAM-DILTIAZEM-79559">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLUVASTATIN-FLUCONAZOLE-26">
-    <rdfs:comment>fluconazole increases the AUC of fluvastatin </rdfs:comment>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38561"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_6076">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/fluvastatin-ketoconazole-363">
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38561"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <rdfs:comment>ketoconazole is predicted to reduce the clearance of fluvastatin by inhibition of CYP3A4</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Triazolam-Diltiazem-23427">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
-    <rdfs:comment>The calcium channel blocker, diltiazem, may increase the effect and toxicity of the benzodiazepine, triazolam.|</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/atorvastatin-ketoconazole-362">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <rdfs:comment>ketoconazole is predicted to reduce the clearance of atorvastatin by inhibition of CYP3A4</rdfs:comment>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39548"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLUVASTATIN-KETOCONAZOLE-78805">
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38561"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-    <rdfs:comment>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</rdfs:comment>
-    <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
-    <rdfs:comment>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_48339">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Rosuvastatin-Ketoconazole-64586">
-    <rdfs:comment>unclassified</rdfs:comment>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38545"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TRIAZOLAM-DILTIAZEM-81670">
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/rosuvastatin-fluconazole-444">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38545"/>
-    <rdfs:comment>fluconazole is predicted to reduce the clearance of rosuvastatin by inhibition of CYP2C9</rdfs:comment>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Ketoconazole-Rosuvastatin-40112">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <rdfs:comment>unclassified</rdfs:comment>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38545"/>
+    <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/fluvastatin-fluconazole-476">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38561"/>
     <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38561"/>
+    <rdfs:comment>DIKB</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
     <rdfs:comment>fluconazole is predicted to reduce the clearance of fluvastatin by inhibition of CYP2C9</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/lovastatin-ketoconazole-364">
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_40303"/>
-    <rdfs:comment>ketoconazole is predicted to reduce the clearance of lovastatin by inhibition of CYP3A4</rdfs:comment>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/simvastatin-diltiazem-210">
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <rdfs:comment>DIKB</rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <rdfs:comment>diltiazem is predicted to reduce the clearance of simvastatin by inhibition of CYP3A4</rdfs:comment>
   </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_46081">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FLUVASTATIN-KETOCONAZOLE-78805">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38561"/>
+    <rdfs:comment>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</rdfs:comment>
+    <rdfs:comment>CredibleMeds</rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Itraconazole-43751">
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <rdfs:comment>Kegg</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6076"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TRIAZOLAM-DILTIAZEM-81264">
+    <rdfs:comment>DDI-Corpus-2013</rdfs:comment>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
     <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
     <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMVASTATIN-DILTIAZEM-37">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <rdfs:comment>diltiazem increases the AUC of simvastatin </rdfs:comment>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_63618">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMVASTATIN-ITRACONAZOLE-78824">
-    <rdfs:comment>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</rdfs:comment>
-    <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
-    <rdfs:comment>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</rdfs:comment>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6076"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/fluvastatin-fluconazole-473">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38561"/>
-    <rdfs:comment>fluconazole is predicted to reduce the clearance of fluvastatin by inhibition of CYP3A4</rdfs:comment>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Ketoconazole-Warfarin-17345">
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10033"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <rdfs:comment>Ketoconazole, a strong CYP2C9 inhibitor, may decrease the metabolism of warfarin. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of warfarin if ketoconazole is initiated, discontinued or dose changed.|</rdfs:comment>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-DILTIAZEM-81643">
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Itraconazole-82988">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6076"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_9674">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Ketoconazole-Atorvastatin-24103">
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39548"/>
-    <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Atorvastatin-Ketoconazole-17416">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
-    <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
-    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
-    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39548"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_2663">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Diltiazem-82068">
     <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
+    <rdfs:comment>ONC-HighPriority</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMVASTATIN-AMIODARONE-78798">
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2663"/>
+    <rdfs:comment>Inhibition of metabolism of simvastatin/ lovastatin by CYP3A4</rdfs:comment>
+    <rdfs:comment>Usually Avoid ��Consider Alternatives: Preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. Predisposing risk factors for rhabdomyolysis include advanced age (&gt;65 years), uncontrolled hypothyroidism, and renal impairment. ��Monitor: If alternative statins are not appropriate, monitor the patient for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine). The simvastatin dose should not exceed 20 mg/day in combination with amiodarone.</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>CredibleMeds</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Atorvastatin-Ketoconazole-17416">
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39548"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>Drugbank</rdfs:comment>
+    <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Amiodarone-43774">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2663"/>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <rdfs:comment>Kegg</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ROSUVASTATIN-KETOCONAZOLE-78820">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>CredibleMeds</rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
+    <rdfs:comment>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38545"/>
+    <rdfs:comment>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Fluvastatin-Fluconazole-19816">
+    <rdfs:comment>Drugbank</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
+    <rdfs:comment>Fluconazole may increase the serum concentration of fluvastatin by decreasing its metabolism. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of fluvastatin if fluconazole is initiated, discontinued or dose changed.|</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38561"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/LOVASTATIN-KETOCONAZOLE-78810">
+    <rdfs:comment>CredibleMeds</rdfs:comment>
+    <rdfs:comment>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</rdfs:comment>
+    <rdfs:comment>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_40303"/>
+    <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/LOVASTATIN-Ketoconazole-26357">
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <rdfs:comment>KETOCONAZOLE/LOVASTATIN [VA Drug Interaction]</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_40303"/>
+    <rdfs:comment>NDF-RT</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-DILTIAZEM-81643">
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>NLM-Corpus</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMVASTATIN-Diltiazem-26569">
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
     <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_9150">
-    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdfs:comment>NDF-RT</rdfs:comment>
+    <rdfs:comment>DILTIAZEM/SIMVASTATIN [VA Drug Interaction]</rdfs:comment>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_38561">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_38545">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_9150">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Triazolam-Diltiazem-23427">
+    <rdfs:comment>The calcium channel blocker, diltiazem, may increase the effect and toxicity of the benzodiazepine, triazolam.|</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>Drugbank</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/rosuvastatin-fluconazole-444">
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38545"/>
+    <rdfs:comment>DIKB</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>fluconazole is predicted to reduce the clearance of rosuvastatin by inhibition of CYP2C9</rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/triazolam-diltiazem-219">
+    <rdfs:comment>DIKB</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
+    <rdfs:comment>diltiazem is predicted to reduce the clearance of triazolam by inhibition of CYP3A4</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Warfarin-Ketoconazole-24340">
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10033"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <rdfs:comment>Drugbank</rdfs:comment>
+    <rdfs:comment>Ketoconazole, a strong CYP2C9 inhibitor, may decrease the metabolism of warfarin. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of warfarin if ketoconazole is initiated, discontinued or dose changed.|</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/atorvastatin-ketoconazole-362">
+    <rdfs:comment>ketoconazole is predicted to reduce the clearance of atorvastatin by inhibition of CYP3A4</rdfs:comment>
+    <rdfs:comment>DIKB</rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39548"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Lovastatin-Ketoconazole-82404">
+    <rdfs:comment>ONC-HighPriority</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_40303"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Diltiazem-16268">
+    <rdfs:comment>Drugbank</rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
+    <rdfs:comment>Diltiazem may increase the serum concentration of simvastatin. Simvastatin may increase the serum concentration of diltiazem. Monitor for changes in the therapeutic and adverse effects of both agents if concomitant therapy is initiated, discontinued or if doses are changed.|</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Rosuvastatin-Ketoconazole-64586">
+    <rdfs:comment>Kegg</rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38545"/>
+    <rdfs:comment>unclassified</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMVASTATIN-DILTIAZEM-37">
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>diltiazem increases the AUC of simvastatin </rdfs:comment>
+    <rdfs:comment>DIKB</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/lovastatin-ketoconazole-364">
+    <rdfs:comment>DIKB</rdfs:comment>
+    <rdfs:comment>ketoconazole is predicted to reduce the clearance of lovastatin by inhibition of CYP3A4</rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_40303"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/fluvastatin-fluconazole-473">
+    <rdfs:comment>DIKB</rdfs:comment>
+    <rdfs:comment>fluconazole is predicted to reduce the clearance of fluvastatin by inhibition of CYP3A4</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38561"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TRIAZOLAM-DILTIAZEM-81670">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
+    <rdfs:comment>NLM-Corpus</rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Rosuvastatin-Ketoconazole-40112">
+    <rdfs:comment>Kegg</rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38545"/>
+    <rdfs:comment>unclassified</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Triazolam-Diltiazem-89138">
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>OSCAR</rdfs:comment>
+    <rdfs:comment>N</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Atorvastatin-Ketoconazole-24103">
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <rdfs:comment>Drugbank</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39548"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_101278">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_10033">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/fluvastatin-ketoconazole-363">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <rdfs:comment>DIKB</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38561"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <rdfs:comment>ketoconazole is predicted to reduce the clearance of fluvastatin by inhibition of CYP3A4</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_63618">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMVASTATIN-ITRACONAZOLE-78824">
+    <rdfs:comment>Increased simvastatin/ lovastatin concentrations and risk of myopathy/ rhabdomyolysis</rdfs:comment>
+    <rdfs:comment>Inhibition of simvastatin/ lovastatin metabolism by CYP3A4</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <rdfs:comment>Usually Avoid ��Consider Alternative Antifungal Agents: Terbinafine or ciclopirox nail lacquer would be relatively safer antifungal agents. ��Consider Alternative Statins: For patients requiring long-term azole antifungal therapy, preferable statin alternatives include fluvastatin, rosuvastatin, or pravastatin. ��Temporarily Hold Statin Therapy: Temporarily holding the simvastatin/lovastatin during short-term (e.g., 2-week) azole antifungal therapy is a reasonable alternative for patients with stable cardiovascular disease. ��Monitor: If alternatives are not appropriate, the patient should be monitored for evidence of myopathy (muscle pain or weakness) and myoglobinuria (dark urine).</rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6076"/>
+    <rdfs:comment>CredibleMeds</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_48339">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_6076">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_46081">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TRIAZOLAM-DILTIAZEM-79559">
+    <rdfs:comment>DDI-Corpus-2011</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_2663">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Rosuvastatin-Fluconazole-64583">
+    <rdfs:comment>Kegg</rdfs:comment>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38545"/>
+    <rdfs:comment>unclassified</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/TRIAZOLAM-DILTIAZEM-1">
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
+    <rdfs:comment>diltiazem increases the AUC of triazolam </rdfs:comment>
+    <rdfs:comment>DIKB</rdfs:comment>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Simvastatin-Itraconazole-82988">
+    <rdfs:comment>ONC-HighPriority</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6076"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Lovastatin-Ketoconazole-23279">
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <rdfs:comment>Drugbank</rdfs:comment>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_40303"/>
+    <rdfs:comment>Increased risk of myopathy/rhabdomyolysis|</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SIMVASTATIN-AMIODARONE-81642">
+    <rdfs:comment>NLM-Corpus</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2663"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/Warfarin-Ketoconazole-17345">
+    <obo:object rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10033"/>
+    <obo:precipitant rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48339"/>
+    <rdfs:comment>Ketoconazole, a strong CYP2C9 inhibitor, may decrease the metabolism of warfarin. Consider alternate therapy or monitor for changes in the therapeutic and adverse effects of warfarin if ketoconazole is initiated, discontinued or dose changed.|</rdfs:comment>
+    <rdfs:comment>Drugbank</rdfs:comment>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000000"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_39548">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_9674">
     <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
   </rdf:Description>
 </rdf:RDF>
