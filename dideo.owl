@@ -14,13 +14,13 @@
 
 <rdf:RDF xmlns="http://www.semanticweb.org/mathiasbrochhausen/ontologies/2014/9/untitled-ontology-25#"
      xml:base="http://www.semanticweb.org/mathiasbrochhausen/ontologies/2014/9/untitled-ontology-25"
-     xmlns:dc="http://purl.org/dc/elements/1.1/"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;dideo/dev/dideo.owl">
         <rdfs:label xml:lang="en">DIDEO</rdfs:label>
         <rdfs:label xml:lang="en">Drug-drug Interaction and Drug-drug Interaction Evidence Ontology </rdfs:label>
@@ -44,6 +44,22 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000179 -->
+
+    <rdf:Description rdf:about="&obo;BFO_0000179">
+        <rdfs:label xml:lang="en">BFO OWL specification label</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000180 -->
+
+    <rdf:Description rdf:about="&obo;BFO_0000180">
+        <rdfs:label xml:lang="en">BFO CLIF specification label</rdfs:label>
+    </rdf:Description>
     
 
 
@@ -133,6 +149,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000600">
+        <rdfs:label xml:lang="en">elucidation</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000602 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000602">
+        <rdfs:label xml:lang="en">has associated axiom(fol)</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0001847 -->
 
     <rdf:Description rdf:about="&obo;OBI_0001847">
@@ -181,7 +213,9 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;hasNarrowSynonym"/>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;hasNarrowSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -209,7 +243,9 @@
 
     <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
 
-    <owl:AnnotationProperty rdf:about="&oboInOwl;inSubset"/>
+    <owl:AnnotationProperty rdf:about="&oboInOwl;inSubset">
+        <rdfs:label rdf:datatype="&xsd;string">in_subset</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -218,6 +254,68 @@
     <rdf:Description rdf:about="&rdfs;label">
         <rdfs:label>label</rdfs:label>
     </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000117 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000117">
+        <rdfs:label xml:lang="en">has occurrent part</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/bfo.owl</obo:IAO_0000412>
+        <obo:IAO_0000116>[copied from inverse property &apos;part of occurrent&apos;] BFO 2 Reference: a (continuant or occurrent) part of itself. We appreciate that this is counterintuitive for some users, since it implies for example that President Obama is a part of himself. However it brings benefits in simplifying the logical formalism, and it captures an important feature of identity, namely that it is the limit case of mereological inclusion.</obo:IAO_0000116>
+        <obo:IAO_0000600>[copied from inverse property &apos;part of occurrent&apos;] b occurrent_part_of c =Def. b is a part of c &amp; b and c are occurrents. (axiom label in BFO2 Reference: [003-002])</obo:IAO_0000600>
+        <obo:IAO_0000112>[copied from inverse property &apos;part of occurrent&apos;] Mary’s 5th birthday occurrent_part_of Mary’s life</obo:IAO_0000112>
+        <obo:IAO_0000112>[copied from inverse property &apos;part of occurrent&apos;] The process of a footballer’s heart beating once is an occurrent part but not a temporal_part of a game of football.</obo:IAO_0000112>
+        <obo:BFO_0000179>o-has-part</obo:BFO_0000179>
+        <obo:IAO_0000602>(iff (hasOccurrentPart a b) (occurrentPartOf b a)) // axiom label in BFO2 CLIF: [007-001] </obo:IAO_0000602>
+        <obo:IAO_0000116>[copied from inverse property &apos;part of occurrent&apos;] BFO2 Reference: occurrent</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">b has_occurrent_part c = Def. c occurrent_part_of b. (axiom label in BFO2 Reference: [007-001])</obo:IAO_0000115>
+        <obo:BFO_0000180>hasOccurrentPart</obo:BFO_0000180>
+        <obo:IAO_0000112>[copied from inverse property &apos;part of occurrent&apos;] the first set of the tennis match occurrent_part_of the tennis match.</obo:IAO_0000112>
+        <rdfs:isDefinedBy rdf:resource="&obo;bfo.owl"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_proper_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_proper_part">
+        <rdfs:label xml:lang="en">has_proper_part</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ido.owl</obo:IAO_0000412>
+        <oboInOwl:hasOBONamespace>relationship</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasAlternativeId>OBO_REL:0000007</oboInOwl:hasAlternativeId>
+        <obo:IAO_0000232 xml:lang="en">DIDEO uses this object property from the old (depracted) RO, since we need to infer parts of drug products as represented by DRON (and DRON [along with many other OBO Foundry candidate ontologies] uses this object property).</obo:IAO_0000232>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#proper_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#proper_part_of">
+        <rdfs:label xml:lang="en">proper_part_of</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ido.owl</obo:IAO_0000412>
+        <oboInOwl:hasOBONamespace>relationship</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasAlternativeId>OBO_REL:0000006</oboInOwl:hasAlternativeId>
+        <obo:IAO_0000232 xml:lang="en">DIDEO uses this object property from the old (depracted) RO, since we need to infer parts of drug products as represented by DRON (and DRON [along with many other OBO Foundry candidate ontologies] uses this object property).</obo:IAO_0000232>
+        <owl:inverseOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+    </owl:ObjectProperty>
     
 
 
@@ -1285,25 +1383,25 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002914 -->
+
+    <owl:Class rdf:about="&obo;CHMO_0002914">
+        <rdfs:label rdf:datatype="&xsd;string">absorption of material</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHMO:0002914</oboInOwl:id>
+        <rdfs:comment rdf:datatype="&xsd;string">Gold Book, somewhat modified. It goes on &quot;The process of one material (absorbate) being retained by another (absorbent); this may be the physical solution of a gas, liquid, or solid in a liquid, attachment of molecules of a gas, vapour, liquid, or dissolved substance to a solid surface by physical forces, etc.&quot;</rdfs:comment>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">REX:0000188</oboInOwl:hasAlternativeId>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The process of one material (absorbate) being retained by another (absorption).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chmo.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000000 -->
 
     <owl:Class rdf:about="&obo;DIDEO_00000000">
-        <rdfs:label xml:lang="en">potential drug drug interaction</rdfs:label>
+        <rdfs:label xml:lang="en">potential drug-drug interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1324,21 +1422,22 @@
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A potential drug-drug interaction (PDDI) is an information content entity that specifies the possibility of a drug-drug interaction based on either reasonable extrapolation about drug-drug interaction mechanisms or a data item created by clinical studies, clinical observation or physiological experiment.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DIDEO_00000001 -->
-
-    <owl:Class rdf:about="&obo;DIDEO_00000001">
-        <rdfs:label xml:lang="en">induction</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
-        <obo:IAO_0000115 xml:lang="en">An process that increases the functioning of an entity.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">Philip E. Empey</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -1355,7 +1454,7 @@
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000003 -->
 
     <owl:Class rdf:about="&obo;DIDEO_00000003">
-        <rdfs:label xml:lang="en">observational data item about drug drug interaction</rdfs:label>
+        <rdfs:label xml:lang="en">observational data item about drug-drug interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
     </owl:Class>
     
@@ -1379,19 +1478,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DIDEO_00000006 -->
-
-    <owl:Class rdf:about="&obo;DIDEO_00000006">
-        <rdfs:label xml:lang="en">inhibition</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
-        <obo:IAO_0000115 xml:lang="en">An process that decreases the functioning of an entity.</obo:IAO_0000115>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">Philip E. Empey</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000007 -->
 
     <owl:Class rdf:about="&obo;DIDEO_00000007">
@@ -1410,7 +1496,7 @@
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000008 -->
 
     <owl:Class rdf:about="&obo;DIDEO_00000008">
-        <rdfs:label xml:lang="en">drug drug interaction management option</rdfs:label>
+        <rdfs:label xml:lang="en">drug-drug interaction management option</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000104"/>
         <obo:IAO_0000115 xml:lang="en">A plan specification that specifies processes to prevent or mitigate a drug-drug interaction.</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">An instance of this entity would represent an optional recommendation for the clinical management of patients who are exposed or about to be exposed to a potential DDI. Management options may be generated by expert opinion, consensus, and/or a review and synthesis of relevant evidence.</rdfs:comment>
@@ -1498,7 +1584,7 @@
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000015 -->
 
     <owl:Class rdf:about="&obo;DIDEO_00000015">
-        <rdfs:label xml:lang="en">metabolic potential drug drug interaction</rdfs:label>
+        <rdfs:label xml:lang="en">metabolic potential drug-drug interaction</rdfs:label>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
@@ -1535,7 +1621,7 @@
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000017 -->
 
     <owl:Class rdf:about="&obo;DIDEO_00000017">
-        <rdfs:label xml:lang="en">metabolism inhibition potential drug drug interaction</rdfs:label>
+        <rdfs:label xml:lang="en">metabolism inhibition potential drug-drug interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000015"/>
     </owl:Class>
     
@@ -1544,8 +1630,97 @@
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000018 -->
 
     <owl:Class rdf:about="&obo;DIDEO_00000018">
-        <rdfs:label xml:lang="en">metabolism induction potential drug drug interaction</rdfs:label>
+        <rdfs:label xml:lang="en">metabolism induction potential drug-drug interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000015"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000019 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000019">
+        <rdfs:label xml:lang="en">material entity participant in drug-drug interaction</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;DRON_00000005"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
+                                <owl:someValuesFrom rdf:resource="&obo;DRON_00000005"/>
+                            </owl:Restriction>
+                        </owl:unionOf>
+                    </owl:Class>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000020"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <rdfs:comment xml:lang="en">A drug entity that participate in a drug-drug interaction but for which its role is not assignable as a precipitant or object.</rdfs:comment>
+        <obo:IAO_0000115 xml:lang="en">A drug product or drug ingredient that participates in a drug-drug interaction.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Drug participant in drug-drug interaction</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000020 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000020">
+        <rdfs:label xml:lang="en">drug-drug interaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0008150"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000117"/>
+                <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A biological process that results in a clinically meaningful change to the response of at least one co-administrated drug.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">A clinically meaningful alteration in the exposure and/or response to a drug (object drug) that has occurred as a result of the co-administration of another drug (precipitant drug)Oates JA. Chapter 5. Goodman and Gilman 11th ed (2006):117–36; Hines. Response can refer to either precipitating an adverse event or altering the therapeutic effect of the object drug. Although some DDIs may be used for therapeutic benefit, this paper focuses on those with adverse clinical consequences. (based on the 2013 DDI conference series) / has participant some mechanism.</rdfs:comment>
+        <obo:IAO_0000118 xml:lang="en">DDI</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000021 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000021">
+        <rdfs:label xml:lang="en">drug co-administration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000115 xml:lang="en">A process of administering more than one drug to the same individual over a specific time interval.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">An instance of this occurs when at least two or more drugs are taken in a specific time interval and the individual time interval for each drug administration overlaps with the other drug&apos;s or drugs&apos; time interval(s). (SG1)</rdfs:comment>
+        <obo:IAO_0000232 xml:lang="en">This class currently does not have a restriction. One candidate restriction is a necessary condition: &apos;has participant at some time&apos; min 2 &apos;drug product&apos;. I was not able to find an OWL reasoner for Protege 5 that supports cardinality restrictions.</obo:IAO_0000232>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000022 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000022">
+        <rdfs:label xml:lang="en">drug interaction mechanism</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that represents a drug interaction as a directional series of molecular processes.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">An instance of this entity would represent the biochemical process by which pharmacokinetic or pharmacodynamic DDI is thought to occur.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000023 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000023">
+        <rdfs:label xml:lang="en">drug-drug interaction evidence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a drug co-administration and is intended to be specified input into the assessment of whether a drug-drug interaction exists or not.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">An instance of this type represents a information artifact used to establish knowledge for or against the existence of a drug-drug interaction.</rdfs:comment>
     </owl:Class>
     
 
@@ -1575,13 +1750,51 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0008152 -->
+
+    <owl:Class rdf:about="&obo;GO_0008152">
+        <rdfs:label rdf:datatype="&xsd;string">metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0008150"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0008152</oboInOwl:id>
+        <rdfs:comment rdf:datatype="&xsd;string">Note that metabolic processes do not include single functions or processes such as protein-protein interactions, protein-nucleic acids, nor receptor-ligand interactions.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways, including anabolism and catabolism, by which living organisms transform chemical substances. Metabolic processes typically transform small molecules, but also include macromolecular processes such as DNA repair and replication, and protein synthesis and degradation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Metabolism</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">metabolic process resulting in cell growth</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">metabolism resulting in cell growth</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0044237 -->
+
+    <owl:Class rdf:about="&obo;GO_0044237">
+        <rdfs:label rdf:datatype="&xsd;string">cellular metabolic process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0008152"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0044237</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The chemical reactions and pathways by which individual cells transform chemical substances.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">biological_process</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cellular metabolism</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">intermediary metabolism</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0000055 -->
 
     <owl:Class rdf:about="&obo;OAE_0000055">
         <rdfs:label xml:lang="en">contraindication</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000016"/>
-        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Contraindication</obo:IAO_0000119>
         <obo:IAO_0000115 xml:lang="en">A contraindication is a disposition that increases the risk of harm involved in using a particular drug, carrying out a medical procedure, or engaging in a particular activity such that the risk of harm exceeds a threshold. An contraindication serves as a reason to withhold a certain medical treatment.</obo:IAO_0000115>
+        <obo:IAO_0000119>http://en.wikipedia.org/wiki/Contraindication</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -1685,22 +1898,22 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <rdfs:label xml:lang="en">cellular process</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;GO_0008150"/>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.org/obo/owl/go_xp_all</obo:IAO_0000412>
-        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasAlternativeId>GO:0008151</oboInOwl:hasAlternativeId>
         <oboInOwl:hasAlternativeId>GO:0050875</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>GO:0008151</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_goa"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
@@ -1712,14 +1925,11 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
     <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0017144">
         <rdfs:label xml:lang="en">drug metabolic process</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0009987"/>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0008152"/>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.org/obo/owl/go_xp_all</obo:IAO_0000412>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
@@ -1729,19 +1939,22 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
 
