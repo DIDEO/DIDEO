@@ -19,6 +19,9 @@ from os import path
 ## import RDF related
 from rdflib import Graph, BNode, Literal, Namespace, URIRef, RDF, RDFS, XSD
 
+reload(sys) 
+sys.setdefaultencoding('UTF8')
+
 INPUTDIR = "../import_files/pddi_csv_files/"
 OUT_FILE = "../data/sampleDDIs.xml"
 DRUGBANK_CHEBI = "../data/ChEBI_DRUGBANK_BIO2RDF.txt"
@@ -102,21 +105,30 @@ def createRDFGraph(dict_ddis):
         graph.add((obo[ddi_label], rdfs["comment"], Literal(v["source"])))
 
         graph.add((obo[ddi_label], RDF.type, obo["DIDEO_00000000"]))
-        graph.add((obo[ddi_label], obo["object"], URIRef(chebi_uri1)))
-        graph.add((URIRef(chebi_uri1), RDF.type, obo["CHEBI_24431"]))
 
-        graph.add((obo[ddi_label], obo["precipitant"], URIRef(chebi_uri2)))
+        graph.add((obo[ddi_label], obo["DIDEO_00000011"], URIRef(chebi_uri1)))
+        graph.add((URIRef(chebi_uri1), RDF.type, obo["CHEBI_24431"]))
+        graph.add((URIRef(chebi_uri1), RDF.type, obo["DIDEO_00000019"]))
+
+
+        graph.add((obo[ddi_label], obo["DIDEO_00000014"], URIRef(chebi_uri2)))
         graph.add((URIRef(chebi_uri2), RDF.type, obo["CHEBI_24431"]))
+        graph.add((URIRef(chebi_uri2), RDF.type, obo["DIDEO_00000019"]))
+
 
         if v["ddiPkMechanism"] and v["ddiPkMechanism"].strip() != "None":
             graph.add((obo[ddi_label], rdfs["comment"], Literal(v["ddiPkMechanism"])))
-        if v["label"] and v["label"].strip() != "None": 
-            graph.add((obo[ddi_label], rdfs["comment"], Literal(v["label"])))
+            graph.add((Literal(v["ddiPkMechanism"]), RDF.type, obo["DIDEO_00000022"]))
+
         if v["managementOptions"] and v["managementOptions"].strip() != "None":
             graph.add((obo[ddi_label], rdfs["comment"], Literal(v["managementOptions"])))
+            graph.add((Literal(v["managementOptions"]), RDF.type, obo["DIDEO_00000007"]))
+
         if v["effectConcept"] and v["effectConcept"].strip() != "None":
             graph.add((obo[ddi_label], rdfs["comment"], Literal(v["effectConcept"])))
 
+        if v["label"] and v["label"].strip() != "None": 
+            graph.add((obo[ddi_label], rdfs["comment"], Literal(v["label"])))
 
     # display the graph
     f = codecs.open(OUT_FILE,"w","utf8")
