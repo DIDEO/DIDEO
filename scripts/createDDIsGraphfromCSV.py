@@ -117,15 +117,19 @@ def createRDFGraph(dict_ddis):
 
 
         if v["ddiPkMechanism"] and v["ddiPkMechanism"].strip() != "None":
-            graph.add((obo[ddi_label], rdfs["comment"], Literal(v["ddiPkMechanism"])))
-            graph.add((Literal(v["ddiPkMechanism"]), RDF.type, obo["DIDEO_00000022"]))
+            graph.add((obo[ddi_label], obo["DIDEO_00000022"], Literal(v["ddiPkMechanism"])))
 
         if v["managementOptions"] and v["managementOptions"].strip() != "None":
-            graph.add((obo[ddi_label], rdfs["comment"], Literal(v["managementOptions"])))
-            graph.add((Literal(v["managementOptions"]), RDF.type, obo["DIDEO_00000007"]))
+            graph.add((obo[ddi_label], obo["DIDEO_00000007"], Literal(v["managementOptions"])))
 
         if v["effectConcept"] and v["effectConcept"].strip() != "None":
             graph.add((obo[ddi_label], rdfs["comment"], Literal(v["effectConcept"])))
+
+        if v["contraindication"] and v["contraindication"].strip() != "None":
+            graph.add((obo[ddi_label], obo["OAE_0000055"], Literal(v["contraindication"])))
+
+        if v["pathway"] and v["pathway"].strip() != "None":
+            graph.add((obo[ddi_label], obo["GO_0008152"], Literal(v["pathway"])))
 
         if v["label"] and v["label"].strip() != "None": 
             graph.add((obo[ddi_label], rdfs["comment"], Literal(v["label"])))
