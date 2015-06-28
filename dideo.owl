@@ -30,7 +30,7 @@
         <dc:contributor xml:lang="en">Philip E. Empey</dc:contributor>
         <dc:contributor xml:lang="en">Richard D. Boyce</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version 2015-01-28</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version 2015-06-28</owl:versionInfo>
         <owl:imports rdf:resource="&obo;iao/bfo2-transitional/iao.owl"/>
     </owl:Ontology>
     
@@ -111,6 +111,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
 
     <rdf:Description rdf:about="&obo;IAO_0000117">
+        <rdfs:label>definition editor</rdfs:label>
         <rdfs:label xml:lang="en">definition editor</rdfs:label>
         <rdfs:label xml:lang="en">term editor</rdfs:label>
     </rdf:Description>
@@ -128,6 +129,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
 
     <rdf:Description rdf:about="&obo;IAO_0000119">
+        <rdfs:label>definition source</rdfs:label>
         <rdfs:label xml:lang="en">definition source</rdfs:label>
     </rdf:Description>
     
@@ -136,6 +138,7 @@
     <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
 
     <rdf:Description rdf:about="&obo;IAO_0000232">
+        <rdfs:label>curator note</rdfs:label>
         <rdfs:label xml:lang="en">curator note</rdfs:label>
     </rdf:Description>
     
@@ -1470,20 +1473,6 @@
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000030"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
@@ -1497,6 +1486,20 @@
                                 </owl:unionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1942,6 +1945,36 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IDO_0100872 -->
+
+    <owl:Class rdf:about="&obo;IDO_0100872">
+        <rdfs:label>enzyme substrate role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000115>A role that inheres in a protein or a compound upon which enzyme catalyzes. It is realized in the enzymatic reaction processes, where the molecules at the beginning of the process, called substrates, are converted into different molecules, called products.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000001 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000001">
+        <rdfs:label xml:lang="en">adverse event</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000061"/>
+        <obo:IAO_0000115>a pathological bodily process that occurs after a medical intervention. An adverse event is likely caused by the medical intervention; however, such a causal association is not required to be an adverse event.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000005 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000005">
+        <rdfs:label xml:lang="en">adverse drug event</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0000001"/>
+        <obo:IAO_0000115>an adverse event that occurs after a drug administration</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OAE_0000055 -->
 
     <owl:Class rdf:about="&obo;OAE_0000055">
@@ -1949,6 +1982,26 @@
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000016"/>
         <obo:IAO_0000115 xml:lang="en">A contraindication is a disposition that increases the risk of harm involved in using a particular drug, carrying out a medical procedure, or engaging in a particular activity such that the risk of harm exceeds a threshold. An contraindication serves as a reason to withhold a certain medical treatment.</obo:IAO_0000115>
         <obo:IAO_0000119>http://en.wikipedia.org/wiki/Contraindication</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000095 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000095">
+        <rdfs:label xml:lang="en">causal adverse drug event</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0000005"/>
+        <obo:IAO_0000115>a drug adverse event that is caused by a drug adiministration. Here a causal effect is established between the drug administration and the adverse event.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OAE_0000631 -->
+
+    <owl:Class rdf:about="&obo;OAE_0000631">
+        <rdfs:label>severe adverse event</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OAE_0000001"/>
+        <obo:IAO_0000115>serious adverse event is an adverse event that requires in-patient hospitalization, or prolongation of existing hospitalization, or that causes congenital malformation, or that results in persistent or significant disability or incapacity, or that is life threatening or results in death.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -2046,6 +2099,86 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000060 -->
+
+    <owl:Class rdf:about="&obo;OGMS_0000060">
+        <rdfs:label>bodily process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000232>creation date: 2009-06-23T11:53:49Z</obo:IAO_0000232>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000061 -->
+
+    <owl:Class rdf:about="&obo;OGMS_0000061">
+        <rdfs:label>pathological bodily process</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000060"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ogms.owl</obo:IAO_0000412>
+        <obo:IAO_0000117>Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000119>http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">A bodily process that is clinically abnormal.</obo:IAO_0000115>
+        <obo:IAO_0000232>creation date: 2009-06-23T11:54:29Z</obo:IAO_0000232>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/obo/owl/GO#GO_0003674 -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0003674">
+        <rdfs:label xml:lang="en">molecular_function</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OGMS_0000060"/>
+        <rdfs:comment rdf:datatype="&xsd;string">Note that, in addition to forming the root of the molecular function ontology, this term is recommended for use for the annotation of gene products whose molecular function is unknown. Note that when this term is used for annotation, it indicates that no information was available about the molecular function of the gene product annotated as of the date the annotation was made; the evidence code ND, no data, is used to indicate this.</rdfs:comment>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.org/obo/owl/go_xp_all</obo:IAO_0000412>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasAlternativeId>GO:0005554</oboInOwl:hasAlternativeId>
+        <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_goa"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_yeast"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
+        <oboInOwl:hasNarrowSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/obo/owl/GO#GO_0003824 -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0003824">
+        <rdfs:label xml:lang="en">catalytic activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0003674"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.org/obo/owl/go_xp_all</obo:IAO_0000412>
+        <oboInOwl:hasOBONamespace>molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_goa"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/obo/owl/GO#GO_0009987 -->
 
     <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0009987">
@@ -2059,9 +2192,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasNarrowSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
@@ -2071,6 +2201,9 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasNarrowSynonym>
     </owl:Class>
     
 
@@ -2090,6 +2223,12 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
@@ -2099,12 +2238,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
     </owl:Class>
 </rdf:RDF>
 
