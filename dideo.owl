@@ -472,7 +472,8 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     <owl:ObjectProperty rdf:about="&obo;DIDEO_00000090">
         <rdfs:label xml:lang="en">inhibits-has subtrate</rdfs:label>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002449"/>
+            <rdf:Description rdf:about="&obo;RO_0002327"/>
+            <rdf:Description rdf:about="&obo;RO_0002408"/>
             <rdf:Description rdf:about="&obo;DIDEO_00000086"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
