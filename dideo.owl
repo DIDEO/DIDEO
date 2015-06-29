@@ -2,6 +2,7 @@
 
 
 <!DOCTYPE rdf:RDF [
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY obo "http://purl.obolibrary.org/obo/" >
     <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
@@ -20,6 +21,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="&obo;dideo/dev/dideo.owl">
         <rdfs:label xml:lang="en">DIDEO</rdfs:label>
@@ -152,6 +154,22 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000424 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000424">
+        <rdfs:label xml:lang="en">expand expression to</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000589">
+        <rdfs:label xml:lang="en">OBO foundry unique label</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
 
     <rdf:Description rdf:about="&obo;IAO_0000600">
@@ -180,6 +198,30 @@
 
     <rdf:Description rdf:about="&obo;OBI_9991118">
         <rdfs:label rdf:datatype="&xsd;string">IEDB alternative term</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
+
+    <rdf:Description rdf:about="&obo;RO_0001900">
+        <rdfs:label xml:lang="en">temporal interpretation</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002575 -->
+
+    <rdf:Description rdf:about="&obo;RO_0002575">
+        <rdfs:label>is direct form of</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002579 -->
+
+    <rdf:Description rdf:about="&obo;RO_0002579">
+        <rdfs:label>is indirect form of</rdfs:label>
     </rdf:Description>
     
 
@@ -268,6 +310,12 @@
     
 
 
+    <!-- http://xmlns.com/foaf/0.1/page -->
+
+    <owl:AnnotationProperty rdf:about="&foaf;page"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -276,6 +324,45 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000050">
+        <rdfs:label xml:lang="en">part of</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000116 xml:lang="en">Everything is part of itself. Any part of any part of a thing is itself part of that thing. Two distinct things cannot be part of each other.</obo:IAO_0000116>
+        <rdfs:seeAlso>http://www.obofoundry.org/ro/#OBO_REL:part_of</rdfs:seeAlso>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent can be part of an occurrent; only a process can be part of a process; only a continuant can be part of a continuant; only an independent continuant can be part of an independent continuant; only an immaterial entity can be part of an immaterial entity; only a specifically dependent continuant can be part of a specifically dependent continuant; only a generically dependent continuant can be part of a generically dependent continuant. (This list is not exhaustive.)
+
+A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An occurrent cannot be part of a continuant: use &apos;has participant&apos;. A material entity cannot be part of an immaterial entity: use &apos;has location&apos;. A specifically dependent continuant cannot be part of an independent continuant: use &apos;inheres in&apos;. An independent continuant cannot be part of a specifically dependent continuant: use &apos;bearer of&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a part and its whole</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">is part of</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">my brain is part of my body (continuant parthood, two material entities)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">my stomach cavity is part of my stomach (continuant parthood, immaterial entity is part of material entity)</obo:IAO_0000112>
+        <obo:IAO_0000118 xml:lang="en">part_of</obo:IAO_0000118>
+        <obo:IAO_0000112 xml:lang="en">this day is part of this year (occurrent parthood)</obo:IAO_0000112>
+        <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Community:Parts_and_Collections"/>
+        <rdfs:seeAlso rdf:resource="http://ontologydesignpatterns.org/wiki/Submissions:PartOf"/>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000063 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000063">
+        <rdf:type rdf:resource="&owl;TransitiveProperty"/>
+        <rdfs:label xml:lang="en">precedes</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000111 xml:lang="en">precedes</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">x precedes y if and only if the time point at which x ends is before or equivalent to the time point at which y starts. Formally: x precedes y iff ω(x) &lt;= α(y), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002222"/>
+        <oboInOwl:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
+    </owl:ObjectProperty>
     
 
 
@@ -353,6 +440,404 @@
         <rdfs:label xml:lang="en">is organismally immediately preceded by</rdfs:label>
         <owl:inverseOf rdf:resource="&obo;DIDEO_00000028"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0000056">
+        <rdfs:label xml:lang="en">participates in</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">a relation between a continuant and a process, in which the continuant is somehow involved in the process</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">participates in</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">participates_in</obo:IAO_0000118>
+        <obo:IAO_0000112 xml:lang="en">this blood clot participates in this blood coagulation</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this input material (or this output material) participates in this process</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this investigator participates in this investigation</obo:IAO_0000112>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002090 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002090">
+        <rdfs:label xml:lang="en">immediately precedes</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <rdfs:comment xml:lang="en">X immediately_precedes_Y iff: end(X) simultaneous_with start(Y)</rdfs:comment>
+        <obo:IAO_0000118>ends_at_start_of</obo:IAO_0000118>
+        <obo:IAO_0000118>meets</obo:IAO_0000118>
+        <obo:IAO_0000117>David Osumi-Sutherland</obo:IAO_0000117>
+        <obo:RO_0002575 rdf:resource="&obo;BFO_0000063"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000063"/>
+        <oboInOwl:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002230"/>
+            <rdf:Description rdf:about="&obo;RO_0002224"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002211 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002211">
+        <rdfs:label xml:lang="en">regulates</rdfs:label>
+        <obo:IAO_0000600 rdf:datatype="&xsd;boolean">false</obo:IAO_0000600>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000115>x regulates y if and only if the x is the realization of a function to exert an effect on the frequency, rate or extent of y</obo:IAO_0000115>
+        <obo:IAO_0000117>David Hill</obo:IAO_0000117>
+        <obo:IAO_0000117>Tanya Berardini</obo:IAO_0000117>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000589>regulates (processual)</obo:IAO_0000589>
+        <obo:IAO_0000119>GO</obo:IAO_0000119>
+        <obo:IAO_0000116>We use &apos;regulates&apos; here to specifically imply control. However, many colloquial usages of the term correctly correspond to the weaker relation of &apos;causally upstream of or within&apos; (aka influences). Consider relabeling to make things more explicit</obo:IAO_0000116>
+        <obo:IAO_0000232>Regulation does not preclude parthood; the regulatory process may be upstream, or may be within the regulated process.</obo:IAO_0000232>
+        <rdfs:domain rdf:resource="&obo;BFO_0000015"/>
+        <rdfs:range rdf:resource="&obo;BFO_0000015"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002230"/>
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002212 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002212">
+        <rdfs:label xml:lang="en">negatively regulates</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000117 xml:lang="en">Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000115>x negatively regulates y if and only if the progression of x reduces the frequency, rate or extent of y</obo:IAO_0000115>
+        <obo:IAO_0000589>negatively regulates (process to process)</obo:IAO_0000589>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002211"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002230"/>
+            <rdf:Description rdf:about="&obo;RO_0002212"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002214 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002214">
+        <rdfs:label xml:lang="en">has prototype</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000116>This property can be used to make weaker forms of certain relations by chaining an additional property. For example, we may say: retina SubClassOf has_prototype some &apos;detection of light&apos;. i.e. every retina is related to a prototypical retina instance which is detecting some light. Note that this is very similar to &apos;capable of&apos;, but this relation affords a wider flexibility. E.g. we can make a relation between continuants.</obo:IAO_0000116>
+        <obo:IAO_0000112>heart SubClassOf &apos;has prototype&apos; some (&apos;participates in&apos; some &apos;blood circulation&apos;)</obo:IAO_0000112>
+        <obo:IAO_0000112>&apos;human p53 protein&apos; SubClassOf some (&apos;has prototype&apos; some (&apos;participates in&apos; some &apos;DNA repair&apos;))</obo:IAO_0000112>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000115>x has prototype y if and only if x is an instance of C and y is a prototypical instance of C. For example, every instance of heart, both normal and abnormal is related by the has prototype relation to some instance of a &quot;canonical&quot; heart, which participates in blood circulation.</obo:IAO_0000115>
+        <obo:IAO_0000116>Experimental. In future there may be a formalization in which this relation is treated as a shortcut to some modal logic axiom. We may decide to obsolete this and adopt a more specific evolutionary relationship (e.g. evolved from)</obo:IAO_0000116>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002215 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002215">
+        <rdfs:label xml:lang="en">capable of</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000232>For compatibility with BFO, this relation has a shortcut definition in which the expression &quot;capable of some P&quot; expands to &quot;bearer_of (some realized_by only P)&quot;.</obo:IAO_0000232>
+        <obo:IAO_0000112>mechanosensory neuron capable of detection of mechanical stimulus involved in sensory perception (GO:0050974)</obo:IAO_0000112>
+        <obo:IAO_0000112>osteoclast SubClassOf &apos;capable of&apos; some &apos;bone resorption&apos;</obo:IAO_0000112>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000118>has function realized in</obo:IAO_0000118>
+        <obo:IAO_0000115>A relation between a material entity (such as a cell) and a process, in which the material entity has the ability to carry out the process. </obo:IAO_0000115>
+        <obo:IAO_0000424>RO_0000053 some (RO_0000054 only ?Y)</obo:IAO_0000424>
+        <rdfs:domain rdf:resource="&obo;BFO_0000004"/>
+        <rdfs:range rdf:resource="&obo;BFO_0000015"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002328"/>
+        <oboInOwl:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/20123131"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/21208450"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002217 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002217">
+        <rdfs:label xml:lang="en">actively participates in</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000118>agent in</obo:IAO_0000118>
+        <obo:IAO_0000115>x actively participates in y if and only if x participates in y and x realizes some active role</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0000056"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002222 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002222">
+        <rdfs:label xml:lang="en">temporally related to</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <dc:source rdf:datatype="&xsd;anyURI">https://docs.google.com/document/d/1kBv1ep_9g3sTR-SD3jqzFqhuwo9TPNF-l-9fUDbO6rM/edit?pli=1</dc:source>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000232>Do not use this relation directly. It is ended as a grouping for relations between occurrents involving the relative timing of their starts and ends.</obo:IAO_0000232>
+        <rdfs:comment>A relation that holds between two occurrents. This is a grouping relation that collects together all the Allen relations.</rdfs:comment>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <oboInOwl:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Allen%27s_interval_algebra"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002224 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002224">
+        <rdfs:label xml:lang="en">starts with</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000112>Every insulin receptor signaling pathway starts with the binding of a ligand to the insulin receptor</obo:IAO_0000112>
+        <obo:IAO_0000118>started by</obo:IAO_0000118>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000115>x starts with y if and only if x has part y and the time point at which x starts is equivalent to the time point at which y starts. Formally: α(y) = α(x) ∧ ω(y) &lt; ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <oboInOwl:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002230 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002230">
+        <rdfs:label xml:lang="en">ends with</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000118>finished by</obo:IAO_0000118>
+        <obo:IAO_0000115>x ends with y if and only if x has part y and the time point at which x ends is equivalent to the time point at which y ends. Formally: α(y) &gt; α(x) ∧ ω(y) = ω(x), where α is a function that maps a process to a start point, and ω is a function that maps a process to an end point.</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+        <oboInOwl:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002327 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002327">
+        <rdfs:label xml:lang="en">enables</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000118>executes</obo:IAO_0000118>
+        <obo:IAO_0000232>This relation is currently used experimentally by the Gene Ontology Consortium. It may not be stable and may be obsoleted at some future time.</obo:IAO_0000232>
+        <obo:IAO_0000118>catalyzes</obo:IAO_0000118>
+        <obo:IAO_0000112>a particular instances of akt-2 enables some instance of protein kinase activity</obo:IAO_0000112>
+        <obo:IAO_0000118>has</obo:IAO_0000118>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002215"/>
+        <owl:inverseOf rdf:resource="&obo;RO_0002333"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002328 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002328">
+        <rdfs:label xml:lang="en">functionally related to</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000232>This is a grouping relation that collects relations used for the purpose of connecting structure and function</obo:IAO_0000232>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002333 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002333">
+        <rdfs:label xml:lang="en">enabled by</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000115>inverse of enables</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002328"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002408 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002408">
+        <rdfs:label xml:lang="en">directly inhibits</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000118>directly negatively regulates</obo:IAO_0000118>
+        <obo:IAO_0000589>directly inhibits (process to process)</obo:IAO_0000589>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002212"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002412"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002409 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002409">
+        <rdfs:label xml:lang="en">indirectly inhibits</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000118>indirectly negatively regulates</obo:IAO_0000118>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <obo:RO_0002579 rdf:resource="&obo;RO_0002212"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002412"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002410 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002410">
+        <rdfs:label xml:lang="en">causally related to</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000115>This relation groups causal relations between material entities and causal relations between processes</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000232>Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect.</obo:IAO_0000232>
+        <obo:IAO_0000116>This branch of the ontology deals with causal relations between entities. It is divided into two branches: causal relations between occurrents/processes, and causal relations between material entities. We take an &apos;activity flow-centric approach&apos;, with the former as primary, and define causal relations between material entities in terms of causal relations between occurrents.
+
+To define causal relations in an activity-flow type network, we make use of 3 primitives:
+
+ * Temporal: how do the intervals of the two occurrents relate? 
+ * Is the causal relation regulatory?
+ * Is the influence positive or negative
+
+The first of these can be formalized in terms of the Allen Interval Algebra. Informally, the 3 bins we care about are &apos;direct&apos;, &apos;indirect&apos; or overlapping. Note that all causal relations should be classified under a RO temporal relation (see the branch under &apos;temporally related to&apos;). Note that all causal relations are temporal, but not all temporal relations are causal. Two occurrents can be related in time without being causally connected. We take causal influence to be primitive, elucidated as being such that has the upstream changed, some qualities of the donwstream would necessarily be modified.
+
+For the second, we consider a relationship to be regulatory if the system in which the activities occur is capable of altering the relationship to achieve some objective. This could include changing the rate of production of a molecule.
+
+For the third, we consider the effect of the upstream process on the output(s) of the downstream process. If the level of output is increased, or the rate of production of the output is increased, then the direction is increased. Direction can be positive, negative or neutral or capable of either direction. Two positives in succession yield a positive, two negatives in succession yield a positive, otherwise the default assumption is that the net effect is canceled and the influence is neutral.
+
+Each of these 3 primitives can be composed to yield a cross-product of different relation types.</obo:IAO_0000116>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002411 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002411">
+        <rdfs:label xml:lang="en">causally upstream of</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000115>p is causally upstream of q if and only if p precedes q and p and q are linked in a causal chain</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000063"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002412 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002412">
+        <rdfs:label xml:lang="en">immediately causally upstream of</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000115>p is immediately causally upstream of q iff both (a) p immediately precedes q and (b) p is causally upstream of q. In addition, the output of p  must be an input of q.</obo:IAO_0000115>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000428"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002090"/>
+        <obo:RO_0002575 rdf:resource="&obo;RO_0002411"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002411"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002418 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002418">
+        <rdfs:label>causally upstream of or within</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000118>influences (processual)</obo:IAO_0000118>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000115>p &apos;causally upstream or within&apos; q iff (1) the end of p is before the end of q and (2) the execution of p exerts some causal influence over the outputs of q; i.e. if p was abolished or the outputs of p were to be modified, this would necessarily affect q.</obo:IAO_0000115>
+        <obo:IAO_0000116>We would like to make this disjoint with &apos;preceded by&apos;, but this is prohibited in OWL2</obo:IAO_0000116>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002410"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002434 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002434">
+        <rdfs:label>interacts with</rdfs:label>
+        <obo:IAO_0000116 rdf:datatype="&xsd;anyURI">Considering relabeling as &apos;pairwise interacts with&apos;</obo:IAO_0000116>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/MI_0914</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <foaf:page rdf:datatype="&xsd;anyURI">https://code.google.com/p/obo-relations/wiki/InteractionRelations</foaf:page>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>in pairwise interaction with</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000116>This relation and all sub-relations can be applied to either (1) pairs of entities that are interacting at any moment of time (2) populations or species of entity whose members have the disposition to interact (3) classes whose members have the disposition to interact.</obo:IAO_0000116>
+        <obo:IAO_0000115>A relationship that holds between two entities in which the processes executed by the two entities are causally connected.</obo:IAO_0000115>
+        <obo:IAO_0000232>Note that this relationship type, and sub-relationship types may be redundant with process terms from other ontologies. For example, the symbiotic relationship hierarchy parallels GO. The relations are provided as a convenient shortcut. Consider using the more expressive processual form to capture your data. In the future, these relations will be linked to their cognate processes through rules.</obo:IAO_0000232>
+        <oboInOwl:inSubset rdf:resource="&obo;ro/subsets#ro-eco"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002436 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002436">
+        <rdfs:label>molecularly interacts with</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="&xsd;anyURI">http://purl.obolibrary.org/obo/MI_0915</rdfs:seeAlso>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000115>An interaction relationship in which the two partners are molecular entities and are executing molecular processes that are directly causally connected.</obo:IAO_0000115>
+        <obo:IAO_0000118>molecularly binds with</obo:IAO_0000118>
+        <obo:IAO_0000118>binds</obo:IAO_0000118>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <rdfs:seeAlso rdf:resource="&obo;ECO_0000353"/>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002434"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002448 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002448">
+        <rdfs:label>molecularly controls</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000115>Holds between molecular entities a and b when the execution of a activates or inhibits the activity of b</obo:IAO_0000115>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002436"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002327"/>
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
+            <rdf:Description rdf:about="&obo;RO_0002333"/>
+        </owl:propertyChainAxiom>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002449 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0002449">
+        <rdfs:label>molecularly decreases activity of</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:IAO_0000115>Holds between molecules a and b if and only if a executes a process that directly diminishes a process executed by b.</obo:IAO_0000115>
+        <obo:IAO_0000118>inhibits</obo:IAO_0000118>
+        <obo:IAO_0000117>Chris Mungall</obo:IAO_0000117>
+        <rdfs:subPropertyOf rdf:resource="&obo;RO_0002448"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002327"/>
+            <rdf:Description rdf:about="&obo;RO_0002408"/>
+            <rdf:Description rdf:about="&obo;RO_0002333"/>
+        </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
 
@@ -2141,15 +2626,15 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_yeast"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasNarrowSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasNarrowSynonym>
     </owl:Class>
     
 
@@ -2166,12 +2651,12 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
@@ -2195,15 +2680,15 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -2220,12 +2705,12 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
