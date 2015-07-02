@@ -7,6 +7,7 @@
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
 ]>
 
 
@@ -14,12 +15,32 @@
      xml:base="&obo;dideo/iswcTest/dideo.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
     <owl:Ontology rdf:about="&obo;dideo/iswcTest/dideo.owl">
         <owl:imports rdf:resource="&obo;dideo/dev/dideo.owl"/>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </rdf:Description>
     
 
 
@@ -34,11 +55,16 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_2611 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
-    <rdf:Description rdf:about="&obo;CHEBI_2611">
-        <rdfs:label>chemical entity</rdfs:label>
-    </rdf:Description>
+    <owl:Class rdf:about="&obo;CHEBI_24431">
+        <rdfs:label xml:lang="en">chemical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.org/obo/owl/foo</obo:IAO_0000412>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
+    </owl:Class>
     
 
 
@@ -53,11 +79,11 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2611 -->
 
-    <owl:NamedIndividual rdf:about="&obo;CHEBI_24431">
-        <rdf:type rdf:resource="&obo;CHEBI_2611"/>
-        <rdfs:label>alprazolam</rdfs:label>
+    <owl:NamedIndividual rdf:about="&obo;CHEBI_2611">
+        <rdf:type rdf:resource="&obo;CHEBI_24431"/>
+        <rdfs:label xml:lang="en">alprazolam</rdfs:label>
         <obo:RO_0002449 rdf:resource="&obo;PR_000006130"/>
     </owl:NamedIndividual>
     
@@ -66,7 +92,7 @@
     <!-- http://purl.obolibrary.org/obo/CHEBI_6030 -->
 
     <owl:NamedIndividual rdf:about="&obo;CHEBI_6030">
-        <rdf:type rdf:resource="&obo;CHEBI_2611"/>
+        <rdf:type rdf:resource="&obo;CHEBI_24431"/>
         <rdfs:label xml:lang="en">isoniazid</rdfs:label>
     </owl:NamedIndividual>
     
@@ -86,14 +112,6 @@
     <owl:NamedIndividual rdf:about="&obo;DIDEO_00000100">
         <rdf:type rdf:resource="http://purl.org/obo/owl/GO#GO_0003824"/>
         <rdfs:label xml:lang="en">CYP3A4 catalytic activity</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DIDEO_00000102 -->
-
-    <owl:NamedIndividual rdf:about="&obo;DIDEO_00000102">
-        <rdfs:label xml:lang="en">CYP3A4</rdfs:label>
     </owl:NamedIndividual>
     
 
