@@ -1,5 +1,5 @@
 --------------------------------------------------------------------------------
-The Drug-drug Interaction and Drug-drug Interaction Evidence Ontology (DIDEO)
+The Potential Drug-drug Interaction and Potential Drug-drug Interaction Evidence Ontology (DIDEO)
 --------------------------------------------------------------------------------
 
 
