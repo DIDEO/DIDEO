@@ -2105,7 +2105,14 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     <owl:Class rdf:about="&obo;DIDEO_00000012">
         <rdfs:label xml:lang="en">object drug role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000117 xml:lang="en">Daniel C. Malone</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Jodi Schneider</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philip E. Empey</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Richard D. Boyce</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The role that inheres in a drug product or drug ingredient and that is realized by being affected by another drug pharmacokinetically or pharmacodynamically in a drug drug interaction.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <dc:source xml:lang="en">http://www.hanstenandhorn.com/article-d-i.html</dc:source>
     </owl:Class>
     
 
@@ -2115,7 +2122,14 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     <owl:Class rdf:about="&obo;DIDEO_00000013">
         <rdfs:label xml:lang="en">precipitant drug role</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000117 xml:lang="en">Daniel C. Malone</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Jodi Schneider</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philip E. Empey</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Richard C. Boyce</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The role that inheres in a drug product or drug ingredient that is realized by affecting another drug pharmacokinetically or pharmacodynamically in a drug drug interaction.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <dc:source xml:lang="en">http://www.hanstenandhorn.com/article-d-i.html</dc:source>
     </owl:Class>
     
 
@@ -2661,12 +2675,12 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -2683,15 +2697,15 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -2737,18 +2751,18 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
