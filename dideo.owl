@@ -2,6 +2,7 @@
 
 
 <!DOCTYPE rdf:RDF [
+    <!ENTITY efo "http://www.ebi.ac.uk/efo/" >
     <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
     <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
     <!ENTITY obo "http://purl.obolibrary.org/obo/" >
@@ -22,7 +23,8 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:efo="http://www.ebi.ac.uk/efo/">
     <owl:Ontology rdf:about="&obo;dideo/dev/dideo.owl">
         <rdfs:label xml:lang="en">DIDEO</rdfs:label>
         <rdfs:label xml:lang="en">Drug-drug Interaction and Drug-drug Interaction Evidence Ontology </rdfs:label>
@@ -32,7 +34,7 @@
         <dc:contributor xml:lang="en">Philip E. Empey</dc:contributor>
         <dc:contributor xml:lang="en">Richard D. Boyce</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version 2015-06-28</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version 2015-09-10</owl:versionInfo>
         <owl:imports rdf:resource="&obo;iao/bfo2-transitional/iao.owl"/>
     </owl:Ontology>
     
@@ -226,6 +228,170 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000001 -->
+
+    <rdf:Description rdf:about="&obo;UBPROP_0000001">
+        <rdfs:label rdf:datatype="&xsd;string">external_definition</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBPROP_0000007 -->
+
+    <rdf:Description rdf:about="&obo;UBPROP_0000007">
+        <rdfs:label rdf:datatype="&xsd;string">has_relational_adjective</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/AAO_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;AAO_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/BILA_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;BILA_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/BTO_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;BTO_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/CALOHA_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;CALOHA_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;EFO_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EV_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;EV_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/FBbt_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;FBbt_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/FMA_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;FMA_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/GAID_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;GAID_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/MAT_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;MAT_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/MA_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;MA_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/MESH_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;MESH_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/MIAA_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;MIAA_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/NCI_Thesaurus_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;NCI_Thesaurus_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/SNOMEDCT_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;SNOMEDCT_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/TADS_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;TADS_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/TAO_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;TAO_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/WBbt_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;WBbt_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/Wikipedia_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;Wikipedia_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/XAO_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;XAO_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/ZFA_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;ZFA_definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/alternative_term -->
+
+    <rdf:Description rdf:about="&efo;alternative_term">
+        <rdfs:label rdf:datatype="&xsd;string">alternative_term</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/definition -->
+
+    <rdf:Description rdf:about="&efo;definition">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/galen_definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;galen_definition_citation"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
 
     <owl:AnnotationProperty rdf:about="&oboInOwl;hasAlternativeId">
@@ -306,6 +472,14 @@
 
     <rdf:Description rdf:about="&rdfs;label">
         <rdfs:label>label</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
+
+    <rdf:Description rdf:about="&rdfs;seeAlso">
+        <rdfs:label rdf:datatype="&xsd;string">see also</rdfs:label>
     </rdf:Description>
     
 
@@ -483,6 +657,23 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0000052">
+        <rdfs:label xml:lang="en">inheres in</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:IAO_0000116 xml:lang="en">A dependent inheres in its bearer at all times for which the dependent exists.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">inheres in</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">inheres_in</obo:IAO_0000118>
+        <obo:IAO_0000112 xml:lang="en">this fragility inheres in this vase</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this red color inheres in this apple</obo:IAO_0000112>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
 
     <owl:ObjectProperty rdf:about="&obo;RO_0000056">
@@ -538,12 +729,12 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002230"/>
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002211"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002230"/>
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -1990,20 +2181,6 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000030"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
@@ -2021,8 +2198,40 @@ Each of these 3 primitives can be composed to yield a cross-product of different
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A potential drug-drug interaction (PDDI) is an information content entity that specifies the possibility of a drug-drug interaction based on either reasonable extrapolation about drug-drug interaction mechanisms or a data item created by clinical studies, clinical observation or physiological experiment.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000001 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000001">
+        <rdfs:label xml:lang="en">drug-drug interaction description</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a drug-drug interaction.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">DDI description</obo:IAO_0000118>
+        <obo:IAO_0000112 xml:lang="en">the DDI mechanism, the risk of it causing a clinical effect, the clinical effect brought about by that DDI, factor&apos;s that modify the probability of it occuring</obo:IAO_0000112>
     </owl:Class>
     
 
@@ -2063,6 +2272,38 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000006 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000006">
+        <rdfs:label xml:lang="en">gastrointestinal functioning</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="&obo;BFO_0000034"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;RO_0000052"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;UBERON_0001007"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0008150"/>
+        <obo:IAO_0000115 xml:lang="en">A biological process that realizes the function of the gastrointestinal system (or any organ that is a part of it.). This includes digestion of ingested substances, absorption and eliminating waste.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Physiological activity and functions of the gastrointestinal system as a whole or of any of its parts, including digestion, absorption and eliminating waste.</rdfs:comment>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000007 -->
 
     <owl:Class rdf:about="&obo;DIDEO_00000007">
@@ -2071,6 +2312,44 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <obo:IAO_0000115 xml:lang="en">A plan specification that specifies processes to prevent or mitigate a drug-drug interaction</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">An instance of this entity would represent an optional recommendation for the clinical management of patients who are exposed or about to be exposed to a potential DDI. Management options may be generated by expert opinion, consensus, and/or a review and synthesis of relevant evidence.</rdfs:comment>
         <obo:IAO_0000118 xml:lang="en">management option</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000008 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000008">
+        <rdfs:label xml:lang="en">reported drug-drug interaction</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000020"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;DIDEO_00000020"/>
+                    <owl:Restriction>
+                        <owl:onProperty>
+                            <rdf:Description>
+                                <owl:inverseOf rdf:resource="&obo;IAO_0000136"/>
+                            </rdf:Description>
+                        </owl:onProperty>
+                        <owl:someValuesFrom rdf:resource="&obo;IAO_0000311"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A drug-drug interaction that has been the subject of a case report or study.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">An instance of a drug-drug interaction that has been identified in case report or study.</rdfs:comment>
+        <obo:IAO_0000118 xml:lang="en">interaction occured</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000009 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000009">
+        <rdfs:label xml:lang="en">pharmacokinetic interaction signal</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that is the outcome of running a kinetic model and that states that drug A has some effects on the absorption, metabolism and elimination of drug B.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">Evidence from a kinetic model that a drug-Y has some effect on the absorption, metabolism and elimination of drug-X.</rdfs:comment>
     </owl:Class>
     
 
@@ -2188,7 +2467,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000052"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000052"/>
                 <owl:someValuesFrom rdf:resource="&obo;DRON_00000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2656,6 +2935,126 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000465 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0000465">
+        <rdfs:label rdf:datatype="&xsd;string">material anatomical entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AAO:0010264</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AEO:0000006</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Anatomical entity that has mass.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">BILA:0000006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:0000006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">EHDAA2:0003006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBbt:00007016</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FMA:67165</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">HAO:0000006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">TAO:0001836</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">TGMA:0001826</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">UBERON:0000465</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">VHOG:0001721</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/uberon.owl</obo:IAO_0000412>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;uberon/core#upper_level"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000467 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0000467">
+        <rdfs:label rdf:datatype="&xsd;string">anatomical system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000465"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AAO:0000007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AEO:0000011</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">BILA:0000011</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">BSA:0000049</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CALOHA:TS-2088</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:0000011</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">EHDAA2:0003011</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">EHDAA:392</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">EMAPA:16103</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">EV:0100000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBbt:00004856</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FMA:7149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">HAO:0000011</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MA:0000003</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Multicellular, connected anatomical structure that has multiple organs as parts and whose parts work together to achieve some shared function.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">OpenCyc:Mx4rCWM0QCtDEdyAAADggVbxzQ</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">TAO:0001439</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">TGMA:0001831</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">UBERON:0000467</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS:C0460002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">VHOG:0001725</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">WBbt:0005746</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">WBbt:0005763</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">XAO:0003002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ZFA:0001439</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">anatomical systems</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">body system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">connected anatomical system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">galen:AnatomicalSystem</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/uberon.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">organ system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym rdf:datatype="&xsd;string">system</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://en.wikipedia.org/wiki/Organ_system"/>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0460002"/>
+        <oboInOwl:hasDbXref rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Organ_System"/>
+        <rdfs:seeAlso rdf:resource="&obo;EHDAA2_0001330"/>
+        <oboInOwl:inSubset rdf:resource="&obo;uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="&obo;uberon/core#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="&obo;uberon/core#upper_level"/>
+        <oboInOwl:hasDbXref rdf:resource="http://uri.neuinfo.org/nif/nifstd/birnlex_14"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/278195005"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001007 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0001007">
+        <rdfs:label rdf:datatype="&xsd;string">digestive system</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000467"/>
+        <efo:AAO_definition_citation rdf:datatype="&xsd;string">AAO:0000129</efo:AAO_definition_citation>
+        <obo:UBPROP_0000001 rdf:datatype="&xsd;string">An anatomical system consisting of the alimentary canal and digestive glands responsible for intake, absorption, digestion and excretion of food.[AAO]</obo:UBPROP_0000001>
+        <efo:definition rdf:datatype="&xsd;string">Anatomical system that has as its parts the organs devoted to the ingestion, digestion, and assimilation of food and the discharge of residual wastes.</efo:definition>
+        <efo:BILA_definition_citation rdf:datatype="&xsd;string">BILA:0000082</efo:BILA_definition_citation>
+        <efo:BTO_definition_citation rdf:datatype="&xsd;string">BTO:0000058</efo:BTO_definition_citation>
+        <efo:CALOHA_definition_citation rdf:datatype="&xsd;string">CALOHA:TS-1293</efo:CALOHA_definition_citation>
+        <efo:EFO_definition_citation rdf:datatype="&xsd;string">EFO:0000793</efo:EFO_definition_citation>
+        <efo:EV_definition_citation rdf:datatype="&xsd;string">EV:0100056</efo:EV_definition_citation>
+        <efo:FBbt_definition_citation rdf:datatype="&xsd;string">FBbt:00005055</efo:FBbt_definition_citation>
+        <efo:FMA_definition_citation rdf:datatype="&xsd;string">FMA:7152</efo:FMA_definition_citation>
+        <efo:GAID_definition_citation rdf:datatype="&xsd;string">GAID:278</efo:GAID_definition_citation>
+        <efo:MA_definition_citation rdf:datatype="&xsd;string">MA:0002431</efo:MA_definition_citation>
+        <efo:MAT_definition_citation rdf:datatype="&xsd;string">MAT:0000018</efo:MAT_definition_citation>
+        <efo:MESH_definition_citation rdf:datatype="&xsd;string">MESH:A03</efo:MESH_definition_citation>
+        <efo:MIAA_definition_citation rdf:datatype="&xsd;string">MIAA:0000018</efo:MIAA_definition_citation>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="&xsd;string">NCI_Thesaurus:Digestive_System</efo:NCI_Thesaurus_definition_citation>
+        <efo:SNOMEDCT_definition_citation rdf:datatype="&xsd;string">SNOMEDCT:278859004</efo:SNOMEDCT_definition_citation>
+        <efo:TADS_definition_citation rdf:datatype="&xsd;string">TADS:0000170</efo:TADS_definition_citation>
+        <efo:TAO_definition_citation rdf:datatype="&xsd;string">TAO:0000339</efo:TAO_definition_citation>
+        <oboInOwl:id rdf:datatype="&xsd;string">UBERON:0001007</oboInOwl:id>
+        <efo:WBbt_definition_citation rdf:datatype="&xsd;string">WBbt:0005748</efo:WBbt_definition_citation>
+        <efo:Wikipedia_definition_citation rdf:datatype="&xsd;string">Wikipedia:Digestive_system</efo:Wikipedia_definition_citation>
+        <efo:XAO_definition_citation rdf:datatype="&xsd;string">XAO:0000125</efo:XAO_definition_citation>
+        <efo:ZFA_definition_citation rdf:datatype="&xsd;string">ZFA:0000339</efo:ZFA_definition_citation>
+        <efo:alternative_term rdf:datatype="&xsd;string">alimentary system</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="&xsd;string">alimentary tract</efo:alternative_term>
+        <obo:UBPROP_0000007 rdf:datatype="&xsd;string">digestive</obo:UBPROP_0000007>
+        <efo:galen_definition_citation rdf:datatype="&xsd;string">galen:DigestiveSystem</efo:galen_definition_citation>
+        <efo:alternative_term rdf:datatype="&xsd;string">gastrointestinal system</efo:alternative_term>
+        <efo:alternative_term rdf:datatype="&xsd;string">gut</efo:alternative_term>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://www.ebi.ac.uk/efo/efo.owl</obo:IAO_0000412>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;uberon#efo_slim"/>
+        <oboInOwl:inSubset rdf:resource="&obo;uberon#uberon_slim"/>
+        <oboInOwl:inSubset rdf:resource="&obo;uberon#vertebrate_core"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/obo/owl/GO#GO_0003674 -->
 
     <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0003674">
@@ -2697,15 +3096,15 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -2723,12 +3122,12 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasNarrowSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
@@ -2751,6 +3150,15 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
@@ -2760,15 +3168,6 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
     </owl:Class>
     <rdf:Description>
         <owl:deprecated></owl:deprecated>
@@ -2777,5 +3176,5 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
 
 
 
-<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
 
