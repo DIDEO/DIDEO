@@ -35,7 +35,7 @@
         <dc:contributor xml:lang="en">Philip E. Empey</dc:contributor>
         <dc:contributor xml:lang="en">Richard D. Boyce</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version 2015-10-15</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version 2015-10-29</owl:versionInfo>
         <owl:imports rdf:resource="&obo;iao/bfo2-transitional/iao.owl"/>
     </owl:Ontology>
     
@@ -527,6 +527,28 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="&obo;BFO_0000051">
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:IAO_0000116 xml:lang="en">Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)
+
+A continuant cannot have an occurrent as part: use &apos;participates in&apos;. An occurrent cannot have a continuant as part: use &apos;has participant&apos;. An immaterial entity cannot have a material entity as part: use &apos;location of&apos;. An independent continuant cannot have a specifically dependent continuant as part: use &apos;bearer of&apos;. A specifically dependent continuant cannot have an independent continuant as part: use &apos;inheres in&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a whole and its part</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">has part</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
+        <obo:IAO_0000112 xml:lang="en">my body has part my brain (continuant parthood, two material entities)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this year has part this day (occurrent parthood)</obo:IAO_0000112>
+        <obo:RO_0001900 rdf:resource="&obo;RO_0001901"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000063 -->
 
     <owl:ObjectProperty rdf:about="&obo;BFO_0000063">
@@ -654,6 +676,21 @@ A continuant cannot be part of an occurrent: use &apos;participates in&apos;. An
 
     <owl:ObjectProperty rdf:about="&obo;DIDEO_00000096">
         <rdfs:label xml:lang="en">catalyzes a Phase I or Phase II enzymatic reaction involving</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001938 -->
+
+    <owl:ObjectProperty rdf:about="&obo;OBI_0001938">
+        <rdfs:label>has value specification</rdfs:label>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:IAO_0000117>PERSON: James A. Overton</obo:IAO_0000117>
+        <obo:IAO_0000115>A relation between an information content entity and a value specification that specifies its value.</obo:IAO_0000115>
+        <obo:IAO_0000119>OBI</obo:IAO_0000119>
+        <obo:IAO_0000111>has value specification</obo:IAO_0000111>
+        <rdfs:subPropertyOf rdf:resource="&obo;BFO_0000051"/>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </owl:ObjectProperty>
     
 
@@ -1289,6 +1326,25 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">lactonas</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">lactone</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">lactones</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25212 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_25212">
+        <rdfs:label rdf:datatype="&xsd;string">metabolite</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any intermediate or product resulting from metabolism. The term &apos;metabolite&apos; subsumes the classes commonly known as primary and secondary metabolites.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:25212</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:26619</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:35220</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">metabolite</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">metabolites</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">primary metabolites</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">secondary metabolites</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -2182,6 +2238,20 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000030"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
@@ -2195,20 +2265,6 @@ Each of these 3 primitives can be composed to yield a cross-product of different
                                 </owl:unionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -2622,7 +2678,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
                 <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000026"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
@@ -2644,17 +2700,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;DIDEO_00000010"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000052"/>
-                                <owl:someValuesFrom rdf:resource="&obo;DRON_00000005"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">An assay with the objective to capture information about the bioavailability of an active ingredient in a drug product.</obo:IAO_0000115>
@@ -2700,7 +2746,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117 xml:lang="en">Anuj Shah</obo:IAO_0000117>
-        <efo:definition xml:lang="en">It is a disposition that is borne by chemical drug product and is realized by the metabolism of the active pharmaceutical ingredient in that drug product before entering systemic circulation, when ingested.</efo:definition>
+        <efo:definition xml:lang="en">It is a disposition that is borne by drug product and is realized by the metabolism of the active pharmaceutical ingredient in that drug product before entering systemic circulation, when ingested.</efo:definition>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
@@ -2714,17 +2760,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;OBI_0000293"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="&obo;DIDEO_00000031"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000052"/>
-                                <owl:someValuesFrom rdf:resource="&obo;DRON_00000005"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
+                <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <efo:definition xml:lang="en">An assay with the objective to capture information about the first pass metabolism of an active ingredient in a drug product.</efo:definition>
@@ -2744,7 +2780,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
                 <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000032"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
@@ -2809,7 +2845,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
                 <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000035"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
@@ -2859,8 +2895,38 @@ Each of these 3 primitives can be composed to yield a cross-product of different
                 <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000037"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000032"/>
         <obo:IAO_0000115 xml:lang="en">A measurement datum that is the specified outcome of a drug maximum concentration assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Anuj Shah</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000039 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000039">
+        <rdfs:label xml:lang="en">primary total clearance enzyme role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;RO_0000052"/>
+                <owl:someValuesFrom rdf:resource="&obo;OBI_0000427"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A role that is borne by the enzyme responsible for 50% or more of the active pharmaceutic ingredient or metabolite’s total clearance from the body. The role role is realized by the metabolic process of the active pharmaceutical ingredient or metabolite.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Anuj Shah</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000040 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000040">
+        <rdfs:label xml:lang="en">primary metabolic clearance enzyme role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <efo:definition xml:lang="en">A role that is borne by the enzyme responsible for 50% or more of the active pharmaceutic ingredient or metabolite’s total metabolic clearance from the body.</efo:definition>
         <obo:IAO_0000117 xml:lang="en">Anuj Shah</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
@@ -3124,6 +3190,22 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001933 -->
+
+    <owl:Class rdf:about="&obo;OBI_0001933">
+        <rdfs:label>value specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:IAO_0000116>This term is currently a descendant of &apos;information content entity&apos;, which requires that it &apos;is about&apos; something. A value specification of &apos;20g&apos; for a measurement data item of the mass of a particular mouse &apos;is about&apos; the mass of that mouse. However there are cases where a value specification is not clearly about any particular. In the future we may change &apos;value specification&apos; to remove the &apos;is about&apos; requirement.</obo:IAO_0000116>
+        <obo:IAO_0000111>value specification</obo:IAO_0000111>
+        <obo:IAO_0000115>An information content entity that specifies a value within a classification scheme or on a quantitative scale.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON:Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000112>The value of &apos;positive&apos; in a classification scheme of &quot;positive or negative&quot;; the value of &apos;20g&apos; on the quantitative scale of mass.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
     <owl:Class rdf:about="&obo;OBI_0100026">
@@ -3344,15 +3426,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_yeast"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -3369,15 +3451,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -3395,15 +3477,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
@@ -3423,21 +3505,21 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
