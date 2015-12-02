@@ -11,14 +11,16 @@
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
     <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+    <!ENTITY protege "http://protege.stanford.edu/plugins/owl/protege#" >
 ]>
 
 
-<rdf:RDF xmlns="http://www.semanticweb.org/mathiasbrochhausen/ontologies/2014/9/untitled-ontology-25#"
-     xml:base="http://www.semanticweb.org/mathiasbrochhausen/ontologies/2014/9/untitled-ontology-25"
+<rdf:RDF xmlns="&obo;dideo/dev/dideo.owl#"
+     xml:base="&obo;dideo/dev/dideo.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
@@ -36,7 +38,9 @@
         <dc:contributor xml:lang="en">Richard D. Boyce</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <owl:versionInfo xml:lang="en">development version 2015-10-29</owl:versionInfo>
+        <owl:imports rdf:resource="&obo;bfo/2014-05-03/classes-only.owl"/>
         <owl:imports rdf:resource="&obo;iao/bfo2-transitional/iao.owl"/>
+        <owl:imports rdf:resource="&obo;ro/core.owl"/>
     </owl:Ontology>
     
 
@@ -628,6 +632,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 &amp; p1 immediately precedes p2</obo:IAO_0000115>
         <rdfs:domain rdf:resource="&obo;BFO_0000015"/>
         <rdfs:range rdf:resource="&obo;BFO_0000015"/>
+        <owl:inverseOf rdf:resource="&obo;DIDEO_00000029"/>
     </owl:ObjectProperty>
     
 
@@ -636,7 +641,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
 
     <owl:ObjectProperty rdf:about="&obo;DIDEO_00000029">
         <rdfs:label xml:lang="en">is organismally immediately preceded by</rdfs:label>
-        <owl:inverseOf rdf:resource="&obo;DIDEO_00000028"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
     </owl:ObjectProperty>
     
@@ -657,7 +661,7 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="&obo;CHEBI_24431"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000053"/>
+                                <owl:onProperty rdf:resource="&obo;RO_0000053"/>
                                 <owl:someValuesFrom rdf:resource="&obo;CHEBI_25212"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -748,6 +752,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="&obo;RO_0000053"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/RO_0000056 -->
 
     <owl:ObjectProperty rdf:about="&obo;RO_0000056">
@@ -821,12 +831,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002230"/>
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002211"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002230"/>
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -1278,6 +1288,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasOBONamespace>relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:hasAlternativeId>OBO_REL:0000007</oboInOwl:hasAlternativeId>
         <obo:IAO_0000232 xml:lang="en">DIDEO uses this object property from the old (depracted) RO, since we need to infer parts of drug products as represented by DRON (and DRON [along with many other OBO Foundry candidate ontologies] uses this object property).</obo:IAO_0000232>
+        <owl:inverseOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#proper_part_of"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
     </owl:ObjectProperty>
     
@@ -1291,7 +1302,6 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasOBONamespace>relationship</oboInOwl:hasOBONamespace>
         <oboInOwl:hasAlternativeId>OBO_REL:0000006</oboInOwl:hasAlternativeId>
         <obo:IAO_0000232 xml:lang="en">DIDEO uses this object property from the old (depracted) RO, since we need to infer parts of drug products as represented by DRON (and DRON [along with many other OBO Foundry candidate ontologies] uses this object property).</obo:IAO_0000232>
-        <owl:inverseOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
         <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
@@ -2579,7 +2589,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000052"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000052"/>
                 <owl:someValuesFrom rdf:resource="&obo;DRON_00000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2746,7 +2756,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
                         </owl:unionOf>
                     </owl:Class>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000056"/>
+                        <owl:onProperty rdf:resource="&obo;RO_0000056"/>
                         <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000020"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -2902,7 +2912,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;BFO_0000052"/>
+                <owl:onProperty rdf:resource="&obo;RO_0000052"/>
                 <owl:someValuesFrom rdf:resource="&obo;DRON_00000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2981,7 +2991,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
                         <owl:intersectionOf rdf:parseType="Collection">
                             <rdf:Description rdf:about="&obo;DIDEO_00000034"/>
                             <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000052"/>
+                                <owl:onProperty rdf:resource="&obo;RO_0000052"/>
                                 <owl:someValuesFrom rdf:resource="&obo;DRON_00000005"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -3717,15 +3727,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_yeast"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -3742,15 +3752,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -3771,15 +3781,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -3802,15 +3812,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
