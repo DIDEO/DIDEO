@@ -37,7 +37,7 @@
         <dc:contributor xml:lang="en">Philip E. Empey</dc:contributor>
         <dc:contributor xml:lang="en">Richard D. Boyce</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version 2015-12-02</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version 2016-01-22</owl:versionInfo>
         <owl:imports rdf:resource="&obo;bfo/2014-05-03/classes-only.owl"/>
         <owl:imports rdf:resource="&obo;iao/bfo2-transitional/iao.owl"/>
         <owl:imports rdf:resource="&obo;ro/core.owl"/>
@@ -395,6 +395,12 @@
     <!-- http://www.ebi.ac.uk/efo/galen_definition_citation -->
 
     <owl:AnnotationProperty rdf:about="&efo;galen_definition_citation"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="&oboInOwl;created_by"/>
     
 
 
@@ -831,12 +837,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002230"/>
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002211"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002230"/>
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -2409,20 +2415,6 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000030"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
@@ -2436,6 +2428,20 @@ Each of these 3 primitives can be composed to yield a cross-product of different
                                 </owl:unionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -3104,6 +3110,55 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000042 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000042">
+        <rdfs:label xml:lang="en">drug-drug interaction description from drug package insert</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000001"/>
+        <efo:definition xml:lang="en">A drug-drug interaction description that is part of a drug package insert.</efo:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000043 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000043">
+        <rdfs:label xml:lang="en">drug-drug interaction description from FDA label information</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000042"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000045"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <efo:definition xml:lang="en">A drug-drug interaction description from a drug package insert for an FDA approved drug.</efo:definition>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000044 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000044">
+        <rdfs:label xml:lang="en">drug package insert</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000310"/>
+        <obo:IAO_0000115 xml:lang="en">A document that is provided along with a medication and that gives additional information about that medication.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Package_insert&amp;oldid=699801598</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000045 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000045">
+        <rdfs:label xml:lang="en">U.S. Food and Drug Administration drug label</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000044"/>
+        <efo:definition xml:lang="en">A drug package insert for FDA-approved drugs that gives information about the drug, including the approved doses and how it&apos;s to be given to treat the medical condition for which it was approved.</efo:definition>
+        <obo:IAO_0000118 xml:lang="en">FDA drug label</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">http://www.fda.gov/forpatients/other/offlabel/default.htm</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="&obo;DRON_00000005">
@@ -3591,6 +3646,19 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/STATO_0000209 -->
+
+    <owl:Class rdf:about="&obo;STATO_0000209">
+        <rdfs:label xml:lang="en">area under curve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000109"/>
+        <obo:IAO_0000115 xml:lang="en">Area under curve is a measurement datum which corresponds to the surface define by the x-axis and bound by the line graph represented in a 2 dimensional plot resulting from an integration or integrative calculus. The interpretation of this measurement datum depends on the variables plotted in the graph</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Orlaith Burke, Philippe Rocca-Serra, Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000112 xml:lang="en">PMID:12892658 &quot;Two formulas for computation of the area under the curve represent measures of total hormone concentration versus time-dependent change.&quot;</obo:IAO_0000112>
+        <obo:IAO_0000116 xml:lang="en">PRS: submit &apos;integral calculus&apos; as a kind of data transformation in OBI:DT branch</obo:IAO_0000116>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0000465 -->
 
     <owl:Class rdf:about="&obo;UBERON_0000465">
@@ -3711,6 +3779,66 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UO_0000000 -->
+
+    <owl:Class rdf:about="&obo;UO_0000000">
+        <rdfs:label rdf:datatype="&xsd;string">unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A unit of measurement is a standardized quantity of a physical quality.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">UO:0000000</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">george gkoutos</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/uo.owl</obo:IAO_0000412>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">unit.ontology</oboInOwl:hasOBONamespace>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000186 -->
+
+    <owl:Class rdf:about="&obo;UO_0000186">
+        <rdfs:label rdf:datatype="&xsd;string">dimensionless unit</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000000"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A unit which is a standard measure of physical quantity consisting of only a numerical number without any units.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">UO:0000186</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">george gkoutos</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/uo.owl</obo:IAO_0000412>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;uo#unit_group_slim"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000187 -->
+
+    <owl:Class rdf:about="&obo;UO_0000187">
+        <rdfs:label rdf:datatype="&xsd;string">percent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000190"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">%</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A dimensionless ratio unit which denotes numbers as fractions of 100.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">UO:0000187</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">george gkoutos</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/uo.owl</obo:IAO_0000412>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;uo#unit_group_slim"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000190 -->
+
+    <owl:Class rdf:about="&obo;UO_0000190">
+        <rdfs:label rdf:datatype="&xsd;string">ratio</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UO_0000186"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A dimensionless unit which denotes an amount or magnitude of one quantity relative to another.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">UO:0000190</oboInOwl:id>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">george gkoutos</oboInOwl:created_by>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/uo.owl</obo:IAO_0000412>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">unit.ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;uo#unit_group_slim"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/obo/owl/GO#GO_0003674 -->
 
     <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0003674">
@@ -3727,15 +3855,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_yeast"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -3752,15 +3880,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -3778,15 +3906,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
@@ -3806,9 +3934,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
@@ -3821,6 +3946,9 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
