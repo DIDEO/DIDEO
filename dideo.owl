@@ -37,7 +37,7 @@
         <dc:contributor xml:lang="en">Philip E. Empey</dc:contributor>
         <dc:contributor xml:lang="en">Richard D. Boyce</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version 2016-01-25</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version 2016-01-29</owl:versionInfo>
         <owl:imports rdf:resource="&obo;bfo/2014-05-03/classes-only.owl"/>
         <owl:imports rdf:resource="&obo;iao/bfo2-transitional/iao.owl"/>
         <owl:imports rdf:resource="&obo;ro/core.owl"/>
@@ -3165,25 +3165,17 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:label xml:lang="en">pharmacokinetic area under curve</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;STATO_0000209"/>
         <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
+                <owl:someValuesFrom>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="&obo;FMA_62970"/>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DRON_00000005"/>
                     </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
-                        <owl:someValuesFrom>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="&obo;BFO_0000050"/>
-                                <owl:someValuesFrom rdf:resource="&obo;DRON_00000005"/>
-                            </owl:Restriction>
-                        </owl:someValuesFrom>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An area under curve in a plot of concentration of drug in blood plasma against time.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An area under curve in a plot of concentration of granular part of a drug product in some matrix (medium) against time.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -3208,6 +3200,60 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">An information content entity that is part of a drug package insert and that is about a pharmacokinetic area under the curve measurement result.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000049 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000049">
+        <rdfs:label xml:lang="en">pharmacokinetic area under curve information</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000046"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <obo:IAO_0000118 xml:lang="en">AUC information</obo:IAO_0000118>
+        <efo:definition xml:lang="en">An information content entity that is about a pharmacokinetic area under curve.</efo:definition>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000050 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000050">
+        <rdfs:label xml:lang="en">information about increase of pharmacokinetic area under the curve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000049"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
+                <owl:onClass rdf:resource="&obo;DIDEO_00000046"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A pharmacokinetic area under curve information that is about at least 2 area under curve measurments and the time series shows an increase of the area under curve.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000051 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000051">
+        <rdfs:label xml:lang="en">information about decrease of pharmacokinetic area under the curve</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000049"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
+                <owl:onClass rdf:resource="&obo;DIDEO_00000046"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">2</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A pharmacokinetic area under curve information that is about at least 2 area under curve measurments and the time series shows a decrease of the area under curve.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
@@ -3937,15 +3983,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_yeast"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -3991,15 +4037,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -4013,24 +4059,24 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
