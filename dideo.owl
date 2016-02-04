@@ -37,7 +37,7 @@
         <dc:contributor xml:lang="en">Philip E. Empey</dc:contributor>
         <dc:contributor xml:lang="en">Richard D. Boyce</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version 2016-01-29</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">development version 2016-02-04</owl:versionInfo>
         <owl:imports rdf:resource="&obo;bfo/2014-05-03/classes-only.owl"/>
         <owl:imports rdf:resource="&obo;iao/bfo2-transitional/iao.owl"/>
         <owl:imports rdf:resource="&obo;ro/core.owl"/>
@@ -837,12 +837,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002230"/>
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002211"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002230"/>
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -2415,20 +2415,6 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000030"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
@@ -2442,6 +2428,20 @@ Each of these 3 primitives can be composed to yield a cross-product of different
                                 </owl:unionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -2473,8 +2473,22 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000002 -->
 
     <owl:Class rdf:about="&obo;DIDEO_00000002">
-        <rdfs:label xml:lang="en">mechanistic assertion data item</rdfs:label>
+        <rdfs:label xml:lang="en">data item about biological process</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000027"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="&obo;GO_0008150"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
+        <efo:definition xml:lang="en">A data item that is about a biological process</efo:definition>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">mechanistic assertion data item</obo:IAO_0000118>
     </owl:Class>
     
 
@@ -2492,7 +2506,33 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
     <owl:Class rdf:about="&obo;DIDEO_00000004">
         <rdfs:label xml:lang="en">physiological observation from clinical study data item</rdfs:label>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;IAO_0000027"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="&obo;GO_0008150"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000312"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="&obo;BFO_0000055"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="&obo;RO_0000059"/>
+                                        <owl:someValuesFrom rdf:resource="&obo;OBI_0500001"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that is about a biological process and that is the specified output of a clinical study.</obo:IAO_0000115>
     </owl:Class>
     
 
@@ -2500,8 +2540,11 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000005 -->
 
     <owl:Class rdf:about="&obo;DIDEO_00000005">
-        <rdfs:label xml:lang="en">data item from reasonable extrapolation</rdfs:label>
+        <rdfs:label xml:lang="en">data item from extrapolation</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that is the output of a process of estimating, beyond the original observation range, the value of a variable on the basis of its relationship with another variable.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/w/index.php?title=Extrapolation&amp;oldid=690284752</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -2716,13 +2759,15 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
     <owl:Class rdf:about="&obo;DIDEO_00000016">
         <rdfs:label xml:lang="en">narrow therapeutic index</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;BFO_0000019"/>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000016"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;RO_0000052"/>
                 <owl:someValuesFrom rdf:resource="&obo;DRON_00000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A disposition inhering in a drug product that when realized is realized by processes that negatively affect the safety or the efficacy of the drug product, or increase its toxicity..</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -2732,6 +2777,8 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     <owl:Class rdf:about="&obo;DIDEO_00000017">
         <rdfs:label xml:lang="en">metabolism inhibition potential drug-drug interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000015"/>
+        <obo:IAO_0000115 xml:lang="en">A metabolism induction potential drug-drug interaction that is about an decrease of metabolic activity  because of either a decreased expression of the enzyme or inference with how the enzyme contributes to the metabolic process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -2741,6 +2788,8 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     <owl:Class rdf:about="&obo;DIDEO_00000018">
         <rdfs:label xml:lang="en">metabolism induction potential drug-drug interaction</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000015"/>
+        <obo:IAO_0000115 xml:lang="en">A metabolism induction potential drug-drug interaction that is about an increase of an enzyme participating in the metabolic process.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -2799,7 +2848,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     <owl:Class rdf:about="&obo;DIDEO_00000021">
         <rdfs:label xml:lang="en">drug co-administration</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
-        <obo:IAO_0000115 xml:lang="en">A process of administering more than one drug to the same individual over a specific time interval.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A planned process of administering more than one drug to the same individual over a specific time interval.</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">An instance of this occurs when at least two or more drugs are taken in a specific time interval and the individual time interval for each drug administration overlaps with the other drug&apos;s or drugs&apos; time interval(s). (SG1)</rdfs:comment>
         <obo:IAO_0000232 xml:lang="en">This class currently does not have a restriction. One candidate restriction is a necessary condition: &apos;has participant at some time&apos; min 2 &apos;drug product&apos;. I was not able to find an OWL reasoner for Protege 5 that supports cardinality restrictions.</obo:IAO_0000232>
     </owl:Class>
@@ -3983,15 +4032,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_yeast"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
-        <oboInOwl:hasNarrowSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -4008,15 +4057,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -4034,6 +4083,9 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
@@ -4043,9 +4095,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -4059,12 +4108,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
@@ -4077,6 +4120,12 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
