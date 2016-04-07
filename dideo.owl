@@ -81,6 +81,7 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
 
     <rdf:Description rdf:about="&obo;IAO_0000111">
         <rdfs:label>editor preferred term</rdfs:label>
+        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
         <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
         <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
     </rdf:Description>
@@ -117,6 +118,7 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
     <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
 
     <rdf:Description rdf:about="&obo;IAO_0000116">
+        <rdfs:label rdf:datatype="&xsd;string">editor note</rdfs:label>
         <rdfs:label xml:lang="en">editor note</rdfs:label>
     </rdf:Description>
     
@@ -1227,6 +1229,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <rdfs:domain rdf:resource="&obo;BFO_0000003"/>
         <rdfs:range rdf:resource="&obo;BFO_0000003"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002410"/>
+        <obo:IAO_0000119 rdf:resource="&obo;ro/docs/causal-relations"/>
     </owl:ObjectProperty>
     
 
@@ -1710,6 +1713,41 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33694 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33694">
+        <rdfs:label rdf:datatype="&xsd;string">biomacromolecule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33839"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A macromolecule formed by a living organism.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Biopolymere</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33694</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">biomacromolecules</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">biopolymer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">biopolymers</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33695 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33695">
+        <rdfs:label rdf:datatype="&xsd;string">information biomacromolecule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33694"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33695</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">genetically encoded biomacromolecules</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">genetically encoded biopolymers</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">information biomacromolecules</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">information biopolymers</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">information macromolecule</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">information macromolecules</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33832 -->
 
     <owl:Class rdf:about="&obo;CHEBI_33832">
@@ -1736,6 +1774,79 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">hetarenes</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heteroarenes</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33839 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33839">
+        <rdfs:label rdf:datatype="&xsd;string">macromolecule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36357"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33839</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Macromolecule</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">macromolecule</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">macromolecules</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">polymer</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">polymer molecule</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">polymers</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35134 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_35134">
+        <rdfs:label rdf:datatype="&xsd;string">metalloprotein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36080"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:35134</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">COMe:PRX000002</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">metalloprotein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">metalloproteine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">metalloproteins</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35136 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_35136">
+        <rdfs:label rdf:datatype="&xsd;string">iron protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_35134"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:35136</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">COMe:PRX000004</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">iron protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">iron proteins</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">iron-containing proteins</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35137 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_35137">
+        <rdfs:label rdf:datatype="&xsd;string">hemoprotein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_35136"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:35137</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">COMe:PRX000008</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Conjugated proteins containing heme as the prosthetic group.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Haemoprotein</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Haemprotein</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">haem protein</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">haemoprotein</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">heme protein</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">hemeproteins</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hemoprotein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">hemoproteins</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
     </owl:Class>
     
@@ -1827,6 +1938,51 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">dihydroxy monocarboxylic acids</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36074 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_36074">
+        <rdfs:label rdf:datatype="&xsd;string">heme-thiolate protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_35137"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:36074</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">COMe:PRX000150</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">haem-thiolate protein</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">heme-thiolate proteins</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36080 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_36080">
+        <rdfs:label rdf:datatype="&xsd;string">protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33695"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A biological macromolecule minimally consisting of one polypeptide chain synthesized at the ribosome.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:13677</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:14911</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:36080</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">proteins</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36357 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_36357">
+        <rdfs:label rdf:datatype="&xsd;string">polyatomic entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any molecular entity consisting of more than one atom.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:36357</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">polyatomic entities</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -1946,6 +2102,23 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">rosuvastatin</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38559 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_38559">
+        <rdfs:label rdf:datatype="&xsd;string">cytochrome P450</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36074"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:38559</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">COMe:PRX000645</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">CYP</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">P450 protein</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">cytochrome P-450</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cytochrome P450</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
     </owl:Class>
     
 
@@ -3716,6 +3889,21 @@ has_function some GO:0003824 (catalytic activity)</obo:IAO_0000115>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001285 -->
+
+    <owl:Class rdf:about="&obo;OBI_0001285">
+        <rdfs:label xml:lang="en">in vitro design</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0500000"/>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Person: Chris Stoeckert, Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A study design that is done in a test tube or a culture dish, e.g. A bacterial invasion assay in an established cell culture.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">MO_347 in_vitro_design</obo:IAO_0000119>
+        <obo:IAO_0000111 xml:lang="en">in vitro design</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0001933 -->
 
     <owl:Class rdf:about="&obo;OBI_0001933">
@@ -3755,6 +3943,38 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0300311 -->
+
+    <owl:Class rdf:about="&obo;OBI_0300311">
+        <rdfs:label xml:lang="en">observation design</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0500000"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:IAO_0000119 xml:lang="en">OBI branch derived</obo:IAO_0000119>
+        <obo:IAO_0000112 xml:lang="en">PMID: 12387964.Lancet. 2002 Oct 12;360(9340):1144-9.Deficiency of antibacterial peptides in patients with morbus Kostmann: an observation study.</obo:IAO_0000112>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">observation design</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">observation design is a study design in which subjects are monitored in the absence of any active intervention by experimentalists.</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0302900 -->
+
+    <owl:Class rdf:about="&obo;OBI_0302900">
+        <rdfs:label xml:lang="en">group randomization</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0600015"/>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;string">adapted from wikipedia [http://en.wikipedia.org/wiki/Randomization]</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A group assignment which relies on chance to assign materials to a group of materials in order to avoid bias in experimental set up.</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">PMID: 18349405. Randomization reveals unexpected acute leukemias in Southwest Oncology Group prostate cancer trial. J Clin Oncol. 2008 Mar 20;26(9):1532-6.</obo:IAO_0000112>
+        <obo:IAO_0000111 xml:lang="en">group randomization</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0500000 -->
 
     <owl:Class rdf:about="&obo;OBI_0500000">
@@ -3786,6 +4006,41 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">The definition needs to be extended to other things than simply patients</obo:IAO_0000116>
         <obo:IAO_0000111 xml:lang="en">clinical study design</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0500006 -->
+
+    <owl:Class rdf:about="&obo;OBI_0500006">
+        <rdfs:label xml:lang="en">parallel group design</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0500000"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A parallel group design or independent measure design is a study design which uses unique experimental unit each experimental group, in other word no two individuals are shared between experimental groups, hence also known as parallel group design. Subjects of a treatment group receive a unique combination of independent variable values making up a treatment</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">PMID: 17408389-Purpose: Proliferative vitreoretinopathy (PVR) is the most important reason for blindness following retinal detachment. Presently, vitreous tamponades such as gas or silicone oil cannot contact the lower part of the retina. A heavier-than-water tamponade displaces the inflammatory and PVR-stimulating environment from the inferior area of the retina. The Heavy Silicone Oil versus Standard Silicone Oil Study (HSO Study) is designed to answer the question of whether a heavier-than-water tamponade improves the prognosis of eyes with PVR of the lower retina. Methods: The HSO Study is a multicentre, randomized, prospective controlled clinical trial comparing two endotamponades within a two-arm parallel group design. Patients with inferiorly and posteriorly located PVR are randomized to either heavy silicone oil or standard silicone oil as a tamponading agent. Three hundred and fifty consecutive patients are recruited per group. After intraoperative re-attachment, patients are randomized to either standard silicone oil (1000 cSt or 5000 cSt) or Densiron((R)) as a tamponading agent. The main endpoint criteria are complete retinal attachment at 12 months and change of visual acuity (VA) 12 months postoperatively compared with the preoperative VA. Secondary endpoints include complete retinal attachment before endotamponade removal, quality of life analysis and the number of retina affecting re-operation within 1 year of follow-up. Results: The design and early recruitment phase of the study are described. Conclusions: The results of this study will uncover whether or not heavy silicone oil improves the prognosis of eyes with PVR.</obo:IAO_0000112>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">http://www.holah.karoo.net/experimentaldesigns.htm</obo:IAO_0000119>
+        <obo:IAO_0000118 xml:lang="en">independent measure design</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">parallel group design</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0600015 -->
+
+    <owl:Class rdf:about="&obo;OBI_0600015">
+        <rdfs:label xml:lang="en">group assignment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000011"/>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">cohort assignment</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:IAO_0000118 rdf:datatype="&xsd;string">study assignment</obo:IAO_0000118>
+        <obo:IAO_0000112 xml:lang="en">Assigning&apos; to be treated with active ingredient role&apos; to an organism during group assignment. The group is those organisms that have the same role in the context of an investigation</obo:IAO_0000112>
+        <obo:IAO_0000119 xml:lang="en">OBI Plan</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">group assignment</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">group assignment is a process which has an organism as specified input and during which a role is assigned</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000122"/>
     </owl:Class>
     
 
@@ -3839,6 +4094,42 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Orlaith Burke, Philippe Rocca-Serra, Alejandra Gonzalez-Beltran</obo:IAO_0000117>
         <obo:IAO_0000112 xml:lang="en">PMID:12892658 &quot;Two formulas for computation of the area under the curve represent measures of total hormone concentration versus time-dependent change.&quot;</obo:IAO_0000112>
         <obo:IAO_0000116 xml:lang="en">PRS: submit &apos;integral calculus&apos; as a kind of data transformation in OBI:DT branch</obo:IAO_0000116>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000061 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0000061">
+        <rdfs:label rdf:datatype="&xsd;string">anatomical structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000465"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AAO:0010825</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AEO:0000003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">BILA:0000003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:0000003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">EHDAA2:0003003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">EMAPA:0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBbt:00007001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FMA:67135</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">GAID:781</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">HAO:0000003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MA:0003000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MESH:D000825</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Material anatomical entity that is a single connected structure with inherent 3D shape generated by coordinated expression of the organism&apos;s own genome.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">TAO:0000037</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">TGMA:0001823</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">UBERON:0000061</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">VHOG:0001759</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">WBbt:0000100</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">XAO:0003000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ZFA:0000037</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">biological structure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">connected biological structure</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/uberon.owl</obo:IAO_0000412>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://dbpedia.org/ontology/AnatomicalStructure"/>
+        <oboInOwl:inSubset rdf:resource="&obo;uberon/core#upper_level"/>
+        <oboInOwl:hasDbXref rdf:resource="http://www.snomedbrowser.com/Codes/Details/362889002"/>
     </owl:Class>
     
 
@@ -3919,6 +4210,49 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000479 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0000479">
+        <rdfs:label rdf:datatype="&xsd;string">tissue</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0010000"/>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AAO:0000607</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AAO:0010054</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">AEO:0000043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">BILA:0000043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CALOHA:TS-2090</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:0000043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">EHDAA2:0003043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">EMAPA:35868</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBbt:00007003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FMA:9637</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">HAO:0000043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MA:0003002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MESH:D014024</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Multicellular anatomical structure that consists of many cells of one or a few types, arranged in an extracellular matrix such that their long-range organisation is at least partly a repetition of their short-range organisation.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">TAO:0001477</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">TGMA:0001844</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">UBERON:0000479</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">UMLS:C0040300</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">VHOG:0001757</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">WBbt:0005729</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">XAO:0003040</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ZFA:0001477</oboInOwl:hasDbXref>
+        <obo:IAO_0000116 rdf:datatype="&xsd;string">changed label and definition to reflect CARO2</obo:IAO_0000116>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">galen:Tissue</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/uberon.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">portion of tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">simple tissue</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">tissue portion</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref rdf:resource="http://linkedlifedata.com/resource/umls/id/C0040300"/>
+        <oboInOwl:hasDbXref rdf:resource="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#C12801"/>
+        <oboInOwl:inSubset rdf:resource="&obo;uberon/core#pheno_slim"/>
+        <oboInOwl:inSubset rdf:resource="&obo;uberon/core#upper_level"/>
+        <oboInOwl:hasDbXref rdf:resource="http://uri.neuinfo.org/nif/nifstd/birnlex_19"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001007 -->
 
     <owl:Class rdf:about="&obo;UBERON_0001007">
@@ -3959,6 +4293,23 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="&obo;uberon#efo_slim"/>
         <oboInOwl:inSubset rdf:resource="&obo;uberon#uberon_slim"/>
         <oboInOwl:inSubset rdf:resource="&obo;uberon#vertebrate_core"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010000 -->
+
+    <owl:Class rdf:about="&obo;UBERON_0010000">
+        <rdfs:label rdf:datatype="&xsd;string">multicellular anatomical structure</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;UBERON_0000061"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An anatomical structure that has more than one cell as a part.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CARO:0010000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">FBbt:00100313</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">UBERON:0010000</oboInOwl:id>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/uberon.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">multicellular structure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="&obo;uberon/core#upper_level"/>
     </owl:Class>
     
 
@@ -4042,12 +4393,12 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -4090,9 +4441,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
@@ -4102,6 +4450,9 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -4118,24 +4469,24 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
     </owl:Class>
     <rdf:Description>
         <owl:deprecated></owl:deprecated>
