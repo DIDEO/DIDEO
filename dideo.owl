@@ -844,12 +844,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002230"/>
             <rdf:Description rdf:about="&obo;RO_0002211"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -3434,6 +3434,18 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000048 -->
+
+    <owl:Class rdf:about="&obo;DIDEO_00000048">
+        <rdfs:label xml:lang="en">evidence information content entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;IAO_0000030"/>
+        <efo:definition xml:lang="en">An information content entity that provides statements or data that are used to support or refute an assertion.</efo:definition>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Standards Development Working Group of the &quot;Addressing PDDI Evidence Gaps&quot; porject.</obo:IAO_0000119>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000049 -->
 
     <owl:Class rdf:about="&obo;DIDEO_00000049">
@@ -4390,15 +4402,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_yeast"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -4415,15 +4427,15 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -4441,6 +4453,9 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
@@ -4450,9 +4465,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -4469,12 +4481,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
@@ -4484,6 +4490,12 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
