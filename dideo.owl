@@ -875,12 +875,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002230"/>
             <rdf:Description rdf:about="&obo;RO_0002211"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -3624,7 +3624,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
     <owl:Class rdf:about="&obo;DIDEO_00000056">
         <rdfs:label xml:lang="en">evidence information from clinical study</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000053"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">This is going to be a fully axiomatized class. The axiom is coming soon and will be based on the material found here: https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxkZGlrcmFuZGlyfGd4OjE3OWNhYzFmMDc0ZGNlYmE</rdfs:comment>
     </owl:Class>
@@ -3635,7 +3635,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
     <owl:Class rdf:about="&obo;DIDEO_00000057">
         <rdfs:label xml:lang="en">evidence information from drug metabolism identification experiment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000053"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">This is going to be a fully axiomatized class. The axiom is coming soon and will be based on the material found here: https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxkZGlrcmFuZGlyfGd4OjE3OWNhYzFmMDc0ZGNlYmE</rdfs:comment>
     </owl:Class>
@@ -3646,7 +3646,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
     <owl:Class rdf:about="&obo;DIDEO_00000058">
         <rdfs:label xml:lang="en">evidence information from drug metabolism inhibition experiment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000053"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">This is going to be a fully axiomatized class. The axiom is coming soon and will be based on the material found here: https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxkZGlrcmFuZGlyfGd4OjE3OWNhYzFmMDc0ZGNlYmE</rdfs:comment>
     </owl:Class>
@@ -3657,7 +3657,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
     <owl:Class rdf:about="&obo;DIDEO_00000059">
         <rdfs:label xml:lang="en">evidence information from transport protein identification experiment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000053"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">This is going to be a fully axiomatized class. The axiom is coming soon and will be based on the material found here: https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxkZGlrcmFuZGlyfGd4OjE3OWNhYzFmMDc0ZGNlYmE</rdfs:comment>
     </owl:Class>
@@ -3668,7 +3668,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
     <owl:Class rdf:about="&obo;DIDEO_00000060">
         <rdfs:label xml:lang="en">evidence information from transport protein inhibition experiment</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000053"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">This is going to be a fully axiomatized class. The axiom is coming soon and will be based on the material found here: https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxkZGlrcmFuZGlyfGd4OjE3OWNhYzFmMDc0ZGNlYmE</rdfs:comment>
     </owl:Class>
@@ -3679,7 +3679,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
     <owl:Class rdf:about="&obo;DIDEO_00000061">
         <rdfs:label xml:lang="en">evidence information from case report</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000053"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">This is going to be a fully axiomatized class. The axiom is coming soon and will be based on the material found here: https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxkZGlrcmFuZGlyfGd4OjE3OWNhYzFmMDc0ZGNlYmE</rdfs:comment>
     </owl:Class>
@@ -3690,7 +3690,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
 
     <owl:Class rdf:about="&obo;DIDEO_00000062">
         <rdfs:label xml:lang="en">evidence information from observational study</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000023"/>
+        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000053"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">This is going to be a fully axiomatized class. The axiom is coming soon and will be based on the material found here: https://docs.google.com/viewer?a=v&amp;pid=sites&amp;srcid=ZGVmYXVsdGRvbWFpbnxkZGlrcmFuZGlyfGd4OjE3OWNhYzFmMDc0ZGNlYmE</rdfs:comment>
     </owl:Class>
@@ -4599,12 +4599,12 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_yeast"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
@@ -4627,12 +4627,12 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -4650,6 +4650,9 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
+        <oboInOwl:hasNarrowSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
@@ -4659,9 +4662,6 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasNarrowSynonym>
     </owl:Class>
     
 
@@ -4678,24 +4678,24 @@ This issue is outside the scope of OBI.</obo:IAO_0000116>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
     </owl:Class>
     <rdf:Description>
         <owl:deprecated></owl:deprecated>
