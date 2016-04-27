@@ -263,6 +263,12 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/ArrayExpress_label -->
+
+    <owl:AnnotationProperty rdf:about="&efo;ArrayExpress_label"/>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/BILA_definition_citation -->
 
     <owl:AnnotationProperty rdf:about="&efo;BILA_definition_citation"/>
@@ -396,6 +402,18 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
     <rdf:Description rdf:about="&efo;definition">
         <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
     </rdf:Description>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="&efo;definition_citation"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/definition_editor -->
+
+    <owl:AnnotationProperty rdf:about="&efo;definition_editor"/>
     
 
 
@@ -1479,6 +1497,21 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24432 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_24432">
+        <rdfs:label rdf:datatype="&xsd;string">biological role</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000023"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A role played by the molecular entity or part thereof within a biological context.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:24432</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">biological function</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">grouped_by_functions</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24532 -->
 
     <owl:Class rdf:about="&obo;CHEBI_24532">
@@ -1879,6 +1912,23 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">hemoprotein</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">hemoproteins</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35222 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_35222">
+        <rdfs:label rdf:datatype="&xsd;string">inhibitor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24432"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A substance that diminishes the rate of a chemical reaction.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:35222</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">inhibidor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">inhibiteur</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">inhibitor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">inhibitors</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -3856,6 +3906,35 @@ http://code.google.com/p/clo-ontology/wiki/Cell_Lines</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0005575 -->
+
+    <owl:Class rdf:about="&obo;GO_0005575">
+        <rdfs:label rdf:datatype="&xsd;string">cellular_component</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;BFO_0000040"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0005575</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">GO:0008372</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NIF_Subcellular:sao-1337158144</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NIF_Subcellular:sao1337158144</oboInOwl:hasDbXref>
+        <rdfs:comment rdf:datatype="&xsd;string">Note that, in addition to forming the root of the cellular component ontology, this term is recommended for use for the annotation of gene products whose cellular component is unknown. Note that when this term is used for annotation, it indicates that no information was available about the cellular component of the gene product annotated as of the date the annotation was made; the evidence code ND, no data, is used to indicate this.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">The part of a cell or its extracellular environment in which a gene product is located. A gene product may be located in one or more parts of a cell and its location may be as specific as a particular macromolecular complex, that is, a stable, persistent association of macromolecules that function together.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cell or subcellular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">cellular component</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">cellular_component</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">subcellular entity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_aspergillus"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_candida"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_metagenomics"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_yeast"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
 
     <owl:Class rdf:about="&obo;GO_0008150">
@@ -3884,6 +3963,73 @@ http://code.google.com/p/clo-ontology/wiki/Cell_Lines</obo:IAO_0000116>
         <oboInOwl:hasNarrowSynonym rdf:datatype="&xsd;string">metabolism resulting in cell growth</oboInOwl:hasNarrowSynonym>
         <oboInOwl:inSubset rdf:resource="&obo;go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="&obo;go#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0019814 -->
+
+    <owl:Class rdf:about="&obo;GO_0019814">
+        <rdfs:label rdf:datatype="&xsd;string">immunoglobulin complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0043234"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A protein complex that in its canonical form is composed of two identical immunoglobulin heavy chains and two identical immunoglobulin light chains, held together by disulfide bonds and sometimes complexed with additional proteins. An immunoglobulin complex may be embedded in the plasma membrane or present in the extracellular space, in mucosal areas or other tissues, or circulating in the blood or lymph.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0019814</oboInOwl:id>
+        <rdfs:comment rdf:datatype="&xsd;string">Note that an immunoglobulin complex has the function of antigen binding if a suitable antigen is available.</rdfs:comment>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">cellular_component</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_pir"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0032991 -->
+
+    <owl:Class rdf:about="&obo;GO_0032991">
+        <rdfs:label rdf:datatype="&xsd;string">macromolecular complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0005575"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A stable assembly of two or more macromolecules, i.e. proteins, nucleic acids, carbohydrates or lipids, in which the constituent parts function together.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0032991</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">cellular_component</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">macromolecule complex</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_pir"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0042571 -->
+
+    <owl:Class rdf:about="&obo;GO_0042571">
+        <rdfs:label rdf:datatype="&xsd;string">immunoglobulin complex, circulating</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0019814"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An immunoglobulin complex that is secreted into extracellular space and found in mucosal areas or other tissues or circulating in the blood or lymph. In its canonical form, a circulating immunoglobulin complex is composed of two identical heavy chains and two identical light chains, held together by disulfide bonds. Some forms of are polymers of the basic structure and contain additional components such as J-chain and the secretory component.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0042571</oboInOwl:id>
+        <rdfs:comment rdf:datatype="&xsd;string">Note that an immunoglobulin complex has the function of antigen binding if a suitable antigen is available.</rdfs:comment>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Antibody</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">antibody</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">cellular_component</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0043234 -->
+
+    <owl:Class rdf:about="&obo;GO_0043234">
+        <rdfs:label rdf:datatype="&xsd;string">protein complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;GO_0032991"/>
+        <rdfs:comment rdf:datatype="&xsd;string">A protein complex in this context is meant as a stable set of interacting proteins which can be co-purified by an acceptable method, and where the complex has been shown to exist as an isolated, functional unit in vivo. Acceptable experimental methods include stringent protein purification followed by detection of protein interaction. The following methods should be considered non-acceptable: simple immunoprecipitation, pull-down experiments from cell extracts without further purification, colocalization and 2-hybrid screening. Interactions that should not be captured as protein complexes include: 1) enzyme/substrate, receptor/ligand or any similar transient interactions, unless these are a critical part of the complex assembly or are required e.g. for the receptor to be functional; 2) proteins associated in a pull-down/co-immunoprecipitation assay with no functional link or any evidence that this is a defined biological entity rather than a loose-affinity complex; 3) any complex where the only evidence is based on genetic interaction data; 4) partial complexes, where some subunits (e.g. transmembrane ones) cannot be expressed as recombinant proteins and are excluded from experiments (in this case, independent evidence is necessary to find out the composition of the full complex, if known). Interactions that may be captured as protein complexes include: 1) enzyme/substrate or receptor/ligand if the complex can only assemble and become functional in the presence of both classes of subunits; 2) complexes where one of the members has not been shown to be physically linked to the other(s), but is a homologue of, and has the same functionality as, a protein that has been experimentally demonstrated to form a complex with the other member(s); 3) complexes whose existence is accepted based on localization and pharmacological studies, but for which experimental evidence is not yet available for the complex as a whole.</rdfs:comment>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A stable macromolecular complex composed (only) of two or more polypeptide subunits along with any covalently attached molecules (such as lipid anchors or oligosaccharide) or non-protein prosthetic groups (such as nucleotides or metal ions). Prosthetic group in this context refers to a tightly bound cofactor. The component polypeptide subunits may be identical.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">GO:0043234</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Protein_complex</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">cellular_component</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">protein-protein complex</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_chembl"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="&obo;go#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="&obo;go#gosubset_prok"/>
     </owl:Class>
     
@@ -4616,12 +4762,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
@@ -4667,9 +4813,15 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasDefinition>
+        <oboInOwl:hasDbXref>
             <rdf:Description/>
-        </oboInOwl:hasDefinition>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
@@ -4679,15 +4831,24 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
+        <oboInOwl:hasDefinition>
             <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
+        </oboInOwl:hasDefinition>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000750 -->
+
+    <owl:Class rdf:about="&efo;EFO_0000750">
+        <rdfs:label rdf:datatype="&xsd;string">genotyping</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;OBI_0000070"/>
+        <efo:definition rdf:datatype="&xsd;string">An assay in which variation in the genome is analysed</efo:definition>
+        <efo:definition_citation rdf:datatype="&xsd;string">ArrayExpress production team</efo:definition_citation>
+        <efo:definition_editor rdf:datatype="&xsd;string">James Malone</efo:definition_editor>
+        <efo:NCI_Thesaurus_definition_citation rdf:datatype="&xsd;string">NCIt:C45447</efo:NCI_Thesaurus_definition_citation>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://www.ebi.ac.uk/efo/efo.owl</obo:IAO_0000412>
+        <efo:ArrayExpress_label>Genotyping</efo:ArrayExpress_label>
     </owl:Class>
     <rdf:Description>
         <rdfs:comment rdf:datatype="&xsd;boolean">true</rdfs:comment>
