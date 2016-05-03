@@ -1,0 +1,779 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY obo "http://purl.obolibrary.org/obo/" >
+    <!ENTITY dc "http://purl.org/dc/elements/1.1/" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY oboInOwl "http://www.geneontology.org/formats/oboInOwl#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/mathiasbrochhausen/ontologies/2016/4/untitled-ontology-236#"
+     xml:base="http://www.semanticweb.org/mathiasbrochhausen/ontologies/2016/4/untitled-ontology-236"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="&obo;dideo/EvidenceTypes/test1.owl">
+        <owl:versionInfo xml:lang="en">2016-05-03</owl:versionInfo>
+        <dc:title xml:lang="en">Drug-drug interaction evidence test ontology</dc:title>
+        <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
+        <owl:imports rdf:resource="&obo;dideo/dev/dideo.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000115">
+        <rdfs:label rdf:datatype="&xsd;string">definition</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <rdf:Description rdf:about="&obo;IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <rdf:Description rdf:about="&oboInOwl;hasDbXref">
+        <rdfs:label rdf:datatype="&xsd;string">database_cross_reference</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <rdf:Description rdf:about="&oboInOwl;hasExactSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_exact_synonym</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <rdf:Description rdf:about="&oboInOwl;hasOBONamespace">
+        <rdfs:label rdf:datatype="&xsd;string">has_obo_namespace</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <rdf:Description rdf:about="&oboInOwl;hasRelatedSynonym">
+        <rdfs:label rdf:datatype="&xsd;string">has_related_synonym</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22712 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_22712">
+        <rdfs:label rdf:datatype="&xsd;string">benzenes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33836"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any benzenoid aromatic compound consisting of the benzene skeleton and its substituted derivatives.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:22712</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">benzenes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23117 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23117">
+        <rdfs:label rdf:datatype="&xsd;string">chlorine molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24471"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A halogen molecular entity containing one or more atoms of chlorine.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:23117</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">chlorine compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">chlorine molecular entities</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23132 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23132">
+        <rdfs:label rdf:datatype="&xsd;string">chlorobenzenes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_22712"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any organochlorine compound containing a benzene ring which is substituted by one or more chlorines.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:23132</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24471 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_24471">
+        <rdfs:label rdf:datatype="&xsd;string">halogen molecular entity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33675"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:24471</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">halogen compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">halogen molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">halogen molecular entity</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25367 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_25367">
+        <rdfs:label rdf:datatype="&xsd;string">molecule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36357"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any polyatomic entity that is an electrically neutral entity consisting of more than one atom.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:25367</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Molekuel</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">molecula</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">molecule</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">molecules</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">neutral molecular compounds</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_2611 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_2611">
+        <rdfs:label rdf:datatype="&xsd;string">alprazolam</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36683"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">8-Chloro-1-methyl-6-phenyl-4H-s-triazolo(4,3-a)(1,4)benzodiazepine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">8-chloro-1-methyl-6-phenyl-4H-[1,2,4]triazolo[4,3-a][1,4]benzodiazepine</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A member of the class of triazolobenzodiazepines that is 4H-[1,2,4]triazolo[4,3-a][1,4]benzodiazepine carrying methyl, phenyl and chloro substituents at positions 1, 6 and 8 respectively. Alprazolam is only found in individuals that have taken this drug.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Alprazolam</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">C17H13ClN4</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:2611</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Cc1nnc2CN=C(c3ccccc3)c3cc(Cl)ccc3-n12</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ChemIDplus:28981-97-7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:10350361</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:10443648</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:10631626</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:10963939</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:10997633</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:11304902</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:11824768</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:12035937</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:15647704</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:15725773</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:15830221</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:16103667</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:16139113</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:16572266</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:17631455</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:24361783</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:24464531</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:24629629</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:24840273</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:24977401</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:25032127</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:25139178</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:25199955</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:25300043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:25427652</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:25581490</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:25620535</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:7907366</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:9050091</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">DrugBank:DB00404</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">HMDB:HMDB14548</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChI=1S/C17H13ClN4/c1-11-20-21-16-10-19-17(12-5-3-2-4-6-12)14-9-13(18)7-8-15(14)22(11)16/h2-9H,10H2,1H3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG COMPOUND:28981-97-7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG COMPOUND:C06817</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG DRUG:D00225</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">LINCS:LSM-5460</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">NIST Chemistry WebBook:28981-97-7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reaxys:1223125</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">VREFGVBLTWBCJP-UHFFFAOYSA-N</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Alprazolam</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Xanax</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26979 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_26979">
+        <rdfs:label rdf:datatype="&xsd;string">organic heterotricyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36688"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An organic tricyclic compound in which at least one of the rings of the tricyclic skeleton contains one or more heteroatoms.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:26979</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">heterotricyclic compounds</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">organic heterotricyclic compounds</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27171 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_27171">
+        <rdfs:label rdf:datatype="&xsd;string">organic heterobicyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33672"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:27171</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">heterobicyclic compounds</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">organic heterobicyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">two-ring heterocyclic compounds</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33595 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33595">
+        <rdfs:label rdf:datatype="&xsd;string">cyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25367"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any molecule that consists of a series of atoms joined together to form a ring.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33595</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Cyclic_compound</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">cyclic compounds</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33598 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33598">
+        <rdfs:label rdf:datatype="&xsd;string">carbocyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33832"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A cyclic compound in which all of the ring members are carbon atoms.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33598</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">carbocycle</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">carbocyclic compound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">carbocyclic compounds</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33636 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33636">
+        <rdfs:label rdf:datatype="&xsd;string">bicyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33595"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A molecule that features two fused rings.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33636</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">bicyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33671 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33671">
+        <rdfs:label rdf:datatype="&xsd;string">heteropolycyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_5686"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33671</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heteropolycyclic compounds</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">polyheterocyclic compounds</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33672 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33672">
+        <rdfs:label rdf:datatype="&xsd;string">heterobicyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33636"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A bicyclic compound in which at least one of the rings contains at least one skeletal heteroatom.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33672</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heterobicyclic compounds</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33836 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33836">
+        <rdfs:label rdf:datatype="&xsd;string">benzenoid aromatic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33598"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33836</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">benzenoid aromatic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">benzenoid compound</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35501 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_35501">
+        <rdfs:label rdf:datatype="&xsd;string">triazolobenzodiazepine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_26979"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:35501</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">triazolobenzodiazepines</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36683 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_36683">
+        <rdfs:label rdf:datatype="&xsd;string">organochlorine compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23117"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An organochlorine compound is a compound containing at least one carbon-chlorine bond.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:36683</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">chloroorganic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">chlororganische Verbindungen</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">organochlorine compound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">organochlorine compounds</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36688 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_36688">
+        <rdfs:label rdf:datatype="&xsd;string">heterotricyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33671"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:36688</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heterotricyclic compound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">heterotricyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heterotricyclic compounds</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5138 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_5138">
+        <rdfs:label rdf:datatype="&xsd;string">fluvoxamine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_83565"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">(1E)-5-methoxy-1-[4-(trifluoromethyl)phenyl]pentan-1-one O-(2-aminoethyl)oxime</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A 5-methoxyvalerophenone O-(2-aminoethyl)oxime that has formula C15H21F3N2O2.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Beilstein:5583954</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">C15H21F3N2O2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:5138</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">CJOFXWAVKWHTFT-XSFVSMFZSA-N</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">COCCCC\C(c1ccc(cc1)C(F)(F)F)=N/OCCN</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ChemIDplus:54739-18-3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">DrugBank:DB00176</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Fluvoxamine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChI=1S/C15H21F3N2O2/c1-21-10-3-2-4-14(20-22-11-9-19)12-5-7-13(8-6-12)15(16,17)18/h5-8H,2-4,9-11,19H2,1H3/b20-14+</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG COMPOUND:54739-18-3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG COMPOUND:C07571</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG DRUG:D07984</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Patent:NL7503310</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Patent:US4085225</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Fluvoxamine</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">fluvoxamina</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">fluvoxamine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">fluvoxaminum</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5686 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_5686">
+        <rdfs:label rdf:datatype="&xsd;string">heterocyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33595"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A cyclic compound having as ring members atoms of at least two different elements.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:5686</oboInOwl:id>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Heterocyclic compound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">compuesto heterociclico</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">compuestos heterociclicos</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">heterocycle</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">heterocyclic compounds</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_7494 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_7494">
+        <rdfs:label rdf:datatype="&xsd;string">nefazodone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_83403"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">1-(3-(4-(m-Chlorophenyl)-1-piperazinyl)propyl)-3-ethyl-4-(2-phenoxyethyl)-delta2-1,2,4-triazolin-5-one</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">2-{3-[4-(3-chlorophenyl)piperazin-1-yl]propyl}-5-ethyl-4-(2-phenoxyethyl)-2,4-dihydro-3H-1,2,4-triazol-3-one</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A N-alkylpiperazine that has formula C25H32ClN5O2.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Beilstein:4728403</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">C25H32ClN5O2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">CCc1nn(CCCN2CCN(CC2)c2cccc(Cl)c2)c(=O)n1CCOc1ccccc1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:7494</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ChemIDplus:83366-66-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">DrugBank:DB01149</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChI=1S/C25H32ClN5O2/c1-2-24-27-31(25(32)30(24)18-19-33-23-10-4-3-5-11-23)13-7-12-28-14-16-29(17-15-28)22-9-6-8-21(26)20-22/h3-6,8-11,20H,2,7,12-19H2,1H3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG COMPOUND:83366-66-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG COMPOUND:C07256</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG DRUG:D08257</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">LINCS:LSM-4031</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Nefazodone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Patent:US4338317</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">VRBKIVRKKCLPHA-UHFFFAOYSA-N</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Nefazodone</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">nefazodona</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">nefazodone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">nefazodone</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">nefazodonum</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_83403 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_83403">
+        <rdfs:label rdf:datatype="&xsd;string">monochlorobenzenes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23132"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any member of the class of chlorobenzenes containing a mono- or poly-substituted benzene ring in which only one substituent is chlorine.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:83403</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_83565 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_83565">
+        <rdfs:label rdf:datatype="&xsd;string">(trifluoromethyl)benzenes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_22712"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An organofluorine compound that consists of a (trifluoromethyl)benzene skeleton and its substituted derivatives.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:83565</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000000 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000000">
+        <rdf:type rdf:resource="&obo;DIDEO_00000053"/>
+        <rdfs:label xml:lang="en">evidence information content 1</rdfs:label>
+        <obo:IAO_0000136 rdf:resource="&obo;DIDEO_T0000001"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000001 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000001">
+        <rdf:type rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:label xml:lang="en">assay 1</rdfs:label>
+        <obo:BFO_0000055 rdf:resource="&obo;DIDEO_T0000002"/>
+        <obo:BFO_0000051 rdf:resource="&obo;DIDEO_T0000004"/>
+        <obo:OBI_0000293 rdf:resource="&obo;DIDEO_T0000005"/>
+        <obo:OBI_0000293 rdf:resource="&obo;DIDEO_T0000007"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000002 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000002">
+        <rdf:type rdf:resource="&obo;BFO_0000017"/>
+        <rdfs:label xml:lang="en">plan 1</rdfs:label>
+        <obo:RO_0000059 rdf:resource="&obo;DIDEO_T0000003"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000003 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000003">
+        <rdf:type rdf:resource="&obo;OBI_0500001"/>
+        <rdfs:label xml:lang="en">clinical study design 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000004 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000004">
+        <rdf:type rdf:resource="&obo;OBI_0302900"/>
+        <rdfs:label xml:lang="en">group randomization 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000005 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000005">
+        <rdf:type rdf:resource="&obo;CHEBI_9674"/>
+        <rdfs:label xml:lang="en">triazolam 1</rdfs:label>
+        <obo:RO_0000053 rdf:resource="&obo;DIDEO_T0000006"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000006 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000006">
+        <rdf:type rdf:resource="&obo;DIDEO_00000012"/>
+        <rdfs:label xml:lang="en">object drug role 1</rdfs:label>
+        <obo:RO_0000053 rdf:resource="&obo;DIDEO_T0000006"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000007 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000007">
+        <rdf:type rdf:resource="&obo;CHEBI_101278"/>
+        <rdfs:label xml:lang="en">diltiazem 1</rdfs:label>
+        <obo:RO_0000053 rdf:resource="&obo;DIDEO_T0000008"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000008 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000008">
+        <rdf:type rdf:resource="&obo;DIDEO_00000013"/>
+        <rdfs:label xml:lang="en">precipitant drug role 1</rdfs:label>
+        <obo:RO_0000053 rdf:resource="&obo;DIDEO_T0000008"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000009 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000009">
+        <rdf:type rdf:resource="&obo;DIDEO_00000053"/>
+        <rdfs:label xml:lang="en">evidence information content 2</rdfs:label>
+        <obo:IAO_0000136 rdf:resource="&obo;DIDEO_T0000010"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000010 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000010">
+        <rdf:type rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:label xml:lang="en">assay 2</rdfs:label>
+        <obo:BFO_0000055 rdf:resource="&obo;DIDEO_T0000011"/>
+        <obo:BFO_0000051 rdf:resource="&obo;DIDEO_T0000013"/>
+        <obo:OBI_0000293 rdf:resource="&obo;DIDEO_T0000014"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000011 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000011">
+        <rdf:type rdf:resource="&obo;BFO_0000017"/>
+        <rdfs:label xml:lang="en">plan 2</rdfs:label>
+        <obo:RO_0000059 rdf:resource="&obo;DIDEO_T0000012"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000012 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000012">
+        <rdf:type rdf:resource="&obo;OBI_0500001"/>
+        <rdfs:label xml:lang="en">clinical study design 2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000013 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000013">
+        <rdf:type rdf:resource="&obo;DIDEO_00000052"/>
+        <rdfs:label xml:lang="en">pharmacokinetic process 2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000014 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000014">
+        <rdf:type rdf:resource="&obo;CHEBI_5138"/>
+        <rdfs:label xml:lang="en">fluvoxamine 2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000015 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000015">
+        <rdf:type rdf:resource="&obo;DIDEO_00000053"/>
+        <rdfs:label xml:lang="en">evidence information content 3</rdfs:label>
+        <obo:IAO_0000136 rdf:resource="&obo;DIDEO_T0000016"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000016 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000016">
+        <rdf:type rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:label xml:lang="en">assay 3</rdfs:label>
+        <obo:BFO_0000055 rdf:resource="&obo;DIDEO_T0000018"/>
+        <obo:OBI_0000293 rdf:resource="&obo;DIDEO_T0000019"/>
+        <obo:OBI_0000293 rdf:resource="&obo;DIDEO_T0000021"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;NegativePropertyAssertion"/>
+        <owl:assertionProperty rdf:resource="&obo;BFO_0000051"/>
+        <owl:sourceIndividual rdf:resource="&obo;DIDEO_T0000016"/>
+        <owl:targetIndividual rdf:resource="&obo;OBI_0302900"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000017 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000017">
+        <rdf:type rdf:resource="&obo;OBI_0500001"/>
+        <rdfs:label xml:lang="en">clinical study design 3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000018 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000018">
+        <rdf:type rdf:resource="&obo;BFO_0000017"/>
+        <rdfs:label xml:lang="en">plan 3</rdfs:label>
+        <obo:RO_0000059 rdf:resource="&obo;DIDEO_T0000017"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000019 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000019">
+        <rdf:type rdf:resource="&obo;CHEBI_2611"/>
+        <rdfs:label xml:lang="en">alprazolam 3</rdfs:label>
+        <obo:RO_0000053 rdf:resource="&obo;DIDEO_T0000020"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000020 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000020">
+        <rdf:type rdf:resource="&obo;DIDEO_00000012"/>
+        <rdfs:label xml:lang="en">object drug role 3</rdfs:label>
+        <obo:RO_0000053 rdf:resource="&obo;DIDEO_T0000020"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000021 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000021">
+        <rdf:type rdf:resource="&obo;CHEBI_7494"/>
+        <rdfs:label xml:lang="en">nefazodone 3</rdfs:label>
+        <obo:RO_0000053 rdf:resource="&obo;DIDEO_T0000022"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000022 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000022">
+        <rdf:type rdf:resource="&obo;DIDEO_00000013"/>
+        <rdfs:label xml:lang="en">precipitant drug role 3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0302900 -->
+
+    <owl:NamedIndividual rdf:about="&obo;OBI_0302900">
+        <rdf:type rdf:resource="&obo;OBI_0302900"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&obo;OBI_0302900">
+        <rdfs:label xml:lang="en">group randomization type</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
