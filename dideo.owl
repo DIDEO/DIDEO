@@ -923,12 +923,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002230"/>
             <rdf:Description rdf:about="&obo;RO_0002211"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -5050,7 +5050,7 @@ http://code.google.com/p/clo-ontology/wiki/Cell_Lines</obo:IAO_0000116>
                                         <owl:complementOf>
                                             <owl:Restriction>
                                                 <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                                                <owl:someValuesFrom rdf:resource="&obo;OBI_0302900"/>
+                                                <owl:hasValue rdf:resource="&obo;OBI_0302900"/>
                                             </owl:Restriction>
                                         </owl:complementOf>
                                     </owl:Class>
@@ -6240,15 +6240,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://purl.obolibrary.org/obo/OBI_0302900 -->
 
     <owl:Class rdf:about="&obo;OBI_0302900">
-        <rdfs:label xml:lang="en">group randomization</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0600015"/>
-        <obo:IAO_0000117 rdf:datatype="&xsd;string">Philippe Rocca-Serra</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="&xsd;string">adapted from wikipedia [http://en.wikipedia.org/wiki/Randomization]</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
-        <obo:IAO_0000115 xml:lang="en">A group assignment which relies on chance to assign materials to a group of materials in order to avoid bias in experimental set up.</obo:IAO_0000115>
-        <obo:IAO_0000112 xml:lang="en">PMID: 18349405. Randomization reveals unexpected acute leukemias in Southwest Oncology Group prostate cancer trial. J Clin Oncol. 2008 Mar 20;26(9):1532-6.</obo:IAO_0000112>
-        <obo:IAO_0000111 xml:lang="en">group randomization</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </owl:Class>
     
 
@@ -6623,15 +6615,15 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasNarrowSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
@@ -6660,12 +6652,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
@@ -6685,11 +6677,51 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://www.ebi.ac.uk/efo/efo.owl</obo:IAO_0000412>
         <efo:ArrayExpress_label>Genotyping</efo:ArrayExpress_label>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0302900 -->
+
+    <owl:NamedIndividual rdf:about="&obo;OBI_0302900">
+        <rdf:type rdf:resource="&obo;OBI_0302900"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <owl:deprecated></owl:deprecated>
+    </rdf:Description>
     <rdf:Description>
         <rdfs:comment rdf:datatype="&xsd;boolean">true</rdfs:comment>
     </rdf:Description>
-    <rdf:Description>
-        <owl:deprecated></owl:deprecated>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="&obo;OBI_0302900">
+        <rdfs:label xml:lang="en">group randomization</rdfs:label>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;string">adapted from wikipedia [http://en.wikipedia.org/wiki/Randomization]</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A group assignment which relies on chance to assign materials to a group of materials in order to avoid bias in experimental set up.</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">PMID: 18349405. Randomization reveals unexpected acute leukemias in Southwest Oncology Group prostate cancer trial. J Clin Oncol. 2008 Mar 20;26(9):1532-6.</obo:IAO_0000112>
+        <obo:IAO_0000111 xml:lang="en">group randomization</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </rdf:Description>
 </rdf:RDF>
 
