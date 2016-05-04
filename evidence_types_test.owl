@@ -994,6 +994,7 @@
     <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000028">
         <rdf:type rdf:resource="&obo;CHEBI_39548"/>
         <rdfs:label xml:lang="en">atorvastatin 4</rdfs:label>
+        <obo:RO_0000053 rdf:resource="&obo;DIDEO_T0000029"/>
     </owl:NamedIndividual>
     
 
