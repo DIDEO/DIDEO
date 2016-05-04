@@ -57,6 +57,14 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <rdf:Description rdf:about="&oboInOwl;hasAlternativeId">
+        <rdfs:label rdf:datatype="&xsd;string">has_alternative_id</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
 
     <rdf:Description rdf:about="&oboInOwl;hasDbXref">
@@ -142,6 +150,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23953 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_23953">
+        <rdfs:label rdf:datatype="&xsd;string">erythromycins</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25105"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:23953</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">erythromycins</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24471 -->
 
     <owl:Class rdf:about="&obo;CHEBI_24471">
@@ -153,6 +174,39 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">halogen molecular entities</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">halogen molecular entity</oboInOwl:hasExactSynonym>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25105 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_25105">
+        <rdfs:label rdf:datatype="&xsd;string">macrolide antibiotic</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25106"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A macrocyclic lactone with a ring of twelve or more members which exhibits antibiotic activity.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:25105</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Makrolidantibiotika</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">macrolide antibiotics</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25106 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_25106">
+        <rdfs:label rdf:datatype="&xsd;string">macrolide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_63944"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A macrocyclic lactone with a ring of twelve or more members derived from a polyketide.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:25106</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Makrolid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Macrolide</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">macrolide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">macrolides</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">macrolides</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -352,6 +406,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35496 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_35496">
+        <rdfs:label rdf:datatype="&xsd;string">fluorobenzenes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_22712"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any fluoroarene that is a benzene or a substituted benzene carrying at least one fluoro group.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:35496</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_35501 -->
 
     <owl:Class rdf:about="&obo;CHEBI_35501">
@@ -392,6 +459,90 @@
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heterotricyclic compound</oboInOwl:hasExactSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">heterotricyclic compounds</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">heterotricyclic compounds</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_39548 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_39548">
+        <rdfs:label rdf:datatype="&xsd;string">atorvastatin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_83575"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">(3R,5R)-7-[2-(4-fluorophenyl)-3-phenyl-4-(phenylcarbamoyl)-5-(propan-2-yl)-1H-pyrrol-1-yl]-3,5-dihydroxyheptanoic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">(3R,5R)-7-[2-(4-fluorophenyl)-5-(1-methylethyl)-3-phenyl-4-(phenylcarbamoyl)-1H-pyrrol-1-yl]-3,5-dihydroxyheptanoic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">(3R,5R)-7-[3-(anilinocarbonyl)-5-(4-fluorophenyl)-4-phenyl-2-(propan-2-yl)-1H-pyrrol-1-yl]-3,5-dihydroxyheptanoic acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">(R-(R*,R*))-2-(4-Fluorophenyl)-beta,delta-dihydroxy-5-(1-methylethyl)-3-phenyl-4-((phenylamino)carbonyl)-1H-pyrrole-1-heptanoic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">7-[2-(4-FLUORO-PHENYL)-5-ISOPROPYL-3-PHENYL-4-PHENYLCARBAMOYL-PYRROL-1-YL]- 3,5-DIHYDROXY-HEPTANOIC ACID</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">7-[2-(4-FLUORO-PHENYL)-5-ISOPROPYL-3-PHENYL-4-PHENYLCARBAMOYL-PYRROL-1-YL]-3,5-DIHYDROXY-HEPTANOIC ACID</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A dihydroxy monocarboxylic acid that is a member of the drug class known as statins, used primarily for lowering blood cholesterol and for preventing cardiovascular diseases.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Atorlip</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Atorvastatin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Atorvastatin acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Atorvastatin calcium</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Beilstein:8373630</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">C33H35FN2O5</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">CC(C)c1c(C(=O)Nc2ccccc2)c(-c2ccccc2)c(-c2ccc(F)cc2)n1CC[C@@H](O)C[C@@H](O)CC(O)=O</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:2910</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:39538</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:39548</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Cardyl</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ChemIDplus:134523-00-5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:10595624</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:11233299</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:11427209</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:11693468</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:12891281</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:14742751</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:15012735</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:15276107</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:15853752</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:16244767</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:16337041</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:16400400</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:18720283</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:19034423</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:9254075</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:9825877</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">DrugBank:DB01076</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">HMDB:HMDB05006</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChI=1S/C33H35FN2O5/c1-21(2)31-30(33(41)35-25-11-7-4-8-12-25)29(22-9-5-3-6-10-22)32(23-13-15-24(34)16-14-23)36(31)18-17-26(37)19-27(38)20-28(39)40/h3-16,21,26-27,37-38H,17-20H2,1-2H3,(H,35,41)(H,39,40)/t26-,27-/m1/s1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG COMPOUND:134523-00-5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG COMPOUND:C06834</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG DRUG:D07474</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">LINCS:LSM-5771</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Lipitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">PDBeChem:117</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Patent:EP409281</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Patent:US5273995</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reaxys:8373630</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Atorvastatin</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">XUKUURHRXDUEBC-KAYWLYCHSA-N</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">atorvastatin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">atorvastatina</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">atorvastatine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">atorvastatinum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48923 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_48923">
+        <rdfs:label rdf:datatype="&xsd;string">erythromycin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_23953"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any of several wide-spectrum macrolide antibiotics obtained from actinomycete Saccharopolyspora erythraea (formerly known as Streptomyces erythraeus).</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:48923</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">DrugBank:DB00199</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">HMDB:HMDB14344</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Patent:US2653899</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Erythromycin</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">eritromicina</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">erthromycin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">erythromycine</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
     </owl:Class>
     
@@ -442,6 +593,21 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">heterocycle</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">heterocyclic compounds</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_63944 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_63944">
+        <rdfs:label rdf:datatype="&xsd;string">macrocyclic lactone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25000"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any lactone in which the cyclic carboxylic ester group forms a part of a cyclic macromolecule.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:50333</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:63944</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">macrocyclic lactones</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -501,6 +667,20 @@
         <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:83565</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_83575 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_83575">
+        <rdfs:label rdf:datatype="&xsd;string">monofluorobenzenes</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_35496"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any member of the class of fluorobenzenes containing a mono- or poly-substituted benzene ring carrying a single fluorine substitutent.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:83575</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">monofluorobenzenes</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -748,6 +928,101 @@
     <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000022">
         <rdf:type rdf:resource="&obo;DIDEO_00000013"/>
         <rdfs:label xml:lang="en">precipitant drug role 3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000023 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000023">
+        <rdf:type rdf:resource="&obo;DIDEO_00000053"/>
+        <rdfs:label xml:lang="en">evidence information content 4</rdfs:label>
+        <obo:IAO_0000136 rdf:resource="&obo;DIDEO_T0000024"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000024 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000024">
+        <rdf:type rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:label xml:lang="en">assay 4</rdfs:label>
+        <obo:BFO_0000055 rdf:resource="&obo;DIDEO_T0000027"/>
+        <obo:OBI_0000293 rdf:resource="&obo;DIDEO_T0000028"/>
+        <obo:OBI_0000293 rdf:resource="&obo;DIDEO_T0000030"/>
+    </owl:NamedIndividual>
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;NegativePropertyAssertion"/>
+        <owl:assertionProperty rdf:resource="&obo;BFO_0000051"/>
+        <owl:sourceIndividual rdf:resource="&obo;DIDEO_T0000024"/>
+        <owl:targetIndividual rdf:resource="&obo;OBI_0302900"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000025 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000025">
+        <rdf:type rdf:resource="&obo;OBI_0500001"/>
+        <rdfs:label xml:lang="en">clinical study design 4</rdfs:label>
+        <obo:BFO_0000051 rdf:resource="&obo;DIDEO_T0000026"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000026 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000026">
+        <rdf:type rdf:resource="&obo;OBI_0500006"/>
+        <rdfs:label xml:lang="en">parallel group design 4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000027 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000027">
+        <rdf:type rdf:resource="&obo;BFO_0000017"/>
+        <rdfs:label xml:lang="en">plan 4</rdfs:label>
+        <obo:RO_0000059 rdf:resource="&obo;DIDEO_T0000025"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000028 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000028">
+        <rdf:type rdf:resource="&obo;CHEBI_39548"/>
+        <rdfs:label xml:lang="en">atorvastatin 4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000029 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000029">
+        <rdf:type rdf:resource="&obo;DIDEO_00000012"/>
+        <rdfs:label xml:lang="en">object drug role 4</rdfs:label>
+        <obo:RO_0000053 rdf:resource="&obo;DIDEO_T0000029"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000030 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000030">
+        <rdf:type rdf:resource="&obo;CHEBI_48923"/>
+        <rdfs:label xml:lang="en">erythromycin 4</rdfs:label>
+        <obo:RO_0000053 rdf:resource="&obo;DIDEO_T0000031"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000031 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000031">
+        <rdf:type rdf:resource="&obo;DIDEO_00000013"/>
+        <rdfs:label xml:lang="en">precipitant drug role 4</rdfs:label>
     </owl:NamedIndividual>
     
 
