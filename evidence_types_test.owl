@@ -364,6 +364,19 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33659 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33659">
+        <rdfs:label rdf:datatype="&xsd;string">organic aromatic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33832"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33659</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">organic aromatic compounds</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33671 -->
 
     <owl:Class rdf:about="&obo;CHEBI_33671">
@@ -392,6 +405,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33832 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33832">
+        <rdfs:label rdf:datatype="&xsd;string">organic cyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33595"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Any organic molecule that consists of atoms connected in the form of a ring.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33832</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">organic cyclic compounds</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_33836 -->
 
     <owl:Class rdf:about="&obo;CHEBI_33836">
@@ -402,6 +429,30 @@
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">benzenoid compound</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33853 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_33853">
+        <rdfs:label rdf:datatype="&xsd;string">phenols</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33659"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Aryl alcohol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:13664</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:13825</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:25969</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:2857</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:33853</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG COMPOUND:C15584</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MetaCyc:Aryl-Alcohol</oboInOwl:hasDbXref>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Organic aromatic compounds having one or more hydroxy groups attached to a benzene or other arene ring.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Phenols</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">arenols</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">aryl alcohol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">phenols</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -653,6 +704,38 @@
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Any member of the class of chlorobenzenes containing a mono- or poly-substituted benzene ring in which only one substituent is chlorine.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:83403</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_83527 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_83527">
+        <rdfs:label rdf:datatype="&xsd;string">O-desmethylvenlafaxine</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_33853"/>
+        <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000019"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">1-[2-(dimethylamino)-1-(4-hydroxyphenyl)ethyl]cyclohexanol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">4-[2-(dimethylamino)-1-(1-hydroxycyclohexyl)ethyl]phenol</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A tertiary amino compound that is N,N-dimethylethanamine substituted at position 1 by a 1-hydroxycyclohexyl and 4-hydroxyphenyl group. It is a metabolite of the drug venlafaxine.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">C16H25NO2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:83527</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">CN(C)CC(c1ccc(O)cc1)C1(O)CCCCC1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">ChemIDplus:93413-62-8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:24493333</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:24502274</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:24989434</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:25086830</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CiteXplore:25188033</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">DrugBank:DB06700</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">HMDB:HMDB15646</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChI=1S/C16H25NO2/c1-17(2)12-15(13-6-8-14(18)9-7-13)16(19)10-4-3-5-11-16/h6-9,15,18-19H,3-5,10-12H2,1-2H3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG DRUG:D07793</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">KYYIDSXMWOZKMP-UHFFFAOYSA-N</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reaxys:4234613</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Desvenlafaxine</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">desvenlafaxine</oboInOwl:hasRelatedSynonym>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
     </owl:Class>
     
@@ -1024,6 +1107,144 @@
     <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000031">
         <rdf:type rdf:resource="&obo;DIDEO_00000013"/>
         <rdfs:label xml:lang="en">precipitant drug role 4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000032 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000032">
+        <rdf:type rdf:resource="&obo;DIDEO_00000053"/>
+        <rdfs:label xml:lang="en">evidence information content 5</rdfs:label>
+        <obo:IAO_0000136 rdf:resource="&obo;DIDEO_T0000033"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000033 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000033">
+        <rdf:type rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:label xml:lang="en">assay 5</rdfs:label>
+        <obo:RO_0002404 rdf:resource="&obo;DIDEO_T0000034"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000034 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000034">
+        <rdf:type rdf:resource="&obo;OAE_0000005"/>
+        <rdfs:label xml:lang="en">adverse drug event 5</rdfs:label>
+        <obo:BFO_0000062 rdf:resource="&obo;DIDEO_T0000035"/>
+        <obo:BFO_0000062 rdf:resource="&obo;DIDEO_T0000036"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000035 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000035">
+        <rdf:type rdf:resource="&obo;DRON_00000031"/>
+        <rdfs:label xml:lang="en">drug administration 5.1</rdfs:label>
+        <obo:OBI_0000293 rdf:resource="&obo;DIDEO_T0000037"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000036 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000036">
+        <rdf:type rdf:resource="&obo;DRON_00000031"/>
+        <rdfs:label xml:lang="en">drug administration 5.2</rdfs:label>
+        <obo:OBI_0000293 rdf:resource="&obo;DIDEO_T0000038"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000037 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000037">
+        <rdf:type rdf:resource="&obo;CHEBI_39548"/>
+        <rdfs:label xml:lang="en">atorvastatin 5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000038 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000038">
+        <rdf:type rdf:resource="&obo;CHEBI_48923"/>
+        <rdfs:label xml:lang="en">erythromycin 5</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000039 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000039">
+        <rdf:type rdf:resource="&obo;DIDEO_00000053"/>
+        <rdfs:label xml:lang="en">evidence information content 6</rdfs:label>
+        <obo:IAO_0000136 rdf:resource="&obo;DIDEO_T0000040"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000040 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000040">
+        <rdf:type rdf:resource="&obo;OBI_0000070"/>
+        <rdfs:label xml:lang="en">assay 6</rdfs:label>
+        <obo:BFO_0000055 rdf:resource="&obo;DIDEO_T0000041"/>
+        <obo:BFO_0000051 rdf:resource="&obo;DIDEO_T0000043"/>
+        <obo:BFO_0000051 rdf:resource="&obo;DIDEO_T0000044"/>
+        <obo:OBI_0000293 rdf:resource="&obo;DIDEO_T0000045"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000041 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000041">
+        <rdf:type rdf:resource="&obo;BFO_0000017"/>
+        <rdfs:label xml:lang="en">plan 6</rdfs:label>
+        <obo:RO_0000059 rdf:resource="&obo;DIDEO_T0000042"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000042 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000042">
+        <rdf:type rdf:resource="&obo;OBI_0500001"/>
+        <rdfs:label xml:lang="en">clinical study design 6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000043 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000043">
+        <rdf:type rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000750"/>
+        <rdfs:label xml:lang="en">genotyping 6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000044 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000044">
+        <rdf:type rdf:resource="&obo;DIDEO_00000052"/>
+        <rdfs:label xml:lang="en">pharmacokinetic process 6</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000045 -->
+
+    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000045">
+        <rdf:type rdf:resource="&obo;CHEBI_83527"/>
+        <rdfs:label xml:lang="en">O-desmethylvenlafaxine 6</rdfs:label>
     </owl:NamedIndividual>
     
 
