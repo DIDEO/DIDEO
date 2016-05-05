@@ -2818,20 +2818,6 @@ http://code.google.com/p/clo-ontology/wiki/Cell_Lines</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000030"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
@@ -2845,6 +2831,20 @@ http://code.google.com/p/clo-ontology/wiki/Cell_Lines</obo:IAO_0000116>
                                 </owl:unionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;IAO_0000709"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -4164,7 +4164,14 @@ http://code.google.com/p/clo-ontology/wiki/Cell_Lines</obo:IAO_0000116>
                                                                     <rdf:Description rdf:about="&obo;DRON_00000031"/>
                                                                     <owl:Restriction>
                                                                         <owl:onProperty rdf:resource="&obo;RO_0000057"/>
-                                                                        <owl:someValuesFrom rdf:resource="&obo;DRON_00000005"/>
+                                                                        <owl:someValuesFrom>
+                                                                            <owl:Class>
+                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                    <rdf:Description rdf:about="&obo;CHEBI_24431"/>
+                                                                                    <rdf:Description rdf:about="&obo;DRON_00000005"/>
+                                                                                </owl:unionOf>
+                                                                            </owl:Class>
+                                                                        </owl:someValuesFrom>
                                                                     </owl:Restriction>
                                                                 </owl:intersectionOf>
                                                             </owl:Class>
@@ -6878,12 +6885,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -6907,12 +6914,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:hasNarrowSynonym>
             <rdf:Description/>
         </oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasDefinition>
-            <rdf:Description/>
-        </oboInOwl:hasDefinition>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDefinition>
+            <rdf:Description/>
+        </oboInOwl:hasDefinition>
     </owl:Class>
     
 
@@ -6926,24 +6933,24 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasDefinition>
+        <oboInOwl:hasDbXref>
             <rdf:Description/>
-        </oboInOwl:hasDefinition>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
+        <oboInOwl:hasDefinition>
             <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
+        </oboInOwl:hasDefinition>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
@@ -6983,10 +6990,10 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="&obo;OBI_0302900"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <owl:deprecated></owl:deprecated>
+        <rdfs:comment rdf:datatype="&xsd;boolean">true</rdfs:comment>
     </rdf:Description>
     <rdf:Description>
-        <rdfs:comment rdf:datatype="&xsd;boolean">true</rdfs:comment>
+        <owl:deprecated></owl:deprecated>
     </rdf:Description>
     
 

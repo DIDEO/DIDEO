@@ -1028,34 +1028,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000032 -->
-
-    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000032">
-        <rdf:type rdf:resource="&obo;DIDEO_00000053"/>
-        <rdfs:label xml:lang="en">evidence information content 5</rdfs:label>
-        <obo:IAO_0000136 rdf:resource="&obo;DIDEO_T0000033"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000033 -->
-
-    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000033">
-        <rdf:type rdf:resource="&obo;OBI_0000070"/>
-        <rdfs:label xml:lang="en">assay 5</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DIDEO_T0000034 -->
-
-    <owl:NamedIndividual rdf:about="&obo;DIDEO_T0000034">
-        <rdf:type rdf:resource="&obo;OAE_0000005"/>
-        <rdfs:label xml:lang="en">adverse drug event 5</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/OBI_0302900 -->
 
     <owl:NamedIndividual rdf:about="&obo;OBI_0302900">
