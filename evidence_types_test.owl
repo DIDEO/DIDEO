@@ -21,7 +21,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="&obo;dideo/EvidenceTypes/test1.owl">
+    <owl:Ontology rdf:about="&obo;dideo/EvidenceTypes/dideo.owl">
         <owl:versionInfo xml:lang="en">2016-05-03</owl:versionInfo>
         <dc:title xml:lang="en">Drug-drug interaction evidence test ontology</dc:title>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
