@@ -6168,7 +6168,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">AUC ratio</obo:IAO_0000118>
-        <efo:definition xml:lang="en">An information content entity that describes the relation between the mean pharmacokinetic area under the curve (AUC) for a given active ingredient or metabolite in absence of another drug, and the mean pharmacokinetic AUC for a given active ingredient or metabolite coadministered with another active ingredient or metabolite.</efo:definition>
+        <efo:definition xml:lang="en">An information content entity that describes the relation between the mean (arithmetic and geometric) pharmacokinetic area under the curve (AUC) for a given active ingredient or metabolite in absence of another drug, and the mean (arithmetic and geometric) pharmacokinetic AUC for a given active ingredient or metabolite coadministered with another active ingredient or metabolite.</efo:definition>
         <rdfs:label xml:lang="en">area under the curve ratio</rdfs:label>
     </owl:Class>
     
@@ -6178,7 +6178,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the mean of a measurement of the volume of plasma from which an active ingredient or metabolite is completely removed by the kidney in a given amount of time in absence of another drug, and the mean of a measurement of the volume of plasma from which an active ingredient or metaboliteis completely removed by the kidney in a given amount of time when coadministered with another active ingredient or metabolite.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the mean (arithmetic and geometric) of a measurement of the volume of plasma from which an active ingredient or metabolite is completely removed by the kidney in a given amount of time in absence of another drug, and the mean (arithmetic and geometric) of a measurement of the volume of plasma from which an active ingredient or metaboliteis completely removed by the kidney in a given amount of time when coadministered with another active ingredient or metabolite.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en"></obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">CL_R ratio</obo:IAO_0000118>
         <rdfs:label xml:lang="en">renal clearance ratio</rdfs:label>
@@ -6202,7 +6202,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115>An information content entity that describes the relationship between the mean of measurements of a pharmacokintect parameter for a given drug A in absence of another drug and the mean of measurements of a pharmacokintect parameter for a given drug A coadministrated with another drug B.</obo:IAO_0000115>
+        <obo:IAO_0000115>An information content entity that describes the relationship between the mean (arithmetic and geometric) of measurements of a pharmacokintect parameter for a given drug A in absence of another drug and the mean (arithmetic and geometric) of measurements of a pharmacokintect parameter for a given drug A coadministrated with another drug B.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <rdfs:label xml:lang="en">pharmacokinetic parameter ratio</rdfs:label>
     </owl:Class>
@@ -6235,7 +6235,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the mean of the drug maximum concentration measurements for a given active ingredient or metabolite in absence of another active ingredient or metabolite, and the mean of the drug maximum concentration measurements for a given active ingredient or metabolite coadministered with another active ingredient or metabolite.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the mean (arithmetic and geometric) of the drug maximum concentration measurements for a given active ingredient or metabolite in absence of another active ingredient or metabolite, and the mean (arithmetic and geometric) of the drug maximum concentration measurements for a given active ingredient or metabolite coadministered with another active ingredient or metabolite.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Cmax ratio</obo:IAO_0000118>
         <rdfs:label xml:lang="en">drug maximum concentration ratio</rdfs:label>
@@ -6247,7 +6247,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the mean time it takes for half of a given active ingredient or metabolite to be removed from the system in absence of another active ingredient or metabolite, and the mean time it takes for half of a given active ingredient or metabolite to be removed from the system when coadministered with another active ingredient or metabolite.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the mean (arithmetic and geometric) time it takes for half of a given active ingredient or metabolite to be removed from the system in absence of another active ingredient or metabolite, and the mean (arithmetic and geometric) time it takes for half of a given active ingredient or metabolite to be removed from the system when coadministered with another active ingredient or metabolite.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">t1/2 ratio</obo:IAO_0000118>
         <rdfs:label xml:lang="en">half-life ratio</rdfs:label>
@@ -6259,7 +6259,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the mean of a measurement of the volume of plasma from which an active ingredient or a metabolite is completely removed by the liver in a given amount of time in absence of another drug, and the mean of a measurement of the volume of plasma from which an active ingredient or metabolite is completely removed by the liver in a given amount of time when coadministered with another active ingredient or metabolite.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the mean (arithmetic and geometric) of a measurement of the volume of plasma from which an active ingredient or a metabolite is completely removed by the liver in a given amount of time in absence of another drug, and the mean (arithmetic and geometric) of a measurement of the volume of plasma from which an active ingredient or metabolite is completely removed by the liver in a given amount of time when coadministered with another active ingredient or metabolite.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">CL_H ratio</obo:IAO_0000118>
         <rdfs:label xml:lang="en">hepatic clearance ratio</rdfs:label>
@@ -7491,10 +7491,10 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <owl:deprecated></owl:deprecated>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
     </rdf:Description>
     <rdf:Description>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
+        <owl:deprecated></owl:deprecated>
     </rdf:Description>
     
 
