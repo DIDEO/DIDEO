@@ -19,9 +19,9 @@
         <dc:contributor xml:lang="en">Philip E. Empey</dc:contributor>
         <dc:contributor xml:lang="en">Dan Malone</dc:contributor>
         <rdfs:label xml:lang="en">Drug-drug Interaction and Drug-drug Interaction Evidence Ontology </rdfs:label>
+        <owl:versionInfo xml:lang="en">release 2016-07-06</owl:versionInfo>
         <dc:contributor xml:lang="en">Anuj Shah</dc:contributor>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
-        <owl:versionInfo xml:lang="en">development version 2016-07-06</owl:versionInfo>
         <dc:license xml:lang="en">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:contributor xml:lang="en">Jodi Schneider</dc:contributor>
         <dc:contributor xml:lang="en">Richard D. Boyce</dc:contributor>
