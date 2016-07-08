@@ -21,7 +21,6 @@
         <rdfs:label xml:lang="en">Drug-drug Interaction and Drug-drug Interaction Evidence Ontology </rdfs:label>
         <dc:contributor xml:lang="en">Anuj Shah</dc:contributor>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
-        <owl:versionInfo xml:lang="en">development version 2016-07-06</owl:versionInfo>
         <dc:license xml:lang="en">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:contributor xml:lang="en">Jodi Schneider</dc:contributor>
         <dc:contributor xml:lang="en">Richard D. Boyce</dc:contributor>
@@ -31,6 +30,7 @@
         <rdfs:label xml:lang="en">DIDEO</rdfs:label>
         <rdfs:comment xml:lang="en">The Drug-drug Interaction and Drug-drug Interaction Evidence Ontology (DIDEO) by the DIDEO development group is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and
 indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
+        <owl:versionInfo xml:lang="en">development version 2016-07-08</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -3953,33 +3953,33 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
                                                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                                                                         <owl:someValuesFrom>
                                                                             <owl:Class>
-                                                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                                                <owl:unionOf rdf:parseType="Collection">
                                                                                     <owl:Class>
                                                                                         <owl:unionOf rdf:parseType="Collection">
-                                                                                            <owl:Class>
-                                                                                                <owl:unionOf rdf:parseType="Collection">
-                                                                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33697"/>
-                                                                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36080"/>
-                                                                                                </owl:unionOf>
-                                                                                            </owl:Class>
-                                                                                            <owl:Restriction>
-                                                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                                                                                                <owl:someValuesFrom>
-                                                                                                    <owl:Class>
-                                                                                                        <owl:unionOf rdf:parseType="Collection">
-                                                                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33697"/>
-                                                                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36080"/>
-                                                                                                        </owl:unionOf>
-                                                                                                    </owl:Class>
-                                                                                                </owl:someValuesFrom>
-                                                                                            </owl:Restriction>
+                                                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33697"/>
+                                                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36080"/>
                                                                                         </owl:unionOf>
                                                                                     </owl:Class>
                                                                                     <owl:Restriction>
-                                                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
-                                                                                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0003824"/>
+                                                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                                                                                        <owl:someValuesFrom>
+                                                                                            <owl:Class>
+                                                                                                <owl:unionOf rdf:parseType="Collection">
+                                                                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_33697"/>
+                                                                                                    <owl:Class>
+                                                                                                        <owl:intersectionOf rdf:parseType="Collection">
+                                                                                                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+                                                                                                            <owl:Restriction>
+                                                                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000085"/>
+                                                                                                                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0003824"/>
+                                                                                                            </owl:Restriction>
+                                                                                                        </owl:intersectionOf>
+                                                                                                    </owl:Class>
+                                                                                                </owl:unionOf>
+                                                                                            </owl:Class>
+                                                                                        </owl:someValuesFrom>
                                                                                     </owl:Restriction>
-                                                                                </owl:intersectionOf>
+                                                                                </owl:unionOf>
                                                                             </owl:Class>
                                                                         </owl:someValuesFrom>
                                                                     </owl:Restriction>
@@ -6303,6 +6303,73 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000103">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000070"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Restriction>
+                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000059"/>
+                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+                                            </owl:Restriction>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:intersectionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+                                                    </owl:Restriction>
+                                                    <owl:Restriction>
+                                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ERO_0000923"/>
+                                                    </owl:Restriction>
+                                                </owl:intersectionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                                        <owl:someValuesFrom>
+                                            <owl:Class>
+                                                <owl:unionOf rdf:parseType="Collection">
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+                                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DRON_00000005"/>
+                                                </owl:unionOf>
+                                            </owl:Class>
+                                        </owl:someValuesFrom>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000115 xml:lang="en">An evidence information content entity that is about a clinical drug trial that focusses on pharmacokinetics and that has organisms as participants that participated in phenotyping.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118>EV_CT_PK_Phenotype</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">evidence information from phenotyped pharmacokinetic trial</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
@@ -6411,6 +6478,21 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/dron.owl</obo:IAO_0000412>
         <rdfs:label xml:lang="en">drug administration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0000923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0000923">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of the phenotype is often done in transgenic or knockout mice.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organismal assay that involves characterization of a phenotype; any observable characteristic or trait of an organism: such as its morphology, development, biochemical or physiological properties, behavior, and products of behavior (such as a bird&apos;s nest). Phenotypes result from the expression of an organism&apos;s genes as well as the influence of environmental factors and the interactions between the two.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Nicole Vasilevsky</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://en.wikipedia.org/wiki/Phenotype</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">phenotype characterization</rdfs:label>
     </owl:Class>
     
 
@@ -7547,8 +7629,8 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000111 xml:lang="en">group randomization</obo:IAO_0000111>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">group randomization</rdfs:label>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adapted from wikipedia [http://en.wikipedia.org/wiki/Randomization]</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">group randomization</rdfs:label>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
         <obo:IAO_0000112 xml:lang="en">PMID: 18349405. Randomization reveals unexpected acute leukemias in Southwest Oncology Group prostate cancer trial. J Clin Oncol. 2008 Mar 20;26(9):1532-6.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A group assignment which relies on chance to assign materials to a group of materials in order to avoid bias in experimental set up.</obo:IAO_0000115>
