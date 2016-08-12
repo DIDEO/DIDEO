@@ -24,8 +24,8 @@
         <dc:license xml:lang="en">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:contributor xml:lang="en">Jodi Schneider</dc:contributor>
         <dc:contributor xml:lang="en">Richard D. Boyce</dc:contributor>
+        <owl:versionInfo xml:lang="en">development version 2016-08-12</owl:versionInfo>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version 2016-07-29</owl:versionInfo>
         <rdfs:comment xml:lang="en">The Drug-drug Interaction and Drug-drug Interaction Evidence Ontology (DIDEO) by the DIDEO development group is licensed under CC BY 4.0
 (https://creativecommons.org/licenses/by/4.0/).</rdfs:comment>
         <rdfs:label xml:lang="en">DIDEO</rdfs:label>
@@ -6406,7 +6406,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">AUC ratio</obo:IAO_0000118>
-        <efo:definition xml:lang="en">An information content entity that describes the relation between the mean (arithmetic and geometric) pharmacokinetic area under the curve (AUC) for a given active ingredient or metabolite in absence of another drug, and the mean (arithmetic and geometric) pharmacokinetic AUC for a given active ingredient or metabolite coadministered with another active ingredient or metabolite.</efo:definition>
+        <efo:definition xml:lang="en">An information content entity that describes the relation between the arithmetic mean, geometric mean, or median pharmacokinetic area under the curve (AUC) for a given active ingredient or metabolite in an organizm with and without the inhibiting drug present in the orgaism.</efo:definition>
         <rdfs:label xml:lang="en">area under the curve ratio</rdfs:label>
     </owl:Class>
     
@@ -6416,7 +6416,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000094">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the mean (arithmetic and geometric) of a measurement of the volume of plasma from which an active ingredient or metabolite is completely removed by the kidney in a given amount of time in absence of another drug, and the mean (arithmetic and geometric) of a measurement of the volume of plasma from which an active ingredient or metaboliteis completely removed by the kidney in a given amount of time when coadministered with another active ingredient or metabolite.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the arithmetic mean, geometricmean, or median of a measurement of the volume of blood, serum, or plasma from which an active ingredient or a metabolite is completely removed by the kidney in a given amount of time in an organism with and without the inhibiting drug present in the organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en"></obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">CL_R ratio</obo:IAO_0000118>
         <rdfs:label xml:lang="en">renal clearance ratio</rdfs:label>
@@ -6473,7 +6473,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the mean (arithmetic and geometric) of the drug maximum concentration measurements for a given active ingredient or metabolite in absence of another active ingredient or metabolite, and the mean (arithmetic and geometric) of the drug maximum concentration measurements for a given active ingredient or metabolite coadministered with another active ingredient or metabolite.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the arithmeticmean, geometric mean, or median of the drug maximum concentration measurements for a given active ingredient or metabolite in an organism with and without the inhibiting drug present in the organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Cmax ratio</obo:IAO_0000118>
         <rdfs:label xml:lang="en">drug maximum concentration ratio</rdfs:label>
@@ -6485,7 +6485,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000100">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the mean (arithmetic and geometric) time it takes for half of a given active ingredient or metabolite to be removed from the system in absence of another active ingredient or metabolite, and the mean (arithmetic and geometric) time it takes for half of a given active ingredient or metabolite to be removed from the system when coadministered with another active ingredient or metabolite.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the arithmetic mean, geometricmean, or median time it takes for half of a given active ingredient or metabolite to be removed from the system of an organism with and without the inhibiting drug present in the organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">t1/2 ratio</obo:IAO_0000118>
         <rdfs:label xml:lang="en">half-life ratio</rdfs:label>
@@ -6497,7 +6497,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000101">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
-        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the mean (arithmetic and geometric) of a measurement of the volume of plasma from which an active ingredient or a metabolite is completely removed by the liver in a given amount of time in absence of another drug, and the mean (arithmetic and geometric) of a measurement of the volume of plasma from which an active ingredient or metabolite is completely removed by the liver in a given amount of time when coadministered with another active ingredient or metabolite.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that describes the relation between the arithmetic mean, geometricmean, or median of a measurement of the volume of blood, serum, or plasma from which an active ingredient or a metabolite is completely removed by the liver in a given amount of time in an organism with and without the inhibiting drug present in the organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">CL_H ratio</obo:IAO_0000118>
         <rdfs:label xml:lang="en">hepatic clearance ratio</rdfs:label>
@@ -9272,10 +9272,10 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
+        <owl:deprecated></owl:deprecated>
     </rdf:Description>
     <rdf:Description>
-        <owl:deprecated></owl:deprecated>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
     </rdf:Description>
     
 
