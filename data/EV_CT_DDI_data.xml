@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:obo="http://purl.obolibrary.org/obo/"
+   xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="assay86">
+    <obo:OBI_0000293 rdf:nodeID="drug57186"/>
+    <obo:BFO_0000055 rdf:nodeID="dre86"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="drug57386"/>
+    <obo:OBI_0000293 rdf:nodeID="drug57286"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism70">
+    <obo:RO_0000056 rdf:nodeID="pharmkin70"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay65">
+    <obo:BFO_0000055 rdf:nodeID="dre65"/>
+    <obo:OBI_0000293 rdf:nodeID="drug56065"/>
+    <obo:BFO_0000051 rdf:nodeID="grand65"/>
+    <obo:OBI_0000293 rdf:nodeID="drug56165"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="drug56265"/>
+    <obo:OBI_0000293 rdf:nodeID="drug55965"/>
+    <obo:OBI_0000293 rdf:nodeID="drug55865"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism69">
+    <obo:RO_0000056 rdf:nodeID="pharmkin69"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug55162">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3766"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:nodeID="precip_role62"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd66">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+    <obo:BFO_0000051 rdf:nodeID="pgd66"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd71">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup60">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+    <owl:sourceIndividual rdf:nodeID="assay60"/>
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay90">
+    <obo:OBI_0000293 rdf:nodeID="drug52290"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:BFO_0000055 rdf:nodeID="dre90"/>
+    <obo:OBI_0000293 rdf:nodeID="drug57490"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug53993">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role93"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup73">
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    <owl:sourceIndividual rdf:nodeID="assay73"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role61">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay80">
+    <obo:OBI_0000293 rdf:nodeID="organism80"/>
+    <obo:BFO_0000055 rdf:nodeID="dre80"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="drug43580"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug56985">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role85"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug55865">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9674"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:nodeID="precip_role65"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre90">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd90"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role60">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug54367">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role67"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5138"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug55664">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63618"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:nodeID="precip_role64"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence82">
+    <obo:IAO_0000136 rdf:nodeID="assay82"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>8823236</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug56065">
+    <obo:RO_0000053 rdf:nodeID="obj_role65"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2955"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd60">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd85">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence83">
+    <oboInOwl:hasAlternativeId>8513845</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:nodeID="assay83"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd90">
+    <obo:BFO_0000051 rdf:nodeID="pgd90"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug33668">
+    <obo:RO_0000053 rdf:nodeID="precip_role68"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10125"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre57">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd57"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup61">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:sourceIndividual rdf:nodeID="assay61"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug52157">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6920"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role57"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug35870">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9654"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism82">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    <obo:RO_0000056 rdf:nodeID="pheno82"/>
+    <obo:RO_0000056 rdf:nodeID="pharmkin82"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug55764">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6076"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role64"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence60">
+    <oboInOwl:hasAlternativeId>9855322</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:nodeID="assay60"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence80">
+    <obo:IAO_0000136 rdf:nodeID="assay80"/>
+    <oboInOwl:hasAlternativeId>2007317</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="geno78">
+    <rdf:type rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000750"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup93">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+    <owl:sourceIndividual rdf:nodeID="assay93"/>
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay68">
+    <obo:OBI_0000293 rdf:nodeID="drug33668"/>
+    <obo:BFO_0000051 rdf:nodeID="grand68"/>
+    <obo:OBI_0000293 rdf:nodeID="drug56568"/>
+    <obo:BFO_0000055 rdf:nodeID="dre68"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="drug56668"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd67">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug56366">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9123"/>
+    <obo:RO_0000053 rdf:nodeID="precip_role66"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug55363">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_7936"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role63"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay82">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="drug44882"/>
+    <obo:OBI_0000293 rdf:nodeID="organism82"/>
+    <obo:BFO_0000055 rdf:nodeID="dre82"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role93">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay76">
+    <obo:OBI_0000293 rdf:nodeID="drug40676"/>
+    <obo:BFO_0000055 rdf:nodeID="dre76"/>
+    <obo:OBI_0000293 rdf:nodeID="organism76"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd64">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+    <obo:BFO_0000051 rdf:nodeID="pgd64"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup76">
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:sourceIndividual rdf:nodeID="assay76"/>
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup63">
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    <owl:sourceIndividual rdf:nodeID="assay63"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug56568">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3732"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role68"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd65">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+    <obo:BFO_0000051 rdf:nodeID="pgd65"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd74">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence57">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>15518608</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:nodeID="assay57"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug55463">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role63"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9123"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup86">
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    <owl:sourceIndividual rdf:nodeID="assay86"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug51857">
+    <obo:RO_0000053 rdf:nodeID="precip_role57"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence87">
+    <obo:IAO_0000136 rdf:nodeID="assay87"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>15876900</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay57">
+    <obo:OBI_0000293 rdf:nodeID="drug52057"/>
+    <obo:OBI_0000293 rdf:nodeID="drug51857"/>
+    <obo:BFO_0000055 rdf:nodeID="dre57"/>
+    <obo:OBI_0000293 rdf:nodeID="drug51957"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="drug51757"/>
+    <obo:OBI_0000293 rdf:nodeID="drug52157"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay71">
+    <obo:OBI_0000293 rdf:nodeID="organism71"/>
+    <obo:BFO_0000055 rdf:nodeID="dre71"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:BFO_0000051 rdf:nodeID="grand71"/>
+    <obo:OBI_0000293 rdf:nodeID="drug36671"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug57286">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role86"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9123"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug56265">
+    <obo:RO_0000053 rdf:nodeID="obj_role65"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48923"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence61">
+    <obo:IAO_0000136 rdf:nodeID="assay61"/>
+    <oboInOwl:hasAlternativeId>17571477</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup79">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:sourceIndividual rdf:nodeID="assay79"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism72">
+    <obo:RO_0000056 rdf:nodeID="pharmkin72"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay72">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="organism72"/>
+    <obo:BFO_0000051 rdf:nodeID="grand72"/>
+    <obo:OBI_0000293 rdf:nodeID="drug37372"/>
+    <obo:BFO_0000055 rdf:nodeID="dre72"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role64">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence70">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>1438031</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:nodeID="assay70"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup90">
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+    <owl:sourceIndividual rdf:nodeID="assay90"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup62">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:sourceIndividual rdf:nodeID="assay62"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role87">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin74">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug51757">
+    <obo:RO_0000053 rdf:nodeID="precip_role57"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63618"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism77">
+    <obo:RO_0000056 rdf:nodeID="geno77"/>
+    <obo:RO_0000056 rdf:nodeID="pharmkin77"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role65">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre64">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd64"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug52290">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39548"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role90"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay61">
+    <obo:OBI_0000293 rdf:nodeID="drug54961"/>
+    <obo:BFO_0000055 rdf:nodeID="dre61"/>
+    <obo:OBI_0000293 rdf:nodeID="drug54761"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence72">
+    <oboInOwl:hasAlternativeId>14747427</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:nodeID="assay72"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug55965">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_45735"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role65"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug55263">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3766"/>
+    <obo:RO_0000053 rdf:nodeID="precip_role63"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug34969">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5123"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay85">
+    <obo:BFO_0000055 rdf:nodeID="dre85"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="drug57085"/>
+    <obo:OBI_0000293 rdf:nodeID="drug56985"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay77">
+    <obo:OBI_0000293 rdf:nodeID="organism77"/>
+    <obo:BFO_0000051 rdf:nodeID="grand77"/>
+    <obo:BFO_0000055 rdf:nodeID="dre77"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="drug41577"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence68">
+    <oboInOwl:hasAlternativeId>19242403</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:nodeID="assay68"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role90">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre93">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd93"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre82">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd82"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay62">
+    <obo:OBI_0000293 rdf:nodeID="drug55162"/>
+    <obo:OBI_0000293 rdf:nodeID="drug55062"/>
+    <obo:BFO_0000055 rdf:nodeID="dre62"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence66">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:nodeID="assay66"/>
+    <oboInOwl:hasAlternativeId>11563412</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role87">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug56165">
+    <obo:RO_0000053 rdf:nodeID="obj_role65"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3732"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup82">
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    <owl:sourceIndividual rdf:nodeID="assay82"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay79">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="organism79"/>
+    <obo:OBI_0000293 rdf:nodeID="drug42779"/>
+    <obo:BFO_0000055 rdf:nodeID="dre79"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup70">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    <owl:sourceIndividual rdf:nodeID="assay70"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd75">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+    <obo:BFO_0000051 rdf:nodeID="pgd75"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay78">
+    <obo:OBI_0000293 rdf:nodeID="organism78"/>
+    <obo:BFO_0000055 rdf:nodeID="dre78"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:BFO_0000051 rdf:nodeID="grand78"/>
+    <obo:OBI_0000293 rdf:nodeID="drug41978"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre63">
+    <obo:RO_0000059 rdf:nodeID="csd63"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay64">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="drug55764"/>
+    <obo:BFO_0000055 rdf:nodeID="dre64"/>
+    <obo:OBI_0000293 rdf:nodeID="drug55664"/>
+    <obo:OBI_0000293 rdf:nodeID="drug55564"/>
+    <obo:BFO_0000051 rdf:nodeID="grand64"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay67">
+    <obo:OBI_0000293 rdf:nodeID="drug54467"/>
+    <obo:BFO_0000051 rdf:nodeID="grand67"/>
+    <obo:OBI_0000293 rdf:nodeID="drug54367"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:BFO_0000055 rdf:nodeID="dre67"/>
+    <obo:OBI_0000293 rdf:nodeID="drug54267"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay70">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="organism70"/>
+    <obo:OBI_0000293 rdf:nodeID="drug35870"/>
+    <obo:BFO_0000055 rdf:nodeID="dre70"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism75">
+    <obo:RO_0000056 rdf:nodeID="pharmkin75"/>
+    <obo:RO_0000056 rdf:nodeID="geno75"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay75">
+    <obo:BFO_0000051 rdf:nodeID="grand75"/>
+    <obo:BFO_0000055 rdf:nodeID="dre75"/>
+    <obo:OBI_0000293 rdf:nodeID="organism75"/>
+    <obo:OBI_0000293 rdf:nodeID="drug39975"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre76">
+    <obo:RO_0000059 rdf:nodeID="csd76"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay73">
+    <obo:OBI_0000293 rdf:nodeID="organism73"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:BFO_0000055 rdf:nodeID="dre73"/>
+    <obo:OBI_0000293 rdf:nodeID="drug38673"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug56466">
+    <obo:RO_0000053 rdf:nodeID="obj_role66"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10125"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre86">
+    <obo:RO_0000059 rdf:nodeID="csd86"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre71">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd71"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre72">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd72"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence76">
+    <obo:IAO_0000136 rdf:nodeID="assay76"/>
+    <oboInOwl:hasAlternativeId>16765147</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug41978">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9943"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug56883">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_7936"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role67">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence90">
+    <oboInOwl:hasAlternativeId>12911366</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:nodeID="assay90"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre67">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd67"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay81">
+    <obo:BFO_0000051 rdf:nodeID="grand81"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="drug44381"/>
+    <obo:BFO_0000055 rdf:nodeID="dre81"/>
+    <obo:OBI_0000293 rdf:nodeID="organism81"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence93">
+    <obo:IAO_0000136 rdf:nodeID="assay93"/>
+    <oboInOwl:hasAlternativeId>10907965</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug57085">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_10033"/>
+    <obo:RO_0000053 rdf:nodeID="precip_role85"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role63">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence85">
+    <oboInOwl:hasAlternativeId>8801057</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:nodeID="assay85"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup85">
+    <owl:sourceIndividual rdf:nodeID="assay85"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug54087">
+    <obo:RO_0000053 rdf:nodeID="precip_role87"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3219"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre65">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd65"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug43580">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9566"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="grand78">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup74">
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    <owl:sourceIndividual rdf:nodeID="assay74"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay74">
+    <obo:BFO_0000055 rdf:nodeID="dre74"/>
+    <obo:OBI_0000293 rdf:nodeID="drug38974"/>
+    <obo:OBI_0000293 rdf:nodeID="organism74"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd76">
+    <obo:BFO_0000051 rdf:nodeID="pgd76"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug57186">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:nodeID="precip_role86"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5118"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence63">
+    <obo:IAO_0000136 rdf:nodeID="assay63"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>11147928</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role86">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd79">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd86">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+    <obo:BFO_0000051 rdf:nodeID="pgd86"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism79">
+    <obo:RO_0000056 rdf:nodeID="pheno79"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    <obo:RO_0000056 rdf:nodeID="pharmkin79"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="grand67">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre61">
+    <obo:RO_0000059 rdf:nodeID="csd61"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug57386">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_7936"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role86"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin76">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre74">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd74"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence65">
+    <obo:IAO_0000136 rdf:nodeID="assay65"/>
+    <oboInOwl:hasAlternativeId>9757151</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pheno79">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000923"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd72">
+    <obo:BFO_0000051 rdf:nodeID="pgd72"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin80">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence79">
+    <oboInOwl:hasAlternativeId>1412613</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:nodeID="assay79"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup87">
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+    <owl:sourceIndividual rdf:nodeID="assay87"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay66">
+    <obo:OBI_0000293 rdf:nodeID="drug56366"/>
+    <obo:OBI_0000293 rdf:nodeID="drug56466"/>
+    <obo:BFO_0000055 rdf:nodeID="dre66"/>
+    <obo:BFO_0000051 rdf:nodeID="grand66"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay60">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="drug54660"/>
+    <obo:BFO_0000055 rdf:nodeID="dre60"/>
+    <obo:OBI_0000293 rdf:nodeID="drug54560"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug53893">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3306"/>
+    <obo:RO_0000053 rdf:nodeID="precip_role93"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="grand75">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="geno74">
+    <rdf:type rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000750"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre70">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd70"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence74">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>8689810</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:nodeID="assay74"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug38974">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_8028"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role61">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay69">
+    <obo:OBI_0000293 rdf:nodeID="drug34969"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:BFO_0000051 rdf:nodeID="grand69"/>
+    <obo:OBI_0000293 rdf:nodeID="drug34769"/>
+    <obo:BFO_0000055 rdf:nodeID="dre69"/>
+    <obo:OBI_0000293 rdf:nodeID="organism69"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence86">
+    <oboInOwl:hasAlternativeId>11910262</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:nodeID="assay86"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="grand81">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role64">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism78">
+    <obo:RO_0000056 rdf:nodeID="geno78"/>
+    <obo:RO_0000056 rdf:nodeID="pharmkin78"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug56668">
+    <obo:RO_0000053 rdf:nodeID="precip_role68"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9654"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence73">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:nodeID="assay73"/>
+    <oboInOwl:hasAlternativeId>15834460</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre66">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd66"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug54560">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_7735"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role60"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role68">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin71">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism83">
+    <obo:RO_0000056 rdf:nodeID="pharmkin83"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    <obo:RO_0000056 rdf:nodeID="pheno83"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay87">
+    <obo:OBI_0000293 rdf:nodeID="drug54187"/>
+    <obo:BFO_0000055 rdf:nodeID="dre87"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="drug54087"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role62">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug54961">
+    <obo:RO_0000053 rdf:nodeID="obj_role61"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47781"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin70">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre80">
+    <obo:RO_0000059 rdf:nodeID="csd80"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay93">
+    <obo:OBI_0000293 rdf:nodeID="drug53993"/>
+    <obo:BFO_0000055 rdf:nodeID="dre93"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="drug53893"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd73">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role57">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="grand72">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay83">
+    <obo:BFO_0000055 rdf:nodeID="dre83"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="organism83"/>
+    <obo:OBI_0000293 rdf:nodeID="drug56783"/>
+    <obo:OBI_0000293 rdf:nodeID="drug56883"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug51957">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:nodeID="precip_role57"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39548"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="grand71">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre75">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd75"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism71">
+    <obo:RO_0000056 rdf:nodeID="pharmkin71"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup80">
+    <owl:sourceIndividual rdf:nodeID="assay80"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism74">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    <obo:RO_0000056 rdf:nodeID="pharmkin74"/>
+    <obo:RO_0000056 rdf:nodeID="geno74"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug55564">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <obo:RO_0000053 rdf:nodeID="precip_role64"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="geno75">
+    <rdf:type rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000750"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd82">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd70">
+    <obo:BFO_0000051 rdf:nodeID="pgd70"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug54187">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_4470"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role87"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd61">
+    <obo:BFO_0000051 rdf:nodeID="pgd61"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism76">
+    <obo:RO_0000056 rdf:nodeID="pharmkin76"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    <obo:RO_0000056 rdf:nodeID="geno76"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence67">
+    <obo:IAO_0000136 rdf:nodeID="assay67"/>
+    <oboInOwl:hasAlternativeId>16778714</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre77">
+    <obo:RO_0000059 rdf:nodeID="csd77"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence77">
+    <oboInOwl:hasAlternativeId>17429316</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:nodeID="assay77"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd86">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd63">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="assay63">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:nodeID="drug55463"/>
+    <obo:BFO_0000055 rdf:nodeID="dre63"/>
+    <obo:OBI_0000293 rdf:nodeID="drug55363"/>
+    <obo:OBI_0000293 rdf:nodeID="drug55263"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="nogroup57">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+    <owl:sourceIndividual rdf:nodeID="assay57"/>
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence62">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>10445377</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:nodeID="assay62"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd65">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug54267">
+    <obo:RO_0000053 rdf:nodeID="precip_role67"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6375"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pheno82">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000923"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd78">
+    <obo:BFO_0000051 rdf:nodeID="pgd78"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre79">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd79"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd76">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role90">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd75">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug38673">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_8707"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd62">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre62">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd62"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd57">
+    <obo:BFO_0000051 rdf:nodeID="pgd57"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence64">
+    <obo:IAO_0000136 rdf:nodeID="assay64"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>9542477</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd67">
+    <obo:BFO_0000051 rdf:nodeID="pgd67"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug55062">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5138"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role62"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug44882">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5138"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="grand66">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="grand65">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd68">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+    <obo:BFO_0000051 rdf:nodeID="pgd68"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin75">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin73">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd79">
+    <obo:BFO_0000051 rdf:nodeID="pgd79"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd66">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd93">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre83">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd83"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role93">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role57">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug54467">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3732"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role67"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin72">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role60">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence78">
+    <oboInOwl:hasAlternativeId>19142106</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:nodeID="assay78"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence69">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>8911886</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:nodeID="assay69"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug52057">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9948"/>
+    <obo:RO_0000053 rdf:nodeID="obj_role57"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism80">
+    <obo:RO_0000056 rdf:nodeID="pheno80"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    <obo:RO_0000056 rdf:nodeID="pharmkin80"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin77">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin81">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="geno77">
+    <rdf:type rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000750"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre68">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd68"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug41577">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_8028"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pheno83">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000923"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd68">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin82">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre60">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd60"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd80">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence75">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>11452243</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:nodeID="assay75"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin78">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug54660">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2659"/>
+    <obo:RO_0000053 rdf:nodeID="precip_role60"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role63">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd83">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre85">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd85"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd57">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pheno80">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000923"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug40676">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2611"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd60">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+    <obo:BFO_0000051 rdf:nodeID="pgd60"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug57490">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6931"/>
+    <obo:RO_0000053 rdf:nodeID="precip_role90"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug44381">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_8871"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin79">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin83">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd90">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug39975">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9123"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre78">
+    <obo:RO_0000059 rdf:nodeID="csd78"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug37372">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_31236"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug56783">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47781"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role65">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd70">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug36671">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9943"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre73">
+    <obo:RO_0000059 rdf:nodeID="csd73"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug34769">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_83527"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism73">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    <obo:RO_0000056 rdf:nodeID="pharmkin73"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="grand77">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd81">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre69">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd69"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug42779">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5613"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence71">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>1487561</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:nodeID="assay71"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd87">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="grand69">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role66">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd77">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="drug54761">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_7494"/>
+    <obo:RO_0000053 rdf:nodeID="precip_role61"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="grand68">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd64">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role68">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="organism81">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    <obo:RO_0000056 rdf:nodeID="pharmkin81"/>
+    <obo:RO_0000056 rdf:nodeID="pheno81"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="evidence81">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:nodeID="assay81"/>
+    <oboInOwl:hasAlternativeId>7690693</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre87">
+    <obo:RO_0000059 rdf:nodeID="csd87"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="geno76">
+    <rdf:type rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000750"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd78">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="grand64">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role85">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role67">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pheno81">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000923"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd61">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role62">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="csd69">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="precip_role85">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pharmkin69">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="dre81">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:nodeID="csd81"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role86">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="pgd72">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="obj_role66">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+</rdf:RDF>
