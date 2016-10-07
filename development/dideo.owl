@@ -6406,7 +6406,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">AUC ratio</obo:IAO_0000118>
-        <efo:definition xml:lang="en">An information content entity that describes the relation between the arithmetic mean, geometric mean, or median pharmacokinetic area under the curve (AUC) for a given active ingredient or metabolite in an organizm with and without the inhibiting drug present in the organism.</efo:definition>
+        <efo:definition xml:lang="en">An information content entity that describes the relation between the arithmetic mean, geometric mean, or median pharmacokinetic area under the curve (AUC) for a given active ingredient or metabolite in an organism with and without the inhibiting drug present in the organism.</efo:definition>
         <rdfs:label xml:lang="en">area under the curve ratio</rdfs:label>
     </owl:Class>
     
@@ -7760,7 +7760,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">amended definition from Spruill WJ, Wade WE, DiPiro JT, Blouin RA, Pruemer JM: Concepts in Clinical Pharmacology. Bethesda, MA, 2014 based on a comment by Philip E. Empey.</obo:IAO_0000119>
-        <efo:definition xml:lang="en">An information content entity that describes the relation between the arithmetic mean, geometric mean, or median of the theoretical volume that would be necessary to contain the total amount of an administered drug at the same concentration that it is observed in a bodily fluid for a given active ingredient or metabolite in an organizm with and without the inhibiting drug present in the organism.</efo:definition>
+        <efo:definition xml:lang="en">An information content entity that describes the relation between the arithmetic mean, geometric mean, or median of the theoretical volume that would be necessary to contain the total amount of an administered drug at the same concentration that it is observed in a bodily fluid for a given active ingredient or metabolite in an organism with and without the inhibiting drug present in the organism.</efo:definition>
         <rdfs:label xml:lang="en">volume of distribution ratio</rdfs:label>
     </owl:Class>
     
@@ -7770,9 +7770,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000119">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
-        <obo:IAO_0000117 xml:lang="en">An information content entity that describes the relation between the arithmetic mean, geometric mean, or median of the time that elapses until a drug reaches its maximum concentration for a given active ingredient or metabolite in an organizm with and without the inhibiting drug present in the organism.</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Tmax ratio</obo:IAO_0000118>
+        <efo:definition xml:lang="en">An information content entity that describes the relation between the arithmetic mean, geometric mean, or median of the time from dose administration until a drug reaches its maximum concentration for a given active ingredient or metabolite in an organism with and without the inhibiting drug present in the organism.</efo:definition>
         <rdfs:label xml:lang="en">time to maximum drug concentration ratio</rdfs:label>
     </owl:Class>
     
@@ -7782,8 +7782,8 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000120">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
-        <obo:IAO_0000117 xml:lang="en">An information content entity that describes the relation between the arithmetic mean, geometric mean, or median of a measurement of the drug transmembrane transporter activity regarding an active ingredient or a metabolite in an organism with and without the inhibiting drug present in the organism.</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <efo:definition xml:lang="en">An information content entity that describes the relation between the arithmetic mean, geometric mean, or median of a measurement of the drug transmembrane transporter activity regarding an active ingredient or a metabolite in an organism with and without the inhibiting drug present in the organism.</efo:definition>
         <rdfs:label xml:lang="en">efflux ratio</rdfs:label>
     </owl:Class>
     
@@ -9330,10 +9330,10 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <owl:deprecated></owl:deprecated>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
     </rdf:Description>
     <rdf:Description>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
+        <owl:deprecated></owl:deprecated>
     </rdf:Description>
     
 
