@@ -9249,6 +9249,18 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PDRO/PDRO.owl#PDRO_0000125 -->
+
+    <owl:Class rdf:about="&obo;PDRO/PDRO.owl#PDRO_0000125">
+        <rdfs:label>drug product quantification specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PDRO/PDRO.owl#PDRO_0000123"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/PDRO/PDRO.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A dose quantification specification that quantifies a dose by referring to the quantity of drug product administered in a dose administration.</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/obo/owl/GO#GO_0003674 -->
 
     <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0003674">
