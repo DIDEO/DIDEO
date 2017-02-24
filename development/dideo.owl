@@ -946,12 +946,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002230"/>
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002211"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002230"/>
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -9232,6 +9232,18 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/PDRO/PDRO.owl</obo:IAO_0000412>
         <obo:IAO_0000115 xml:lang="en">An information content entity that specifies how a dose is quantified in a dose administration.</obo:IAO_0000115>
         <obo:IAO_0000600 xml:lang="en">This part of a prescription usually specifies a fixed amount (like &apos;50 mg&apos; or &apos;500 mL&apos;), but may instead specify a rate in some situations, e.g., in ongiong IV perfusions, where the total dose that will be administered in a single dose is unkown until the administration has ended. In either situation, the dose quantification specification is what enables the calculation of the quantity of active ingredient or drug product in the dose that is administered</obo:IAO_0000600>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PDRO/PDRO.owl#PDRO_0000124 -->
+
+    <owl:Class rdf:about="&obo;PDRO/PDRO.owl#PDRO_0000124">
+        <rdfs:label>active ingredient quantification specification</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;PDRO/PDRO.owl#PDRO_0000123"/>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/PDRO/PDRO.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A dose quantification specification that quantifies a dose by referring to the quantity of active ingredient administered in a dose administration.</obo:IAO_0000115>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000123"/>
     </owl:Class>
     
