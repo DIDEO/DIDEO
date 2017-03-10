@@ -19,6 +19,7 @@
         <dc:contributor xml:lang="en">Philip E. Empey</dc:contributor>
         <dc:contributor xml:lang="en">Dan Malone</dc:contributor>
         <rdfs:label xml:lang="en">Drug-drug Interaction and Drug-drug Interaction Evidence Ontology </rdfs:label>
+        <owl:versionInfo xml:lang="en">release version 2017-03-10</owl:versionInfo>
         <dc:contributor xml:lang="en">Anuj Shah</dc:contributor>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
         <dc:license xml:lang="en">http://creativecommons.org/licenses/by/4.0/</dc:license>
@@ -27,7 +28,6 @@
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
         <rdfs:comment xml:lang="en">The Drug-drug Interaction and Drug-drug Interaction Evidence Ontology (DIDEO) by the DIDEO development group is licensed under CC BY 4.0
 (https://creativecommons.org/licenses/by/4.0/).</rdfs:comment>
-        <owl:versionInfo xml:lang="en">release version 2017-10-26</owl:versionInfo>
         <rdfs:label xml:lang="en">DIDEO</rdfs:label>
         <rdfs:comment xml:lang="en">The Drug-drug Interaction and Drug-drug Interaction Evidence Ontology (DIDEO) by the DIDEO development group is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and
 indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
@@ -150,12 +150,6 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000231 -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000231"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000232">
@@ -183,9 +177,9 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
 
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
         <rdfs:label xml:lang="en">OBO foundry unique label</rdfs:label>
-    </owl:AnnotationProperty>
+    </rdf:Description>
     
 
 
@@ -210,6 +204,14 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/INO_0000006">
         <rdfs:label xml:lang="en">has literature mining keywords</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MPIO_0000001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/MPIO_0000001">
+        <rdfs:label xml:lang="en">MPIO user-centered definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -779,24 +781,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000096">
         <rdfs:label xml:lang="en">catalyzes a Phase I or Phase II enzymatic reaction involving</rdfs:label>
     </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000142 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000142"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000293 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000293"/>
     
 
 
@@ -3136,8 +3120,12 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000104"/>
-        <obo:IAO_0000115 xml:lang="en">A plan specification that specifies processes to prevent or mitigate a drug-drug interaction</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">&quot;Use only if benefit outweighs risk:  “When a systemic dose of epinephrine is given to a person on one of these nonselective beta-blockers, an acute hypertensive reaction is almost certain. Systolic BPs of 250 mm/Hg are not uncommon. Most people can probably withstand a short episode of such a hypertensive reaction without permanent sequelae, but strokes have occurred in susceptible patients. Thus, it is best to avoid this reaction if possible. If a patient is likely to receive systemic epinephrine, it would be prudent to use a cardioselective beta-blocker.” (Title: Individualized Drug Interaction Alerts; Authors: Daniel C. Malone , University of Arizona; John Horn, Philip Hansten, University of Washington)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">No precaution:  “If the NSAID is being used as an analgesic or antipyretic, it would be prudent to use an alternative such as acetaminophen. In some people, acetaminophen can increase the anticoagulant effect of warfarin, so monitor the INR if acetaminophen is used in doses over 2 g/day for a few days. For more severe pain consider short-term opioids in place of the NSAID.“ (Title: Individualized Drug Interaction Alerts; Authors: Daniel C. Malone , University of Arizona; John Horn, Philip Hansten, University of Washington)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A evidence-based plan specification that specifies processes to prevent or mitigate a drug-drug interaction</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">management option</obo:IAO_0000118>
+        <obo:MPIO_0000001 xml:lang="en">Evidence-based strategy to mitigate the potential clinical consequences of a drug-drug interaction; e.g., use only if benefit outweighs risk, assess risk and take action if necessary, no special precautions.</obo:MPIO_0000001>
+        <efo:alternative_term xml:lang="en">recommended action</efo:alternative_term>
         <rdfs:comment xml:lang="en">An instance of this entity would represent an optional recommendation for the clinical management of patients who are exposed or about to be exposed to a potential DDI. Management options may be generated by expert opinion, consensus, and/or a review and synthesis of relevant evidence.</rdfs:comment>
         <rdfs:label xml:lang="en">drug-drug interaction management option</rdfs:label>
     </owl:Class>
@@ -3410,9 +3398,20 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000020"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000112 xml:lang="en">Non-steroidal anti-inflammatory drugs (NSAIDs) have antiplatelet effects which increase the bleeding risk when combined with oral anticoagulants such as warfarin. The antiplatelet effect of NSAIDs lasts only as long as the NSAID is present in the circulation, unlike aspirin’s antiplatelet effect, which lasts for up to 2 weeks after aspirin is discontinued.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">Timolol is a nonselective beta-blocker, and timolol eye drops have been shown to produce systemic beta-blockade. Timolol is metabolized by CYP2D6, and patients who are deficient in CYP2D6 (PMs) have been shown to develop higher timolol plasma concentrations following timolol ophthalmic aqueous drops.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An information content entity that represents a drug interaction as a directional series of molecular processes.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">This is an information content entity that is about a clinically measurable drug-drug interaction.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">drug interaction mechanism</obo:IAO_0000118>
+        <obo:MPIO_0000001 xml:lang="en">An assertion about the process or the processes by which a drug-drug interaction clinical consequence occurs.</obo:MPIO_0000001>
         <rdfs:comment xml:lang="en">An instance of this entity would represent the biochemical process by which pharmacokinetic or pharmacodynamic DDI is thought to occur.</rdfs:comment>
-        <rdfs:label xml:lang="en">drug interaction mechanism</rdfs:label>
+        <rdfs:label xml:lang="en">mechanism of interaction information</rdfs:label>
     </owl:Class>
     
 
@@ -8462,60 +8461,6 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
-    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000032 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000032"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000033 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000033"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000100 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000100"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000104 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000104"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000310 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000310"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000311 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000311"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/IDO_0100872 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IDO_0100872">
@@ -8616,12 +8561,6 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <obo:IAO_0000115>serious adverse event is an adverse event that requires in-patient hospitalization, or prolongation of existing hospitalization, or that causes congenital malformation, or that results in persistent or significant disability or incapacity, or that is life threatening or results in death.</obo:IAO_0000115>
         <rdfs:label>severe adverse event</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000011"/>
     
 
 
@@ -9488,11 +9427,11 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0302900">
-        <obo:IAO_0000111 xml:lang="en">group randomization</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000111 xml:lang="en">group randomization</obo:IAO_0000111>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adapted from wikipedia [http://en.wikipedia.org/wiki/Randomization]</obo:IAO_0000119>
         <rdfs:label xml:lang="en">group randomization</rdfs:label>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adapted from wikipedia [http://en.wikipedia.org/wiki/Randomization]</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
         <obo:IAO_0000112 xml:lang="en">PMID: 18349405. Randomization reveals unexpected acute leukemias in Southwest Oncology Group prostate cancer trial. J Clin Oncol. 2008 Mar 20;26(9):1532-6.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A group assignment which relies on chance to assign materials to a group of materials in order to avoid bias in experimental set up.</obo:IAO_0000115>
