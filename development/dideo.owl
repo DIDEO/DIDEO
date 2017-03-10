@@ -3403,6 +3403,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <obo:IAO_0000115 xml:lang="en">An information content entity that represents a drug interaction as a directional series of molecular processes.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">This is an information content entity that is about a clinically measurable drug-drug interaction.</obo:IAO_0000116>
         <obo:IAO_0000118 xml:lang="en">drug interaction mechanism</obo:IAO_0000118>
+        <obo:MPIO_0000001 xml:lang="en">An assertion about the process or the processes by which a drug-drug interaction clinical consequence occurs.</obo:MPIO_0000001>
         <rdfs:comment xml:lang="en">An instance of this entity would represent the biochemical process by which pharmacokinetic or pharmacodynamic DDI is thought to occur.</rdfs:comment>
         <rdfs:label xml:lang="en">mechanism of interaction information</rdfs:label>
     </owl:Class>
