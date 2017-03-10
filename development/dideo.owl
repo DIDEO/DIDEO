@@ -208,6 +208,14 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MPIO_0000001 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/MPIO_0000001">
+        <rdfs:label xml:lang="en">MPIO user-centered definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0001847 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0001847">
