@@ -3400,6 +3400,8 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000020"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000112 xml:lang="en">Non-steroidal anti-inflammatory drugs (NSAIDs) have antiplatelet effects which increase the bleeding risk when combined with oral anticoagulants such as warfarin. The antiplatelet effect of NSAIDs lasts only as long as the NSAID is present in the circulation, unlike aspirin’s antiplatelet effect, which lasts for up to 2 weeks after aspirin is discontinued.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">Timolol is a nonselective beta-blocker, and timolol eye drops have been shown to produce systemic beta-blockade. Timolol is metabolized by CYP2D6, and patients who are deficient in CYP2D6 (PMs) have been shown to develop higher timolol plasma concentrations following timolol ophthalmic aqueous drops.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">An information content entity that represents a drug interaction as a directional series of molecular processes.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">This is an information content entity that is about a clinically measurable drug-drug interaction.</obo:IAO_0000116>
         <obo:IAO_0000118 xml:lang="en">drug interaction mechanism</obo:IAO_0000118>
