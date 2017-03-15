@@ -7877,6 +7877,18 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000154 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000154">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
+        <obo:IAO_0000115 xml:lang="en">a cultured cell population comprised of hepatocytes, in which, during the culturing process, the cells occupy a region bound by two parallel plates made of gelled collagen</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">sandwich cultured hepatocyte population</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
