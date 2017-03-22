@@ -7848,6 +7848,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <obo:IAO_0000115 xml:lang="en">a cultured cell population that is derived from hepatocytes isolated from a human being and that has undergone cryopreservation</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Cells isolated from human liver that have been frozen and stored, usually in liquid nitrogen; an in vitro model system for human metabolism or transport; cells can be thawed and used in metabolism or transport assays</rdfs:comment>
         <rdfs:label xml:lang="en">cryopreserved human hepatocyte population</rdfs:label>
     </owl:Class>
     
@@ -9470,10 +9471,10 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
+        <owl:deprecated></owl:deprecated>
     </rdf:Description>
     <rdf:Description>
-        <owl:deprecated></owl:deprecated>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
     </rdf:Description>
     
 
@@ -9487,11 +9488,11 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0302900">
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000111 xml:lang="en">group randomization</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">group randomization</rdfs:label>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adapted from wikipedia [http://en.wikipedia.org/wiki/Randomization]</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">group randomization</rdfs:label>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
         <obo:IAO_0000112 xml:lang="en">PMID: 18349405. Randomization reveals unexpected acute leukemias in Southwest Oncology Group prostate cancer trial. J Clin Oncol. 2008 Mar 20;26(9):1532-6.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A group assignment which relies on chance to assign materials to a group of materials in order to avoid bias in experimental set up.</obo:IAO_0000115>
