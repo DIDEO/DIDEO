@@ -7874,6 +7874,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <obo:IAO_0000115 xml:lang="en">a cultured cell population that is derived from cells isolated from the liver of a transgenic organism</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Cells isolated from livers of transgenic animals; an in vitro model system for human metabolism or transport</rdfs:comment>
         <rdfs:label xml:lang="en">transgenic animal hepatocyte population</rdfs:label>
     </owl:Class>
     
