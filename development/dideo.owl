@@ -7861,6 +7861,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <obo:IAO_0000115 xml:lang="en">a cultured cell population that is derived from hepatocytes isolated from a human being and that has not been frozen</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Cells isolated from human liver, never frozen; an in vitro model system for human metabolism or transport; cells can be used in metabolism or transport assays</rdfs:comment>
         <rdfs:label xml:lang="en">freshly isolated human hepatocyte population</rdfs:label>
     </owl:Class>
     
