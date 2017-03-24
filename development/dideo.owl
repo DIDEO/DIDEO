@@ -7907,12 +7907,25 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000157 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000157">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
         <obo:IAO_0000115 xml:lang="en">an immortal human liver-derived cell line cell that is part of the HepaRG cell line</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">HepaRG cells are terminally differentiated human hepatocellular carcinoma cells that reproducibly express drug-metabolizing enzymes and transporters. They are commonly used for metabolism and transport evaluations in vitro, as they respond and function like primary human hepatocytes across a range of applications.</rdfs:comment>
         <rdfs:label xml:lang="en">HepaRG cell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">an immortal human liver-derived cell line cell that is part of the Fa2N-4 cell line</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Fa2N-4 cell line was prepared by immortalizing hepatocytes from a 12 year-old Caucasian female donor with Simian virus 40 large T antigen. The donor was tested negative for CMV, HIV, HBV, and HCV. This cell line was mainly used for major CYP induction studies (including CYP3A4/5, 1A2, 2B6, and 2C9) with limitations. Hepatic transporter expression levels are low.</rdfs:comment>
+        <rdfs:label xml:lang="en">Fa2N-4 cell</rdfs:label>
     </owl:Class>
     
 
