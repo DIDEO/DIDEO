@@ -7930,6 +7930,20 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">an immortal human liver-derived cell line cell that is part of the HBG BC2 cell line</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">BC2 cell</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">An Immortalized human hepatoma cell line possesses the capacities of being reversibly differentiated in vitro, and of maintaining a relatviely higher mtabolic rate in the differentiated phase. It is mainly used for repeated toxicity evaluation in vitro.</rdfs:comment>
+        <rdfs:label xml:lang="en">HBG BC2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
@@ -9499,10 +9513,10 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
+        <owl:deprecated></owl:deprecated>
     </rdf:Description>
     <rdf:Description>
-        <owl:deprecated></owl:deprecated>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
     </rdf:Description>
     
 
