@@ -8023,7 +8023,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-        <obo:IAO_0000115 xml:lang="en">a processed material that has a centrifuge pellet role resulting from centrifugation at 104,000 g of a human intestine S9 fraction, which is derived from multiple donors</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a processed material that has a centrifuge pellet role resulting from centrifugation of a human intestine S9 fraction, which is derived from multiple donors, at 104,000 g</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Subcellular fractions, derived from endoplasmic reticulum that has been isolated from enterocytes of multiple human donors. They contain a rich variety of metaboliz enzymes for assessing first-pass metabolism for orally ingested drugs.</rdfs:comment>
