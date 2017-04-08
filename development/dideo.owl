@@ -8071,6 +8071,19 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+        <obo:IAO_0000115 xml:lang="en">a processed material that has a supernatant role resulting from centrifugation of a homogeneous mixture of human enterocytes at 12,000 g</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">A mixture of cell cytosol and microsomes isolated by disruption and centrifugation of human enterocytes. It contains a wide range of drug-metabolizing enzymes and is commonly used for in vitro DMPK studies, including both phase I and phase II xenobiotic metabolism.</rdfs:comment>
+        <rdfs:label xml:lang="en">human intestine S9 fraction</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
