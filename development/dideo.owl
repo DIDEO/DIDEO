@@ -7993,6 +7993,19 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000161">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+        <obo:IAO_0000115 xml:lang="en">a processed material that has a supernatant role resulting from centrifugation of a human intestine S9 fraction at 104,000 g</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Cell cytosol obtained via centrifugation of human enterocytes. It is commonly used to support in vitro evaluation of intestinal cytosolic enzymes in the first-pass metabolism of orally ingested xenobitotics.</rdfs:comment>
+        <rdfs:label xml:lang="en">human intestine cytosolic fraction</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000163 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000163">
