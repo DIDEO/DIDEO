@@ -8006,6 +8006,19 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+        <obo:IAO_0000115 xml:lang="en">a processed material that has a supernatant role resulting from centrifugation of a homogeneous mixture of human liver cells at 12,000 g</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">A mixture of cell cytosol and microsomes isolated by disruption and centrifugation of human liver cells. It contains a wide range of drug-metabolizing enzymes and is commonly used for in vitro DMPK studies, including both phase I and phase II xenobiotic metabolism.</rdfs:comment>
+        <rdfs:label xml:lang="en">human liver S9 fraction</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000163 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000163">
@@ -9755,11 +9768,11 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0302900">
-        <obo:IAO_0000111 xml:lang="en">group randomization</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000111 xml:lang="en">group randomization</obo:IAO_0000111>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adapted from wikipedia [http://en.wikipedia.org/wiki/Randomization]</obo:IAO_0000119>
         <rdfs:label xml:lang="en">group randomization</rdfs:label>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adapted from wikipedia [http://en.wikipedia.org/wiki/Randomization]</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
         <obo:IAO_0000112 xml:lang="en">PMID: 18349405. Randomization reveals unexpected acute leukemias in Southwest Oncology Group prostate cancer trial. J Clin Oncol. 2008 Mar 20;26(9):1532-6.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A group assignment which relies on chance to assign materials to a group of materials in order to avoid bias in experimental set up.</obo:IAO_0000115>
