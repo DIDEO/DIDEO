@@ -8097,6 +8097,19 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000169">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000010"/>
+        <obo:IAO_0000115 xml:lang="en">a cultured cell of the species Escherichia coli that has a recombinant protein production host role</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Prokaryotic in vitro system used to produce and express recombinant proteins/enzymes; these systems are used in metabolism studies</rdfs:comment>
+        <rdfs:label xml:lang="en">E. coli recombinant protein production host cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
