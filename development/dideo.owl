@@ -8259,6 +8259,19 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0001364"/>
+        <obo:IAO_0000115 xml:lang="en">a demethylation that has dextromethorphan as input and has dextrorphan as output</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">O-demethylation of dextromethorphan to form dextrorphan;probe substrate of CYP2C9 activity</rdfs:comment>
+        <rdfs:label xml:lang="en">dextromethorphan O-demethylation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
