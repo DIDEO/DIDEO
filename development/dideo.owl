@@ -8142,6 +8142,19 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000172">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0001385"/>
+        <obo:IAO_0000115 xml:lang="en">a deethylation that has 7-ethoxyresorufin as input and resorufin as output</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">O-deethylation of 7-Ethoxyresorufin to form resorufin; probe substrate of CYP1A activity</rdfs:comment>
+        <rdfs:label xml:lang="en">7-ethoxyresorufin O-deethylation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
