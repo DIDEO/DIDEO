@@ -8194,6 +8194,19 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0000673"/>
+        <obo:IAO_0000115 xml:lang="en">a hydroxylation that has bupropion as input and 1-hydroxybuproprion as output</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Hydroxylation of buproprion at the 1 position to form 1-hydroxybuproprion; probe substrate of CYP2B6 activity</rdfs:comment>
+        <rdfs:label xml:lang="en">bupropion hydroxylation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
