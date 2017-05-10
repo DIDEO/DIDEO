@@ -92,8 +92,8 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
 
     <rdf:Description rdf:about="&obo;IAO_0000111">
         <rdfs:label>editor preferred term</rdfs:label>
-        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
         <rdfs:label>editor preferred label</rdfs:label>
+        <rdfs:label>editor preferred term~editor preferred label</rdfs:label>
         <rdfs:label xml:lang="en">editor preferred label</rdfs:label>
         <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
     </rdf:Description>
@@ -2822,6 +2822,36 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6931 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_6931">
+        <rdfs:label rdf:datatype="&xsd;string">Midazolam</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_24532"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">0</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">325.078</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">325.768</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">C18H13ClFN3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CAS:59467-70-8</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:6931</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Cc1ncc2CN=C(c3ccccc3F)c3cc(Cl)ccc3-n12</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">DDLIGBOFAVUZHB-UHFFFAOYSA-N</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Drug_Central:1802</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChI=1S/C18H13ClFN3/c1-11-21-9-13-10-22-18(14-4-2-3-5-16(14)20)15-8-12(19)6-7-17(15)23(11)13/h2-9H,10H2,1H3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG:C07524</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG:D00550</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">LINCS:LSM-5200</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Midazolam</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">buccolam</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">mezolam</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">midazolam HCl</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">midazolam hydrochloride</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;chebi#2_STAR"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_72695 -->
 
     <owl:Class rdf:about="&obo;CHEBI_72695">
@@ -3030,20 +3060,6 @@ http://code.google.com/p/clo-ontology/wiki/Cell_Lines</obo:IAO_0000116>
         <rdfs:subClassOf>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
-                    </owl:Restriction>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="&obo;IAO_0000030"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
@@ -3057,6 +3073,20 @@ http://code.google.com/p/clo-ontology/wiki/Cell_Lines</obo:IAO_0000116>
                                 </owl:unionOf>
                             </owl:Class>
                         </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000011"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="&obo;DIDEO_00000014"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -5150,9 +5180,9 @@ http://code.google.com/p/clo-ontology/wiki/Cell_Lines</obo:IAO_0000116>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="&obo;DIDEO_00000053"/>
         <obo:IAO_0000115 xml:lang="en">An evidence information content entity that is about an in vitro assay that has a part of a drug or a drug metabolite, which participate in a metabolic process that has CYP 450 as a participant, as a specified input, and that has human tissue specimen as a specified input, and that has chemical inhibitors as a specified input.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119>https://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/just-inclusion-criteria/just-inclusion-criteria.html</obo:IAO_0000119>
         <obo:IAO_0000118>EV_EX_Met_Enz_ID_Cyp450_Hum_Microsome_Chem</obo:IAO_0000118>
-        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
     </owl:Class>
     
 
@@ -9670,7 +9700,15 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://purl.obolibrary.org/obo/OBI_0302900 -->
 
     <owl:Class rdf:about="&obo;OBI_0302900">
+        <rdfs:label xml:lang="en">group randomization</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;OBI_0600015"/>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="&xsd;string">adapted from wikipedia [http://en.wikipedia.org/wiki/Randomization]</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <obo:IAO_0000115 xml:lang="en">A group assignment which relies on chance to assign materials to a group of materials in order to avoid bias in experimental set up.</obo:IAO_0000115>
+        <obo:IAO_0000112 xml:lang="en">PMID: 18349405. Randomization reveals unexpected acute leukemias in Southwest Oncology Group prostate cancer trial. J Clin Oncol. 2008 Mar 20;26(9):1532-6.</obo:IAO_0000112>
+        <obo:IAO_0000111 xml:lang="en">group randomization</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </owl:Class>
     
 
@@ -10131,15 +10169,15 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_yeast"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasNarrowSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasNarrowSynonym>
     </owl:Class>
     
 
@@ -10159,12 +10197,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
-        <oboInOwl:hasDbXref>
-            <rdf:Description/>
-        </oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>
+            <rdf:Description/>
+        </oboInOwl:hasDbXref>
     </owl:Class>
     
 
@@ -10182,12 +10220,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_plant"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasExactSynonym>
-            <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>
+            <rdf:Description/>
+        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>
             <rdf:Description/>
         </oboInOwl:hasExactSynonym>
@@ -10207,9 +10245,9 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:hasOBONamespace>biological_process</oboInOwl:hasOBONamespace>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#goslim_pir"/>
         <oboInOwl:inSubset rdf:resource="http://purl.org/obo/owl/obo#gosubset_prok"/>
-        <oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>
             <rdf:Description/>
-        </oboInOwl:hasExactSynonym>
+        </oboInOwl:hasDbXref>
         <oboInOwl:hasDefinition>
             <rdf:Description/>
         </oboInOwl:hasDefinition>
@@ -10222,9 +10260,9 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>
             <rdf:Description/>
-        </oboInOwl:hasDbXref>
+        </oboInOwl:hasExactSynonym>
         <oboInOwl:hasDbXref>
             <rdf:Description/>
         </oboInOwl:hasDbXref>
@@ -10264,35 +10302,14 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="&obo;OBI_0302900"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <owl:deprecated></owl:deprecated>
-    </rdf:Description>
-    <rdf:Description>
         <rdfs:comment rdf:datatype="&xsd;boolean">true</rdfs:comment>
     </rdf:Description>
-    
-
-
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Annotations
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
-
-    <rdf:Description rdf:about="&obo;OBI_0302900">
-        <rdfs:label xml:lang="en">group randomization</rdfs:label>
-        <obo:IAO_0000117 rdf:datatype="&xsd;string">Philippe Rocca-Serra</obo:IAO_0000117>
-        <obo:IAO_0000119 rdf:datatype="&xsd;string">adapted from wikipedia [http://en.wikipedia.org/wiki/Randomization]</obo:IAO_0000119>
-        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
-        <obo:IAO_0000115 xml:lang="en">A group assignment which relies on chance to assign materials to a group of materials in order to avoid bias in experimental set up.</obo:IAO_0000115>
-        <obo:IAO_0000112 xml:lang="en">PMID: 18349405. Randomization reveals unexpected acute leukemias in Southwest Oncology Group prostate cancer trial. J Clin Oncol. 2008 Mar 20;26(9):1532-6.</obo:IAO_0000112>
-        <obo:IAO_0000111 xml:lang="en">group randomization</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+    <rdf:Description>
+        <owl:deprecated></owl:deprecated>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.0) http://owlapi.sourceforge.net -->
 
