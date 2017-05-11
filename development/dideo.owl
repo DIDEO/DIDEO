@@ -8566,6 +8566,19 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000189 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000189">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0002421"/>
+        <obo:IAO_0000115 xml:lang="en">a 293-derived cell that has a target of material addition role and is a specified input of a transfection</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Immortalized human kideny cells transfected/transduced with a transporter or enzyme; an in vitro model overexpressing transporter or enzyme of interest; used for transporter or metabolism assays</rdfs:comment>
+        <rdfs:label xml:lang="en">293 transfected cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
@@ -10631,10 +10644,10 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
+        <owl:deprecated></owl:deprecated>
     </rdf:Description>
     <rdf:Description>
-        <owl:deprecated></owl:deprecated>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
     </rdf:Description>
     
 
