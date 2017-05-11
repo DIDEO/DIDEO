@@ -1036,12 +1036,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002230"/>
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002211"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002230"/>
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -8682,6 +8682,22 @@ http://code.google.com/p/clo-ontology/wiki/Cell_Lines</obo:IAO_0000116>
         <obo:IAO_0000112 rdf:datatype="&xsd;string">Characterization of the phenotype is often done in transgenic or knockout mice.</obo:IAO_0000112>
         <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Nicole Vasilevsky</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="&xsd;string">http://en.wikipedia.org/wiki/Phenotype</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
+        <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ERO_0001202 -->
+
+    <owl:Class rdf:about="&obo;ERO_0001202">
+        <rdfs:label rdf:datatype="&xsd;string">RNA reagent</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;ERO_0000630"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A reagent that is a polymer comprised of RNA nucleotides.</obo:IAO_0000115>
+        <obo:IAO_0000112 rdf:datatype="&xsd;string">A riboprobe.</obo:IAO_0000112>
+        <obo:IAO_0000119 rdf:datatype="&xsd;string">PERSON: Matthew Brush</obo:IAO_0000119>
+        <obo:IAO_0000117 rdf:datatype="&xsd;string">PERSON: Matthew Brush</obo:IAO_0000117>
+        <rdfs:comment rdf:datatype="&xsd;string">Placeholder for class to be imported from the Reagent Ontology (ReO).</rdfs:comment>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000120"/>
     </owl:Class>
