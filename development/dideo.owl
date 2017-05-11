@@ -8616,7 +8616,22 @@ http://code.google.com/p/clo-ontology/wiki/Cell_Lines</obo:IAO_0000116>
 
     <owl:Class rdf:about="&obo;DIDEO_00000189">
         <rdfs:label xml:lang="en">293 transfected cell</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;CLO_0002421"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="&obo;CLO_0037237"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;OBI_0000295"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OBI_0001152"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="&obo;RO_0000087"/>
+                        <owl:someValuesFrom rdf:resource="&obo;OBI_0000444"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="&obo;CLO_0037237"/>
         <rdfs:comment xml:lang="en">Immortalized human kideny cells transfected/transduced with a transporter or enzyme; an in vitro model overexpressing transporter or enzyme of interest; used for transporter or metabolism assays</rdfs:comment>
         <obo:IAO_0000117 xml:lang="en">Jessica Sontheimer</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
