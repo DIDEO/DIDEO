@@ -1044,12 +1044,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002230"/>
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002211"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002230"/>
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -2975,6 +2975,38 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">melange racemique</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">racemates</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">racemic mixture</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6636 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_6636">
+        <rdfs:label rdf:datatype="&xsd;string">magnesium dichloride</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_51234"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">0</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">93.923</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">95.21040</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A magnesium salt comprising of two chlorine atoms bound to a magnesium atom.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CAS:7786-30-3</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:6636</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Cl2Mg</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Gmelin:9305</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChI=1S/2ClH.Mg/h2*1H;/q;;+2/p-2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG:C07755</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Magnesium chloride</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Magnesium chloride anhydrous</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Magnesiumchlorid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">MgCl2</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MolBase:1868</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reaxys:8128169</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">TWRXJAOTZQYOKJ-UHFFFAOYSA-L</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">[Mg++].[Cl-].[Cl-]</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">[MgCl2]</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">magnesium dichloride</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;chebi#3_STAR"/>
     </owl:Class>
     
 
