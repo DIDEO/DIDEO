@@ -1770,6 +1770,55 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16856 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_16856">
+        <rdfs:label rdf:datatype="&xsd;string">glutathione</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36963"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">0</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">307.084</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">307.32300</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">5-L-Glutamyl-L-cysteinylglycine</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A tripeptide compound consisting of glutamic acid attached via its side chain to the N-terminus of cysteinylglycine.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">C10H17N3O6S</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CAS:70-18-8</oboInOwl:hasDbXref>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:12402</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:14327</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:16856</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:24334</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:42873</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:43049</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:5437</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">DrugBank:DB00143</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Drug_Central:1312</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">GSH</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Glutathione</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Glutathione-SH</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">HMDB:HMDB00125</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChI=1S/C10H17N3O6S/c11-5(10(18)19)1-2-7(14)13-6(4-20)9(17)12-3-8(15)16/h5-6,20H,1-4,11H2,(H,12,17)(H,13,14)(H,15,16)(H,18,19)/t5-,6-/m0/s1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG:C00051</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG:D00014</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KNApSAcK:C00001518</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">L-gamma-glutamyl-L-cysteinylglycine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">MetaCyc:GLUTATHIONE</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">N-(N-gamma-L-Glutamyl-L-cysteinyl)glycine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">N[C@@H](CCC(=O)N[C@@H](CS)C(=O)NCC(O)=O)C(O)=O</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">PDBeChem:GSH</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">PMID:17439666</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">PMID:4200890</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">PMID:4745654</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">RWSXRVCMGQZWBV-WDSKDSINSA-N</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reaxys:1729812</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Reduced glutathione</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Wikipedia:Glutathione</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">gamma-L-Glutamyl-L-cysteinyl-glycine</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:inSubset rdf:resource="&obo;chebi#3_STAR"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16908 -->
 
     <owl:Class rdf:about="&obo;CHEBI_16908">
