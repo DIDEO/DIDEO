@@ -1989,6 +1989,20 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_22715 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_22715">
+        <rdfs:label rdf:datatype="&xsd;string">benzimidazoles</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_27171"/>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">An organic heterocyclic compound containing a benzene ring fused to an imidazole ring.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:22715</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:inSubset rdf:resource="&obo;chebi#3_STAR"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
 
     <owl:Class rdf:about="&obo;CHEBI_23367">
@@ -3277,6 +3291,37 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">melange racemique</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">racemates</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">racemic mixture</oboInOwl:hasRelatedSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_63840 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_63840">
+        <rdfs:label rdf:datatype="&xsd;string">5&apos;-hydroxyomeprazole</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_22715"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">(4-methoxy-6-{[(5-methoxy-1H-benzimidazol-2-yl)sulfinyl]methyl}-5-methylpyridin-3-yl)methanol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">0</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">361.110</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">361.41500</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">5-Methoxy-2-(((4-methoxy-3-methyl-5-hydroxymethyl-2-pyridinyl)methyl)sulfinyl)-1H-benzimidazole</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A sulfoxide that is omeprazole in which one of the methyl hydrogens at position 5 on the pyridine ring is substituted by a hydroxy group.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">C17H19N3O4S</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CAS:92340-57-3</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:63840</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">CMZHQFXXAAIBKE-UHFFFAOYSA-N</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">COc1ccc2[nH]c(nc2c1)S(=O)Cc1ncc(CO)c(OC)c1C</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Hydroxyomeprazole</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChI=1S/C17H19N3O4S/c1-10-15(18-7-11(8-21)16(10)24-3)9-25(22)17-19-13-5-4-12(23-2)6-14(13)20-17/h4-7,21H,8-9H2,1-3H3,(H,19,20)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">PMID:19166730</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">PMID:21546194</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">PMID:7781266</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">PMID:8550990</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">PMID:9916309</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reaxys:8439890</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:inSubset rdf:resource="&obo;chebi#3_STAR"/>
     </owl:Class>
     
 
