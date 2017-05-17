@@ -3183,6 +3183,32 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51602 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_51602">
+        <rdfs:label rdf:datatype="&xsd;string">resorufin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_25970"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">0</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">213.043</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">213.18892</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">7-Hydroxy-3H-phenoxazin-3-one</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">7-Hydroxyphenoxazin-3-one</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">7-hydroxy-3H-phenoxazin-3-one</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Beilstein:174850</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">C12H7NO3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CAS:635-78-9</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:51602</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">HSSLDCABUXLXKM-UHFFFAOYSA-N</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChI=1S/C12H7NO3/c14-7-1-3-9-11(5-7)16-12-6-8(15)2-4-10(12)13-9/h1-6,14H</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Oc1ccc2nc3ccc(=O)cc3oc2c1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Resorufine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:inSubset rdf:resource="&obo;chebi#3_STAR"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_59999 -->
 
     <owl:Class rdf:about="&obo;CHEBI_59999">
