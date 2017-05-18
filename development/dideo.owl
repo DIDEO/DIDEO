@@ -2846,6 +2846,20 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38163 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_38163">
+        <rdfs:label rdf:datatype="&xsd;string">organic heterotetracyclic compound</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_38166"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:38163</oboInOwl:id>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">organic heterotetracyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;chebi#3_STAR"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_38166 -->
 
     <owl:Class rdf:about="&obo;CHEBI_38166">
