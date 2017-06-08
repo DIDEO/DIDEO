@@ -1044,12 +1044,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002230"/>
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002211"/>
             <rdf:Description rdf:about="&obo;BFO_0000050"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002230"/>
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -10304,6 +10304,17 @@ http://code.google.com/p/clo-ontology/wiki/Cell_Lines</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="&obo;BFO_0000015"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Formation of a covalent bond between a substrate and a hydroxy group.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">MOP:0000673</oboInOwl:id>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/mop.owl</obo:IAO_0000412>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOP_0000779 -->
+
+    <owl:Class rdf:about="&obo;MOP_0000779">
+        <rdfs:label rdf:datatype="&xsd;string">formation of covalent bond</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;MOP_0000543"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">MOP:0000779</oboInOwl:id>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/mop.owl</obo:IAO_0000412>
     </owl:Class>
     
