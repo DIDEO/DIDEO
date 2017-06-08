@@ -8936,7 +8936,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-        <obo:IAO_0000115 xml:lang="en">a processed material that has a supernatant role resulting from centrifugation of a human intestine S9 fraction at 104,000 g</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a processed material that has a supernatant role resulting from high-speed centrifugation of a human intestine S9 fraction</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Cell cytosol obtained via centrifugation of human liver cells. It is commonly used to support in vitro DMPK studies related to liver cytsolic enzymes, especially non-CYP enzymes, such as phase I enzyme aldehyde oxidase (AO), phase II enzyme SULT.</rdfs:comment>
         <rdfs:label xml:lang="en">human liver cytosolic fraction</rdfs:label>
