@@ -21,7 +21,7 @@
         <dc:contributor xml:lang="en">Philip E. Empey</dc:contributor>
         <dc:contributor xml:lang="en">Dan Malone</dc:contributor>
         <rdfs:label xml:lang="en">Drug-drug Interaction and Drug-drug Interaction Evidence Ontology </rdfs:label>
-        <owl:versionInfo xml:lang="en">release version 2017-05-19</owl:versionInfo>
+        <owl:versionInfo xml:lang="en">release version 2017-06-09</owl:versionInfo>
         <dc:contributor xml:lang="en">Anuj Shah</dc:contributor>
         <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
         <dc:license xml:lang="en">http://creativecommons.org/licenses/by/4.0/</dc:license>
@@ -3775,6 +3775,21 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChIKey=JOFWLTCLBGQGBO-UHFFFAOYSA-N</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:9674</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">triazolam</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0302886"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A separation method where components of a sample are separated on the basis of their density in a centrifuge according to the centrifugal force they experience. Samples are spun at &gt;5000 rpm.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/chmo.owl</obo:IAO_0000412>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">burchh</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-06-19T02:03:14Z</oboInOwl:creation_date>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high speed centrifugation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002013</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">high-speed centrifugation</rdfs:label>
     </owl:Class>
     
 
@@ -8838,7 +8853,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000152">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100060"/>
-        <obo:IAO_0000115 xml:lang="en">a cultured cell population that is derived from hepatocytes isolated from a human being and that has not been frozen</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a cultured cell population that is derived from hepatocytes freshly isolated from a human being</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Cells isolated from human liver, never frozen; an in vitro model system for human metabolism or transport; cells can be used in metabolism or transport assays</rdfs:comment>
         <rdfs:label xml:lang="en">freshly isolated human hepatocyte population</rdfs:label>
@@ -8921,7 +8936,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
-        <obo:IAO_0000115 xml:lang="en">a processed material that has a supernatant role resulting from centrifugation of a human intestine S9 fraction at 104,000 g</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a processed material that has a supernatant role resulting from high-speed centrifugation of a human intestine S9 fraction</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">Cell cytosol obtained via centrifugation of human liver cells. It is commonly used to support in vitro DMPK studies related to liver cytsolic enzymes, especially non-CYP enzymes, such as phase I enzyme aldehyde oxidase (AO), phase II enzyme SULT.</rdfs:comment>
         <rdfs:label xml:lang="en">human liver cytosolic fraction</rdfs:label>
@@ -9430,6 +9445,30 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <obo:IAO_0000115 xml:lang="en">a hydroxylation that has diclofenac as input and 4&apos;-hydroxydiclofenac as output</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">Hydroxylation of diclofenac to form 4&apos;-hydroxydiclofenac; probe substrate of CYP2C9 activity</rdfs:comment>
         <rdfs:label xml:lang="en">diclofenac 4&apos;-hydroxylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0000673"/>
+        <obo:IAO_0000115 xml:lang="en">a hydroxylation that has tolbutamide as input and 4-hydroxytolbutamide as output</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Methyhydroxylation of tolbutamide to form hydroxytolbutamide;probe substrate of CYP2D6 activity</rdfs:comment>
+        <rdfs:label xml:lang="en">tolbutamide methylhydroxylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000193 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000193">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0000156"/>
+        <obo:IAO_0000115 xml:lang="en">a glucuronosylation that has estradiol as input and has estradiol-3-glucuronide as output</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Glucuronidation of estradiol to estradiol-3-glucuronide; probe substrate of UGT1A1 activity (used to measure UGT1A1 activity)</rdfs:comment>
+        <rdfs:label xml:lang="en">estradiol glucuronosylation</rdfs:label>
     </owl:Class>
     
 
@@ -10226,6 +10265,33 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MOP_0000156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOP_0000156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0000779"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formation of a covalent bond between a substrate and a glucuronosyl group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mop.owl</obo:IAO_0000412>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucuronosylation</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOP:0000156</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_participant: CHEBI:24303</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">glucuronosylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOP_0000543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOP_0000543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A process in which at least one of the participants is a molecule.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mop.owl</obo:IAO_0000412>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOP:0000543</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TODO: needs work, formal definition, etc.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular process</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MOP_0000590 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOP_0000590">
@@ -10243,7 +10309,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/MOP_0000673 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOP_0000673">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0000779"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Formation of a covalent bond between a substrate and a hydroxy group.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mop.owl</obo:IAO_0000412>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOP:0000673</oboInOwl:id>
@@ -10252,10 +10318,32 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MOP_0000779 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOP_0000779">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0000543"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mop.owl</obo:IAO_0000412>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOP:0000779</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">formation of covalent bond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MOP_0000780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOP_0000780">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0000543"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mop.owl</obo:IAO_0000412>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOP:0000780</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breaking of covalent bond</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MOP_0001364 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOP_0001364">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0000780"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breaking of a covalent bond between a substrate and a methyl group.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mop.owl</obo:IAO_0000412>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOP:0001364</oboInOwl:id>
@@ -10268,13 +10356,23 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/MOP_0001385 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MOP_0001385">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0000780"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Breaking of a covalent bond between a substrate and an ethyl group.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/mop.owl</obo:IAO_0000412>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">de-ethylation</oboInOwl:hasExactSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOP:0001385</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_participant: CHEBI:37807</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">deethylation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_451864 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_451864">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/doid.owl</obo:IAO_0000412>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dikarya</rdfs:label>
     </owl:Class>
     
 
@@ -10300,6 +10398,23 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <obo:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Eschericia coli</obo:hasRelatedSynonym>
         <ncbitaxon:has_rank rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_species"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Escherichia coli</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_8355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_8355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">African clawed frog</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bufo laevis</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xenopus laevis (Daudin, 1802)</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xenopus leavis</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">clawed frog</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">common platanna</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">platanna</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xenopus laevis</rdfs:label>
     </owl:Class>
     
 
