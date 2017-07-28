@@ -3596,6 +3596,33 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_63859 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_63859">
+        <rdfs:label rdf:datatype="&xsd;string">6-hydroxypaclitaxel</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_50860"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">(2alpha,5beta,6alpha,7beta,10beta,13alpha)-4,10-diacetoxy-13-{[(2R,3S)-3-(benzoylamino)-2-hydroxy-3-phenylpropanoyl]oxy}-1,6,7-trihydroxy-9-oxo-5,20-epoxytax-11-en-2-yl benzoate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">0</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">6-hydroxytaxol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">6alpha-hydroxypaclitaxel</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">6alpha-hydroxytaxol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">869.326</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">869.90550</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A taxane diterpenoid that consists of paclitaxel bearing an additional hydroxy substituent at the 6alpha-position.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">C47H51NO15</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">CAS:153212-75-0</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:63859</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChI=1S/C47H51NO15/c1-24-30(61-43(57)33(51)32(27-16-10-7-11-17-27)48-41(55)28-18-12-8-13-19-28)22-47(58)40(62-42(56)29-20-14-9-15-21-29)36-45(6,38(54)35(60-25(2)49)31(24)44(47,4)5)37(53)34(52)39-46(36,23-59-39)63-26(3)50/h7-21,30,32-37,39-40,51-53,58H,22-23H2,1-6H3,(H,48,55)/t30-,32-,33+,34-,35+,36-,37-,39+,40-,45-,46+,47+/m0/s1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">NDCWHEDPSFRTDA-FJMWQILYSA-N</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">Reaxys:8105272</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">[H][C@]12[C@H](OC(=O)c3ccccc3)[C@]3(O)C[C@H](OC(=O)[C@H](O)[C@@H](NC(=O)c4ccccc4)c4ccccc4)C(C)=C([C@@H](OC(C)=O)C(=O)[C@]1(C)[C@@H](O)[C@H](O)[C@H]1OC[C@@]21OC(C)=O)C3(C)C</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
+        <oboInOwl:inSubset rdf:resource="&obo;chebi#3_STAR"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_6636 -->
 
     <owl:Class rdf:about="&obo;CHEBI_6636">
