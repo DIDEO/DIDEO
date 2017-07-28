@@ -4658,7 +4658,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115 xml:lang="en">A drug product or drug ingredient that participates in a drug-drug interaction.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">A material entity that is either drug product or an ingredient thereof and that participates in a drug-drug interaction.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Drug participant in drug-drug interaction</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">A drug entity that participate in a drug-drug interaction but for which its role is not assignable as a precipitant or object.</rdfs:comment>
         <rdfs:label xml:lang="en">material entity participant in drug-drug interaction</rdfs:label>
