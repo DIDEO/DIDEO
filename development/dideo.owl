@@ -1044,12 +1044,12 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <obo:IAO_0000114 rdf:resource="&obo;IAO_0000125"/>
         <rdfs:subPropertyOf rdf:resource="&obo;RO_0002418"/>
         <owl:propertyChainAxiom rdf:parseType="Collection">
-            <rdf:Description rdf:about="&obo;RO_0002211"/>
-            <rdf:Description rdf:about="&obo;BFO_0000050"/>
-        </owl:propertyChainAxiom>
-        <owl:propertyChainAxiom rdf:parseType="Collection">
             <rdf:Description rdf:about="&obo;RO_0002230"/>
             <rdf:Description rdf:about="&obo;RO_0002211"/>
+        </owl:propertyChainAxiom>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="&obo;RO_0002211"/>
+            <rdf:Description rdf:about="&obo;BFO_0000050"/>
         </owl:propertyChainAxiom>
     </owl:ObjectProperty>
     
@@ -1724,6 +1724,34 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
         <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
         <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">nicotinamide-adenine dinucleotide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset rdf:resource="&obo;chebi#3_STAR"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15822 -->
+
+    <owl:Class rdf:about="&obo;CHEBI_15822">
+        <rdfs:label rdf:datatype="&xsd;string">17alpha-estradiol 3-glucosiduronic acid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CHEBI_36963"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">0</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">17alpha-estradiol 3-glucuronide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">17alpha-hydroxyestra-1,3,5(10)-trien-3-yl beta-D-glucopyranosiduronic acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">448.210</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">448.50610</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">A steroid glucosiduronic acid having 17alpha-estradiol as the steroid component.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">C24H32O8</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:14218</oboInOwl:hasAlternativeId>
+        <oboInOwl:id rdf:datatype="&xsd;string">CHEBI:15822</oboInOwl:id>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:23962</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="&xsd;string">CHEBI:4863</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">Estradiol-17alpha 3-D-glucuronoside</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">InChI=1S/C24H32O8/c1-24-9-8-14-13-5-3-12(10-11(13)2-4-15(14)16(24)6-7-17(24)25)31-23-20(28)18(26)19(27)21(32-23)22(29)30/h3,5,10,14-21,23,25-28H,2,4,6-9H2,1H3,(H,29,30)/t14-,15-,16+,17-,18+,19+,20-,21+,23-,24+/m1/s1</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="&xsd;string">KEGG:C04300</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">MUOHJTRCBBDUOW-FNUZHIFDSA-N</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="&xsd;string">[H][C@]12CC[C@]3(C)[C@H](O)CC[C@@]3([H])[C@]1([H])CCc1cc(O[C@@H]3O[C@@H]([C@@H](O)[C@H](O)[C@H]3O)C(O)=O)ccc21</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">chebi_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:datatype="&xsd;string">http://purl.obolibrary.org/obo/chebi.owl</obo:IAO_0000412>
         <oboInOwl:inSubset rdf:resource="&obo;chebi#3_STAR"/>
     </owl:Class>
     
