@@ -29,7 +29,7 @@ The dideo.owl file in the base directory is the most recent release version and 
 
 ------------------------------------------------------------
 License
-------------------------------------------------------------=
+------------------------------------------------------------
 
 The DIDEO is made available under the Creative Commons Attribution 4.0
 International Public License. A copy of the license is available in
