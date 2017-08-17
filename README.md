@@ -24,6 +24,7 @@ Ontology development guidelines:
 
 All development is done in the development OWL file located at development/dideo.owl
 There is a development purl, http://purl.obolibrary.org/dideo/dev/dideo.owl which always points to development file on the master branch.
+
 The dideo.owl file in the base directory is the most recent release version and has the purl, [http://purl.obolibrary.org/obo/dideo.owl](http://purl.obolibrary.org/obo/dideo.owl).
 
 
@@ -41,10 +42,10 @@ http://creativecommons.org/licenses/by/4.0/legalcode
 Contributors
 ------------------------------------------------------------
 
-Richard D. Boyce
-Mathias Brochhausen
-Philip E. Empey
-William R. Hogan
-John Judkins
-Daniel C. Malone
-Jodi Schneider
+* Richard D. Boyce
+* Mathias Brochhausen
+* Philip E. Empey
+* William R. Hogan
+* John Judkins
+* Daniel C. Malone
+* Jodi Schneider
