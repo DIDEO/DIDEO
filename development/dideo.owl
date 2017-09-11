@@ -28,7 +28,6 @@
         <dc:contributor xml:lang="en">Jodi Schneider</dc:contributor>
         <dc:contributor xml:lang="en">Richard D. Boyce</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version 2017-07-28</owl:versionInfo>
         <rdfs:comment xml:lang="en">The Drug-drug Interaction and Drug-drug Interaction Evidence Ontology (DIDEO) by the DIDEO development group is licensed under CC BY 4.0
 (https://creativecommons.org/licenses/by/4.0/).</rdfs:comment>
         <rdfs:label xml:lang="en">DIDEO</rdfs:label>
