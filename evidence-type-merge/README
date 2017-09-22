@@ -1,0 +1,19 @@
+This folder holds the input and output of the merge and inference
+process used to create the completely tagged set of evidence type
+instances needed for the DRIVE II evidence assessment study.
+
+- Input: DIDEO from commit e761a31 in early September 2017
+
+- Merge done on 9/22/2017
+
+- Using Robot from https://github.com/ontodev/robot commit deb14d3
+
+1. ./bin/robot merge -input ~/DI_DIR/DIDEO/dideo.owl -output ~/DI_DIR/DIDEO/gathered.owl
+
+2. ./bin/robot merge -input ~/DI_DIR/DIDEO/gathered.owl --input ~/DI_DIR/DIDEO/all.xml -output ~/DI_DIR/DIDEO/individuals.owl
+
+3. individuals.owl was opened in Protégé and the HermiT reasoner ran.
+
+4. Finally from Protégé “Export the inferred axioms as ontology…” was selected from the file menu with “Class Assertions (individual types)” checked (in addition to defaults) in the axioms to export window.
+
+

@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:obo="http://purl.obolibrary.org/obo/"
+   xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay165">
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre165"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/organism165"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1323165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence179">
+    <oboInOwl:hasAlternativeId>10192828-Exp2</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay179"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay175">
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1388175"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre175"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd175"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance175"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1307164">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_8028"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1471183">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role183"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1330168">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role168"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role188">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role190">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/ivd181">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay183">
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1470183"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1460183"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance183"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1472183"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd183"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type183"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre183"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1473183"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1471183"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1524188">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6078"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role188"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay177">
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1422177"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/metabolic_inhibitor177"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1419177"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd177"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1420177"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre177"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance177"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1421177"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type177"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance184">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process184"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/event192">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance2188">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+    <obo:BFO_0000050 rdf:resource="http://dideo.cafe-trauma.com/drug_product188"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role168">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/csd169">
+    <obo:BFO_0000051 rdf:resource="http://dideo.cafe-trauma.com/pgd169"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/metabolic_process177">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1329168">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_31236"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role168"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence184">
+    <oboInOwl:hasAlternativeId>16416302</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay184"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/civd184">
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/ivd184"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug_product189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/metabolic_inhibitor181">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1490184">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48923"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role184"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre175">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay176">
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type176"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre176"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd176"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1423176"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance176"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/organism164">
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/pharmkin164"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/geno164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence164">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay164"/>
+    <oboInOwl:hasAlternativeId>17429316</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1339169">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role169"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6931"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance180">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process180"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1557190">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role190"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_4551"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role170">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre168">
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/csd168"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1492184">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2955"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role184"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/metabolic_process182">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role181">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay182">
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre182"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type182"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd182"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1449182"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance182"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/metabolic_inhibitor182"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/transport_assay188">
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/overexpression188"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre191">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1421177">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6076"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role177"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/civd179">
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/ivd179"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1447181">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role181"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5138"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence165">
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay165"/>
+    <oboInOwl:hasAlternativeId>8823236</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay181">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre181"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type181"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance181"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1439181"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/metabolic_inhibitor181"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1447181"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd181"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1431179">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role179"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9943"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre181">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay184">
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1490184"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1493184"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance184"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1492184"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd184"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type184"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1491184"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre184"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1489184"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1531189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32020"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role189"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/cevd190">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/evd190"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1543189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role189"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3732"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance2189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+    <obo:BFO_0000050 rdf:resource="http://dideo.cafe-trauma.com/drug_product189"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance187">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+    <obo:OBI_0000312 rdf:resource="http://dideo.cafe-trauma.com/experiment_type187"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay191">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1564191"/>
+    <obo:RO_0002404 rdf:resource="http://dideo.cafe-trauma.com/event191"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre191"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/csd163">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+    <obo:BFO_0000051 rdf:resource="http://dideo.cafe-trauma.com/pgd163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/experiment_type190">
+    <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/assay_type190"/>
+    <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/chem_substance2190"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0032410"/>
+    <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/protein190"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug_administration191">
+    <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/drug191"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay189">
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1543189"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1531189"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre189"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/cevd189"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1541189"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/transport_assay189"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1544189"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance189"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1542189"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role180">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay_type176">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1491184">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3732"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role184"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1558190">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role190"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_68579"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1423176">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9943"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role176"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/experiment_type187">
+    <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/assay_type187"/>
+    <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/chem_substance2187"/>
+    <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/protein187"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0098739"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence192">
+    <obo:OBI_0000312 rdf:resource="http://dideo.cafe-trauma.com/planned_process192"/>
+    <obo:BFO_0000050 rdf:resource="http://dideo.cafe-trauma.com/reporting_database192"/>
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay192"/>
+    <oboInOwl:hasAlternativeId>23401805</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence190">
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay190"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>21515813-Exp3</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay_type187">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000001891"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre176">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/geno164">
+    <rdf:type rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000750"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay164">
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1307164"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:BFO_0000051 rdf:resource="http://dideo.cafe-trauma.com/grand164"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/organism164"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay179">
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance179"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/metabolic_inhibitor179"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1431179"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type179"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre179"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd179"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay194">
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1591194"/>
+    <obo:RO_0002404 rdf:resource="http://dideo.cafe-trauma.com/event194"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre194"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1590194"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/pgd169">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance176">
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process176"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1327168">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36791"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role168"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay187">
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1513187"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1512187"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/transport_assay187"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre187"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/cevd187"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance187"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay188">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/cevd188"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1524188"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/transport_assay188"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1523188"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance188"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre188"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance175">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process175"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/cevd188">
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/evd188"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role194">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/adrece193">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000087"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay193">
+    <obo:RO_0002404 rdf:resource="http://dideo.cafe-trauma.com/event193"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1580193"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre193"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1579193"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance179">
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process179"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/csd170">
+    <obo:BFO_0000051 rdf:resource="http://dideo.cafe-trauma.com/pgd170"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/civd177">
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/ivd177"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/transport_assay190">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/overexpression190"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role187">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1437180">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_8028"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role180"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1449182">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role182"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3766"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence163">
+    <oboInOwl:hasAlternativeId>1531484</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay168">
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1329168"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1327168"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre168"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1330168"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1472183">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6076"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role183"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/pgd170">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay180">
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre180"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1437180"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance180"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd180"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type180"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/metabolic_inhibitor182">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0042571"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1470183">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5118"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role183"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay_type190">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000001891"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre164">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/csd164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay_type182">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1580193">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role193"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5138"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/event193">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay190">
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre190"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1556190"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/transport_assay190"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1557190"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/cevd190"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance190"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1558190"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1298163">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3732"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1439181">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role181"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3766"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1346169">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role169"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47519"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/metabolic_process180">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence168">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>18832427</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay168"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1541189">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role189"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_4031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1590194">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role194"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_9150"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1353170">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3699"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role170"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1419177">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39548"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role177"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role184">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role164">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1420177">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46081"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role177"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/cevd189">
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/evd189"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence177">
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay177"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>11038166-Exp2</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/transport_assay189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/overexpression189"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/civd180">
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/ivd180"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence180">
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay180"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>11136295</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1352170">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_2666"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role170"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay169">
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1339169"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre169"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1346169"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1347169"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance190">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+    <obo:OBI_0000312 rdf:resource="http://dideo.cafe-trauma.com/experiment_type190"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance188">
+    <obo:OBI_0000312 rdf:resource="http://dideo.cafe-trauma.com/experiment_type188"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/ivd175">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role193">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/pharmkin165">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evd187">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/grand164">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role192">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/experiment_type189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0032410"/>
+    <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/protein189"/>
+    <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/chem_substance2189"/>
+    <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/assay_type189"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1570192">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3766"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role192"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1460183">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role183"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6931"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay163">
+    <obo:BFO_0000051 rdf:resource="http://dideo.cafe-trauma.com/grand163"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/organism163"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre163"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1298163"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1579193">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role193"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3766"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/protein190">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1347169">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28077"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role169"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role163">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role188">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence194">
+    <oboInOwl:hasAlternativeId>21545622</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay194"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role179">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1523188">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_68579"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role188"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evd188">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence175">
+    <oboInOwl:hasAlternativeId>11038166-Exp1</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay175"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay192">
+    <obo:RO_0002404 rdf:resource="http://dideo.cafe-trauma.com/event192"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre192"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1570192"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/event191">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OAE_0000005"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+    <obo:BFO_0000062 rdf:resource="http://dideo.cafe-trauma.com/drug_administration191"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1493184">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17347"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role184"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role176">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre187">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1591194">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_101278"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role194"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/csd164">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+    <obo:BFO_0000051 rdf:resource="http://dideo.cafe-trauma.com/pgd164"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/nogroup168">
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:sourceIndividual rdf:resource="http://dideo.cafe-trauma.com/assay168"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/experiment_type188">
+    <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/protein188"/>
+    <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/chem_substance2188"/>
+    <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/assay_type188"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0098739"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1542189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28077"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role189"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1513187">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role187"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_6078"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/organism163">
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/pharmkin163"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/planned_process192">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/cadrce192"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/ivd176">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/overexpression190">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/INO_0000114"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence187">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay187"/>
+    <oboInOwl:hasAlternativeId>21515813-Exp1</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1473183">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_47519"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role183"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/protein189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay_type177">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/cevd187">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/evd187"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/pgd163">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence193">
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay193"/>
+    <obo:OBI_0000312 rdf:resource="http://dideo.cafe-trauma.com/planned_process193"/>
+    <oboInOwl:hasAlternativeId>24846087</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre169">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/csd169"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/civd175">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/ivd175"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/pharmkin164">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay170">
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1353170"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1352170"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre170"/>
+    <obo:BFO_0000051 rdf:resource="http://dideo.cafe-trauma.com/grand170"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug_product188">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1489184">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_45735"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role184"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre170">
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/csd170"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence182">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay182"/>
+    <oboInOwl:hasAlternativeId>9384460-Exp2</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/civd181">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/ivd181"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/csd168">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/transport_assay187">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0002172"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/ivd180">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/organism165">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/pharmkin165"/>
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/pheno165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre180">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance181">
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process181"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/ivd182">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence176">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay176"/>
+    <oboInOwl:hasAlternativeId>10192828-Exp1</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1564191">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role191"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3220"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/cadrce192">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/adrece192"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/nogroup169">
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    <owl:sourceIndividual rdf:resource="http://dideo.cafe-trauma.com/assay169"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1323165">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5138"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role165"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre193">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/metabolic_process184">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0009892"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence183">
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay183"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>8889898</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/pharmkin163">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000052"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/civd176">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/ivd176"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+    <obo:OBI_0000312 rdf:resource="http://dideo.cafe-trauma.com/experiment_type189"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay_type184">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1388175">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_39548"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role175"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role165">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence188">
+    <oboInOwl:hasAlternativeId>21515813-Exp2</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay188"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1422177">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role177"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_63621"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay_type179">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role170">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/reporting_database192">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000082"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence191">
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay191"/>
+    <oboInOwl:hasAlternativeId>12021638</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evd189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role183">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/nogroup165">
+    <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+    <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+    <owl:sourceIndividual rdf:resource="http://dideo.cafe-trauma.com/assay165"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay_type180">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role169">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/pgd165">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay_type188">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000001891"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role181">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence170">
+    <oboInOwl:hasAlternativeId>3912187</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay170"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/grand170">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/civd182">
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/ivd182"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/pheno165">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/ERO_0000923"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance2190">
+    <obo:BFO_0000050 rdf:resource="http://dideo.cafe-trauma.com/drug_product190"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence169">
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay169"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+    <oboInOwl:hasAlternativeId>15114429</oboInOwl:hasAlternativeId>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence181">
+    <oboInOwl:hasAlternativeId>9384460-Exp1</oboInOwl:hasAlternativeId>
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay181"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre190">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/metabolic_process175">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance183">
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process183"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1512187">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role187"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_68579"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role191">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay_type181">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1556190">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role190"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_4653"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre182">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/overexpression188">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/INO_0000114"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role168">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role175">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug1544189">
+    <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/precip_role189"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_44032"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/ivd184">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/metabolic_process179">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/planned_process193">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/cadrce193"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug_product187">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evidence189">
+    <obo:IAO_0000136 rdf:resource="http://dideo.cafe-trauma.com/assay189"/>
+    <oboInOwl:hasAlternativeId>16595711</oboInOwl:hasAlternativeId>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance2187">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+    <obo:BFO_0000050 rdf:resource="http://dideo.cafe-trauma.com/drug_product187"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role182">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre184">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug191">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre177">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role177">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role193">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/csd165">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
+    <obo:BFO_0000051 rdf:resource="http://dideo.cafe-trauma.com/pgd165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role184">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre165">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/csd165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre179">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre192">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/pgd164">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500006"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role187">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role183">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/ivd183">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/event194">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre183">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/protein188">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance177">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process177"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/civd183">
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/ivd183"/>
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre194">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/metabolic_inhibitor179">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0042571"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre163">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/csd163"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/chem_substance182">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+    <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process182"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/protein187">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/overexpression189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/INO_0000114"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role177">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/metabolic_process183">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0009892"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/ivd179">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/metabolic_process176">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/ivd177">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/precip_role190">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000013"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role194">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/evd190">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/cadrce193">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/adrece193"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay_type183">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/adrece192">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000087"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/metabolic_process181">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/metabolic_inhibitor177">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/assay_type189">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000015223"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/obj_role169">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000012"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/drug_product190">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/grand163">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dideo.cafe-trauma.com/dre188">
+    <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+  </rdf:Description>
+</rdf:RDF>
