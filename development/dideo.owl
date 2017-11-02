@@ -9458,6 +9458,17 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000126"/>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <efo:definition xml:lang="en">A ratio value specification where the relationship between to numbers is expressed as a fraction of 100.</efo:definition>
+        <rdfs:label xml:lang="en">percentage ration value specification</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000149 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000149">
