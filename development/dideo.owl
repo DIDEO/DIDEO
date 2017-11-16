@@ -11361,6 +11361,33 @@ that has_part some material entity is a material entity. If we add as equivalent
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000443">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">analyte assay</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">example of usage: In lab test for blood glucose, the test is the assay, the blood bears evaluant_role and glucose bears the analyte role. The evaluant is considered an input to the assay and the information entity that records the measurement of glucose concentration the output</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An assay with the objective to capture information about the presence, concentration, or amount of an analyte in an evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000116>2013-09-23: simplify equivalent axiom</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Note: is_realization of some analyte role isn&apos;t always true, for example when there is none of the analyte in the evaluant. For the moment we are writing it this way, but when the information ontology is further worked out this will be replaced with a condition discussing the measurement.</obo:IAO_0000116>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">logical def modified to remove expression below, as some analyte assays report below the level of detection, and therefore not a scalar measurement datum, replaced by measurement datum
+
+and 
+(&apos;has measurement unit label&apos; some &apos;measurement unit label&apos;) and 
+(&apos;is quality measurement of&apos; some &apos;molecular concentration&apos;))</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Bjoern Peters, Helen Parkinson, Philippe Rocca-Serra, Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON:Bjoern Peters
+PERSON:Helen Parkinson
+PERSON:Philippe Rocca-Serra
+PERSON:Alan Ruttenberg
+GROUP:OBI Planned process branch</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi/2017-11-07/obi.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">analyte assay</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000444 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000444">
@@ -12386,10 +12413,10 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <owl:deprecated></owl:deprecated>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
     </rdf:Description>
     <rdf:Description>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
+        <owl:deprecated></owl:deprecated>
     </rdf:Description>
     
 
