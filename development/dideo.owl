@@ -10236,12 +10236,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
                                                                     </owl:Class>
                                                                     <owl:Restriction>
                                                                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
-                                                                        <owl:someValuesFrom>
-                                                                            <owl:Restriction>
-                                                                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                                                                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0098657"/>
-                                                                            </owl:Restriction>
-                                                                        </owl:someValuesFrom>
+                                                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0098739"/>
                                                                     </owl:Restriction>
                                                                 </owl:intersectionOf>
                                                             </owl:Class>
@@ -10747,6 +10742,23 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/go#goslim_pir"/>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note that an immunoglobulin complex has the function of antigen binding if a suitable antigen is available.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">immunoglobulin complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0022857 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022857">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <obo:IAO_0000115 xml:lang="en">Enables the transfer of a substance, usually a specific substance or a group of related substances, from one side of a membrane to the other. [database_cross_reference: ISBN:0815340729][database_cross_reference: GOC:jid][database_cross_reference: GOC:mtg_transport]</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId xml:lang="en">GO:0015646; GO:0015563; GO:0022892; GO:0022891; GO:0005386</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref xml:lang="en">Reactome:REACT_91849; Reactome:REACT_113829; Reactome:REACT_106735; Reactome:REACT_88503; Reactome:REACT_113116; Reactome:REACT_77235; Reactome:REACT_81225; Reactome:REACT_94185; Reactome:REACT_111933; Reactome:REACT_19288; Reactome:REACT_114161; Reactome:REACT_111088; Reactome:REACT_100033; Reactome:REACT_113047
+has_alternative_id: GO:0015646; GO:0015563; GO:0022892; GO:0022891; GO:0005386</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">substrate-specific transporter activity</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasOBONamespace xml:lang="en">molecular_function</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">uptake transmembrane transporter activity; uptake permease activity; substrate-specific transmembrane transporter activity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:inSubset xml:lang="en">goslim_generic; goslim_chembl; goslim_yeast; gosubset_prok</oboInOwl:inSubset>
+        <rdfs:label xml:lang="en">transmembrane transporter activity</rdfs:label>
     </owl:Class>
     
 
