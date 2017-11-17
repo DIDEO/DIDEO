@@ -4369,6 +4369,20 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHMO_0002820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002820">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experimental method output expressing the contribution of one constituent to the composition of a mixture.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/chmo/releases/2014-11-20/chmo.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RSC:cb</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHMO:0002820</oboInOwl:id>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">based heavily on doi:10.1351/goldbook.C01222</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">concentration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHMO_0002914 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHMO_0002914">
