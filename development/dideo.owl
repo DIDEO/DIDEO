@@ -10253,6 +10253,10 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a rate measurement of the rate at which a substrate of a transporter protein passes through the transporter protein into a cell</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">accumulation rate</obo:IAO_0000118>
+        <dc:contributor xml:lang="en">Jessica Sontheimer</dc:contributor>
         <rdfs:label xml:lang="en">transporter substrate accumulation rate</rdfs:label>
     </owl:Class>
     
@@ -12638,10 +12642,10 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <owl:deprecated></owl:deprecated>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
     </rdf:Description>
     <rdf:Description>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
+        <owl:deprecated></owl:deprecated>
     </rdf:Description>
     
 
