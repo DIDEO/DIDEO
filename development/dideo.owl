@@ -10755,6 +10755,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0022857">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0003674"/>
         <obo:IAO_0000115 xml:lang="en">Enables the transfer of a substance, usually a specific substance or a group of related substances, from one side of a membrane to the other. [database_cross_reference: ISBN:0815340729][database_cross_reference: GOC:jid][database_cross_reference: GOC:mtg_transport]</obo:IAO_0000115>
+        <obo:IAO_0000412>http://purl.obolibrary.org/obo/go.owl</obo:IAO_0000412>
         <oboInOwl:hasAlternativeId xml:lang="en">GO:0015646; GO:0015563; GO:0022892; GO:0022891; GO:0005386</oboInOwl:hasAlternativeId>
         <oboInOwl:hasDbXref xml:lang="en">Reactome:REACT_91849; Reactome:REACT_113829; Reactome:REACT_106735; Reactome:REACT_88503; Reactome:REACT_113116; Reactome:REACT_77235; Reactome:REACT_81225; Reactome:REACT_94185; Reactome:REACT_111933; Reactome:REACT_19288; Reactome:REACT_114161; Reactome:REACT_111088; Reactome:REACT_100033; Reactome:REACT_113047
 has_alternative_id: GO:0015646; GO:0015563; GO:0022892; GO:0022891; GO:0005386</oboInOwl:hasDbXref>
@@ -12642,10 +12643,10 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
+        <owl:deprecated></owl:deprecated>
     </rdf:Description>
     <rdf:Description>
-        <owl:deprecated></owl:deprecated>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
     </rdf:Description>
     
 
