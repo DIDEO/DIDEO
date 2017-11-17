@@ -11758,6 +11758,26 @@ In the examples above, a reagent is an operational component of a device, but th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0100016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000953"/>
+        <obo:IAO_0000111 xml:lang="en">blood plasma specimen</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">PMID: 18217225.Sex Transm Dis. 2008 Jan;35(1):55-60. Review.Human immunodeficiency virus viral load in blood plasma and semen: review and implications of empirical findings.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">a material entity which corresponds to the liquid component of blood, in which the blood cells are suspended.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">03/21/2010: BP, blood plasma is defined as the output of certain separation processes, so this is in the domain of OBI, not FMA.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Maura Gasparetto</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">plasma</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">WEB: http://en.wikipedia.org/wiki/Blood_plasma</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi/2017-11-07/obi.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">blood plasma specimen</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
