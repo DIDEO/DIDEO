@@ -10491,6 +10491,25 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0005623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0005575"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The basic structural and functional unit of all organisms. Includes the plasma membrane and any external encapsulating structures such as the cell wall and cell envelope.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omp/releases/2017-11-03/omp.owl</obo:IAO_0000412>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:go_curators</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NIF_Subcellular:sao1813327414</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Cell_(biology)</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cellular_component</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0005623</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/omp#goslim_generic"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/omp#goslim_plant"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/omp#gosubset_prok"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0006810 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006810">
@@ -12433,10 +12452,10 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
+        <owl:deprecated></owl:deprecated>
     </rdf:Description>
     <rdf:Description>
-        <owl:deprecated></owl:deprecated>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
     </rdf:Description>
     
 
