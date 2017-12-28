@@ -10781,6 +10781,17 @@ has_alternative_id: GO:0015646; GO:0015563; GO:0022892; GO:0022891; GO:0005386</
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0031982 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0031982">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043227"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any small, fluid-filled, spherical organelle enclosed by membrane or protein.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/bcgo/2015-07-08/bcgo.owl</obo:IAO_0000412>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vesicle</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0032409 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0032409">
