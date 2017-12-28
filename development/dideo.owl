@@ -12605,6 +12605,18 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/DIDEO_00000200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/DIDEO_00000200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000170"/>
+        <obo:IAO_0000115 xml:lang="en">a percent inhibition in which the assay to determine the decrease in activity of the transporter or enzyme includes both the substrate and inhibitor as participants for the duration of the experiment</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">% Inhibition &lt;sub&gt;co-incubation&lt;/sub&gt;</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">Percent inhibition resulting after co-incubation conditions. Co-incubation occurs when in vitro system is incubated with the substrate and the inhibitor at the same time. Co-incubation is used to evaluate direct inhibition of a compound.</rdfs:comment>
+        <rdfs:label xml:lang="en">percent inhibition after co-incubation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/obo/owl/GO#GO_0003674 -->
 
     <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0003674">
