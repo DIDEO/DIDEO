@@ -12647,6 +12647,20 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/DIDEO_00000203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/DIDEO_00000203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000089"/>
+        <obo:IAO_0000115 xml:lang="en">a clearance measurement datum in which the clearance of a drug unbound to plasma proteins, by an individual enzyme or transporter protein, is measured</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">CLint &lt;sub&gt;unbound&lt;/sub&gt;</obo:IAO_0000118>
+        <dc:contributor xml:lang="en">Jessica Sontheimer</dc:contributor>
+        <rdfs:comment xml:lang="en">Intrinsic clearance - clearance of unbound drug by an individual enzyme or transporter, repectively</rdfs:comment>
+        <rdfs:label xml:lang="en">unbound intrinsic clearance</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/obo/owl/GO#GO_0003674 -->
 
     <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0003674">
