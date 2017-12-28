@@ -10870,6 +10870,17 @@ has_alternative_id: GO:0015646; GO:0015563; GO:0022892; GO:0022891; GO:0005386</
     
 
 
+    <!-- http://purl.obolibrary.org/obo/GO_0043227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043227">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0043226"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organized structure of distinctive morphology and function, bounded by a single or double lipid bilayer membrane. Includes the nucleus, mitochondria, plastids, vacuoles, and vesicles. Excludes the plasma membrane.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/bcgo/2015-07-08/bcgo.owl</obo:IAO_0000412>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">membrane-bounded organelle</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/GO_0043234 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0043234">
