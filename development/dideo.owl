@@ -12675,6 +12675,20 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/DIDEO_00000205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/DIDEO_00000205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001191"/>
+        <obo:IAO_0000115 xml:lang="en">a &apos;half maximal inhibitory concentration&apos; in which the assay to determine the decrease in activity includes the inhibitor as participant for the duration of the assay, but not all reagents necessary for the reaction or transport are initially present</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">IC50 &lt;sub&gt;pre-incubation&lt;/sub&gt;</obo:IAO_0000118>
+        <dc:contributor xml:lang="en">Jessica Sontheimer</dc:contributor>
+        <rdfs:comment xml:lang="en">The IC50 value reported during the pre-incubation phase (direct inhibition) of a mechanism-based or time-dependent inhibition assay.</rdfs:comment>
+        <rdfs:label xml:lang="en">pre-incubation half maximal inhibitory concentration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/obo/owl/GO#GO_0003674 -->
 
     <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0003674">
