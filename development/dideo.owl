@@ -12590,6 +12590,21 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/DIDEO_00000199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/DIDEO_00000199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0031982"/>
+        <obo:IAO_0000112 xml:lang="en"></obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">MRP2 membrane vesicles transports substrates from outside of the vesicle to inside of the vesicle, whereas in vivo, MRP2 is an efflux transoprter</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a vesicle that is the specified output of material processing and within which transport across the membrane occurs in a different direction than it occurs in vivo</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Jessica Sontheimer</dc:contributor>
+        <rdfs:comment xml:lang="en">Membranes with transporters in the opposite orentation than is found in vivo</rdfs:comment>
+        <rdfs:label xml:lang="en">inside-out membrane vesicle</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/obo/owl/GO#GO_0003674 -->
 
     <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0003674">
