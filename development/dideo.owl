@@ -4529,7 +4529,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/CL_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female germ cell that has entered meiosis.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/cl/releases/2017-12-11/cl.owl</obo:IAO_0000412>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BTO:0000964</oboInOwl:hasDbXref>
