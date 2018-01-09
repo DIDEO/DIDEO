@@ -10246,6 +10246,20 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000023"/>
+        <obo:IAO_0000112 xml:lang="en">OATP2B1-expressing Xenopus ooctyes (PMID: 23794501)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">an oocyte of the species Xenopus laevis that is a specified output of a genetic transformation</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Jessica Tay-Sontheimer</dc:contributor>
+        <rdfs:comment xml:lang="en">Frog oocyte expressing a protein of interest such as a tranporter like P-gp; in vitro model used to study transport</rdfs:comment>
+        <rdfs:label xml:lang="en">Xenopus laevis oocyte injected</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000218">
