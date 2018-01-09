@@ -9661,9 +9661,35 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000160">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000047"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000312"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHMO_0002013"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000162"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000034"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
         <obo:IAO_0000115 xml:lang="en">a processed material that has a supernatant role resulting from high-speed centrifugation of a human liver S9 fraction</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <dc:contributor xml:lang="en">Jessica Tay-Sontheimer</dc:contributor>
         <rdfs:comment xml:lang="en">Cell cytosol obtained via centrifugation of human liver cells. It is commonly used to support in vitro DMPK studies related to liver cytsolic enzymes, especially non-CYP enzymes, such as phase I enzyme aldehyde oxidase (AO), phase II enzyme SULT.</rdfs:comment>
         <rdfs:label xml:lang="en">human liver cytosolic fraction</rdfs:label>
     </owl:Class>
