@@ -10466,6 +10466,18 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1000048"/>
+        <obo:IAO_0000115 xml:lang="en">a transgenic organism in the taxon Metazoa</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">In vivo animal models with human genes</rdfs:comment>
+        <rdfs:label xml:lang="en">transgenic animal</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000218">
