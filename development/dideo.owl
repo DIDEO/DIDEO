@@ -10512,6 +10512,19 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000112 xml:lang="en">Green tea inhibited CYP3A4-mediated 1&apos;-hydroxylation of midazolam by 67% of the level inhibited by the positive control inhibitor ketoconazole</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a ratio that is about an assay that has the objective to determine the inductive effect of an evaluant on an enzyme or transporter protein. It includes a fold change or percentage in which a &apos;measured expression level&apos; is taken in the presence of the bearer of an enzyme inhibitor role that also bears a &apos;positive reference substance role&apos;. This last role is realized in comparing this level to the &apos;measured expression level&apos; taken in the presence of the evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Change from Positive Control</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The percent or fold-change in the mRNA/protein expression or activity of enzyme or transport (e.g., midazolam hydroxylation by CYP3A4 activity or rhodamine 123 transport for P-gp activity) in the presence of a given condition (e.g., presence of a test compound) in relation to the presence of the positive control (e.g., well-known inducers of the enzyme or transporter). This paramenter is usually used for enzyme and transport induction studies.</rdfs:comment>
+        <rdfs:label xml:lang="en">expression change from positive control</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000218">
