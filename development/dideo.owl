@@ -10578,6 +10578,19 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000112 xml:lang="en">Compound X induced P-gp-mediated efflux of rhodamine 123 4-fold vs. vehicle control</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a ratio of two efflux rates of a molecular entity through a transporter protein: the efflux rate in the presence of an evaluant with the efflux rate in the presence of the vehicle for the molecular entity and the absence of the entity itself</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">The percent or fold-change in transporter efflux in the presence of a given condition (e.g., presence of a test compound) in relation to the vehicle control. This is usually used for transport induction studies.</rdfs:comment>
+        <rdfs:label xml:lang="en">change in efflux compared with vehicle control</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000218">
