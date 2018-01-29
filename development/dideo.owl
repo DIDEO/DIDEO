@@ -10591,6 +10591,20 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000112 xml:lang="en">9.5 (PMID: 26965986)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">the maximum dose response on a dose response curve</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Emax</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The maximum inductive effect of a compound on an enzyme or transporter. This is a parameter used for induction studies.</rdfs:comment>
+        <rdfs:label xml:lang="en">maximum effect</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000218">
