@@ -10565,6 +10565,19 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000112 xml:lang="en">Compound X induced the P-gp-mediated efflux of rhodamine 123 by 50% compared to the positive control Y.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a ratio of two efflux rates of a molecular entity through a transporter protein: the efflux rate measured in the presence of an evaluant with the efflux rate measured in the presence of a positive reference substance</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">The percent or fold-change in transporter efflux in the presence of a given condition (e.g., presence of a test compound) in relation to the presence of the positive control (e.g., well-known inducers of efflux transporter (P-gp, BCRP, MRP2, etc)). This is usually used for transporter induction studies.</rdfs:comment>
+        <rdfs:label xml:lang="en">change in efflux compared with positive control</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000218">
