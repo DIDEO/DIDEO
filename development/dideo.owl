@@ -12078,6 +12078,22 @@ In the examples above, a reagent is an operational component of a device, but th
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0001151 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001151">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000047"/>
+        <obo:IAO_0000111 xml:lang="en">genetically modified material</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">a material entity, organism or cell,  that is the output of a genetic transformation process. </obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP: OBI</obo:IAO_0000119>
+        <obo:IAO_0000232 xml:lang="en">term is proposed by BP on Oct 25, 2010 dev call</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi/2017-11-07/obi.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">genetically modified material</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0001152 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001152">
