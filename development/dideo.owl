@@ -12548,6 +12548,25 @@ Nat Protoc. 2008;3(10):1550-8. PMID: 18802436</obo:IAO_0000112>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_1000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_1000048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0302859"/>
+        <obo:IAO_0000111 xml:lang="en">transgenic organism</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">HLA-A*0201 transgenic mice, Vaccinia virus expressing the LCMV gp protein
+Possible ecological risks of transgenic organism release when transgenes affect mating success: sexual selection and the Trojan gene hypothesis. Proc Natl Acad Sci U S A. 1999 Nov 23;96(24):13853-6. PMID: 10570162</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">a transgenic organism is material entity which derives from an organism which has been modified to express a gene not normally part of it</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">PRS:22-02-2008: is a organism which has output_role during genetic modification of type (KO) protocol-application</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:IEDB</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi/2017-11-07/obi.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">transgenic organism</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OGMS_0000060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000060">
