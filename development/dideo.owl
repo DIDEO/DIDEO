@@ -4462,6 +4462,18 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLO_0000168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0000168">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+        <obo:IAO_0000115>a immortal epithelial cell line cell that is derived from HeLa cell</obo:IAO_0000115>
+        <obo:IAO_0000117>Yongqun He</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/clo.owl</obo:IAO_0000412>
+        <rdfs:label>HeLa derived cell line cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CLO_0002172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0002172">
