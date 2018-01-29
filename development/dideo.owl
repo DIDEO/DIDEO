@@ -10525,6 +10525,20 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000112 xml:lang="en">Green tea inhibited CYP3A4-mediated 1&apos;-hydroxylation of midazolam by 80% vs. vehicle control</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a ratio that is about an assay that has the objective to determine the inductive effect of an evaluant on an enzyme or transporter protein. It includes a fold change or percentage in which a &apos;measured expression level&apos; is taken in the presence of the bearer of a vehicle role that also bears a &apos;reference substance role&apos;. This last role is realized in comparing this level to the &apos;measured expression level&apos; taken in the presence of the evaluant.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Change from Vehicle Control</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The percent or fold-change in the mRNA/protein expression or activity of enzyme or transporter (e.g., midazolam hydroxylation by CYP3A4 activity or rhodamine 123 transport for P-gp activity) in the presence of a given condition (e.g., presence of a test compound) in relation to the presence of the vehicle control (e.g., DMSO, methanol, water, etc.). This is parameter is usually used for enzyme and transport induction studies.</rdfs:comment>
+        <rdfs:label xml:lang="en">expression change from vehicle control</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000218">
