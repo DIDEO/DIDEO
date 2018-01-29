@@ -10552,6 +10552,19 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000214">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000112 xml:lang="en">6-fold</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a ratio of two substrate accumulation rates through a transporter protein: the rate of an evaluant substrate with the rate of a vehicle</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">The amount of drug transported into a cell compared with the amount of transport of the solvent vehicle in which the drug is dissolved. This is usually used for transport induction studies.</rdfs:comment>
+        <rdfs:label xml:lang="en">change in accumulation compared with vehicle control</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000218">
