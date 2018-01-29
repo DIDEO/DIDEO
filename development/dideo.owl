@@ -10726,6 +10726,20 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000112 xml:lang="en">http://www.cyprotex.com/admepk/in-vitro-metabolism/cytochrome-p450-tdi-ic50-shift</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a ratio that is about a chemical compound that is the bearer of an enzyme inhibitor role. It is the ratio of its &apos;half maximal inhibitory concentration&apos; in the absence of NADPH to its &apos;half maximal inhibitory concentration&apos; in the presence of NADPH.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">IC50 -fold shift</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">IC50 shift = IC50 value in the absence of NADPH/IC50 value in the presence of NADPH. In vitro assay conducted at multiple inhibitor concentrations relative to control that is used to indicate time-dependent inhibition/mechanism-based inactivation</rdfs:comment>
+        <rdfs:label xml:lang="en">half maximal inhibitory concentration shift</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
