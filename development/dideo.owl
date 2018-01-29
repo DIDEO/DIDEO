@@ -10499,6 +10499,19 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000115 xml:lang="en">a ratio that is about a catalytic activity that is also a metabolic process. It is the ratio of the amount of substrate at a time after the beginning of the catalytic activity to the amount of substrate at the beginning of the catalytic activity.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">% Parent Remaining</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The percent of starting compound remaining in the incubation following a set period of time in the presence of a metabolizing enzyme</rdfs:comment>
+        <rdfs:label xml:lang="en">percent parent remaining</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000218">
