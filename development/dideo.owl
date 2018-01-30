@@ -12180,6 +12180,22 @@ has_alternative_id: GO:0015646; GO:0015563; GO:0022892; GO:0022891; GO:0005386</
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000111 xml:lang="en">measured expression level</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Examples are quantified data from an expression microarray experiment, PCR measurements, etc.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum that is the outcome of the quantification of an assay for the activity of a gene, or the number of RNA transcripts.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">person:Chris Stoeckert</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI Data Transformation branch</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi/2017-11-07/obi.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">measured expression level</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000192">
