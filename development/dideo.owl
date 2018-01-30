@@ -11072,6 +11072,20 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000089"/>
+        <obo:IAO_0000112 xml:lang="en">CLr in table 1 of PMID: 8062491</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A clearance measurement datum that is the specified output of measuring the volume of plasma that is completely cleared off of a substance by the kidneys per unit time.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">CL(renal)</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">Volume per unit time that is cleared of a compound by the kidneys</rdfs:comment>
+        <rdfs:label xml:lang="en">renal clearance measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
