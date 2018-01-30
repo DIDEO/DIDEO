@@ -10812,6 +10812,21 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000226">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000112 xml:lang="en">0.399 +- 0.069 x 10^-6 cm/s (PMID: 22773077)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">an &apos;apparent permeability coefficient&apos; calculated from measurements in which the evaluant passes through a cell monolayer in the basolateral to apical direction. The cell monolayer is comprised of Caco-2 cells.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Papp B-A Caco-2</obo:IAO_0000118>
+        <dc:contributor xml:lang="en">Jessica Tay-Sontheimer</dc:contributor>
+        <rdfs:comment xml:lang="en">Apparent permeability coefficient of transport in the basolateral to apical direction in Caco-2 cells</rdfs:comment>
+        <rdfs:label xml:lang="en">Caco-2 apparent basolateral-apical permeability</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
