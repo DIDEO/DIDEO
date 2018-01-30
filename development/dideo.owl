@@ -10955,6 +10955,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">an assay that measures the rate of formation of a metabolite</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Metabolite Formation Study</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">Metabolism experiment where a substrate is incubated with the in vitro test system and the formation of the substrate&apos;s metabolite is analyzed as a measure of metabolism</rdfs:comment>
+        <rdfs:label xml:lang="en">metabolite formation assay</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
