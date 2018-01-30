@@ -11253,6 +11253,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
+        <obo:IAO_0000115 xml:lang="en">a dimensionless ratio that is about a mixture and has the amount of a drug in the mixture that is bound to plasma proteins as the numerator and the total amount of the drug in the mixture as the denominator</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Percent Bound</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The percent of drug bound to plasma proteins</rdfs:comment>
+        <rdfs:label xml:lang="en">drug percent bound</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
