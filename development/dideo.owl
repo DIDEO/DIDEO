@@ -11240,6 +11240,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000242"/>
+        <obo:IAO_0000115 xml:lang="en">a &apos;pharmacokinetic area under curve to specified time&apos;, in which the area is calculated using the dosing time interval</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">AUC Tau</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">Area under the plasma concentration time curve from time 0 to tau (dosing interval)</rdfs:comment>
+        <rdfs:label xml:lang="en">pharmacokinetic area under curve to tau</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
