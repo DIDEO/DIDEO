@@ -10980,6 +10980,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000101"/>
+        <obo:IAO_0000115 xml:lang="en">a measured expression level in which the assay for the activity of the gene corresponding to an enzyme or transporter protein provides information in terms of a difference in quantity of mRNA</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">mRNA Expression</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">Relative amount of enzyme or transporter mRNA expression in an in vitro system</rdfs:comment>
+        <rdfs:label xml:lang="en">measured enzyme or transporter mRNA expression level</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
