@@ -10510,7 +10510,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000210 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000210">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000115 xml:lang="en">a ratio that is about a catalytic activity that is also a metabolic process. It is the ratio of the amount of substrate at a time after the beginning of the catalytic activity to the amount of substrate at the beginning of the catalytic activity.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">% Parent Remaining</obo:IAO_0000118>
@@ -10523,7 +10523,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000211 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000211">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000112 xml:lang="en">Green tea inhibited CYP3A4-mediated 1&apos;-hydroxylation of midazolam by 67% of the level inhibited by the positive control inhibitor ketoconazole</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a ratio that is about an assay that has the objective to determine the inductive effect of an evaluant on an enzyme or transporter protein. It includes a fold change or percentage in which a &apos;measured expression level&apos; is taken in the presence of the bearer of an enzyme inhibitor role that also bears a &apos;positive reference substance role&apos;. This last role is realized in comparing this level to the &apos;measured expression level&apos; taken in the presence of the evaluant.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Change from Positive Control</obo:IAO_0000118>
@@ -10536,7 +10536,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000212 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000212">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000112 xml:lang="en">Green tea inhibited CYP3A4-mediated 1&apos;-hydroxylation of midazolam by 80% vs. vehicle control</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a ratio that is about an assay that has the objective to determine the inductive effect of an evaluant on an enzyme or transporter protein. It includes a fold change or percentage in which a &apos;measured expression level&apos; is taken in the presence of the bearer of a vehicle role that also bears a &apos;reference substance role&apos;. This last role is realized in comparing this level to the &apos;measured expression level&apos; taken in the presence of the evaluant.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
@@ -10550,7 +10550,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000213 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000213">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000112 xml:lang="en">1.2-fold</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a ratio of two substrate accumulation rates through a transporter protein: the rate of an evaluant substrate with the rate of a positive reference substance</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
@@ -10563,7 +10563,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000214 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000214">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000112 xml:lang="en">6-fold</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a ratio of two substrate accumulation rates through a transporter protein: the rate of an evaluant substrate with the rate of a vehicle</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
@@ -10576,7 +10576,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000215 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000215">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000112 xml:lang="en">Compound X induced the P-gp-mediated efflux of rhodamine 123 by 50% compared to the positive control Y.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a ratio of two efflux rates of a molecular entity through a transporter protein: the efflux rate measured in the presence of an evaluant with the efflux rate measured in the presence of a positive reference substance</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
@@ -10589,7 +10589,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000216 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000216">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000112 xml:lang="en">Compound X induced P-gp-mediated efflux of rhodamine 123 4-fold vs. vehicle control</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a ratio of two efflux rates of a molecular entity through a transporter protein: the efflux rate in the presence of an evaluant with the efflux rate in the presence of the vehicle for the molecular entity and the absence of the entity itself</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
@@ -10737,7 +10737,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000220 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000220">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000112 xml:lang="en">http://www.cyprotex.com/admepk/in-vitro-metabolism/cytochrome-p450-tdi-ic50-shift</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a ratio that is about a chemical compound that is the bearer of an enzyme inhibitor role. It is the ratio of its &apos;half maximal inhibitory concentration&apos; in the absence of NADPH to its &apos;half maximal inhibitory concentration&apos; in the presence of NADPH.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
@@ -10883,7 +10883,7 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000230 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000230">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000115 xml:lang="en">the ratio of two efflux ratios calculated from measurements taken to calcuate the apparent permeability of the same evaluant passing through two different cell monolayers. The numerator is a transfected efflux ratio and the denominator is a vector control efflux ratio.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Ratio Transfected / Vector Control</obo:IAO_0000118>
@@ -10897,7 +10897,7 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000231 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000231">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000112 xml:lang="en">Accumulation of diclofenac was 1.3-fold greater than the accumulation of water in vector-control cells</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">the ratio of two transporter substrate accumulation rates through a transporter protein that bears a reference substance role; this role is realized in comparing its rate of substrate accumulation with that of a transporter protein in a transfected cell monolayer. The numerator is the rate at which an evaluant molecular entity passes through the transporter protein. The denominator is the rate at which the bearer of a reference substance role passes through a transporter protein; this role is realized in comparing this rate with the rate at which the bearer of the evaluant molecular entity passes through the transporter protein.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
@@ -10911,7 +10911,7 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000232 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000232">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000112 xml:lang="en">Accumulation of diclofenac was 3.3-fold greater than the accumulation of water in OATP1B1-transfected cells</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">the ratio of two transporter substrate accumulation rates through a transporter protein in a transfected cell. The numerator is the rate at which an evaluant passes through the transporter protein. The denominator is the rate at which the bearer of a reference substance role passes through the transporter protein; this role is realized in comparing this rate with the rate at which the evaluant passes through the transporter protein.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
@@ -10925,7 +10925,7 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000233 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000233">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000112 xml:lang="en">The ratio of fold accumulation of OATP1B1-mediated diclofenac uptake was 3 (3.3/1.3 using the examples above)</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a ratio that is about the transporter substrate accumulation rate of an evaluant substrate. The numerator is a transfected fold accumulation, and the denominator is a vector control fold accumulation.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
@@ -11058,7 +11058,7 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000243 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000243">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000115 xml:lang="en">the ratio of the plasma concentration of a metabolite to the plasma concentration of its parent compound</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">C ratio (metabolite/parent)</obo:IAO_0000118>
@@ -11070,7 +11070,7 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000244 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000244">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000115 xml:lang="en">the ratio of the plasma concentration of the parent compound of a metabolite to the plasma concentration of the metabolite itself</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">C ratio (parent/metabolite)</obo:IAO_0000118>
@@ -11111,7 +11111,7 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000247">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000115 xml:lang="en">the ratio of the amount of a compound bound to plasma proteins to the total amount of the compound in plasma</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Fraction bound in plasma</obo:IAO_0000118>
@@ -11124,7 +11124,7 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000248 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000248">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000115 xml:lang="en">the ratio of the amount of a compound unbound to plasma proteins to the total amount of the compound in plasma</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Fraction unbound in plasma</obo:IAO_0000118>
