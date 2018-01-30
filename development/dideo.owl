@@ -10886,6 +10886,20 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000112 xml:lang="en">Accumulation of diclofenac was 1.3-fold greater than the accumulation of water in vector-control cells</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">the ratio of two transporter substrate accumulation rates through a transporter protein that bears a reference substance role; this role is realized in comparing its rate of substrate accumulation with that of a transporter protein in a transfected cell monolayer. The numerator is the rate at which an evaluant molecular entity passes through the transporter protein. The denominator is the rate at which the bearer of a reference substance role passes through a transporter protein; this role is realized in comparing this rate with the rate at which the bearer of the evaluant molecular entity passes through the transporter protein.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Fold Accumulation Vector Control</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The number of times greater than or less than a substrate is taken into a control cell line than the control compound is taken into that same control cell line</rdfs:comment>
+        <rdfs:label xml:lang="en">vector control fold accumulation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
