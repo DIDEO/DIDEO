@@ -275,6 +275,14 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
     
 
 
+    <!-- http://purl.obolibrary.org/obo/STATO_0000032 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/STATO_0000032">
+        <rdfs:label xml:lang="en">STATO alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBPROP_0000001 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/UBPROP_0000001">
@@ -13374,6 +13382,22 @@ https://www.wolframalpha.com/share/clip?f=d41d8cd98f00b204e9800998ecf8427efdcsig
         <obo:IAO_0000116 xml:lang="en">PRS: submit &apos;integral calculus&apos; as a kind of data transformation in OBI:DT branch</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">Orlaith Burke, Philippe Rocca-Serra, Alejandra Gonzalez-Beltran</obo:IAO_0000117>
         <rdfs:label xml:lang="en">area under curve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000115>A ratio where the numerator and denominator are expressed in the same unit.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">STATO</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
+        <obo:STATO_0000032 xml:lang="en">dimensionless ratio</obo:STATO_0000032>
+        <rdfs:label>dimensionless ratio</rdfs:label>
     </owl:Class>
     
 
