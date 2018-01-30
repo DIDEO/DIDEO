@@ -11006,6 +11006,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0001364"/>
+        <obo:IAO_0000112 xml:lang="en">PMID: 9698292</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a demethylation that has the S configuration of mephenytoin as input and nirvanol as output</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">N-demethylation of (S)-mephenytoin; used for the in vitro determination of CYP2B6 when high concentrations are used</rdfs:comment>
+        <rdfs:label xml:lang="en">(S)-mephenytoin N-demethylation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
