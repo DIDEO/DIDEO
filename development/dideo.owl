@@ -11059,6 +11059,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000244">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000115 xml:lang="en">the ratio of the plasma concentration of the parent compound of a metabolite to the plasma concentration of the metabolite itself</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">C ratio (parent/metabolite)</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">the ratio of the plasma concentration of a parent compount to the plasma concentration of it&apos;s metabolite</rdfs:comment>
+        <rdfs:label xml:lang="en">concentration ratio (parent to metabolite)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
