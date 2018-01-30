@@ -11086,6 +11086,20 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000089"/>
+        <obo:IAO_0000112 xml:lang="en">Table 2 of PMID: 27989618</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A clearance measurement datum that is the specified output of measuring the volume of plasma that is completely cleared off of a substance per unit time, after oral administration.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">CL/F</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">oral clearance (volume of plasma per unit time cleared of a compound follwing oral administration of the compound)</rdfs:comment>
+        <rdfs:label xml:lang="en">oral clearance measurement datum</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
