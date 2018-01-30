@@ -11100,6 +11100,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000115 xml:lang="en">the ratio of the amount of a compound bound to plasma proteins to the total amount of the compound in plasma</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Fraction bound in plasma</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">fraction of total compound in the plasma bound to plasma proteins</rdfs:comment>
+        <rdfs:label xml:lang="en">fraction in plasma bound to plasma proteins</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
