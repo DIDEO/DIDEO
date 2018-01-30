@@ -11231,6 +11231,24 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ERO_0001352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ERO_0001352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ERO_0000401"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Use of trypan blue exclusion to determine cell viability.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cellular assay used to determine cell viability in an experimental setting; the capability of developing, growing, and otherwise sustaining life.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Nicole Vasilevsky</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell viability</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cell viability analysis</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Live/dead assay</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Nicole Vasilevsky</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ero.owl</obo:IAO_0000412>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cell viability assay</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FMA_62970 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FMA_62970">
