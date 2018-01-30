@@ -11126,6 +11126,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001171"/>
+        <obo:IAO_0000112 xml:lang="en">t1/2beta in Table 1 of PMID: 8249043; t1/2el in table 1 of PMID: 23817346</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a half-life datum of the time taken in the elimniation phase for the reduction by 50% of the concentration of an administered substance</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">the time for the concentration of compound to drop by half during the elimination phase</rdfs:comment>
+        <rdfs:label xml:lang="en">half-life (terminal)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
