@@ -10856,6 +10856,22 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000120"/>
+        <obo:IAO_0000112 xml:lang="en">1.00 (PMID: 22773077)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">an efflux ratio resulting from calculations based on measurements taken on a monolayer comprised of Caco-2 cells</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Ratio PappB-A / PappA-B Caco-2</obo:IAO_0000118>
+        <dc:contributor xml:lang="en">Jessica Tay-Sontheimer</dc:contributor>
+        <rdfs:comment xml:lang="en">&quot;Efflux ratio of transport calculated as the ratio of apparent permeabilities (PappB-A/PappA-B) in Caco-2 cells. (From DIDEO: Efflux ratio:&quot;&quot; 
+A pharmacokinetic parameter ratio that describes the drug transmembrane transporter activity regarding an active ingredient or a metabolite in an in vitro bi-directional transport assay. It is expressed as a ratio of the apparent permeability in the basal to apical direction as the numerator and apparent permeability in the apical-to-basolateral direction as the denominator.&quot;&quot;)&quot;</rdfs:comment>
+        <rdfs:label xml:lang="en">efflux ratio in Caco-2 cell</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
