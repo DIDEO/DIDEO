@@ -11143,11 +11143,25 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000250">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000112 xml:lang="en">Table 1 of PMID: 8249043</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a time measurement datum that is the result of measuring the average time for a molecule of an administered substance to remain inside the body</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">MRT</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">the average amount of time a single molecule of compound stays in the body</rdfs:comment>
         <rdfs:label xml:lang="en">mean residence time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000416"/>
+        <obo:IAO_0000112 xml:lang="en">Table 1 of PMID: 8062491</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a time measurement datum that is the result of measuring the time taken from the administration of a substance in vivo to its maximum concentration in plasma</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Tmax</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">time of maximum plasma concentration</rdfs:label>
     </owl:Class>
     
 
