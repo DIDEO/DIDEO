@@ -11214,6 +11214,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
+        <obo:IAO_0000115 xml:lang="en">the dimensionless ratio of the pharmacokinetic area under the curve (AUC) for a given metabolite to the AUC of its parent compound</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">AUC ratio (metabolite/parent)</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">the ratio of the AUC of a metabolite to the AUC of its parent compound</rdfs:comment>
+        <rdfs:label xml:lang="en">area under the curve ratio (metabolite to parent)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
