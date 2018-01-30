@@ -10914,6 +10914,20 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000112 xml:lang="en">The ratio of fold accumulation of OATP1B1-mediated diclofenac uptake was 3 (3.3/1.3 using the examples above)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a ratio that is about the transporter substrate accumulation rate of an evaluant substrate. The numerator is a transfected fold accumulation, and the denominator is a vector control fold accumulation.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Ratio of Fold Accumulation Transfected / Vector Control</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">Net accumulation of a substrate in a transfected cell system. This is calculated by dividing the fold accumulation of the substrate in the transfected cells by the fold accumulation in the control cells.</rdfs:comment>
+        <rdfs:label xml:lang="en">ratio of transfected fold accumulation to vector control fold accumulation</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
