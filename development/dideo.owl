@@ -10872,6 +10872,20 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000184"/>
+        <obo:IAO_0000115 xml:lang="en">the ratio of two efflux ratios calculated from measurements taken to calcuate the apparent permeability of the same evaluant passing through two different cell monolayers. The numerator is a transfected efflux ratio and the denominator is a vector control efflux ratio.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Ratio Transfected / Vector Control</obo:IAO_0000118>
+        <dc:contributor xml:lang="en">Jessica Tay-Sontheimer</dc:contributor>
+        <rdfs:comment xml:lang="en">Net efflux ratio calculated as the efflux ratio in the transfected cells/ the efflux ratio in the control cells</rdfs:comment>
+        <rdfs:label xml:lang="en">net transfected efflux ratio</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
