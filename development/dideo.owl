@@ -11026,8 +11026,23 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
         <obo:IAO_0000112 xml:lang="en">Table 2 of PMID: 27989618</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a pharmacokinetic area under curve in which the area is calculated using the entire time the granular part of the drug product is in the medium</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">AUC (0-infinity)</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">Area under the plasma concentration time curve from time 0 to infinity</rdfs:comment>
         <rdfs:label xml:lang="en">pharmacokinetic area under curve to infinity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000046"/>
+        <obo:IAO_0000112 xml:lang="en">AUC0-30 in Table 2 of PMID: 24944406</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a pharmacokinetic area under curve in which the area is calculated using the amount of time between the administration of a drug and some time t after administration</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">AUC (0-t)</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">Area under the plasma concentration time curve from time 0 to a specified time</rdfs:comment>
+        <rdfs:label xml:lang="en">pharmacokinetic area under curve to specified time</rdfs:label>
     </owl:Class>
     
 
