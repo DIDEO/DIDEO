@@ -11174,6 +11174,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
+        <obo:IAO_0000115 xml:lang="en">a dimensionless ratio of two concentrations in a urine sample: that of a metabolite to that of its parent compound</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Urinary molar ratio (metabolite/parent)</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">the ratio of the urinary concentration of a metabolite to the urinary concentration of its parent compound</rdfs:comment>
+        <rdfs:label xml:lang="en">urinary molar ratio (metabolite to parent)</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
