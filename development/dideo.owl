@@ -10993,6 +10993,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_60004"/>
+        <obo:IAO_0000112 xml:lang="en">PMID: 27974382</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a mixture composed of NADP+, D-glucopyranose-6-phosphate and glucose-6-phosphate dehydrogenase</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">A system consisting of NADP+, glucose-6-phosphate, and glucose-6-phosphate dehydrogenase that when added to incubations acts as the source of NADPH needed for enzymatic reactions</rdfs:comment>
+        <rdfs:label xml:lang="en">NADPH regenerating system</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
