@@ -14,6 +14,45 @@ instances needed for the DRIVE II evidence assessment study.
 
 3. individuals.owl was opened in Protégé and the HermiT reasoner ran.
 
-4. Finally from Protégé “Export the inferred axioms as ontology…” was selected from the file menu with “Class Assertions (individual types)” checked (in addition to defaults) in the axioms to export window.
+4. Changes were made manually to address limitations with instance inference until all instances were classified correctly.
+
+5. Finally from Protégé “Export the inferred axioms as ontology…” was selected from the file menu with “Class Assertions (individual types)” checked (in addition to defaults) in the axioms to export window.
+
+
+TODO:
+(NOTE:need to associate each instance with an published article)
+
+- (Done - evidence179) evidence information from CYP450 human microsome drug metabolism identification experiment using antibody inhibitors
+
+- (Done - evidence180) evidence information from CYP450 human microsome drug metabolism identification experiment using chemical inhibitors
+
+- (Done - evidence181) evidence information from CYP450 recombinant drug metabolism identification experiment using antibody inhibitors
+
+- (Done - evidence182) evidence information from CYP450 recombinant drug metabolism identification experiment using chemical inhibitors 
+
+- (Done - evidence186) evidence information from drug metabolism inhibition experiment
+
+- (Done - evidence183) evidence information from CYP450 metabolic enzyme inhibition experiment
+
+- (Done - evidence 184) evidence information from CYP450 human microsome drug metabolism inhibition experiment
+
+- (Done - evidence185)evidence information from CYP450 recombinant drug metabolism inhibition experiment 
+
+- evidence information from transport protein identification experiment
+
+- evidence information from OATP1B1 transport protein identification experiment
+
+- evidence information from OATP1B1 transport protein identification experiment using overexpressed cell lines
+
+- evidence information from p-glycoprotein transport protein identification experiment
+
+- evidence information from OATP1B1 inhibition experiment
+
+- evidence information from OATP1B3 inhibition experiment
+
+- evidence information from OATP1B3 inhibition experiment using overexpressed cell lines
+
+- evidence information from p-glycoprotein inhibition experiment using Caco 2 cell line
+
 
 
