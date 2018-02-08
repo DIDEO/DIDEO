@@ -21431,6 +21431,15 @@ binary, and takes no temporal argument.
     
 
 
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#ade203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#ade203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OAE_0000005"/>
+        <obo:BFO_0000062 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_administration203"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/dideo.owl#assay185 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay185">
@@ -21532,6 +21541,15 @@ binary, and takes no temporal argument.
         <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cevd202"/>
         <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cell_line_cell202"/>
         <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance202"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:RO_0002404 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#ade203"/>
     </owl:NamedIndividual>
     
 
@@ -22002,6 +22020,15 @@ binary, and takes no temporal argument.
     
 
 
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_administration203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_administration203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000031"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product203"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product175 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product175">
@@ -22150,6 +22177,14 @@ binary, and takes no temporal argument.
     <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product202 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product203">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
     </owl:NamedIndividual>
     
@@ -22309,6 +22344,16 @@ binary, and takes no temporal argument.
     
 
 
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#paerdb203"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay203"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/dideo.owl#homo_sap177 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#homo_sap177">
@@ -22419,6 +22464,14 @@ binary, and takes no temporal argument.
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#overexpression201">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/INO_0000114"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#paerdb203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#paerdb203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000082"/>
     </owl:NamedIndividual>
     
 
@@ -22584,10 +22637,10 @@ binary, and takes no temporal argument.
         <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#mdr1_202"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
+        <owl:deprecated></owl:deprecated>
     </rdf:Description>
     <rdf:Description>
-        <owl:deprecated></owl:deprecated>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
     </rdf:Description>
     
 

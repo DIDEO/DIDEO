@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://www.semanticweb.org/rdb20/ontologies/2018/1/dikb-etypes-0206018#"
-     xml:base="http://www.semanticweb.org/rdb20/ontologies/2018/1/dikb-etypes-0206018"
+<rdf:RDF xmlns="http://www.semanticweb.org/rdb20/ontologies/2018/1/dikb-etypes-0207018#"
+     xml:base="http://www.semanticweb.org/rdb20/ontologies/2018/1/dikb-etypes-0207018"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
@@ -14,7 +14,7 @@
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://www.semanticweb.org/rdb20/ontologies/2018/1/dikb-etypes-0206018">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/rdb20/ontologies/2018/1/dikb-etypes-0207018">
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/ontology-metadata.owl"/>
         <dc:license rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <dc:contributor xml:lang="en">Albert Goldfain</dc:contributor>
@@ -17648,6 +17648,20 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#ade203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#ade203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OAE_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OAE_0000005"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000060"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000061"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/dideo.owl#assay185 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay185">
@@ -17759,6 +17773,18 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://purl.obolibrary.org/obo/dideo.owl#assay202 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay203">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
@@ -18547,6 +18573,19 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_administration203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_administration203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product175 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product175">
@@ -18766,6 +18805,18 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product202 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product203">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
@@ -19037,6 +19088,21 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000061"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000077"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000083"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/dideo.owl#homo_sap177 -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#homo_sap177">
@@ -19235,6 +19301,20 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/INO_0000102"/>
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/INO_0000114"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#paerdb203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#paerdb203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000082"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000100"/>
     </owl:NamedIndividual>
     
 

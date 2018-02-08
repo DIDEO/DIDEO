@@ -18,41 +18,67 @@ instances needed for the DRIVE II evidence assessment study.
 
 5. Finally from Protégé “Export the inferred axioms as ontology…” was selected from the file menu with “Class Assertions (individual types)” checked (in addition to defaults) in the axioms to export window.
 
+6. Load the exported XML/RDF data and individuals.owl into a quad store such as virtuoso
 
-TODO:
-(NOTE:need to associate each instance with an published article)
+NOTE:As of 2/7/18, these are the instances associated with each type:
 
-- (Done - evidence179) evidence information from CYP450 human microsome drug metabolism identification experiment using antibody inhibitors
+```
+### QUERY THE MOST SPECIFIC EVIDENCE TYPE FOR EACH EVIDENCE INSTANCE
 
-- (Done - evidence180) evidence information from CYP450 human microsome drug metabolism identification experiment using chemical inhibitors
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
 
-- (Done - evidence181) evidence information from CYP450 recombinant drug metabolism identification experiment using antibody inhibitors
+SELECT DISTINCT * 
+WHERE 
+{
+  ?x obo:IAO_0000136 ?y;
+     rdf:type ?evType.
+  ?evType rdfs:label ?evTypeLabel.    
+  ?y rdf:type obo:OBI_0000070.
+  
+  FILTER NOT EXISTS {
+    ?x rdf:type ?z.
+    ?z rdfs:subClassOf ?evType.
+ }
+}
+ORDER BY ?x
+#####
 
-- (Done - evidence182) evidence information from CYP450 recombinant drug metabolism identification experiment using chemical inhibitors 
-
-- (Done - evidence186) evidence information from drug metabolism inhibition experiment
-
-- (Done - evidence183) evidence information from CYP450 metabolic enzyme inhibition experiment
-
-- (Done - evidence 184) evidence information from CYP450 human microsome drug metabolism inhibition experiment
-
-- (Done - evidence185)evidence information from CYP450 recombinant drug metabolism inhibition experiment 
-
-- (Done) evidence information from transport protein identification experiment
-
-- (Done) evidence information from OATP1B1 transport protein identification experiment
-
-- (Done) evidence information from OATP1B1 transport protein identification experiment using overexpressed cell lines
-
-- (Done - evidence198) evidence information from p-glycoprotein transport protein identification experiment
-
-- (Done - evidence199) evidence information from OATP1B1 inhibition experiment
-
-- (Done - evidence200) evidence information from OATP1B3 inhibition experiment
-
-- (Done - evidence201) evidence information from OATP1B3 inhibition experiment using overexpressed cell lines
-
-- (Done - evidence202) evidence information from p-glycoprotein inhibition experiment using Caco 2 cell line
-
-
-
+	evType	evTypeLabel
+http://dideo.cafe-trauma.com/evidence163	http://purl.obolibrary.org/obo/DIDEO_00000075	"evidence information from pharmacokinetic trial"@en
+http://dideo.cafe-trauma.com/evidence164	http://purl.obolibrary.org/obo/DIDEO_00000076	"evidence information from genotyped pharmacokinetic trial"@en
+http://dideo.cafe-trauma.com/evidence165	http://purl.obolibrary.org/obo/DIDEO_00000103	"evidence information from phenotyped pharmacokinetic trial"@en
+http://dideo.cafe-trauma.com/evidence168	http://purl.obolibrary.org/obo/DIDEO_00000072	"evidence information from non-randomized drug-drug interaction clinical trial"@en
+http://dideo.cafe-trauma.com/evidence169	http://purl.obolibrary.org/obo/DIDEO_00000073	"evidence information from parallel groups drug-drug interaction clinical trial'"@en
+http://dideo.cafe-trauma.com/evidence170	http://purl.obolibrary.org/obo/DIDEO_00000074	"evidence information from randomized drug-drug interaction clinical trial"@en
+http://dideo.cafe-trauma.com/evidence175	http://purl.obolibrary.org/obo/DIDEO_00000067	"evidence information from CYP450 human microsome drug metabolism identification experiment"@en
+http://dideo.cafe-trauma.com/evidence176	http://purl.obolibrary.org/obo/DIDEO_00000057	"evidence information from drug metabolism identification experiment"@en
+http://dideo.cafe-trauma.com/evidence177	http://purl.obolibrary.org/obo/DIDEO_00000064	"evidence information from CYP450 recombinant drug metabolism identification experiment"@en
+http://dideo.cafe-trauma.com/evidence179	http://purl.obolibrary.org/obo/DIDEO_00000069	"evidence information from CYP450 human microsome drug metabolism identification experiment using antibody inhibitors"@en
+http://dideo.cafe-trauma.com/evidence180	http://purl.obolibrary.org/obo/DIDEO_00000068	"evidence information from CYP450 human microsome drug metabolism identification experiment using chemical inhibitors"@en
+http://dideo.cafe-trauma.com/evidence181	http://purl.obolibrary.org/obo/DIDEO_00000066	"evidence information from CYP450 recombinant drug metabolism identification experiment using antibody inhibitors"@en
+http://dideo.cafe-trauma.com/evidence182	http://purl.obolibrary.org/obo/DIDEO_00000065	"evidence information from CYP450 recombinant drug metabolism identification experiment using chemical inhibitors"@en
+http://dideo.cafe-trauma.com/evidence183	http://purl.obolibrary.org/obo/DIDEO_00000070	"evidence information from CYP450 metabolic enzyme inhibition experiment"@en
+http://dideo.cafe-trauma.com/evidence184	http://purl.obolibrary.org/obo/DIDEO_00000081	"evidence information from CYP450 human microsome drug metabolism inhibition experiment"@en
+http://dideo.cafe-trauma.com/evidence187	http://purl.obolibrary.org/obo/DIDEO_00000105	"evidence information from p-glycoprotein transport protein identification experiment using Caco 2 cell lines"@en
+http://dideo.cafe-trauma.com/evidence188	http://purl.obolibrary.org/obo/DIDEO_00000106	"evidence information from p-glycoprotein transport protein identification experiment using overexpressed cell lines"@en
+http://dideo.cafe-trauma.com/evidence189	http://purl.obolibrary.org/obo/DIDEO_00000115	"evidence information from OATP1B1 inhibition experiment using overexpressed cell lines"@en
+http://dideo.cafe-trauma.com/evidence190	http://purl.obolibrary.org/obo/DIDEO_00000113	"evidence information from p-glycoprotein inhibition experiment using overexpressed cell lines"@en
+http://dideo.cafe-trauma.com/evidence191	http://purl.obolibrary.org/obo/DIDEO_00000061	"evidence information from observation-based adverse drug event report"@en
+http://dideo.cafe-trauma.com/evidence192	http://purl.obolibrary.org/obo/DIDEO_00000077	"evidence information from observation-based report"@en
+http://dideo.cafe-trauma.com/evidence193	http://purl.obolibrary.org/obo/DIDEO_00000088	"evidence information from an evaluated observation-based case-report of a drug interaction"@en
+http://dideo.cafe-trauma.com/evidence194	http://purl.obolibrary.org/obo/DIDEO_00000084	"evidence information from an observation-based case-report of a drug interaction"@en
+http://purl.obolibrary.org/obo/dideo.owl#evidence185	http://purl.obolibrary.org/obo/DIDEO_00000080	"evidence information from CYP450 recombinant drug metabolism inhibition experiment"@en
+http://purl.obolibrary.org/obo/dideo.owl#evidence186	http://purl.obolibrary.org/obo/DIDEO_00000058	"evidence information from drug metabolism inhibition experiment"@en
+http://purl.obolibrary.org/obo/dideo.owl#evidence195	http://purl.obolibrary.org/obo/DIDEO_00000059	"evidence information from transport protein identification experiment"@en
+http://purl.obolibrary.org/obo/dideo.owl#evidence196	http://purl.obolibrary.org/obo/DIDEO_00000107	"evidence information from OATP1B1 transport protein identification experiment"@en
+http://purl.obolibrary.org/obo/dideo.owl#evidence197	http://purl.obolibrary.org/obo/DIDEO_00000109	"evidence information from OATP1B1 transport protein identification experiment using overexpressed cell lines"@en
+http://purl.obolibrary.org/obo/dideo.owl#evidence198	http://purl.obolibrary.org/obo/DIDEO_00000104	"evidence information from p-glycoprotein transport protein identification experiment"@en
+http://purl.obolibrary.org/obo/dideo.owl#evidence199	http://purl.obolibrary.org/obo/DIDEO_00000114	"evidence information from OATP1B1 inhibition experiment"@en
+http://purl.obolibrary.org/obo/dideo.owl#evidence200	http://purl.obolibrary.org/obo/DIDEO_00000117	"evidence information from OATP1B3 inhibition experiment"@en
+http://purl.obolibrary.org/obo/dideo.owl#evidence201	http://purl.obolibrary.org/obo/DIDEO_00000116	"evidence information from OATP1B3 inhibition experiment using overexpressed cell lines"@en
+http://purl.obolibrary.org/obo/dideo.owl#evidence202	http://purl.obolibrary.org/obo/DIDEO_00000112	"evidence information from p-glycoprotein inhibition experiment using Caco 2 cell lines"@en
+http://purl.obolibrary.org/obo/dideo.owl#evidence203	http://purl.obolibrary.org/obo/DIDEO_00000083	"evidence information from a publicly reported observation-based adverse drug event report"@en
+```
