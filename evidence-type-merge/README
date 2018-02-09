@@ -44,7 +44,9 @@ WHERE
  }
 }
 ORDER BY ?x
+
 #####
+x	y	evType	evTypeLabel
 http://dideo.cafe-trauma.com/evidence163	http://dideo.cafe-trauma.com/assay163	http://purl.obolibrary.org/obo/DIDEO_00000075	"evidence information from pharmacokinetic trial"@en
 http://dideo.cafe-trauma.com/evidence164	http://dideo.cafe-trauma.com/assay164	http://purl.obolibrary.org/obo/DIDEO_00000076	"evidence information from genotyped pharmacokinetic trial"@en
 http://dideo.cafe-trauma.com/evidence165	http://dideo.cafe-trauma.com/assay165	http://purl.obolibrary.org/obo/DIDEO_00000103	"evidence information from phenotyped pharmacokinetic trial"@en
@@ -81,6 +83,7 @@ http://purl.obolibrary.org/obo/dideo.owl#evidence202	http://purl.obolibrary.org/
 http://purl.obolibrary.org/obo/dideo.owl#evidence203	http://purl.obolibrary.org/obo/dideo.owl#assay203	http://purl.obolibrary.org/obo/DIDEO_00000083	"evidence information from a publicly reported observation-based adverse drug event report"@en
 http://purl.obolibrary.org/obo/dideo.owl#evidence204	http://purl.obolibrary.org/obo/dideo.owl#assay204	http://purl.obolibrary.org/obo/DIDEO_00000108	"evidence information from OATP1B3 transport protein identification experiment"@en
 http://purl.obolibrary.org/obo/dideo.owl#evidence205	http://purl.obolibrary.org/obo/dideo.owl#assay205	http://purl.obolibrary.org/obo/DIDEO_00000060	"evidence information from transport protein inhibition experiment"@en
-http://purl.obolibrary.org/obo/dideo.owl#evidence206	http://purl.obolibrary.org/obo/dideo.owl#assay206	http://purl.obolibrary.org/obo/DIDEO_00000111	"evidence information from p-glycoprotein inhibition experiment"@en```
+http://purl.obolibrary.org/obo/dideo.owl#evidence206	http://purl.obolibrary.org/obo/dideo.owl#assay206	http://purl.obolibrary.org/obo/DIDEO_00000111	"evidence information from p-glycoprotein inhibition experiment"@en
+http://purl.obolibrary.org/obo/dideo.owl#evidence207	http://purl.obolibrary.org/obo/dideo.owl#assay207	http://purl.obolibrary.org/obo/DIDEO_00000110	"evidence information from OATP1B3 transport protein identification experiment using overexpressed cell lines"@en
 
 --------------
