@@ -11500,6 +11500,7 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
         <obo:IAO_0000112 xml:lang="en">Ae(%) in table 1 of PMID: 8062491</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a data item that is the fraction of a dose that is excreted in urine during a temporal interval</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Ae%</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">The percentage of the total dose excreted in the urine over a duration of time</rdfs:comment>
         <rdfs:label xml:lang="en">cumulative urinary excretion</rdfs:label>
     </owl:Class>
