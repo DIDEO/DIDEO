@@ -11708,6 +11708,20 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000112 xml:lang="en">Table 1 of PMID: 23817346</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a data item specifying the equivalent volume of an orally administered compound based on the plasma concentration of the compound</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Vd/F</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">Volume of distribution (theoretical volume that would be necessary to contain the total amount of an administered drug at the same concentration that it is observed in the blood plasma) following oral administration of a compound</rdfs:comment>
+        <rdfs:label xml:lang="en">volume of distribution after oral administration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
