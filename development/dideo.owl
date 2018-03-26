@@ -11629,6 +11629,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000433"/>
+        <obo:IAO_0000115 xml:lang="en">the maximum rate of either an enzymatic reaction or a transport process, approached as the enzyme or transporter protein becomes saturated with substrate</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Vmax</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The maximum velocity of an enzymatic reaction or transport</rdfs:comment>
+        <rdfs:label xml:lang="en">maximal velocity</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
