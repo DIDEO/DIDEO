@@ -11535,6 +11535,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000432"/>
+        <obo:IAO_0000115 xml:lang="en">the minimum concentration of a compound in plasma during a multiple dosing administration, once a steady-state condition is achieved such that the rate of entry of the compound into the body equals the rate of exit of the compound from the body</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Css trough</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">Lowest (trough) plasma concentration of a compound at steady-state</rdfs:comment>
+        <rdfs:label xml:lang="en">trough steady-state plasma concentration</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
