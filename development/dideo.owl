@@ -10844,7 +10844,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000221 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000221">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000287"/>
         <obo:IAO_0000115 xml:lang="en">an apparent permeability coefficient calculated from measurements in which the evaluant passes through a cell monolayer in the apical to basolateral direction. The cell monolayer bears a reference substance role realized in comparing this apparent permeability coefficient to that of a monolayer comprised of transfected cells.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Papp A-B Vector Control</obo:IAO_0000118>
@@ -10858,7 +10858,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000222 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000222">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000287"/>
         <obo:IAO_0000112 xml:lang="en">0.92 x 10^-6 cm/s (PMID: 26525112)</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">an apparent permeability coefficient calculated from measurements in which the evaluant passes through a cell monolayer in the apical to basolateral direction. The cell monolayer is comprised of transfected cells.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
@@ -10873,7 +10873,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000223">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000287"/>
         <obo:IAO_0000112 xml:lang="en">0.399 +- 0.023 x 10^-6 cm/s (PMID: 22773077)</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">an apparent permeability coefficient calculated from measurements in which the evaluant passes through a cell monolayer in the apical to basolateral direction. The cell monolayer is comprised of Caco-2 cells.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
@@ -10888,7 +10888,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000224 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000224">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000287"/>
         <obo:IAO_0000115 xml:lang="en">an &apos;apparent permeability coefficient&apos; calculated from measurements in which the evaluant passes through a cell monolayer in the basolateral to apical direction. The cell monolayer bears a reference substance role realized in comparing this apparent permeability coefficient to that of a monolayer comprised of transfected cells.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Papp B-A Vector Control</obo:IAO_0000118>
@@ -10902,7 +10902,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000225 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000225">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000287"/>
         <obo:IAO_0000112 xml:lang="en">0.84 x 10^-6 cm/s (PMID: 26525112)</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">an &apos;apparent permeability coefficient&apos; calculated from measurements in which the evaluant passes through a cell monolayer in the basolateral to apical direction. The cell monolayer is comprised of transfected cells.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
@@ -10916,7 +10916,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000226 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000226">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000287"/>
         <obo:IAO_0000112 xml:lang="en">0.399 +- 0.069 x 10^-6 cm/s (PMID: 22773077)</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">an &apos;apparent permeability coefficient&apos; calculated from measurements in which the evaluant passes through a cell monolayer in the basolateral to apical direction. The cell monolayer is comprised of Caco-2 cells.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
@@ -11730,6 +11730,18 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <rdfs:comment xml:lang="en">The rate at which a substrate is turned over by an enzyme</rdfs:comment>
         <rdfs:label xml:lang="en">metabolic rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">a data item that is an estimation of the permeability, inhering in a cell, of an evaluant molecular entity; this estimation results from an assay in which the amount of an evaluant molecular entity passing through a cell monolayer or artificial membrane is measured over a time interval</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Papp</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">apparent permeability coefficient</rdfs:label>
     </owl:Class>
     
 
