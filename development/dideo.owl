@@ -3529,6 +3529,7 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ocmr.owl</obo:IAO_0000412>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:39442</oboInOwl:id>
+        <rdfs:comment xml:lang="en">A substrate of an enzyme that when bio-transformed by that enzyme to the metabolite, emits a fluroesecnt or luminescent signal that can be used as a measure of enzyme activity. This is a general term when fluorescent probe is used.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescent probe</rdfs:label>
     </owl:Class>
     
