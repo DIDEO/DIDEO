@@ -11493,6 +11493,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000112 xml:lang="en">Ae(%) in table 1 of PMID: 8062491</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a data item that is the fraction of a dose that is excreted in urine during a temporal interval</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">The percentage of the total dose excreted in the urine over a duration of time</rdfs:comment>
+        <rdfs:label xml:lang="en">cumulative urinary excretion</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
