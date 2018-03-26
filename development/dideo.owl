@@ -11315,6 +11315,17 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000182"/>
+        <obo:IAO_0000115 xml:lang="en">a hepatocyte that has been isolated from a human being and has undergone cryopreservation</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">cryopreserved human hepatocyte</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
