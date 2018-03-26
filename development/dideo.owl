@@ -9990,10 +9990,10 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MOP_0000673"/>
-        <obo:IAO_0000115 xml:lang="en">a hydroxylation that has bufuralol as input and 1&apos;-hydroxybufurolol as output</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a hydroxylation that has Bufuralol as input and 1&apos;-hydroxybufurolol as output</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">1&apos;-hydroxylation of bufuralol to form 1&apos;-hydroxybufurolol; probe substrate of CYP2D6 activity</rdfs:comment>
-        <rdfs:label xml:lang="en">bufuralol 1&apos;-hydroxylation</rdfs:label>
+        <rdfs:comment xml:lang="en">1&apos;-hydroxylation of Bufuralol to form 1&apos;-hydroxybufurolol; probe substrate of CYP2D6 activity</rdfs:comment>
+        <rdfs:label xml:lang="en">Bufuralol 1&apos;-hydroxylation</rdfs:label>
     </owl:Class>
     
 
