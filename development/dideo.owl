@@ -12967,6 +12967,24 @@ http://sourceforge.net/p/obi/obi-terms/716/</obo:IAO_0000116>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OBI_0000679 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000679">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">average value</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">A  data item that is produced as the output of an averaging data transformation and represents the average value of the input data.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Monnie McGee</obo:IAO_0000117>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">arithmetic mean</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/apollo_sv/dev/apollo_sv.owl</obo:IAO_0000412>
+        <obo:IAO_0000600 xml:lang="en">A  data item that is produced as the output of an averaging data transformation and represents the average value of the input data.</obo:IAO_0000600>
+        <apollo_sv:APOLLO_SV_0000040 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mean</apollo_sv:APOLLO_SV_0000040>
+        <rdfs:label xml:lang="en">average value</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000953 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000953">
