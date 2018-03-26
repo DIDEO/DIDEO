@@ -11722,6 +11722,18 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001554"/>
+        <obo:IAO_0000115 xml:lang="en">a rate measurement datum that represents the rate of catalytic activity of an enzyme</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">The rate at which a substrate is turned over by an enzyme</rdfs:comment>
+        <rdfs:label xml:lang="en">metabolic rate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
