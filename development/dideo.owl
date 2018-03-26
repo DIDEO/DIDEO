@@ -11574,6 +11574,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000122"/>
+        <obo:IAO_0000115 xml:lang="en">An inhibitory constant  that gives the concentration of an inhibiting agent, not bound to plasma proteins, to reach half of the maximum inhibition of a reversible metabolic process</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Ki &lt;sub&gt;unbound&lt;/sub&gt;</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">reversible inhibition constant decribing the potency of an inhibitor when not bound to plasma protiens</rdfs:comment>
+        <rdfs:label xml:lang="en">unbound reversible inhibitiory constant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
