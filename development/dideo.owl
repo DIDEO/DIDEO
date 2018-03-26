@@ -11642,6 +11642,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001554"/>
+        <obo:IAO_0000115 xml:lang="en">a rate measurement datum of the rate at which a compound passes through a cell monolayer</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Permeability Rate</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">The rate at which a compound passes through a cell monolayer</rdfs:comment>
+        <rdfs:label xml:lang="en">cell monolayer permeability rate</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
