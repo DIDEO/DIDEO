@@ -11695,6 +11695,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000284">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000112 xml:lang="en">Michaelis-Menten, Hill Equation</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a statistical model that indicates how to realize a curve fitting data transformation that has as specified input a set of data about a &apos;catalytic activity&apos; or transport process. Reaction rate is part of this data.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Fit Model</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">the mathematical model used to fit the kinetic data of metabolism or transport of a compound</rdfs:comment>
+        <rdfs:label xml:lang="en">kinetics data model</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
