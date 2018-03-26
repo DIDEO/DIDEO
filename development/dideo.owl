@@ -11480,6 +11480,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000112 xml:lang="en">cotinine formation was linear for incubations of up to 20 minutes (PMID: 27974382)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a measurement datum that is the specified output of an assay that has the objective of determining the closeness to a linear relationship of metabolite formation (or substrate depletion) with incubation time</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">This option is selected when the linearity of product formation or substrate depletion with time has been tested and the data is reported</rdfs:comment>
+        <rdfs:label xml:lang="en">protein linearity of reaction rate with time</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
