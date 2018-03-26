@@ -11668,6 +11668,20 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000272"/>
+        <obo:IAO_0000112 xml:lang="en">90 µM</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a Michaelis-Menten constant in which the substrate is a drug and only the concentration of the drug that is not bound to plasma proteins is measured</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Km &lt;sub&gt;unbound&lt;/sub&gt;</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">Km is the Michaelis constant; substrate concentration at half of the maximum velocity (Vmax). A michaelis-mentin kinetic parameter describing the affinity of a drug for an enzyme or transporter; the lower the number the greater the affinity. Km(unbound) is the Km using the unbound drug.</rdfs:comment>
+        <rdfs:label xml:lang="en">unbound drug Michaelis-Menten constant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
