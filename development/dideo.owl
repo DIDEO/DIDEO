@@ -11455,6 +11455,18 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115 xml:lang="en">an assay that measures the uptake transmembrane transporter activity that enables the transfer of rhodamine 123</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">Transport assay that measures the amount of rhodamine 123 taken into cells by transporters such as P-gp</rdfs:comment>
+        <rdfs:label xml:lang="en">rhodamine 123 uptake/retention assay</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
