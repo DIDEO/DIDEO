@@ -11659,7 +11659,7 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000281">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001554"/>
-        <obo:IAO_0000115 xml:lang="en">a rate measurement datum of the rate at which a molecular entity passes from inside a cell to the outside</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a rate measurement datum of the rate at which a molecular entity passes from inside a cell monolayer to the outside</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Efflux Rate</obo:IAO_0000118>
         <rdfs:comment xml:lang="en">The rate at which a compound passes through a cell monolayer in the direction of efflux out of an organ</rdfs:comment>
