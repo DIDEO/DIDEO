@@ -11698,7 +11698,7 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000284 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000284">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000107"/>
         <obo:IAO_0000112 xml:lang="en">Michaelis-Menten, Hill Equation</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">a statistical model that indicates how to realize a curve fitting data transformation that has as specified input a set of data about a &apos;catalytic activity&apos; or transport process. Reaction rate is part of this data.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">Fit Model</obo:IAO_0000118>
@@ -13916,6 +13916,26 @@ Possible ecological risks of transgenic organism release when transgenes affect 
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PR:000015224</oboInOwl:id>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Category=gene.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solute carrier organic anion transporter family member 1B3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/STATO_0000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">a statistical model is an information content entity which is a formalization of relationships between variables in the form of mathematical equations. A statistical model describes how one or more random variables are related to one or more other variables. The model is statistical as the variables are not deterministically but stochastically related.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">adapted from Wikipedia:
+http://en.wikipedia.org/wiki/Statistical_model
+
+last accessed: 14/01/2014</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/stato.owl</obo:IAO_0000412>
+        <obo:STATO_0000032 xml:lang="en">statistical model</obo:STATO_0000032>
+        <rdfs:label xml:lang="en">statistical model</rdfs:label>
     </owl:Class>
     
 
