@@ -11602,6 +11602,20 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/APOLLO_SV_00000433"/>
+        <obo:IAO_0000112 xml:lang="en">units: min ^-1 (per minute)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">the maximum value of a data set of enzyme inactivation rate measurement data</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Kinact</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">capacity parameter; defines maximal rate of irreversible enzyme inactivation; the higher the kinact, the more enzyme is inactivated per unit time</rdfs:comment>
+        <rdfs:label xml:lang="en">inactivation rate constant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
