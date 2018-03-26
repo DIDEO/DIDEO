@@ -11402,6 +11402,19 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00000265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001933"/>
+        <obo:IAO_0000115 xml:lang="en">a categorical value specification that specifies the presence of NADPH and the presence of precipitant in a time-dependent or mechanism-based inhibition experiment</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">pre-incubation with NADPH and with precipitant</obo:IAO_0000118>
+        <rdfs:comment xml:lang="en">Condition where both NADPH and the precipitant are present in the pre-incubation (inactivation of the enzyme) of a time-dependent or mechanism-based inhibition experiment</rdfs:comment>
+        <rdfs:label xml:lang="en">NADPH with precipitant</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
