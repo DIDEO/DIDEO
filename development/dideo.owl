@@ -10762,7 +10762,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">a rate measurement of the rate at which a substrate of a transporter protein passes through the transporter protein into a cell</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">a rate measurement datum of the number of times a substrate molecule of a transporter protein passes through the transporter protein into a cell</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">accumulation rate</obo:IAO_0000118>
         <dc:contributor xml:lang="en">Jessica Sontheimer</dc:contributor>
