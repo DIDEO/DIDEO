@@ -7249,7 +7249,6 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
-        <obo:IAO_0000115 xml:lang="en"></obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An evidence information content entity that is about a clinical drug trial that focusses on pharmacokinetics.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118>EV_CT_Pharmacokinetic</obo:IAO_0000118>
@@ -12371,10 +12370,10 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
     </owl:NamedIndividual>
     <rdf:Description>
-        <owl:deprecated></owl:deprecated>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
     </rdf:Description>
     <rdf:Description>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
+        <owl:deprecated></owl:deprecated>
     </rdf:Description>
     
 
