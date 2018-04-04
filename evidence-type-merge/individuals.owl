@@ -672,15 +672,6 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
-    <!-- http://purl.obolibrary.org/obo/dideo.owl#DIDEO_EV_Inclusion_Criterion -->
-
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/dideo.owl#DIDEO_EV_Inclusion_Criterion">
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An evidence inclusion criterion that is used for evidence types defined in the DIDEO ontology. There can be more than one inclusion annotation of this type per DIDEO evidence type. Each criterion represents a recommended standard used to judge the quality of a study instance that realizes the evidence type.</rdfs:comment>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIDEO Evidence Inclusion Criterion</rdfs:label>
-    </owl:AnnotationProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ncbitaxon#has_rank -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank">
@@ -1401,7 +1392,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
         <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
         <rdfs:domain rdf:resource="http://purl.org/obo/owl/GO#GO_0003824"/>
         <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/IDO_0100872"/>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label xml:lang="en">realizes substrate role</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
@@ -1411,7 +1401,6 @@ A continuant cannot have an occurrent as part: use &apos;participates in&apos;. 
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000086 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000086">
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label xml:lang="en">involves substrate</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
@@ -1481,7 +1470,6 @@ Pattern of magnetic domains on scattered pieces of a hard disk platter as mark w
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">see https://github.com/information-artifact-ontology/IAO/issues/25&amp;q=denote</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smith, Ceusters, Ruttenberg, 2000 years of philosophy</obo:IAO_0000119>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_specifically denotes</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
@@ -1546,7 +1534,6 @@ every c that is a concretization of g specifically denotes r</obo:IAO_0000116>
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000220">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">see https://github.com/information-artifact-ontology/IAO/issues/25&amp;q=denote</obo:IAO_0000116>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_materially denotes</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
@@ -1614,7 +1601,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000222">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_describes</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
@@ -1625,7 +1611,6 @@ Werner suggests a solution based on &quot;Magnitudes&quot; a proposal for which 
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000223">
         <rdfs:subPropertyOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteProperty"/>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_represents</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:ObjectProperty>
@@ -9885,7 +9870,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118>EV_CT_DDI</obo:IAO_0000118>
         <obo:IAO_0000119>https://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/just-inclusion-criteria/just-inclusion-criteria.html</obo:IAO_0000119>
-        <DIDEO_EV_Inclusion_Criterion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Are pharmacokinetic measurement sampling times sufficent to characterize AUC_{0 to INF} (for single-dose studies), AUC_{0 to TAU} (for multi-dose studies), maximum concentration (Cmax) and the minimum concentration (Cmin) of the victim (substrate) drug administered alone and under conditions of the anticipated interaction? {ID: IC1; Group: measurement; Source: Line 331 of FDA ucm292362; Link: https://www.fda.gov/downloads/drugs/guidances/ucm292362.pdf;}</DIDEO_EV_Inclusion_Criterion>
+	        <DIDEO_EV_Inclusion_Criterion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Are pharmacokinetic measurement sampling times sufficent to characterize AUC_{0 to INF} (for single-dose studies), AUC_{0 to TAU} (for multi-dose studies), maximum concentration (Cmax) and the minimum concentration (Cmin) of the victim (substrate) drug administered alone and under conditions of the anticipated interaction? {ID: IC1; Group: measurement; Source: Line 331 of FDA ucm292362; Link: https://www.fda.gov/downloads/drugs/guidances/ucm292362.pdf;}</DIDEO_EV_Inclusion_Criterion>
         <DIDEO_EV_Inclusion_Criterion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Are the pharmacokinetic results reported as the geometric mean ration of the observed pharmacokinetic exposure measures with and without the perpretrator drug, including 90% confidence intervals and measures of the observed variability of the interaction? {ID: IC2; Group: reporting; Source: Line 711 of FDA ucm292362; Link: https://www.fda.gov/downloads/drugs/guidances/ucm292362.pdf;}</DIDEO_EV_Inclusion_Criterion>
         <DIDEO_EV_Inclusion_Criterion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Do the pharmacokinetic measurements include samples of all moieties needed to interpret study results, including metabolites if that information provides information about the interaction effect and/or safety? {ID: IC3; Group: measurement; Source: Line 331 of FDA; ucm292362 Link: https://www.fda.gov/downloads/drugs/guidances/ucm292362.pdf;}</DIDEO_EV_Inclusion_Criterion>
         <DIDEO_EV_Inclusion_Criterion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Does the study properly exclude and/or account for the use of prescription or OTC medications, dietary/nutritional supplements, tobacco, alcohol, foods, and fruit juices that may affect the expression or function of enzymes and transporters? {ID: IC4; Group: exposure; Source: Line 323 of FDA ucm292362; Link: https://www.fda.gov/downloads/drugs/guidances/ucm292362.pdf;}</DIDEO_EV_Inclusion_Criterion>
@@ -9989,7 +9974,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118>EV_PK_DDI_NR</obo:IAO_0000118>
         <obo:IAO_0000119>https://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/just-inclusion-criteria/just-inclusion-criteria.html</obo:IAO_0000119>
-        <DIDEO_EV_Inclusion_Criterion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If the study design is a parallel, two-arm, study, does the sample size properly account for intersubject variability? {ID: IC20; Group: measurement; Source: Line 300 of FDA ucm292362; Link: https://www.fda.gov/downloads/drugs/guidances/ucm292362.pdf;}</DIDEO_EV_Inclusion_Criterion>
+	<DIDEO_EV_Inclusion_Criterion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If the study design is a parallel, two-arm, study, does the sample size properly account for intersubject variability? {ID: IC20; Group: measurement; Source: Line 300 of FDA ucm292362; Link: https://www.fda.gov/downloads/drugs/guidances/ucm292362.pdf;}</DIDEO_EV_Inclusion_Criterion>
         <rdfs:label xml:lang="en">evidence information from non-randomized drug-drug interaction clinical trial</rdfs:label>
     </owl:Class>
     
@@ -10166,7 +10151,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118>EV_PK_DDI_RCT</obo:IAO_0000118>
         <obo:IAO_0000119>https://dbmi-icode-01.dbmi.pitt.edu/dikb-evidence/just-inclusion-criteria/just-inclusion-criteria.html</obo:IAO_0000119>
-        <DIDEO_EV_Inclusion_Criterion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If the study design is a parallel, two-arm, study, does the sample size properly account for intersubject variability? {ID: IC21; Group: measurement; Source: Line 300 of FDA ucm292362; Link: https://www.fda.gov/downloads/drugs/guidances/ucm292362.pdf;}</DIDEO_EV_Inclusion_Criterion>
+	<DIDEO_EV_Inclusion_Criterion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If the study design is a parallel, two-arm, study, does the sample size properly account for intersubject variability? {ID: IC21; Group: measurement; Source: Line 300 of FDA ucm292362; Link: https://www.fda.gov/downloads/drugs/guidances/ucm292362.pdf;}</DIDEO_EV_Inclusion_Criterion>
         <DIDEO_EV_Inclusion_Criterion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">If the study design is a two-way crossover design, does the washout period properly account for 1) the known pharmacokinetics of the victim (substrate) and perpetrator (precipitant) drugs, and 2) the anticipated impact of a drug-drug interaction on the victim&apos;s half-life? {ID: IC22; Group: exposure; Source: Line 291 of FDA ucm292362; Link: https://www.fda.gov/downloads/drugs/guidances/ucm292362.pdf;}</DIDEO_EV_Inclusion_Criterion>
         <rdfs:label xml:lang="en">evidence information from randomized drug-drug interaction clinical trial</rdfs:label>
     </owl:Class>
@@ -10228,7 +10213,6 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
-        <obo:IAO_0000115 xml:lang="en"></obo:IAO_0000115>
         <obo:IAO_0000115 xml:lang="en">An evidence information content entity that is about a clinical drug trial that focusses on pharmacokinetics.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118>EV_CT_Pharmacokinetic</obo:IAO_0000118>
@@ -13904,7 +13888,6 @@ of this, different, term.</obo:IAO_0000116>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000008">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_artifact</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -13958,7 +13941,6 @@ Superclass was &apos;digitial quality&apos;</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">person:Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI_0000261</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label xml:lang="en">obsolete2_digital entity</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -14048,7 +14030,6 @@ Superclass was &apos;digital entity&apos;</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">person:Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI_0000244</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label xml:lang="en">obsolete2_binary digital entity</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -14063,7 +14044,6 @@ Superclass was &apos;digital entity&apos;</obo:IAO_0000116>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a unit of measure is the quality of some material entity compared to which another quality is some multiple of.</obo:IAO_0000115>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smith, Ceusters, Ruttenberg, 2000 years of philosophy</obo:IAO_0000119>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_unit of measure</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -14269,7 +14249,6 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">conclusion</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI_0000005</obo:IAO_0000119>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label xml:lang="en">obsolete_study interpretation</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -14282,7 +14261,6 @@ this case we explicitly refer to the singular form</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000038"/>
         <obo:IAO_0000111 xml:lang="en">dot plot</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">Dot plot of SSC-H and FSC-H.</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000002"/>
         <obo:IAO_0000115 xml:lang="en">A dot plot is a report graph which is a graphical representation of data where each data point is represented by a single dot placed on coordinates corresponding to data point values in particular dimensions.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">person:Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">person:Chris Stoeckert</obo:IAO_0000117>
@@ -14323,7 +14301,6 @@ superclass was &apos;digital document&apos;</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">person:Chris Stoeckert</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI_0000132</obo:IAO_0000119>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">group:OBI</obo:IAO_0000119>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label xml:lang="en">obsolete2_text based digital entity</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -14353,7 +14330,6 @@ superclass was &apos;digital document&apos;</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000038"/>
         <obo:IAO_0000111 xml:lang="en">contour plot</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">Contour plot of SSC-H, FSC-H, and FL1-H.</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000002"/>
         <obo:IAO_0000116 xml:lang="en">generically_dependent_continuants</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">person:Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">person:Chris Stoeckert</obo:IAO_0000117>
@@ -14377,7 +14353,6 @@ superclass was &apos;digital document&apos;</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">person:Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI_0000027</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label xml:lang="en">obsolete2_report figure</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -14422,21 +14397,6 @@ superclass was &apos;digital document&apos;</obo:IAO_0000116>
     <!-- http://purl.obolibrary.org/obo/IAO_0000078 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000078">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000002"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000120"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000121"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000122"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000123"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000124"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000125"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000423"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000428"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
         <obo:IAO_0000111 xml:lang="en">curation status specification</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
@@ -14456,7 +14416,6 @@ superclass was &apos;digital document&apos;</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000038"/>
         <obo:IAO_0000111 xml:lang="en">density plot</obo:IAO_0000111>
         <obo:IAO_0000112 xml:lang="en">Density plot of SSC-H and FSC-H.</obo:IAO_0000112>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000002"/>
         <obo:IAO_0000115 xml:lang="en">A density plot is a report graph which is a graphical representation of data where the tint of a particular pixel corresponds to some kind of function corresponding the the amount of data points relativelly with their distance from the the pixel.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">person:Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">person:Chris Stoeckert</obo:IAO_0000117>
@@ -14513,7 +14472,6 @@ whole sentence is deleted.</obo:IAO_0000116>
         <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PERSON: Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">GROUP:OBI</obo:IAO_0000119>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI_0000001</obo:IAO_0000119>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label xml:lang="en">obsolete_report element</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -14531,7 +14489,6 @@ superclass was &apos;digital entity&apos;</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">person:Jennifer Fostel</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI_0000222</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label xml:lang="en">obsolete2_binary executable</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -14560,14 +14517,12 @@ superclass was &apos;digital entity&apos;</obo:IAO_0000116>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000097">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000111 xml:lang="en">report table</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000002"/>
         <obo:IAO_0000115 xml:lang="en">A report table is a report display element consisting of a matrix of cells layed out in a grid, some set of which are filled with some information content</obo:IAO_0000115>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2009-08-10 Alan Ruttenberg: Larry Hunter suggests that this be obsoleted and replaced by &apos;textual entity table&apos;. Alan restored as there are OBI dependencies and this merits further discussion</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">person:Alan Ruttenberg</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">person:Allyson Lister</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI_0000265</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label xml:lang="en">obsolete_report table</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -14690,7 +14645,6 @@ superclass was &apos;digial entity&apos;</obo:IAO_0000116>
         <obo:IAO_0000117 xml:lang="en">person:Jennifer Fostel</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI_0000195</obo:IAO_0000119>
         <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label xml:lang="en">obsolete2_digital document</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -14795,7 +14749,6 @@ Cons sometimes specifies a quality which is not a realizable.</obo:IAO_0000116>
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000116>3/22/2009 Alan Ruttenberg, obsoleted per http://groups.google.com/group/information-ontology/browse_thread/thread/789ad4b7708d5cf4</obo:IAO_0000116>
         <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Need to rework digital entity. Digital quality was suggested by Barry.</obo:IAO_0000116>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_digital quality</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -14913,7 +14866,6 @@ logical relations between a finite collection of sets.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">PERSON:James Malone</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">WEB: http://www.graphpad.com/www/book/survive.htm</obo:IAO_0000119>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label xml:lang="en">obsolete_survival curve</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -15006,17 +14958,6 @@ clustering algorithm.</obo:IAO_0000115>
     <!-- http://purl.obolibrary.org/obo/IAO_0000225 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000225">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:oneOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000103"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000226"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000227"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000228"/>
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000229"/>
-                </owl:oneOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
         <obo:IAO_0000111 xml:lang="en">obsolescence reason specification</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
@@ -16002,7 +15943,6 @@ points together with a line.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a planned process with the objective to establish a system that allows to refer to specific entities of a certain kind and store information about them, by establishing a CRID registry and plan specifications for the process of 1) assigning a CRID and 2) looking up a CRID.</obo:IAO_0000115>
         <obo:IAO_0000116>MC, 20101124: deprecated following discussion at IAO call 20101124. Term was deemed not necessary - no use case for now.</obo:IAO_0000116>
-        <obo:IAO_0000231 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000103"/>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obsolete_establishing a CRID registry</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -18676,7 +18616,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay163">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <obo:BFO_0000051 rdf:resource="http://dideo.cafe-trauma.com/grand163"/>
         <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre163"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1298163"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/organism163"/>
@@ -18688,7 +18627,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay164">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <obo:BFO_0000051 rdf:resource="http://dideo.cafe-trauma.com/grand164"/>
         <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre164"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1307164"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/organism164"/>
@@ -18704,12 +18642,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1323165"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/organism165"/>
     </owl:NamedIndividual>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NegativePropertyAssertion"/>
-        <owl:sourceIndividual rdf:resource="http://dideo.cafe-trauma.com/assay165"/>
-        <owl:assertionProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-        <owl:targetIndividual rdf:resource="http://purl.obolibrary.org/obo/OBI_0302900"/>
-    </rdf:Description>
     
 
 
@@ -18766,9 +18698,9 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay175">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd175"/>
-        <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre175"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance175"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1388175"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay_type175"/>
+        <rdfs:comment>instance of evidence information from drug metabolism identification experiment</rdfs:comment>
     </owl:NamedIndividual>
     
 
@@ -18778,10 +18710,8 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay176">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd176"/>
-        <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre176"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type176"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance176"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1423176"/>
     </owl:NamedIndividual>
     
 
@@ -18791,14 +18721,8 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay177">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd177"/>
-        <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre177"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type177"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance177"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1419177"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1420177"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1421177"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1422177"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/metabolic_inhibitor177"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cell_line177"/>
     </owl:NamedIndividual>
     
 
@@ -18808,10 +18732,8 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay179">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd179"/>
-        <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre179"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type179"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance179"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1431179"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/metabolic_inhibitor179"/>
     </owl:NamedIndividual>
     
@@ -18822,10 +18744,9 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay180">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd180"/>
-        <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre180"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type180"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance180"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1437180"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance180_2"/>
     </owl:NamedIndividual>
     
 
@@ -18835,12 +18756,10 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay181">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd181"/>
-        <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre181"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type181"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance181"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1439181"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1447181"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/metabolic_inhibitor181"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cell_line181"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance181_2"/>
     </owl:NamedIndividual>
     
 
@@ -18850,11 +18769,9 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay182">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd182"/>
-        <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre182"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type182"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance182"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1449182"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/metabolic_inhibitor182"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cell_line182"/>
     </owl:NamedIndividual>
     
 
@@ -18864,14 +18781,8 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay183">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd183"/>
-        <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre183"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type183"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance183"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1460183"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1470183"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1471183"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1472183"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1473183"/>
     </owl:NamedIndividual>
     
 
@@ -18881,14 +18792,8 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay184">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/civd184"/>
-        <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre184"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/assay_type184"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance184"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1489184"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1490184"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1491184"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1492184"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1493184"/>
     </owl:NamedIndividual>
     
 
@@ -18926,14 +18831,8 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay189">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/cevd189"/>
-        <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre189"/>
+        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/cell_line_cell189"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance189"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1531189"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1541189"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1542189"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1543189"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1544189"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/transport_assay189"/>
     </owl:NamedIndividual>
     
 
@@ -18943,11 +18842,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay190">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/cevd190"/>
-        <obo:BFO_0000055 rdf:resource="http://dideo.cafe-trauma.com/dre190"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/chem_substance190"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1556190"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1557190"/>
-        <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/drug1558190"/>
         <obo:OBI_0000293 rdf:resource="http://dideo.cafe-trauma.com/transport_assay190"/>
     </owl:NamedIndividual>
     
@@ -19011,6 +18906,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay_type177">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#spec_col_proc177"/>
     </owl:NamedIndividual>
     
 
@@ -19019,6 +18915,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay_type179">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#spec_col_proc177"/>
     </owl:NamedIndividual>
     
 
@@ -19026,7 +18923,8 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://dideo.cafe-trauma.com/assay_type180 -->
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay_type180">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#spec_col_proc177"/>
     </owl:NamedIndividual>
     
 
@@ -19058,7 +18956,8 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://dideo.cafe-trauma.com/assay_type184 -->
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay_type184">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#spec_col_proc184"/>
     </owl:NamedIndividual>
     
 
@@ -19075,14 +18974,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay_type188">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000001891"/>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://dideo.cafe-trauma.com/assay_type189 -->
-
-    <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/assay_type189">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000015223"/>
     </owl:NamedIndividual>
     
 
@@ -19109,6 +19000,15 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/cadrce193">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
         <obo:RO_0000059 rdf:resource="http://dideo.cafe-trauma.com/adrece193"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://dideo.cafe-trauma.com/cell_line_cell189 -->
+
+    <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/cell_line_cell189">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+        <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/overexpression189"/>
     </owl:NamedIndividual>
     
 
@@ -19153,6 +19053,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/chem_substance175">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product175"/>
         <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process175"/>
     </owl:NamedIndividual>
     
@@ -19162,6 +19063,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/chem_substance176">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product176"/>
         <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process176"/>
     </owl:NamedIndividual>
     
@@ -19171,6 +19073,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/chem_substance177">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product177"/>
         <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process177"/>
     </owl:NamedIndividual>
     
@@ -19180,6 +19083,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/chem_substance179">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product179"/>
         <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process179"/>
     </owl:NamedIndividual>
     
@@ -19189,6 +19093,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/chem_substance180">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product180"/>
         <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process180"/>
     </owl:NamedIndividual>
     
@@ -19198,6 +19103,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/chem_substance181">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product181"/>
         <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process181"/>
     </owl:NamedIndividual>
     
@@ -19207,6 +19113,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/chem_substance182">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product182"/>
         <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process182"/>
     </owl:NamedIndividual>
     
@@ -19216,6 +19123,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/chem_substance183">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product183"/>
         <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process183"/>
     </owl:NamedIndividual>
     
@@ -19225,6 +19133,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/chem_substance184">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product184"/>
         <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/metabolic_process184"/>
     </owl:NamedIndividual>
     
@@ -19387,7 +19296,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/csd163">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
-        <obo:BFO_0000051 rdf:resource="http://dideo.cafe-trauma.com/pgd163"/>
     </owl:NamedIndividual>
     
 
@@ -19396,7 +19304,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/csd164">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
-        <obo:BFO_0000051 rdf:resource="http://dideo.cafe-trauma.com/pgd164"/>
     </owl:NamedIndividual>
     
 
@@ -19405,7 +19312,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/csd165">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
-        <obo:BFO_0000051 rdf:resource="http://dideo.cafe-trauma.com/pgd165"/>
     </owl:NamedIndividual>
     
 
@@ -19431,7 +19337,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/csd170">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500001"/>
-        <obo:BFO_0000051 rdf:resource="http://dideo.cafe-trauma.com/pgd170"/>
     </owl:NamedIndividual>
     
 
@@ -19630,8 +19535,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/drug1298163">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3732"/>
-        <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role163"/>
     </owl:NamedIndividual>
     
 
@@ -19640,8 +19543,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/drug1307164">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_8028"/>
-        <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role164"/>
     </owl:NamedIndividual>
     
 
@@ -19650,8 +19551,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/drug1323165">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5138"/>
-        <obo:RO_0000053 rdf:resource="http://dideo.cafe-trauma.com/obj_role165"/>
     </owl:NamedIndividual>
     
 
@@ -20229,6 +20128,8 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/event193">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OAE_0000005"/>
+        <obo:BFO_0000062 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_administration194"/>
     </owl:NamedIndividual>
     
 
@@ -20237,6 +20138,8 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/event194">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000003"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OAE_0000005"/>
+        <obo:BFO_0000062 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_administration194"/>
     </owl:NamedIndividual>
     
 
@@ -20500,9 +20403,8 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/experiment_type189">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0032410"/>
-        <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/assay_type189"/>
         <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/chem_substance2189"/>
-        <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/protein189"/>
+        <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/scoat1b1_189"/>
     </owl:NamedIndividual>
     
 
@@ -20513,7 +20415,6 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0032410"/>
         <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/assay_type190"/>
         <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/chem_substance2190"/>
-        <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/protein190"/>
     </owl:NamedIndividual>
     
 
@@ -20634,6 +20535,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/metabolic_inhibitor179">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0042571"/>
+        <obo:RO_0000053 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#inhibitor179"/>
     </owl:NamedIndividual>
     
 
@@ -20649,7 +20551,13 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     <!-- http://dideo.cafe-trauma.com/metabolic_inhibitor182 -->
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/metabolic_inhibitor182">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0042571"/>
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042571"/>
+            </owl:Class>
+        </rdf:type>
+        <obo:RO_0000053 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#inhibitor182"/>
     </owl:NamedIndividual>
     
 
@@ -20658,6 +20566,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/metabolic_process175">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cyp450_175"/>
     </owl:NamedIndividual>
     
 
@@ -20666,6 +20575,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/metabolic_process176">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/protein187"/>
     </owl:NamedIndividual>
     
 
@@ -20674,6 +20584,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/metabolic_process177">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cyp450_177"/>
     </owl:NamedIndividual>
     
 
@@ -20682,6 +20593,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/metabolic_process179">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cyp450_179"/>
     </owl:NamedIndividual>
     
 
@@ -20690,6 +20602,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/metabolic_process180">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cyp450_180"/>
     </owl:NamedIndividual>
     
 
@@ -20698,6 +20611,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/metabolic_process181">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cyp450_181"/>
     </owl:NamedIndividual>
     
 
@@ -20706,6 +20620,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/metabolic_process182">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0008152"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cyp450_182"/>
     </owl:NamedIndividual>
     
 
@@ -20714,6 +20629,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/metabolic_process183">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0009892"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cyp450_183"/>
     </owl:NamedIndividual>
     
 
@@ -20722,6 +20638,7 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/metabolic_process184">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0009892"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cyp450_184"/>
     </owl:NamedIndividual>
     
 
@@ -21197,6 +21114,14 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
+    <!-- http://dideo.cafe-trauma.com/scoat1b1_189 -->
+
+    <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/scoat1b1_189">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000015223"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://dideo.cafe-trauma.com/transport_assay187 -->
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/transport_assay187">
@@ -21214,42 +21139,12 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
     
 
 
-    <!-- http://dideo.cafe-trauma.com/transport_assay189 -->
-
-    <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/transport_assay189">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
-        <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/overexpression189"/>
-    </owl:NamedIndividual>
-    
-
-
     <!-- http://dideo.cafe-trauma.com/transport_assay190 -->
 
     <owl:NamedIndividual rdf:about="http://dideo.cafe-trauma.com/transport_assay190">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
         <obo:RO_0000056 rdf:resource="http://dideo.cafe-trauma.com/overexpression190"/>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000002 -->
-
-    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000002">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
-        <rdfs:label xml:lang="en">example to be eventually removed</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0000103 -->
-
-    <owl:Thing rdf:about="http://purl.obolibrary.org/obo/IAO_0000103">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
-        <obo:IAO_0000115 xml:lang="en">The term was used in an attempt to structure part of the ontology but in retrospect failed to do a good job</obo:IAO_0000115>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person:Alan Ruttenberg</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">failed exploratory term</rdfs:label>
-    </owl:Thing>
     
 
 
@@ -21524,11 +21419,1557 @@ binary, and takes no temporal argument.
     <!-- http://purl.obolibrary.org/obo/obi.owl -->
 
     <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/obi.owl"/>
-    <rdf:Description>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
-    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#ade203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#ade203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OAE_0000005"/>
+        <obo:BFO_0000062 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_administration203"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay185 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay185">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#civd185"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cell_line185"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance185"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay186 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay186">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#civd186"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cell_line186"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance186"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay195 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay195">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cevd195"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance195"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay196 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay196">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cevd196"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance196"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay197">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cevd197"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cell_line_cell197"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance197"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay198 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay198">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cevd198"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance198"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay199 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay199">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cevd199"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance199"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay200 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay200">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cevd200"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance200"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cevd201"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cell_line_cell201"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance201"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay202 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cevd202"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cell_line_cell202"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance202"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:RO_0002404 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#ade203"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay204 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay204">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cevd204"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance204"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay205 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay205">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cevd205"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance205"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay206">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cevd206"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance206"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:BFO_0000055 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cevd207"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cell_line_cell207"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance207"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#assay_type175 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#assay_type175">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001479"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#spec_col_proc177"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#catalyticActivity176 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#catalyticActivity176">
+        <rdf:type rdf:resource="http://purl.org/obo/owl/GO#GO_0003824"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#catalyticActivity183 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#catalyticActivity183">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0003824"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#catalyticActivity186 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#catalyticActivity186">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0003824"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cell_line177 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cell_line177">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cell_line181 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cell_line181">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cell_line182 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cell_line182">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cell_line183 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cell_line183">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cell_line185 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cell_line185">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cell_line186 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cell_line186">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000031"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cell_line_cell197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cell_line_cell197">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+        <obo:RO_0000056 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#overexpression197"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cell_line_cell201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cell_line_cell201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+        <obo:RO_0000056 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#overexpression201"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cell_line_cell202 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cell_line_cell202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0002172"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cell_line_cell207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cell_line_cell207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CLO_0000001"/>
+        <obo:RO_0000056 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#overexpression207"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cevd195 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cevd195">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0000059 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#evd195"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cevd196 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cevd196">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0000059 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#evd196"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cevd197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cevd197">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0000059 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#evd197"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cevd198 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cevd198">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0000059 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#evd198"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cevd199 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cevd199">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0000059 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#evd199"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cevd200 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cevd200">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0000059 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#evd200"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cevd201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cevd201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0000059 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#evd201"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cevd202 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cevd202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0000059 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#evd202"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cevd204 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cevd204">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0000059 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#evd204"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cevd205 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cevd205">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0000059 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#evd205"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cevd206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cevd206">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0000059 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#evd206"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cevd207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cevd207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0000059 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#evd207"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance180_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance180_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <rdf:type>
+            <owl:Class>
+                <owl:complementOf rdf:resource="http://purl.obolibrary.org/obo/GO_0042571"/>
+            </owl:Class>
+        </rdf:type>
+        <obo:RO_0000053 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#inhibitor180"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance181_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance181_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0042571"/>
+        <obo:RO_0000053 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#inhibitor181"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance185 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance185">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product185"/>
+        <obo:RO_0000056 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#metabolic_process185"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance186 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance186">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product186"/>
+        <obo:RO_0000056 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#metabolic_process186"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance195 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance195">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#transport_proc195"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance195_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance195_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product195"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance196 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance196">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#transport_proc196"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance196_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance196_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product196"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance197">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#transport_proc197"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance197_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance197_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product197"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance198 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance198">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#transport_proc198"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance198_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance198_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product198"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance199 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance199">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#transport_process199"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance199_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance199_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product199"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance200 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance200">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#transport_process200"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance200_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance200_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product200"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#transport_process201"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance201_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance201_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product201"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance202 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#transport_process202"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance202_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance202_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product202"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance204 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance204">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#transport_process204"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance204_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance204_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product204"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance205 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance205">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#transport_process205"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance205_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance205_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product205"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance206">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#transport_process206"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance206_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance206_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product206"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:OBI_0000312 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#transport_process207"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#chem_substance207_2 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#chem_substance207_2">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59999"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product207"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#civd185 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#civd185">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0000059 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#ivd185"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#civd186 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#civd186">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:RO_0000059 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#ivd186"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cyp450_175 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cyp450_175">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38559"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cyp450_177 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cyp450_177">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38559"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cyp450_179 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cyp450_179">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38559"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cyp450_180 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cyp450_180">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38559"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cyp450_181 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cyp450_181">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38559"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cyp450_182 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cyp450_182">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38559"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cyp450_183 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cyp450_183">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38559"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cyp450_184 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cyp450_184">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38559"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#cyp450_185 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#cyp450_185">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38559"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_administration194 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_administration194">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000031"/>
+        <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/drug1329168"/>
+        <obo:RO_0000057 rdf:resource="http://dideo.cafe-trauma.com/drug1330168"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_administration203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_administration203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000031"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#drug_product203"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product175 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product175">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product176 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product176">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product177 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product177">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product179 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product179">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product180 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product180">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product181 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product181">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product182 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product182">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product183 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product183">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product184 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product184">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product185 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product185">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product186 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product186">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+        <obo:RO_0000056 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#metabolic_process186"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product195 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product195">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product196 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product196">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product197">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product198 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product198">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product199 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product199">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product200 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product200">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product202 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product204 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product204">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product205 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product205">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product206">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#drug_product207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#drug_product207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evd195 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evd195">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evd196 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evd196">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evd197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evd197">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evd198 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evd198">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evd199 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evd199">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evd200 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evd200">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evd201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evd201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evd202 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evd202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evd204 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evd204">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evd205 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evd205">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evd206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evd206">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evd207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evd207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001211"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence185 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence185">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay185"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence186 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence186">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay186"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence195 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence195">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay195"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence196 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence196">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay196"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence197">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay197"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence198 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence198">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay198"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence199 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence199">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay199"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence200 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence200">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay200"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay201"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence202 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay202"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:BFO_0000050 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#paerdb203"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay203"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence204 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence204">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay204"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence205 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence205">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay205"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence206">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay206"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#evidence207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#evidence207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000136 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#assay207"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#homo_sap177 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#homo_sap177">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#homo_sap184 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#homo_sap184">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#inhibitor179 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#inhibitor179">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35222"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#inhibitor180 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#inhibitor180">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35222"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#inhibitor181 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#inhibitor181">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35222"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#inhibitor182 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#inhibitor182">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35222"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#ivd185 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#ivd185">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001285"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#ivd186 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#ivd186">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001285"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#mdr1_198 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#mdr1_198">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000001891"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#mdr1_202 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#mdr1_202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000001891"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#mdr1_206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#mdr1_206">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000001891"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#metabolic_process185 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#metabolic_process185">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0009892"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#cyp450_185"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#metabolic_process186 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#metabolic_process186">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0009892"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#protein186"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#overexpression197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#overexpression197">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/INO_0000114"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#overexpression201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#overexpression201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/INO_0000114"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#overexpression207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#overexpression207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/INO_0000114"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#paerdb203 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#paerdb203">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000082"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#protein183 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#protein183">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#protein186 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#protein186">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+        <obo:RO_0000085 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#catalyticActivity186"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#protein195 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#protein195">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#protein205 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#protein205">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36080"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#scoat1b1_196 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#scoat1b1_196">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000015223"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#scoat1b1_197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#scoat1b1_197">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000015223"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#scoat1b1_199 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#scoat1b1_199">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000015223"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#scoat1b3_200 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#scoat1b3_200">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000015224"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#scoat1b3_201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#scoat1b3_201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000015224"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#scoat1b3_204 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#scoat1b3_204">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000015224"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#scoat1b3_207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#scoat1b3_207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000015224"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#spec_col_proc177 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#spec_col_proc177">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#homo_sap177"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#spec_col_proc184 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#spec_col_proc184">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <obo:OBI_0000293 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#homo_sap184"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#transport_proc195 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#transport_proc195">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0098739"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance195_2"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#protein195"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#transport_proc196 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#transport_proc196">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0098739"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance196_2"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#scoat1b1_196"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#transport_proc197 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#transport_proc197">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0098739"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance197_2"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#scoat1b1_197"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#transport_proc198 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#transport_proc198">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0098739"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance198_2"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#mdr1_198"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#transport_process199 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#transport_process199">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0032410"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance199_2"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#scoat1b1_199"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#transport_process200 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#transport_process200">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0032410"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance200_2"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#scoat1b3_200"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#transport_process201 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#transport_process201">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0032410"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance201_2"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#scoat1b3_201"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#transport_process202 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#transport_process202">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0032410"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance202_2"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#mdr1_202"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#transport_process204 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#transport_process204">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0098739"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance204_2"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#scoat1b3_204"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#transport_process205 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#transport_process205">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0032410"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance205_2"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#protein205"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#transport_process206 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#transport_process206">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0032410"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance206_2"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#mdr1_206"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo.owl#transport_process207 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/dideo.owl#transport_process207">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/GO_0098739"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#chem_substance207_2"/>
+        <obo:RO_0000057 rdf:resource="http://purl.obolibrary.org/obo/dideo.owl#scoat1b3_207"/>
+    </owl:NamedIndividual>
     <rdf:Description>
         <owl:deprecated></owl:deprecated>
+    </rdf:Description>
+    <rdf:Description>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</rdfs:comment>
     </rdf:Description>
     
 
