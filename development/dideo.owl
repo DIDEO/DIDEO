@@ -1683,6 +1683,32 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/STATO_0000101 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/STATO_0000101">
+        <obo:IAO_0000115 xml:lang="en">the relationship between a fraction and the number above the line</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">AGB</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">has numerator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/STATO_0000259 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/STATO_0000259">
+        <obo:IAO_0000115 xml:lang="en">the relationship between a fraction and the number below the line (or divisor)</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alejandra Gonzalez-Beltran</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Orlaith Burke</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">Philippe Rocca-Serra</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">AGB</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">has denominator</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.obofoundry.org/ro/ro.owl#has_proper_part -->
 
     <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_proper_part">
