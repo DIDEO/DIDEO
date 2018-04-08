@@ -11028,6 +11028,21 @@ A pharmacokinetic parameter ratio that describes the drug transmembrane transpor
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000230 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000230">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/STATO_0000300"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/STATO_0000101"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000228"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/STATO_0000259"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000227"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/STATO_0000300"/>
         <obo:IAO_0000115 xml:lang="en">the ratio of two efflux ratios calculated from measurements taken to calcuate the apparent permeability of the same evaluant passing through two different cell monolayers. The numerator is a transfected efflux ratio and the denominator is a vector control efflux ratio.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
