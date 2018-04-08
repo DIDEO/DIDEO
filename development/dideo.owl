@@ -10998,6 +10998,21 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/DIDEO_00000228 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000228">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000120"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/STATO_0000101"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000222"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/STATO_0000259"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000225"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000120"/>
         <obo:IAO_0000115 xml:lang="en">an efflux ratio resulting from calculations based on measurements taken on a monolayer comprised of transfected cells</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">John Judkins</obo:IAO_0000117>
