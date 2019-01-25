@@ -338,6 +338,14 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/creator">
+        <rdfs:label xml:lang="en-us">Creator</rdfs:label>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/source -->
 
     <rdf:Description rdf:about="http://purl.org/dc/elements/1.1/source">
@@ -1713,6 +1721,21 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <obo:IAO_0000600 xml:lang="en">A measurement datum that is the output of counting.</obo:IAO_0000600>
         <apollo_sv:APOLLO_SV_0000040 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">count</apollo_sv:APOLLO_SV_0000040>
         <rdfs:label xml:lang="en">count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/APOLLO_SV_00000461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/APOLLO_SV_00000461">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:IAO_0000115 xml:lang="en">An identifier that denotes a drug product.</obo:IAO_0000115>
+        <obo:IAO_0000117>Matthew Diller</obo:IAO_0000117>
+        <obo:IAO_0000117>William R. Hogan</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/apollo_sv/v4.1.1./apollo_sv.owl</obo:IAO_0000412>
+        <obo:IAO_0000600 xml:lang="en">An identifier that denotes a drug product.</obo:IAO_0000600>
+        <apollo_sv:APOLLO_SV_0000040 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drugId</apollo_sv:APOLLO_SV_0000040>
+        <rdfs:label xml:lang="en">drug identifier</rdfs:label>
     </owl:Class>
     
 
@@ -10947,6 +10970,22 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     <!-- http://purl.obolibrary.org/obo/IAO_0000311 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000311"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0020000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0020000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.</obo:IAO_0000115>
+        <obo:IAO_0000117>Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">proper name</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/apollo_sv/v4.1.1./apollo_sv.owl</obo:IAO_0000412>
+        <apollo_sv:APOLLO_SV_0000040 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name</apollo_sv:APOLLO_SV_0000040>
+        <dc:creator>Mathias Brochhausen</dc:creator>
+        <rdfs:comment xml:lang="en">Sep 29, 2016: The current definition has been amended from the previous version: &quot;A proper name is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.&quot; to more accuratly reflect the necessary and sufficient condition on the class. (MB)</rdfs:comment>
+        <rdfs:label xml:lang="en">identifier</rdfs:label>
+    </owl:Class>
     
 
 
