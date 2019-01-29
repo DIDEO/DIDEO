@@ -1,40 +1,40 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/"
      xml:base="http://purl.obolibrary.org/obo/dideo/dev/dideo.owl/"
-     xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
-     xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
-     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
      xmlns:efo="http://www.ebi.ac.uk/efo/"
-     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:dc="http://purl.org/dc/elements/1.1/">
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:apollo_sv="http://purl.obolibrary.org/obo/apollo_sv.owl/"
+     xmlns:ncbitaxon="http://purl.obolibrary.org/obo/ncbitaxon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/dideo/dev/dideo.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2014-05-03/classes-only.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2017-03-24/iao.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ro/core.owl"/>
-        <dc:contributor xml:lang="en">Philip E. Empey</dc:contributor>
-        <dc:contributor xml:lang="en">Dan Malone</dc:contributor>
-        <rdfs:label xml:lang="en">Drug-drug Interaction and Drug-drug Interaction Evidence Ontology </rdfs:label>
         <dc:contributor xml:lang="en">Anuj Shah</dc:contributor>
-        <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
-        <dc:license xml:lang="en">http://creativecommons.org/licenses/by/4.0/</dc:license>
+        <dc:contributor xml:lang="en">Dan Malone</dc:contributor>
+        <dc:contributor xml:lang="en">Jessica Tay-Sontheimer</dc:contributor>
+        <dc:contributor xml:lang="en">Jingjing Yu</dc:contributor>
         <dc:contributor xml:lang="en">Jodi Schneider</dc:contributor>
+        <dc:contributor xml:lang="en">Philip E. Empey</dc:contributor>
         <dc:contributor xml:lang="en">Richard D. Boyce</dc:contributor>
         <dc:contributor xml:lang="en">William R. Hogan</dc:contributor>
-        <owl:versionInfo xml:lang="en">development version 2019-01-26</owl:versionInfo>
+        <dc:creator xml:lang="en">Mathias Brochhausen</dc:creator>
+        <dc:license xml:lang="en">http://creativecommons.org/licenses/by/4.0/</dc:license>
         <rdfs:comment xml:lang="en">The Drug-drug Interaction and Drug-drug Interaction Evidence Ontology (DIDEO) by the DIDEO development group is licensed under CC BY 4.0
 (https://creativecommons.org/licenses/by/4.0/).</rdfs:comment>
-        <rdfs:label xml:lang="en">DIDEO</rdfs:label>
-        <dc:contributor xml:lang="en">Jingjing Yu</dc:contributor>
         <rdfs:comment xml:lang="en">The Drug-drug Interaction and Drug-drug Interaction Evidence Ontology (DIDEO) by the DIDEO development group is licensed under CC BY 4.0. You are free to share (copy and redistribute the material in any medium or format) and adapt (remix, transform, and build upon the material) for any purpose, even commercially. for any purpose, even commercially. The licensor cannot revoke these freedoms as long as you follow the license terms. You must give appropriate credit (by using the original ontology IRI for the whole ontology and original term IRIs for individual terms), provide a link to the license, and
 indicate if any changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</rdfs:comment>
-        <dc:contributor xml:lang="en">Jessica Tay-Sontheimer</dc:contributor>
+        <rdfs:label xml:lang="en">DIDEO</rdfs:label>
+        <rdfs:label xml:lang="en">Drug-drug Interaction and Drug-drug Interaction Evidence Ontology </rdfs:label>
+        <owl:versionInfo xml:lang="en">development version 2019-01-29</owl:versionInfo>
     </owl:Ontology>
     
 
@@ -117,9 +117,7 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
         <rdfs:label>definition</rdfs:label>
         <rdfs:label xml:lang="en">definition</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
         <rdfs:label>textual definition</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">textual definition</rdfs:label>
     </rdf:Description>
     
 
@@ -138,7 +136,6 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
         <rdfs:label>definition editor</rdfs:label>
         <rdfs:label xml:lang="en">definition editor</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition editor</rdfs:label>
         <rdfs:label>term editor</rdfs:label>
         <rdfs:label xml:lang="en">term editor</rdfs:label>
     </rdf:Description>
@@ -333,7 +330,6 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ncbitaxon#has_rank">
         <rdfs:label>has_rank</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_rank</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -583,7 +579,6 @@ indicate if any changes were made. You may do so in any reasonable manner, but n
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
         <rdfs:label>has_obo_namespace</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -4633,9 +4628,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that is about a biological process</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">mechanistic assertion data item</obo:IAO_0000118>
-        <efo:definition xml:lang="en">A data item that is about a biological process</efo:definition>
         <rdfs:label xml:lang="en">data item about biological process</rdfs:label>
     </owl:Class>
     
@@ -5131,9 +5126,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">It is a disposition that is borne by drug product and is realized by the metabolism of the active pharmaceutical ingredient in that drug product before entering systemic circulation, when ingested.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Anuj Shah</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <efo:definition xml:lang="en">It is a disposition that is borne by drug product and is realized by the metabolism of the active pharmaceutical ingredient in that drug product before entering systemic circulation, when ingested.</efo:definition>
         <rdfs:label xml:lang="en">first pass effect disposition</rdfs:label>
     </owl:Class>
     
@@ -5149,9 +5144,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An assay with the objective to capture information about the first pass metabolism of an active ingredient in a drug product.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Anuj Shah</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <efo:definition xml:lang="en">An assay with the objective to capture information about the first pass metabolism of an active ingredient in a drug product.</efo:definition>
         <rdfs:label xml:lang="en">drug first pass metabolism assay</rdfs:label>
     </owl:Class>
     
@@ -5173,9 +5168,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DRON_00000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A scalar measurement datum that is the specified outcome of a drug first pass metabolism assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Anuj Shah</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <efo:definition xml:lang="en">A scalar measurement datum that is the specified outcome of a drug first pass metabolism assay.</efo:definition>
         <rdfs:label xml:lang="en">first pass metabolism measurement datum</rdfs:label>
     </owl:Class>
     
@@ -5185,10 +5180,10 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000016"/>
+        <obo:IAO_0000115 xml:lang="en">Absorbability is a disposition that is borne by a material entity that if realized is realized by the material entity taken up by another material entity in a different state of matter.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Anuj Shah</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Daintith J (ed.): A Dictionary of Chemistry. 2008. Oxford University Press, Oxford UK.</obo:IAO_0000119>
-        <efo:definition xml:lang="en">Absorbability is a disposition that is borne by a material entity that if realized is realized by the material entity taken up by another material entity in a different state of matter.</efo:definition>
         <rdfs:label xml:lang="en">absorbability</rdfs:label>
     </owl:Class>
     
@@ -5265,9 +5260,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
                 </owl:intersectionOf>
             </owl:Class>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An assay that measures the maximum concentration of an active ingredient of a drug product in a specified compartment of the body of an organism after the first dose of the drug product has been administered.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Anuj Shah</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <efo:definition xml:lang="en">An assay that measures the maximum concentration of an active ingredient of a drug product in a specified compartment of the body of an organism after the first dose of the drug product has been administered.</efo:definition>
         <rdfs:label xml:lang="en">drug maximum concentration assay</rdfs:label>
     </owl:Class>
     
@@ -5314,9 +5309,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">A role that is borne by the enzyme responsible for 50% or more of the active pharmaceutic ingredient or metabolite’s total metabolic clearance from the body.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Anuj Shah</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <efo:definition xml:lang="en">A role that is borne by the enzyme responsible for 50% or more of the active pharmaceutic ingredient or metabolite’s total metabolic clearance from the body.</efo:definition>
         <rdfs:label xml:lang="en">primary metabolic clearance enzyme role</rdfs:label>
     </owl:Class>
     
@@ -5326,7 +5321,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000001"/>
-        <efo:definition xml:lang="en">A drug-drug interaction description that is part of a drug package insert.</efo:definition>
+        <obo:IAO_0000115 xml:lang="en">A drug-drug interaction description that is part of a drug package insert.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">drug-drug interaction description from drug package insert</rdfs:label>
     </owl:Class>
     
@@ -5342,7 +5337,7 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <efo:definition xml:lang="en">A drug-drug interaction description from a drug package insert for an FDA approved drug.</efo:definition>
+        <obo:IAO_0000115 xml:lang="en">A drug-drug interaction description from a drug package insert for an FDA approved drug.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">drug-drug interaction description from FDA label information</rdfs:label>
     </owl:Class>
     
@@ -5363,9 +5358,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000044"/>
+        <obo:IAO_0000115 xml:lang="en">A drug package insert for FDA-approved drugs that gives information about the drug, including the approved doses and how it&apos;s to be given to treat the medical condition for which it was approved.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">FDA drug label</obo:IAO_0000118>
         <obo:IAO_0000119 xml:lang="en">http://www.fda.gov/forpatients/other/offlabel/default.htm</obo:IAO_0000119>
-        <efo:definition xml:lang="en">A drug package insert for FDA-approved drugs that gives information about the drug, including the approved doses and how it&apos;s to be given to treat the medical condition for which it was approved.</efo:definition>
         <rdfs:label xml:lang="en">U.S. Food and Drug Administration drug label</rdfs:label>
     </owl:Class>
     
@@ -5421,9 +5416,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000048">
         <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that provides statements or data that are used to support or refute an assertion.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">Standards Development Working Group of the &quot;Addressing PDDI Evidence Gaps&quot; porject.</obo:IAO_0000119>
-        <efo:definition xml:lang="en">An information content entity that provides statements or data that are used to support or refute an assertion.</efo:definition>
         <rdfs:label xml:lang="en">obsolete_evidence information content entity</rdfs:label>
         <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:Class>
@@ -5440,9 +5435,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is about a pharmacokinetic area under curve.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">AUC information</obo:IAO_0000118>
-        <efo:definition xml:lang="en">An information content entity that is about a pharmacokinetic area under curve.</efo:definition>
         <rdfs:label xml:lang="en">pharmacokinetic area under curve information</rdfs:label>
     </owl:Class>
     
@@ -5564,9 +5559,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A data item that is part of an evidence information content entity and is the specified output of an assay.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">&quot;Addressing PDDI Evidence Gaps&quot; Standards Development Group</obo:IAO_0000119>
-        <efo:definition xml:lang="en">A data item that is part of an evidence information content entity and is the specified output of an assay.</efo:definition>
         <rdfs:label xml:lang="en">evidence data item</rdfs:label>
     </owl:Class>
     
@@ -7881,8 +7876,8 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000272"/>
+        <obo:IAO_0000115 xml:lang="en">A protocol that specifies methodology to assess the likelihood of a drug to be the cause for an adverse event by answering a set of questions about the drug reaction report.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <efo:definition xml:lang="en">A protocol that specifies methodology to assess the likelihood of a drug to be the cause for an adverse event by answering a set of questions about the drug reaction report.</efo:definition>
         <rdfs:label xml:lang="en">adverse drug reaction causality evaluation protocol</rdfs:label>
     </owl:Class>
     
@@ -7999,9 +7994,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum that is the specified output of measuring the volume of plasma that is completely cleared off of a substance per unit time.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Cl</obo:IAO_0000118>
-        <efo:definition xml:lang="en">A measurement datum that is the specified output of measuring the volume of plasma that is completely cleared off of a substance per unit time.</efo:definition>
         <rdfs:label xml:lang="en">clearance measurement datum</rdfs:label>
     </owl:Class>
     
@@ -8011,8 +8006,8 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000091">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UO_0000190"/>
+        <obo:IAO_0000115 xml:lang="en">A dimensionless ratio unit which describes the relation between the two numbers x and y by giving the multiplier necessary to make x equal to y.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <efo:definition xml:lang="en">A dimensionless ratio unit which describes the relation between the two numbers x and y by giving the multiplier necessary to make x equal to y.</efo:definition>
         <rdfs:label xml:lang="en">fold</rdfs:label>
     </owl:Class>
     
@@ -8039,9 +8034,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
+        <obo:IAO_0000115 xml:lang="en">A pharmacokinetic parameter ratio that describes the relation between the pharmacokinetic area under the curve (AUC) for a given active ingredient or metabolite in an organism with and without the inhibiting drug present in the organism.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">AUC ratio</obo:IAO_0000118>
-        <efo:definition xml:lang="en">A pharmacokinetic parameter ratio that describes the relation between the pharmacokinetic area under the curve (AUC) for a given active ingredient or metabolite in an organism with and without the inhibiting drug present in the organism.</efo:definition>
         <rdfs:label xml:lang="en">area under the curve ratio</rdfs:label>
     </owl:Class>
     
@@ -9393,10 +9388,10 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000118">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
+        <obo:IAO_0000115 xml:lang="en">A pharmacokinetic parameter ratio that describes the theoretical volume that would be necessary to contain the total amount of an administered drug at the same concentration that it is observed in a bodily fluid for a given active ingredient or metabolite in an organism with and without the inhibiting drug present. It is expressed as a ratio of the volume of distribution with the inhibitor present as the numerator and absent as the denominator.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philip E. Empey</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">amended definition from Spruill WJ, Wade WE, DiPiro JT, Blouin RA, Pruemer JM: Concepts in Clinical Pharmacology. Bethesda, MA, 2014 based on a comment by Philip E. Empey.</obo:IAO_0000119>
-        <efo:definition xml:lang="en">A pharmacokinetic parameter ratio that describes the theoretical volume that would be necessary to contain the total amount of an administered drug at the same concentration that it is observed in a bodily fluid for a given active ingredient or metabolite in an organism with and without the inhibiting drug present. It is expressed as a ratio of the volume of distribution with the inhibitor present as the numerator and absent as the denominator.</efo:definition>
         <rdfs:label xml:lang="en">volume of distribution ratio</rdfs:label>
     </owl:Class>
     
@@ -9406,10 +9401,10 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000119">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
+        <obo:IAO_0000115 xml:lang="en">A pharmacokinetic parameter ratio that describes the time from dose administration until a drug reaches its maximum concentration for a given active ingredient or metabolite in an organism with and without the inhibiting drug present in the organism. It is expressed as a ratio of the Tmax with the inhibitor present as the numerator and absent as the denominator.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philip E. Empey</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Tmax ratio</obo:IAO_0000118>
-        <efo:definition xml:lang="en">A pharmacokinetic parameter ratio that describes the time from dose administration until a drug reaches its maximum concentration for a given active ingredient or metabolite in an organism with and without the inhibiting drug present in the organism. It is expressed as a ratio of the Tmax with the inhibitor present as the numerator and absent as the denominator.</efo:definition>
         <rdfs:label xml:lang="en">time to maximum drug concentration ratio</rdfs:label>
     </owl:Class>
     
@@ -9419,9 +9414,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000120">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
+        <obo:IAO_0000115 xml:lang="en">A pharmacokinetic parameter ratio that describes the drug transmembrane transporter activity regarding an active ingredient or a metabolite in an in vitro bi-directional transport assay. It is expressed as a ratio of the apparent permeability in the basal to apical direction as the numerator and apparent permeability in the apical-to-basolateral direction as the denominator.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philip E. Empey</obo:IAO_0000117>
-        <efo:definition xml:lang="en">A pharmacokinetic parameter ratio that describes the drug transmembrane transporter activity regarding an active ingredient or a metabolite in an in vitro bi-directional transport assay. It is expressed as a ratio of the apparent permeability in the basal to apical direction as the numerator and apparent permeability in the apical-to-basolateral direction as the denominator.</efo:definition>
         <rdfs:label xml:lang="en">efflux ratio</rdfs:label>
     </owl:Class>
     
@@ -9431,9 +9426,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000121">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000095"/>
+        <obo:IAO_0000115 xml:lang="en">A pharmacokinetic parameter ratio that describes the drug transmembrane transporter activity regarding an active ingredient or a metabolite in an in vitro bi-directional transport assay using transporter transfected cell model. It is expressed as a ratio of the efflux ratio in cells transfected with the transporter as the numerator and efflux ratio in cells not transfected with the transporter (wild type cells) as the denominator.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">Philip E. Empey</obo:IAO_0000117>
-        <efo:definition xml:lang="en">A pharmacokinetic parameter ratio that describes the drug transmembrane transporter activity regarding an active ingredient or a metabolite in an in vitro bi-directional transport assay using transporter transfected cell model. It is expressed as a ratio of the efflux ratio in cells transfected with the transporter as the numerator and efflux ratio in cells not transfected with the transporter (wild type cells) as the denominator.</efo:definition>
         <rdfs:label xml:lang="en">net flux ratio</rdfs:label>
     </owl:Class>
     
@@ -9443,9 +9438,9 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000122">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement data that gives the concentration of an inhibiting agent to reach half of the maximum inhibition of a meabolic or transport process.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">ki</obo:IAO_0000118>
-        <efo:definition xml:lang="en">A measurement data that gives the concentration of an inhibiting agent to reach half of the maximum inhibition of a meabolic or transport process.</efo:definition>
         <rdfs:label xml:lang="en">inhibitory constant</rdfs:label>
     </owl:Class>
     
@@ -9521,8 +9516,8 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000126"/>
+        <obo:IAO_0000115 xml:lang="en">A ratio value specification where the relationship between to numbers is expressed as a fraction of 100.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <efo:definition xml:lang="en">A ratio value specification where the relationship between to numbers is expressed as a fraction of 100.</efo:definition>
         <rdfs:label xml:lang="en">percentage value specification</rdfs:label>
     </owl:Class>
     
@@ -9532,8 +9527,8 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00000128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0020000"/>
+        <obo:IAO_0000115 xml:lang="en">An identifier that denotes a set of drug identifiers.</obo:IAO_0000115>
         <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
-        <efo:definition xml:lang="en">An identifier that denotes a set of drug identifiers.</efo:definition>
         <rdfs:comment xml:lang="en">Term and definition provided by Richard D. Boyce.</rdfs:comment>
         <rdfs:label xml:lang="en">drug concept set identifier</rdfs:label>
     </owl:Class>
@@ -12474,18 +12469,18 @@ A cultured cell population maintained in vitro: &quot;Rat cortical neurons from 
      -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0302900">
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adapted from wikipedia [http://en.wikipedia.org/wiki/Randomization]</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000111 xml:lang="en">group randomization</obo:IAO_0000111>
-        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
-        <rdfs:label xml:lang="en">group randomization</rdfs:label>
-        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">adapted from wikipedia [http://en.wikipedia.org/wiki/Randomization]</obo:IAO_0000119>
         <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">group randomization</rdfs:label>
         <obo:IAO_0000112 xml:lang="en">PMID: 18349405. Randomization reveals unexpected acute leukemias in Southwest Oncology Group prostate cancer trial. J Clin Oncol. 2008 Mar 20;26(9):1532-6.</obo:IAO_0000112>
         <obo:IAO_0000115 xml:lang="en">A group assignment which relies on chance to assign materials to a group of materials in order to avoid bias in experimental set up.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Philippe Rocca-Serra</obo:IAO_0000117>
     </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.7.2018-12-02T02:23:35Z) https://github.com/owlcs/owlapi -->
 
