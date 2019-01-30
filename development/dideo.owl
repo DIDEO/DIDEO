@@ -10233,6 +10233,19 @@ The definition provided here establishes the &apos;scale&apos; of cell populatio
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DIDEO_00005002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DIDEO_00005002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DIDEO_00000053"/>
+        <obo:IAO_0000115 xml:lang="en">An evidence information content entity that is about an assay that realizes an ex vivo design, and that has chemical substances as its specific input, which are the outcome of the INDUCTION of drug component transporter.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Mathias Brochhausen</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">Eric Chou</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">Richard D. Boyce</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">evidence information from drug transport protein induction experiment</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DRON_00000001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000001">
